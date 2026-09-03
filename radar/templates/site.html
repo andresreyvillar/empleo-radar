@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de empleo · Project Manager</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--text:#1f2933;--muted:#616e7c;--line:#e4e7eb;--accent:#1d4ed8;--remoto:#0f766e;--galicia:#1d4ed8;--chip:#eef2f7}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1419;--card:#171d25;--text:#e5e9ef;--muted:#9aa5b1;--line:#2a333f;--chip:#212a35;--accent:#3b82f6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{padding:20px 16px 10px;max-width:960px;margin:0 auto}
+h1{font-size:22px;margin:0}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.filters{position:sticky;top:0;z-index:2;background:var(--bg);padding:10px 16px;border-bottom:1px solid var(--line)}
+.filters .row{max-width:960px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr 1.2fr;gap:8px}
+@media (max-width:760px){.filters .row{grid-template-columns:1fr 1fr}.filters .row>input[type=search],.filters .range{grid-column:1/-1}}
+input,select{width:100%;min-width:0;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--text);font:inherit}
+.range{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);min-width:0}
+.range input{padding:0;flex:1;min-width:0}
+.range span{min-width:2ch;text-align:right}
+main{max-width:960px;margin:0 auto;padding:12px 16px 40px}
+.count{font-size:13px;color:var(--muted);margin:6px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.card.done{opacity:.55}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.title{min-width:0;overflow-wrap:anywhere}
+.title{font-size:17px;font-weight:600;color:var(--text);text-decoration:none}
+.title:hover{text-decoration:underline}
+.score{font-weight:700;font-size:14px;white-space:nowrap;padding:2px 8px;border-radius:6px;background:var(--chip)}
+.meta{color:var(--muted);margin:4px 0 8px;font-size:14px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--text)}
+.badge.remoto{background:var(--remoto);color:#fff}
+.badge.galicia{background:var(--galicia);color:#fff}
+.signals{font-size:12px;color:var(--muted);margin-bottom:8px}
+.snippet{font-size:13px;color:var(--muted);margin:0 0 10px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:inherit;font-size:13px;padding:7px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;text-decoration:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.btn.active{background:var(--text);color:var(--bg);border-color:var(--text)}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Radar de empleo · Project Manager</h1>
+  <div class="sub" id="updated"></div>
+</header>
+<div class="filters"><div class="row">
+  <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…">
+  <select id="source">
+    <option value="">Todas las fuentes</option>
+    <option value="linkedin">LinkedIn</option>
+    <option value="indeed">Indeed</option>
+    <option value="tecnoempleo">Tecnoempleo</option>
+  </select>
+  <select id="modality">
+    <option value="">Remoto y Galicia</option>
+    <option value="remoto">100% remoto</option>
+    <option value="galicia">Galicia</option>
+  </select>
+  <select id="days">
+    <option value="7">Últimos 7 días</option>
+    <option value="14">Últimos 14 días</option>
+    <option value="30" selected>Últimos 30 días</option>
+    <option value="0">Todo el histórico</option>
+  </select>
+  <select id="status">
+    <option value="open" selected>Pendientes y guardadas</option>
+    <option value="saved">Solo guardadas</option>
+    <option value="applied">Aplicadas</option>
+    <option value="discarded">Descartadas</option>
+    <option value="">Todas</option>
+  </select>
+  <label class="range">Afinidad mín. <input id="score" type="range" min="0" max="100" step="5" value="0"><span id="scoreVal">0</span></label>
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</main>
+<footer id="footer"></footer>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  const data = JSON.parse(document.getElementById('data').textContent);
+  const SOURCE_LABEL = { linkedin: 'LinkedIn', indeed: 'Indeed', tecnoempleo: 'Tecnoempleo' };
+  const MOD_LABEL = { remoto: '100% remoto', galicia: 'Galicia' };
+  const STATUS_LABEL = { saved: 'Guardada', applied: 'Aplicada', discarded: 'Descartada' };
+  const KEY = 'empleo-radar-status';
+  let statuses = {};
+  try { statuses = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { statuses = {}; }
+  const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(statuses)); } catch (e) { /* private mode */ } };
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const jobDate = (j) => (j.posted || j.notified_at || '').slice(0, 10);
+  const fmtDate = (iso) => {
+    if (!iso) return 'fecha n/d';
+    const d = new Date(iso.slice(0, 10) + 'T00:00:00');
+    return isNaN(d) ? iso : d.toLocaleDateString('es-ES', { day: '2-digit', month: 'short' });
+  };
+
+  function render() {
+    const q = $('q').value.trim().toLowerCase();
+    const source = $('source').value;
+    const modality = $('modality').value;
+    const days = parseInt($('days').value, 10);
+    const statusFilter = $('status').value;
+    const minScore = parseInt($('score').value, 10);
+    $('scoreVal').textContent = minScore;
+    const cutoff = days ? new Date(Date.now() - days * 86400000).toISOString().slice(0, 10) : '';
+    const rows = data.matches.filter((j) => {
+      const st = statuses[j.id] || '';
+      if (statusFilter === 'open' && (st === 'discarded' || st === 'applied')) return false;
+      if (statusFilter && statusFilter !== 'open' && st !== statusFilter) return false;
+      if (source && j.source !== source) return false;
+      if (modality && j.modality !== modality) return false;
+      if (j.score < minScore) return false;
+      if (cutoff && jobDate(j) < cutoff) return false;
+      if (q && !(j.title + ' ' + j.company + ' ' + j.location).toLowerCase().includes(q)) return false;
+      return true;
+    }).sort((a, b) => (b.score - a.score) || jobDate(b).localeCompare(jobDate(a)));
+    $('count').textContent = rows.length + (rows.length === 1 ? ' oferta' : ' ofertas') + ' de ' + data.matches.length + ' encontradas';
+    $('list').innerHTML = rows.length ? rows.map(card).join('') : '<div class="empty">Ninguna oferta coincide con los filtros.</div>';
+  }
+
+  function card(j) {
+    const st = statuses[j.id] || '';
+    const platform = SOURCE_LABEL[j.source] || esc(j.source);
+    return `<article class="card ${st === 'discarded' || st === 'applied' ? 'done' : ''}" data-id="${esc(j.id)}">
+      <div class="top">
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <span class="score" title="Afinidad con el perfil">${j.score}/100</span>
+      </div>
+      <div class="meta">${esc(j.company || 'Empresa no indicada')} · ${esc(j.location || 'ubicación n/d')}</div>
+      <div class="badges">
+        <span class="badge ${esc(j.modality)}">${MOD_LABEL[j.modality] || esc(j.modality)}</span>
+        <span class="badge">${platform}</span>
+        <span class="badge">Publicada ${fmtDate(j.posted)}</span>
+        ${st ? `<span class="badge">${STATUS_LABEL[st]}</span>` : ''}
+      </div>
+      ${j.signals && j.signals.length ? `<div class="signals">${esc(j.signals.join(' · '))}</div>` : ''}
+      ${j.description ? `<p class="snippet">${esc(j.description.slice(0, 240))}…</p>` : ''}
+      <div class="actions">
+        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Ver y aplicar en ${platform} ↗</a>
+        <button class="btn ${st === 'saved' ? 'active' : ''}" data-status="saved">Guardar</button>
+        <button class="btn ${st === 'applied' ? 'active' : ''}" data-status="applied">Aplicada</button>
+        <button class="btn ${st === 'discarded' ? 'active' : ''}" data-status="discarded">Descartar</button>
+      </div>
+    </article>`;
+  }
+
+  $('list').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-status]');
+    if (!btn) return;
+    const id = btn.closest('article').dataset.id;
+    const s = btn.dataset.status;
+    if (statuses[id] === s) delete statuses[id]; else statuses[id] = s;
+    persist();
+    render();
+  });
+  ['q', 'source', 'modality', 'days', 'status', 'score'].forEach((id) => $(id).addEventListener('input', render));
+
+  const gen = new Date(data.generated_at);
+  $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
+    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo; el estado de cada oferta se guarda en este navegador.';
+  if (data.last_run && data.last_run.stats) {
+    $('footer').textContent = 'Última búsqueda: ' + Object.entries(data.last_run.stats)
+      .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))
+      .join(' · ');
+  }
+  render();
+})();
+</script>
+</body>
+</html>

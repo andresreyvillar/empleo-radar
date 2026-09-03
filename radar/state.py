@@ -40,6 +40,9 @@ class State:
         self.data["matches"].append(entry)
         self._match_fps.add(job.fingerprint)
 
+    def set_last_run(self, stats: dict) -> None:
+        self.data["last_run"] = {"at": _now(), "stats": stats}
+
     def prune(self) -> None:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
         self.data["seen"] = {k: v for k, v in self.data["seen"].items() if v["first_seen"] >= cutoff}

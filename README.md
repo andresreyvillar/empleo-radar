@@ -21,6 +21,18 @@ sources ──► title gate ──► fetch description ──► exclusions �
   notified (title + company fingerprint), so the same offer seen on two portals is sent once.
 * The email is only sent when at least one new match exists.
 
+## Web page
+
+Every real run regenerates `docs/index.html`: a self-contained page (no server, no external
+dependencies) listing every match found in the last 90 days with client-side filters — text
+search, source, modality (100% remote / Galicia), publication window, minimum score — and a
+button that opens each offer on the portal where it was published. Each offer can be marked
+as saved, applied or discarded; that state lives in the visitor's browser (`localStorage`).
+
+Serve `docs/` with GitHub Pages (Settings → Pages → Deploy from branch `main`, folder `/docs`)
+or simply open the file locally. `python3 -m radar site` rebuilds the page from
+`data/seen.json` without searching.
+
 ## Local usage
 
 ```bash
@@ -47,7 +59,7 @@ Copy `.env.example` to `.env` for local email delivery. Run the tests with
 ## Scheduled runs on GitHub Actions
 
 `.github/workflows/radar.yml` runs three times a day (07:00, 12:00 and 17:00 UTC) and
-commits the updated `data/seen.json` back to the repo. Configure these repository secrets
+commits the updated `data/seen.json` and `docs/index.html` back to the repo. Configure these repository secrets
 (Settings → Secrets and variables → Actions):
 
 | Secret      | Value                                                                 |
@@ -84,7 +96,8 @@ config.yaml            search terms, sources, filter and scoring rules
 radar/cli.py           orchestration (python -m radar run)
 radar/filters.py       rule engine
 radar/sources/         linkedin.py · indeed.py · tecnoempleo.py
-radar/report.py        text + HTML digest
+radar/report.py        text + HTML email digest
+radar/site.py          docs/index.html generator (template in radar/templates/site.html)
 radar/notify.py        SMTP delivery
 radar/state.py         data/seen.json persistence
 tests/test_filters.py  rule regression tests with real-world titles

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de empleo · Project Manager</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--text:#1f2933;--muted:#616e7c;--line:#e4e7eb;--accent:#1d4ed8;--remoto:#0f766e;--galicia:#1d4ed8;--chip:#eef2f7}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1419;--card:#171d25;--text:#e5e9ef;--muted:#9aa5b1;--line:#2a333f;--chip:#212a35;--accent:#3b82f6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{padding:20px 16px 10px;max-width:960px;margin:0 auto}
+h1{font-size:22px;margin:0}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.filters{position:sticky;top:0;z-index:2;background:var(--bg);padding:10px 16px;border-bottom:1px solid var(--line)}
+.filters .row{max-width:960px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr 1.2fr;gap:8px}
+@media (max-width:760px){.filters .row{grid-template-columns:1fr 1fr}.filters .row>input[type=search],.filters .range{grid-column:1/-1}}
+input,select{width:100%;min-width:0;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--text);font:inherit}
+.range{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);min-width:0}
+.range input{padding:0;flex:1;min-width:0}
+.range span{min-width:2ch;text-align:right}
+main{max-width:960px;margin:0 auto;padding:12px 16px 40px}
+.count{font-size:13px;color:var(--muted);margin:6px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.card.done{opacity:.55}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.title{min-width:0;overflow-wrap:anywhere}
+.title{font-size:17px;font-weight:600;color:var(--text);text-decoration:none}
+.title:hover{text-decoration:underline}
+.score{font-weight:700;font-size:14px;white-space:nowrap;padding:2px 8px;border-radius:6px;background:var(--chip)}
+.meta{color:var(--muted);margin:4px 0 8px;font-size:14px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--text)}
+.badge.remoto{background:var(--remoto);color:#fff}
+.badge.galicia{background:var(--galicia);color:#fff}
+.signals{font-size:12px;color:var(--muted);margin-bottom:8px}
+.snippet{font-size:13px;color:var(--muted);margin:0 0 10px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:inherit;font-size:13px;padding:7px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;text-decoration:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.btn.active{background:var(--text);color:var(--bg);border-color:var(--text)}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Radar de empleo · Project Manager</h1>
+  <div class="sub" id="updated"></div>
+</header>
+<div class="filters"><div class="row">
+  <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…">
+  <select id="source">
+    <option value="">Todas las fuentes</option>
+    <option value="linkedin">LinkedIn</option>
+    <option value="indeed">Indeed</option>
+    <option value="tecnoempleo">Tecnoempleo</option>
+  </select>
+  <select id="modality">
+    <option value="">Remoto y Galicia</option>
+    <option value="remoto">100% remoto</option>
+    <option value="galicia">Galicia</option>
+  </select>
+  <select id="days">
+    <option value="7">Últimos 7 días</option>
+    <option value="14">Últimos 14 días</option>
+    <option value="30" selected>Últimos 30 días</option>
+    <option value="0">Todo el histórico</option>
+  </select>
+  <select id="status">
+    <option value="open" selected>Pendientes y guardadas</option>
+    <option value="saved">Solo guardadas</option>
+    <option value="applied">Aplicadas</option>
+    <option value="discarded">Descartadas</option>
+    <option value="">Todas</option>
+  </select>
+  <label class="range">Afinidad mín. <input id="score" type="range" min="0" max="100" step="5" value="0"><span id="scoreVal">0</span></label>
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</main>
+<footer id="footer"></footer>
+<script id="data" type="application/json">{"generated_at": "2026-09-03T11:44:16+00:00", "last_run": {"at": "2026-09-03T11:43:34+00:00", "stats": {"linkedin": {"fetched": 135, "candidates": 48, "accepted": 10, "errors": []}, "indeed": {"fetched": 93, "candidates": 5, "accepted": 2, "errors": []}, "tecnoempleo": {"fetched": 116, "candidates": 1, "accepted": 0, "errors": []}}}, "matches": [{"id": "linkedin:4439051086", "source": "linkedin", "title": "Project Manager Automoción", "company": "Capgemini Engineering", "location": "Valladolid", "url": "https://www.linkedin.com/jobs/view/4439051086", "description": "Capgemini Engineering, líder mundial en servicios de ingeniería, reúne a equipos de ingenieros/as, científicos/as y arquitectos/as para ayudar a las empresas más innovadoras del mundo a liberar su potencial y contribuir a un futuro mejor. Desde coches autónomos pasando por soluciones contra incendios forestales, nuestro/as expertos/as en tecnologías digitales y software se salen de lo convencional", "posted": "2026-09-01", "remote_flag": true, "score": 39, "modality": "remoto", "signals": ["+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Pide 5+ años", "-Inglés alto / C1", "-Sector industrial / obra / ingeniería"], "fingerprint": "project manager automocion|capgemini engineering", "notified_at": "2026-09-03T11:42:08+00:00"}, {"id": "linkedin:4459501225", "source": "linkedin", "title": "Project Manager / Business Partner - Banca", "company": "Advoost", "location": "Barcelona", "url": "https://www.linkedin.com/jobs/view/4459501225", "description": "🚀 ¡Te estamos buscando! Si eres una persona con ganas de afrontar un nuevo reto, ¡este es tu momento! Únete a nuestro equipo como PM/ Business Partner con enfoque en el sector bancario desde nuestras oficinas en Barcelona. 🏢💻 Este es el reto: Gestión de proyectos end to end: Gestión de la demanda de proyectos bancarios, seguimiento y control de proyectos, relacionamiento con todas las partes invol", "posted": "2026-09-01", "remote_flag": true, "score": 77, "modality": "remoto", "signals": ["+Agile", "+Herramientas PM", "+Stakeholders", "+Certificación PM", "+Gestión operativa"], "fingerprint": "project manager / business partner - banca|advoost", "notified_at": "2026-09-03T11:42:28+00:00"}, {"id": "linkedin:4462164876", "source": "linkedin", "title": "Gerente de gestión de proyectos", "company": "GRUPO CUÑADO – CUNADO GROUP", "location": "Alcalá de Henares", "url": "https://www.linkedin.com/jobs/view/4462164876", "description": "Desde Grupo Cuñado, empresa multinacional líder en la distribución de tuberías, accesorios y válvulas, buscamos incorporar un/a Project Manager (Expediting) para nuestra sede de Alcalá de Henares. Buscamos una persona dinámica, organizada y orientada a resultados, que se integre en nuestro Project Team , colaborando estrechamente con perfiles técnicos y de gestión documental para asegurar el corre", "posted": "2026-09-02", "remote_flag": true, "score": 50, "modality": "remoto", "signals": ["+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "-Inglés alto / C1", "-Sector industrial / obra / ingeniería"], "fingerprint": "gerente de gestion de proyectos|grupo cunado – cunado group", "notified_at": "2026-09-03T11:42:48+00:00"}, {"id": "linkedin:4461778206", "source": "linkedin", "title": "Project Manager - Gestor de proyectos", "company": "GRUPO CUÑADO – CUNADO GROUP", "location": "Alcalá de Henares", "url": "https://www.linkedin.com/jobs/view/4461778206", "description": "Desde Grupo Cuñado, empresa multinacional líder en la distribución de tuberías, accesorios y válvulas, buscamos incorporar un/a Project Manager (Expediting) para nuestra sede de Alcalá de Henares. Buscamos una persona dinámica, organizada y orientada a resultados, que se integre en nuestro Project Team , colaborando estrechamente con perfiles técnicos y de gestión documental para asegurar el corre", "posted": "2026-09-01", "remote_flag": true, "score": 50, "modality": "remoto", "signals": ["+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "-Inglés alto / C1", "-Sector industrial / obra / ingeniería"], "fingerprint": "project manager - gestor de proyectos|grupo cunado – cunado group", "notified_at": "2026-09-03T11:42:50+00:00"}, {"id": "linkedin:4460717359", "source": "linkedin", "title": "Gestor de proyectos administrativos y culturales - Huesca", "company": "Michael Page", "location": "Huesca", "url": "https://www.linkedin.com/jobs/view/4460717359", "description": "Buscamos un/a Gestor/a de Proyectos Administrativos y Culturales para centro cultural de referencia en Huesca. Un rol clave en un entorno cultural dinámico y con gran impacto social. Detalles del cliente Importante organización dedicada a la creación, realización y fomento de obras sociales y culturales para impulsar el desarrollo de las personas y las empresas generando acciones para mejorar el t", "posted": "2026-09-03", "remote_flag": true, "score": 55, "modality": "remoto", "signals": ["+Encaja con perfil admin", "+Gestión operativa", "-Componente IT"], "fingerprint": "gestor de proyectos administrativos y culturales - huesca|michael page", "notified_at": "2026-09-03T11:42:52+00:00"}, {"id": "linkedin:4459955179", "source": "linkedin", "title": "Junior Project Manager ayudas I+D+i - Barcelona", "company": "Euro-Funding", "location": "Barcelona", "url": "https://www.linkedin.com/jobs/view/4459955179", "description": "¿Cuáles son las funciones del puesto de trabajo? ¡ÚNETE A EURO-FUNDING COMO PROJECT MANAGER DE I+D+i! En EuroFunding , somos una consultora líder especializada en financiación pública para proyectos de I+D+i , optimización fiscal e impuestos relacionados con los bienes inmuebles, consultoría de costes y estrategia sostenible para empresas. Trabajamos con organizaciones de sectores clave como el qu", "posted": "2026-09-02", "remote_flag": true, "score": 50, "modality": "remoto", "signals": ["+Junior / sin experiencia previa", "+Encaja con perfil admin", "+Gestión operativa", "+Consultora / agencia", "+Sector tecnológico", "-Componente IT", "-Sector industrial / obra / ingeniería", "-Sector clínico"], "fingerprint": "junior project manager ayudas i+d+i - barcelona|euro-funding", "notified_at": "2026-09-03T11:42:56+00:00"}, {"id": "linkedin:4461775115", "source": "linkedin", "title": "Responsable de Oficina Técnica PMO", "company": "GRUPO NS", "location": "Las Palmas de Gran Canaria", "url": "https://www.linkedin.com/jobs/view/4461775115", "description": "En Grupo NS buscamos un/a Responsable de Oficina Técnica PMO para incorporarse a un proyecto de larga duración en el ámbito de la Administración Pública , orientado al mantenimiento, adaptación y evolución de sistemas informáticos y aplicaciones, así como al soporte funcional y técnico a los equipos del cliente. ¿Qué harás? Definición, implantación y ejecución de servicios PMO bajo metodología Agi", "posted": "2026-09-01", "remote_flag": true, "score": 55, "modality": "remoto", "signals": ["+Agile", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Pide 5+ años", "-Componente IT"], "fingerprint": "responsable de oficina tecnica pmo|grupo ns", "notified_at": "2026-09-03T11:42:59+00:00"}, {"id": "linkedin:4459294177", "source": "linkedin", "title": "Gestión PMO digital (H/M)", "company": "MIGSO-PCUBED", "location": "Sevilla y alrededores", "url": "https://www.linkedin.com/jobs/view/4459294177", "description": "Somos MIGSO-PCUBED la consultora Líder en Project Management, parte del grupo ALTEN. 🌍Actualmente contamos con más de 3.300 consultores, operando en Europa, Norte América, Asia y Australia. 🤝🏻 Damos soporte a nuestros clientes en gestión de proyectos y PMO. MIGSO-PCUBED brinda su apoyo a proyectos de I+D, TIC y transformación para nuestros clientes. Tenemos una amplia cartera de Proyectos en secto", "posted": "2026-09-01", "remote_flag": true, "score": 49, "modality": "remoto", "signals": ["+Encaja con perfil admin", "+Gestión operativa", "+Consultora / agencia", "+Sector tecnológico", "-Inglés alto / C1", "-Componente IT", "-Sector industrial / obra / ingeniería"], "fingerprint": "gestion pmo digital (h/m)|migso-pcubed", "notified_at": "2026-09-03T11:43:02+00:00"}, {"id": "linkedin:4462179924", "source": "linkedin", "title": "PMO Junior – Calidad de Proyecto, Compras y Proveedores", "company": "Expleo Group", "location": "Madrid", "url": "https://www.linkedin.com/jobs/view/4462179924", "description": "En Expleo Group , somos una firma global de consultoría en ingeniería, calidad y tecnología, que impulsa la innovación en sectores como automoción, aeroespacial, energía, banca, telecomunicaciones, entre otros. Buscamos talentos apasionados por la mejora continua, la eficiencia operativa y la calidad de los procesos para ayudar a nuestros clientes a transformar sus negocios. Buscamos Un/una Asiste", "posted": "2026-09-02", "remote_flag": true, "score": 57, "modality": "remoto", "signals": ["+Junior / sin experiencia previa", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Inglés alto / C1", "-Sector industrial / obra / ingeniería"], "fingerprint": "pmo junior – calidad de proyecto, compras y proveedores|expleo group", "notified_at": "2026-09-03T11:43:11+00:00"}, {"id": "linkedin:4459527477", "source": "linkedin", "title": "Senior Project Manager", "company": "Indra Group", "location": "Comunidad de Madrid, España", "url": "https://www.linkedin.com/jobs/view/4459527477", "description": "⚡ Especialista Project Manager y Gestión de Proyectos (Sector Defensa e Industria) Buscamos un/a Especialista PMO / Project Management Office para incorporarse a proyectos tecnológicos de alta complejidad en el ámbito industrial y de Defensa, participando en el seguimiento, control y coordinación de proyectos estratégicos, garantizando el cumplimiento de alcance, planificación, costes, riesgos y c", "posted": "2026-09-01", "remote_flag": true, "score": 62, "modality": "remoto", "signals": ["+Herramientas PM", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Senior", "-Sector industrial / obra / ingeniería"], "fingerprint": "senior project manager|indra group", "notified_at": "2026-09-03T11:43:23+00:00"}, {"id": "indeed:d7d7d48bb5057cc0", "source": "indeed", "title": "Project Manager Departamento de Formación", "company": "", "location": "Madrid, MD, ES", "url": "https://es.indeed.com/viewjob?jk=d7d7d48bb5057cc0", "description": "Organización científica y profesional sin ánimo de lucro Madrid Experiencia Al menos 1 año de experiencia Salario Entre 25\\.000 y 30\\.000€ Brutos/anuales Área \\- Puesto Educación, formación Jefe/a de Proyectos de Formación Categoría o nivel Mandos Intermedios Vacantes 1 Inscritos 1 Contrato Contrato Indefinido Jornada Completa Proceso de selección continuo. Funciones • Coordinación y gestión de pr", "posted": "2026-09-01", "remote_flag": true, "score": 55, "modality": "remoto", "signals": ["+Encaja con perfil admin", "+Gestión operativa", "-Componente IT"], "fingerprint": "project manager departamento de formacion|", "notified_at": "2026-09-03T11:43:32+00:00"}, {"id": "indeed:4a4f70844761d5ed", "source": "indeed", "title": "Scrum Master/Delivery Manager", "company": "Babel", "location": "Madrid, MD, ES", "url": "https://es.indeed.com/viewjob?jk=4a4f70844761d5ed", "description": "We are One Team. We make it happen. We are Unstoppable. BABEL es una consultora tecnológica multinacional especializada en aplicar sus servicios y conocimiento tecnológico en los procesos de aceleración digital de sus clientes, grandes empresas y organismos públicos. ¿Cuál es nuestro plan estratégico? ¡Miramos hacia el futuro! Nuestro plan estratégico Hiperespacio 2029 promete ser un viaje emocion", "posted": "2026-09-01", "remote_flag": true, "score": 66, "modality": "remoto", "signals": ["+Agile", "+Herramientas PM", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Consultora / agencia", "+Sector tecnológico", "-Pide 5+ años", "-Inglés alto / C1"], "fingerprint": "scrum master/delivery manager|babel", "notified_at": "2026-09-03T11:43:32+00:00"}]}</script>
+<script>
+(function () {
+  const data = JSON.parse(document.getElementById('data').textContent);
+  const SOURCE_LABEL = { linkedin: 'LinkedIn', indeed: 'Indeed', tecnoempleo: 'Tecnoempleo' };
+  const MOD_LABEL = { remoto: '100% remoto', galicia: 'Galicia' };
+  const STATUS_LABEL = { saved: 'Guardada', applied: 'Aplicada', discarded: 'Descartada' };
+  const KEY = 'empleo-radar-status';
+  let statuses = {};
+  try { statuses = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { statuses = {}; }
+  const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(statuses)); } catch (e) { /* private mode */ } };
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const jobDate = (j) => (j.posted || j.notified_at || '').slice(0, 10);
+  const fmtDate = (iso) => {
+    if (!iso) return 'fecha n/d';
+    const d = new Date(iso.slice(0, 10) + 'T00:00:00');
+    return isNaN(d) ? iso : d.toLocaleDateString('es-ES', { day: '2-digit', month: 'short' });
+  };
+
+  function render() {
+    const q = $('q').value.trim().toLowerCase();
+    const source = $('source').value;
+    const modality = $('modality').value;
+    const days = parseInt($('days').value, 10);
+    const statusFilter = $('status').value;
+    const minScore = parseInt($('score').value, 10);
+    $('scoreVal').textContent = minScore;
+    const cutoff = days ? new Date(Date.now() - days * 86400000).toISOString().slice(0, 10) : '';
+    const rows = data.matches.filter((j) => {
+      const st = statuses[j.id] || '';
+      if (statusFilter === 'open' && (st === 'discarded' || st === 'applied')) return false;
+      if (statusFilter && statusFilter !== 'open' && st !== statusFilter) return false;
+      if (source && j.source !== source) return false;
+      if (modality && j.modality !== modality) return false;
+      if (j.score < minScore) return false;
+      if (cutoff && jobDate(j) < cutoff) return false;
+      if (q && !(j.title + ' ' + j.company + ' ' + j.location).toLowerCase().includes(q)) return false;
+      return true;
+    }).sort((a, b) => (b.score - a.score) || jobDate(b).localeCompare(jobDate(a)));
+    $('count').textContent = rows.length + (rows.length === 1 ? ' oferta' : ' ofertas') + ' de ' + data.matches.length + ' encontradas';
+    $('list').innerHTML = rows.length ? rows.map(card).join('') : '<div class="empty">Ninguna oferta coincide con los filtros.</div>';
+  }
+
+  function card(j) {
+    const st = statuses[j.id] || '';
+    const platform = SOURCE_LABEL[j.source] || esc(j.source);
+    return `<article class="card ${st === 'discarded' || st === 'applied' ? 'done' : ''}" data-id="${esc(j.id)}">
+      <div class="top">
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <span class="score" title="Afinidad con el perfil">${j.score}/100</span>
+      </div>
+      <div class="meta">${esc(j.company || 'Empresa no indicada')} · ${esc(j.location || 'ubicación n/d')}</div>
+      <div class="badges">
+        <span class="badge ${esc(j.modality)}">${MOD_LABEL[j.modality] || esc(j.modality)}</span>
+        <span class="badge">${platform}</span>
+        <span class="badge">Publicada ${fmtDate(j.posted)}</span>
+        ${st ? `<span class="badge">${STATUS_LABEL[st]}</span>` : ''}
+      </div>
+      ${j.signals && j.signals.length ? `<div class="signals">${esc(j.signals.join(' · '))}</div>` : ''}
+      ${j.description ? `<p class="snippet">${esc(j.description.slice(0, 240))}…</p>` : ''}
+      <div class="actions">
+        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Ver y aplicar en ${platform} ↗</a>
+        <button class="btn ${st === 'saved' ? 'active' : ''}" data-status="saved">Guardar</button>
+        <button class="btn ${st === 'applied' ? 'active' : ''}" data-status="applied">Aplicada</button>
+        <button class="btn ${st === 'discarded' ? 'active' : ''}" data-status="discarded">Descartar</button>
+      </div>
+    </article>`;
+  }
+
+  $('list').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-status]');
+    if (!btn) return;
+    const id = btn.closest('article').dataset.id;
+    const s = btn.dataset.status;
+    if (statuses[id] === s) delete statuses[id]; else statuses[id] = s;
+    persist();
+    render();
+  });
+  ['q', 'source', 'modality', 'days', 'status', 'score'].forEach((id) => $(id).addEventListener('input', render));
+
+  const gen = new Date(data.generated_at);
+  $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
+    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo; el estado de cada oferta se guarda en este navegador.';
+  if (data.last_run && data.last_run.stats) {
+    $('footer').textContent = 'Última búsqueda: ' + Object.entries(data.last_run.stats)
+      .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))
+      .join(' · ');
+  }
+  render();
+})();
+</script>
+</body>
+</html>

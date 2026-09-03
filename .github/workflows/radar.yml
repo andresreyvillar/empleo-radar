@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add data
+          git add data docs
           if git diff --cached --quiet; then
             echo "No state changes."
           else

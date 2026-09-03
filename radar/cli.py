@@ -10,6 +10,7 @@ from .filters import JobFilter
 from .models import Job
 from .notify import mail_settings, send_email
 from .report import render_html, render_text, subject
+from .site import build_site
 from .sources import SOURCES, build_sources
 from .state import State
 
@@ -25,12 +26,16 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--html", metavar="PATH", help="also write the HTML digest to this file")
     run.add_argument("--config", metavar="PATH", help="alternative config.yaml")
     run.add_argument("-v", "--verbose", action="store_true", help="print rejected candidates and why")
+    sub.add_parser("site", help="rebuild docs/index.html from data/seen.json without searching")
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     load_dotenv()
     args = build_parser().parse_args(argv)
+    if args.command == "site":
+        print(f"Página generada: {build_site(State(DATA_DIR / 'seen.json').data)}")
+        return 0
     cfg = load_config(args.config)
     lookback = args.since_hours or int(cfg["lookback_hours"])
     only = [s.strip() for s in args.sources.split(",")] if args.sources else None
@@ -100,7 +105,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"\nEmail enviado a {', '.join(settings['recipients'])}")
         else:
             print("\nAviso: SMTP_USER / SMTP_PASS / MAIL_TO no configurados; no se envía email.")
+    state.set_last_run(stats)
     state.save()
+    print(f"Página generada: {build_site(state.data)}")
     return 0
 
 
