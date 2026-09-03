@@ -1,0 +1,126 @@
+# Empleo Radar — search and filter configuration.
+# Every pattern is a Python regex matched against lowercased, accent-free text.
+
+lookback_hours: 48
+
+queries:
+  - project manager
+  - gestor de proyectos
+  - jefe de proyecto
+  - responsable de proyecto
+  - coordinador de proyectos
+  - pmo
+
+scopes:
+  remote_spain: true   # 100% remote positions anywhere in Spain
+  galicia: true        # any modality (on-site, hybrid, remote) inside Galicia
+
+sources:
+  linkedin:
+    enabled: true
+    max_pages: 3          # 10 results per page; LinkedIn throttles around 10 pages per IP
+    delay_seconds: 1.5
+  indeed:
+    enabled: true
+    results_wanted: 40
+  tecnoempleo:
+    enabled: true
+    feeds:
+      - https://www.tecnoempleo.com/alertas-empleo-rss.php          # national, newest 80
+      - https://www.tecnoempleo.com/alertas-empleo-rss.php?pr=231   # A Coruña
+      - https://www.tecnoempleo.com/alertas-empleo-rss.php?pr=261   # Lugo
+      - https://www.tecnoempleo.com/alertas-empleo-rss.php?pr=268   # Ourense
+      - https://www.tecnoempleo.com/alertas-empleo-rss.php?pr=270   # Pontevedra
+
+filters:
+  # The title must match at least one of these.
+  title_include:
+    - 'project (manager|coordinator|lead|leader|officer)'
+    - 'delivery manager'
+    - 'program(me)? manager'
+    - '\bpmo\b'
+    - 'gest(or|ora|ion) de (proyectos?|programas?)'
+    - 'responsable de (proyectos?|programas?)'
+    - 'jef[ea]s? de proyectos?'
+    - 'coordinador(a|es)? de proyectos?'
+    - 'director(a)? de proyectos?'
+    - 'tecnic[oa] (de|en) (gestion de )?proyectos?'
+
+  # Titles that reveal a technical, engineering or construction role.
+  title_exclude:
+    - 'desarrollador|developer|programador|software engineer|\bengineer(ing|s)?\b|ingenier[oa]s?\b|ingenieria'
+    - 'arquitect[oa]s?\b|architect'
+    - 'devops|\bsre\b|data (engineer|scientist|analyst)|big data|machine learning|\bml\b|\bia\b|\bai\b|inteligencia artificial|data ?cent(er|re)s?'
+    - '\bqa\b|tester|testing'
+    - 'tech(nical)? lead|team lead|\bcto\b|\bciso\b|\bcio\b'
+    - 'jef[ea] de obra|construction|construccion|obra civil|delineante|site manager|\bobras?\b|edificaci|estructuras|salas blancas|fit-?out|reformas|instalaciones|climatizacion|hvac|real estate|inmobiliari|infraestructuras?|automatizacion|automation|industria 4\.0|\bplc\b|scada'
+    - 'consultor(a)? (sap|salesforce|dynamics|servicenow|erp)|\bsap\b|salesforce|dynamics|servicenow|codebeamer|\balm\b|\bjava\b|\.net|python|\bc#|javascript|\bsql\b|oracle|\bcloud\b|\baws\b|\bazure\b|\bgcp\b|kubernetes|ciberseguridad|cybersecurity|\bcyber\b|\bredes\b|networking|telecomunicaciones|\btelco\b|firmware|embedded|hardware|electronic|electric|mecanic'
+
+  # Requirements in the description that demand a developer / engineer background.
+  text_exclude:
+    - 'experiencia (previa |demostrable |solida |minima )?(como|de|en) (desarrollador|programador|developer|ingenier[oa]|engineer|desarrollo de software|programacion)'
+    - 'background (tecnico|de desarrollo|en desarrollo|en programacion|as an? (developer|engineer))'
+    - 'perfil tecnico'
+    - 'conocimientos? (solidos? |avanzados? |profundos? |tecnicos? |amplios? )?(de|en) (programacion|desarrollo (de )?software|java|\.net|python|c#|javascript|arquitecturas? (de )?software|kubernetes|docker|microservicios|bases de datos)'
+    - 'imprescindible[^.]{0,80}(ingenier|desarroll|programaci)'
+    - 'haber (trabajado|ejercido) como (desarrollador|programador|ingenier)'
+    - 'ingenier[oa] (superior|tecnic[oa]|con experiencia|senior)'
+  # If one of these appears just before a text_exclude hit, the hit is ignored
+  # ("no es necesario un perfil técnico", "valorable background técnico").
+  text_neutralizers:
+    - 'no (es |se |sera )?(necesari|imprescindible|requiere|requerid|obligatori)|sin necesidad|valorable|deseable|se valorara|plus\b|un plus'
+
+  # Engineering degree required. Ignored when a neutraliser appears nearby
+  # ("Ingeniería, ADE, Derecho o similar").
+  degree_exclude:
+    - '(grado|licenciatura|titulacion|titulad[oa]|graduad[oa]|diplomatura|master|carrera|formacion (academica|universitaria|requerida|minima|superior|reglada)|estudios (universitarios|superiores))[^.]{0,60}ingenier'
+    - 'ingenieria (informatica|industrial|de telecomunicacion(es)?|de sistemas|de software|civil|de caminos|mecanica|electrica|electronica|quimica|aeronautica|naval|de organizacion|tecnica)'
+    - 'ingenier[oa] (informatic[oa]|industrial|de telecomunicacion(es)?|de sistemas|de software|civil|de caminos|mecanic[oa]|electric[oa]|electronic[oa]|quimic[oa]|aeronautic[oa]|naval)'
+  degree_neutralizers:
+    - '\bade\b|derecho|economicas|economia|empresariales|administracion (y direccion )?de empresas|humanidades|marketing|comunicacion|supply chain|logistica|ciencias empresariales|relaciones laborales|psicologia|sociologia|turismo|o similar|u otras|o afines|cualquier (titulacion|grado|carrera)|otras (titulaciones|carreras)|no (es )?(imprescindible|necesari[oa])|valorable'
+
+  location:
+    galicia:
+      - 'galicia|galiza'
+      - '\bvigo\b|pontevedra|coruna|corunha|santiago de compostela|ourense|orense|\blugo\b|ferrol'
+      - 'culleredo|oleiros|naron|vilagarcia|redondela|cangas|\bmarin\b|ponteareas|lalin|monforte|viveiro|ribeira|carballo|\bames\b|arteixo|porrino|nigran|gondomar|\bmos\b|\btui\b|sanxenxo|boiro|betanzos|\bsada\b|verin|barco de valdeorras|xinzo|sarria|burela|pazos|san cibrao'
+      - ', ga, es'
+    strong_remote:
+      - '100 ?% ?(en |de )?(remot[oa]|teletrabajo|remote)'
+      - 'teletrabajo (total|completo|al 100)'
+      - 'totalmente (en )?remot[oa]|remot[oa] (total|completo|al 100)'
+      - 'full(y)?[ -]?remote'
+      - 'desde cualquier (lugar|punto|parte|ciudad)'
+    weak_remote:
+      - '\bremot[oa]\b|\bremote\b|teletrabajo|teletrabajar|trabajo a distancia'
+    hybrid:
+      - 'hibrid[oa]|hybrid|semipresencial|modelo mixto|modalidad mixta'
+      - '\b[1-4] ?dias?[^.]{0,25}(oficina|presencial)|\b[1-4] ?dias? (de |en )?(teletrabajo|remoto)'
+      - '(un|dos|tres|cuatro) dias?[^.]{0,25}(oficina|presencial|teletrabajo|remoto)'
+      - 'modalidad:? ?presencial|trabajo presencial|puesto presencial|100 ?% ?presencial|presencial en|on-?site'
+      - 'remoto parcial|teletrabajo parcial|parcialmente (en )?remoto'
+
+  language:
+    # Share of Spanish function words among Spanish+English function words.
+    min_spanish_ratio: 0.55
+
+  scoring:
+    base: 50
+    positive:   # [pattern, weight, label]
+      - ['agile|scrum|kanban|metodologias agiles', 6, 'Agile']
+      - ['\bjira\b|asana|trello|monday\.com|notion|ms project|clickup', 6, 'Herramientas PM']
+      - ['stakeholders|partes interesadas|interlocucion', 5, 'Stakeholders']
+      - ['\bpmp\b|\bcapm\b|prince2|certificaci(on|ones) (en )?(gestion de proyectos|project management)|google project management', 6, 'Certificación PM']
+      - ['sin experiencia previa|junior|primer(a)? (empleo|experiencia)|nivel inicial|entry level', 8, 'Junior / sin experiencia previa']
+      - ['administraci(on|va)|facturacion|proveedores|logistic|presupuest|control de costes|financier', 5, 'Encaja con perfil admin']
+      - ['planificacion|seguimiento|cronograma|hitos|plazos|riesgos|reporting|documentacion|kpi', 4, 'Gestión operativa']
+      - ['consultora|agencia|clientes externos|multi ?cliente', 4, 'Consultora / agencia']
+      - ['digital|tecnolog|software|saas|startup|producto digital', 4, 'Sector tecnológico']
+      - ['ingles (b2|intermedio|medio)|nivel medio de ingles', 3, 'Inglés B2 suficiente']
+    negative:
+      - ['\b(5|6|7|8|9|10|cinco|seis|siete|ocho|diez)\+? ?(anos|years)[^.]{0,20}experiencia|experiencia[^.]{0,30}\b(5|6|7|8|9|10|cinco|seis|siete|ocho|diez)\+? ?(anos|years)', 10, 'Pide 5+ años']
+      - ['\bsenior\b', 6, 'Senior']
+      - ['ingles (alto|avanzado|fluido|nativo|bilingue|c1|c2|profesional)|nivel alto de ingles|fluent english|proficient english|english (c1|c2)', 8, 'Inglés alto / C1']
+      - ['informatic|\bsistemas\b|infraestructur|\berp\b|implantacion', 4, 'Componente IT']
+      - ['industrial|construccion|\bobra\b|energia|renovable|fotovoltaic|ingenieria', 6, 'Sector industrial / obra / ingeniería']
+      - ['clinic|farmac|pharma|biotech|laboratorio|ensayos', 15, 'Sector clínico']
