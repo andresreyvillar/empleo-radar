@@ -26,8 +26,11 @@ sources ──► title gate ──► fetch description ──► exclusions �
 Every real run regenerates `docs/index.html`: a self-contained page (no server, no external
 dependencies) listing every match found in the last 90 days with client-side filters — text
 search, source, modality (100% remote / Galicia), publication window, minimum score — and a
-button that opens each offer on the portal where it was published. Each offer can be marked
-as saved, applied or discarded; that state lives in the visitor's browser (`localStorage`).
+button that opens each offer on the portal where it was published. Each card shows the key
+facts detected in the ad (salary, schedule, modality, years of experience, contract) and a
+collapsible "Requisitos y qué ofrecen" section extracted from the ad's own headings
+(`radar/details.py`). Each offer can be marked as saved, applied or discarded; that state
+lives in the visitor's browser (`localStorage`).
 
 It is published with GitHub Pages at <https://andresreyvillar.github.io/empleo-radar/>
 (Settings → Pages → Deploy from branch `main`, folder `/docs`) and can also be opened locally. `python3 -m radar site` rebuilds the page from
@@ -84,6 +87,8 @@ completes with the other sources and lists the errors at the bottom of the diges
   `language:...`) and relax the corresponding list in `config.yaml`.
 * **Too much noise?** Add patterns to `title_exclude` / `text_exclude`, or raise the
   weight of the relevant entry in `scoring.negative`.
+* **Languages:** ads demanding English above B2 (alto, fluido, C1, bilingüe) or any other
+  language are rejected; intermediate, conversational or professional English is accepted.
 * `queries` are the search terms sent to each portal; `lookback_hours` is the window each
   run looks back (runs overlap on purpose, `seen.json` deduplicates).
 * Delete `data/seen.json` to start from scratch (the next run will re-notify everything
@@ -95,6 +100,7 @@ completes with the other sources and lists the errors at the bottom of the diges
 config.yaml            search terms, sources, filter and scoring rules
 radar/cli.py           orchestration (python -m radar run)
 radar/filters.py       rule engine
+radar/details.py       requirements / benefits / key facts extraction
 radar/sources/         linkedin.py · indeed.py · tecnoempleo.py
 radar/report.py        text + HTML email digest
 radar/site.py          docs/index.html generator (template in radar/templates/site.html)

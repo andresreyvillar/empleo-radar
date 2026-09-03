@@ -20,6 +20,7 @@ class Verdict:
     reason: str = ""            # rejection reason, empty when accepted
     score: int = 0
     modality: str = ""          # "remoto" | "galicia"
+    workplace: str = ""         # "remoto" | "hibrido" | "presencial" | "sin especificar"
     signals: list[str] = field(default_factory=list)
 
 
@@ -33,9 +34,11 @@ class JobFilter:
         self.degree_exclude = _compile(f["degree_exclude"])
         self.degree_neutralizers = _compile(f.get("degree_neutralizers"))
         loc = f["location"]
+        self.pontevedra = _compile(loc["pontevedra"])
         self.galicia = _compile(loc["galicia"])
         self.strong_remote = _compile(loc["strong_remote"])
         self.weak_remote = _compile(loc["weak_remote"])
+        self.onsite = _compile(loc["onsite"])
         self.hybrid = _compile(loc["hybrid"])
         self.min_spanish_ratio = float(f["language"]["min_spanish_ratio"])
         sc = f["scoring"]
@@ -67,29 +70,69 @@ class JobFilter:
         if hit:
             return Verdict(False, f"degree:{hit}")
 
-        modality = self.modality(job, title, text)
+        modality, workplace = self.modality(job, title, text)
         if not modality:
-            return Verdict(False, "location:not-galicia-nor-full-remote")
+            return Verdict(False, f"location:{workplace}-outside-allowed-area", workplace=workplace)
 
         ratio = spanish_ratio(job.description)
         if ratio is not None and ratio < self.min_spanish_ratio:
             return Verdict(False, f"language:spanish-ratio={ratio:.2f}")
 
         score, signals = self.score(text)
+        if workplace == "sin confirmar":
+            score = max(0, score - 10)
+            signals.append("-Remoto solo según el portal, sin confirmar en el texto")
         if not job.description:
             signals.append("Sin descripción disponible")
-        return Verdict(True, "", score, modality, signals)
+        return Verdict(True, "", score, modality, workplace, signals)
 
-    def modality(self, job: Job, title: str, text: str) -> str:
-        loc = normalize(job.location)
-        if any(p.search(loc) or p.search(title) for p in self.galicia):
-            return "galicia"
-        hybrid = any(p.search(text) for p in self.hybrid)
-        strong = any(p.search(text) for p in self.strong_remote)
-        weak = job.remote_flag or any(p.search(text) for p in self.weak_remote)
-        if strong or (weak and not hybrid):
+    def workplace(self, job: Job, text: str) -> str:
+        """Workplace type: the portal's own label when it has one, checked against the text.
+
+        A "remoto" label is kept only if the ad text does not describe office presence;
+        an on-site/hybrid label is final. Without labels the text alone decides.
+        """
+        from_text = self.text_workplace(text)
+        if job.labels:
+            if "remoto" in job.labels:
+                return from_text if from_text in ("hibrido", "presencial") else "remoto"
+            return "hibrido" if "hibrido" in job.labels else "presencial"
+        return from_text
+
+    def text_workplace(self, text: str) -> str:
+        if any(p.search(text) for p in self.strong_remote):
             return "remoto"
+        onsite = self._hit_with_context(self.onsite, text, self.text_neutralizers, before=60, after=0)
+        weak = any(p.search(text) for p in self.weak_remote)
+        if onsite:
+            return "hibrido" if (weak or any(p.search(text) for p in self.hybrid)) else "presencial"
+        return "remoto" if weak else "sin especificar"
+
+    def region(self, job: Job, title: str, text: str) -> str:
+        """'pontevedra' | 'galicia' | '' from location and title (description as tie-breaker)."""
+        where = f"{normalize(job.location)} | {title}"
+        if any(p.search(where) for p in self.pontevedra):
+            return "pontevedra"
+        if any(p.search(where) for p in self.galicia):
+            return "pontevedra" if any(p.search(text) for p in self.pontevedra) else "galicia"
         return ""
+
+    def modality(self, job: Job, title: str, text: str) -> tuple[str, str]:
+        """(modality for filtering, workplace). Empty modality means rejected.
+
+        Pontevedra: any workplace. Rest of Galicia: no on-site. Elsewhere: remote only.
+        """
+        region = self.region(job, title, text)
+        workplace = self.workplace(job, text)
+        if region == "pontevedra":
+            return "galicia", workplace
+        if region == "galicia":
+            return ("galicia" if workplace != "presencial" else ""), workplace
+        if workplace == "remoto":
+            return "remoto", "remoto"
+        if workplace == "sin especificar" and job.remote_flag:
+            return "remoto", "sin confirmar"     # portal says remote, text is silent: flagged for review
+        return "", workplace
 
     def score(self, text: str) -> tuple[int, list[str]]:
         total = self.base_score
@@ -115,10 +158,18 @@ class JobFilter:
 
     @staticmethod
     def _hit_with_context(patterns, text, neutralizers, before: int, after: int) -> str:
-        """First match whose surrounding window contains no neutraliser."""
+        """First match whose sentence (bounded to before/after chars) contains no neutraliser."""
         for p in patterns:
             for m in p.finditer(text):
-                window = text[max(0, m.start() - before): m.end() + after]
+                start = max(0, m.start() - before)
+                end = min(len(text), m.end() + after)
+                boundary = max(text.rfind(". ", start, m.start()), text.rfind("\n", start, m.start()))
+                if boundary != -1:
+                    start = boundary + 1
+                for stop in (text.find(". ", m.end(), end), text.find("\n", m.end(), end)):
+                    if stop != -1:
+                        end = min(end, stop)
+                window = text[start:end]
                 if any(n.search(window) for n in neutralizers):
                     continue
                 return m.group(0)

@@ -59,5 +59,17 @@ class TecnoempleoSource(Source):
             url=link,
             description=fields.get("Descripción", ""),
             posted=posted_dt.date().isoformat() if posted_dt else None,
-            remote_flag="remoto" in normalize(provincia) or "teletrabajo" in normalize(provincia),
+            labels=_labels(provincia),
         )
+
+
+def _labels(provincia: str) -> list[str]:
+    """Tecnoempleo puts the modality in the province field ("100% En remoto", "hibrido", "presencial")."""
+    n = normalize(provincia)
+    if "remoto" in n or "teletrabajo" in n:
+        return ["remoto"]
+    if "hibrid" in n:
+        return ["hibrido"]
+    if "presencial" in n:
+        return ["presencial"]
+    return []

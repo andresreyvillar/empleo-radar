@@ -65,10 +65,18 @@ filters:
     - 'imprescindible[^.]{0,80}(ingenier|desarroll|programaci)'
     - 'haber (trabajado|ejercido) como (desarrollador|programador|ingenier)'
     - 'ingenier[oa] (superior|tecnic[oa]|con experiencia|senior)'
+    # Languages: English above B2, or any language other than Spanish/Galician.
+    - 'ingles[^.]{0,12}(alto|avanzado|fluido|fluent|nativo|bilingue|c1|c2|proficiency)'
+    - '(alto|avanzado|fluido|nativo|bilingue|c1|c2)[^.]{0,12}(de |en )?ingles'
+    - 'english[^.]{0,12}(c1|c2|fluent|advanced|proficient|native|bilingual)|(fluent|advanced|proficient|native|bilingual)[^.]{0,12}english'
+    - '\bbilingue\b'
+    - '(idiomas?|nivel|hablar|dominio|conocimientos?)[^.]{0,20}\b(chino|mandarin|aleman|frances|italiano|portugues|arabe|ruso|japones|holandes|neerlandes|catalan|euskera)\b'
+    - '\b(chino|mandarin|aleman|frances|italiano|portugues|arabe|ruso|japones|holandes|neerlandes|catalan|euskera)\b[^.]{0,25}(alto|avanzado|fluido|nativo|bilingue|b1|b2|c1|c2|imprescindible|obligatorio|requerido|necesario|nivel)'
   # If one of these appears just before a text_exclude hit, the hit is ignored
   # ("no es necesario un perfil técnico", "valorable background técnico").
   text_neutralizers:
     - 'no (es |se |sera )?(necesari|imprescindible|requiere|requerid|obligatori)|sin necesidad|valorable|deseable|se valorara|plus\b|un plus'
+    - 'medio-? ?alto|intermedio-? ?alto|\bb2\b|no (es )?(imprescindible|excluyente)'
 
   # Engineering degree required. Ignored when a neutraliser appears nearby
   # ("Ingeniería, ADE, Derecho o similar").
@@ -77,28 +85,40 @@ filters:
     - 'ingenieria (informatica|industrial|de telecomunicacion(es)?|de sistemas|de software|civil|de caminos|mecanica|electrica|electronica|quimica|aeronautica|naval|de organizacion|tecnica)'
     - 'ingenier[oa] (informatic[oa]|industrial|de telecomunicacion(es)?|de sistemas|de software|civil|de caminos|mecanic[oa]|electric[oa]|electronic[oa]|quimic[oa]|aeronautic[oa]|naval)'
   degree_neutralizers:
-    - '\bade\b|derecho|economicas|economia|empresariales|administracion (y direccion )?de empresas|humanidades|marketing|comunicacion|supply chain|logistica|ciencias empresariales|relaciones laborales|psicologia|sociologia|turismo|o similar|u otras|o afines|cualquier (titulacion|grado|carrera)|otras (titulaciones|carreras)|no (es )?(imprescindible|necesari[oa])|valorable'
+    - '\bade\b|derecho|economicas|economia|empresariales|administracion (y direccion )?de empresas|humanidades|marketing|\bcomunicacion\b|supply chain|logistica|ciencias empresariales|relaciones laborales|psicologia|sociologia|turismo|cualquier (titulacion|grado|carrera)|otras (titulaciones|carreras)|no (es )?(imprescindible|necesari[oa])|valorable'
 
   location:
+    # Pontevedra province: any modality (on-site included).
+    pontevedra:
+      - 'pontevedra|\bvigo\b|vilagarcia|redondela|cangas|\bmarin\b|ponteareas|lalin|porrino|nigran|gondomar|\bmos\b|\btui\b|sanxenxo|baiona|a estrada|caldas de reis|silleda|salvaterra|o grove|bueu|moana|poio|soutomaior|salceda|pazos de borben'
+    # Rest of Galicia: remote or hybrid only (on-site rejected).
     galicia:
-      - 'galicia|galiza'
-      - '\bvigo\b|pontevedra|coruna|corunha|santiago de compostela|ourense|orense|\blugo\b|ferrol'
-      - 'culleredo|oleiros|naron|vilagarcia|redondela|cangas|\bmarin\b|ponteareas|lalin|monforte|viveiro|ribeira|carballo|\bames\b|arteixo|porrino|nigran|gondomar|\bmos\b|\btui\b|sanxenxo|boiro|betanzos|\bsada\b|verin|barco de valdeorras|xinzo|sarria|burela|pazos|san cibrao'
-      - ', ga, es'
+      - 'galicia|galiza|, ga, es'
+      - 'coruna|corunha|santiago de compostela|ourense|orense|\blugo\b|ferrol|culleredo|oleiros|naron|ribeira|carballo|\bames\b|arteixo|boiro|betanzos|\bsada\b|verin|barco de valdeorras|xinzo|sarria|burela|viveiro|monforte|san cibrao|pazos'
+    # Explicit full-remote statements: they win over any on-site hint.
     strong_remote:
       - '100 ?% ?(en |de )?(remot[oa]|teletrabajo|remote)'
       - 'teletrabajo (total|completo|al 100)'
       - 'totalmente (en )?remot[oa]|remot[oa] (total|completo|al 100)'
       - 'full(y)?[ -]?remote'
       - 'desde cualquier (lugar|punto|parte|ciudad)'
+      - 'modalidad[^.]{0,25}\bremot[oa]\b'
+    # Weak remote hints in the ad text (the portal's remote flag is not trusted).
     weak_remote:
       - '\bremot[oa]\b|\bremote\b|teletrabajo|teletrabajar|trabajo a distancia'
-    hybrid:
+    # Any on-site presence required. Neutralised by "no es necesario…" style phrases.
+    onsite:
       - 'hibrid[oa]|hybrid|semipresencial|modelo mixto|modalidad mixta'
-      - '\b[1-4] ?dias?[^.]{0,25}(oficina|presencial)|\b[1-4] ?dias? (de |en )?(teletrabajo|remoto)'
-      - '(un|dos|tres|cuatro) dias?[^.]{0,25}(oficina|presencial|teletrabajo|remoto)'
-      - 'modalidad:? ?presencial|trabajo presencial|puesto presencial|100 ?% ?presencial|presencial en|on-?site'
-      - 'remoto parcial|teletrabajo parcial|parcialmente (en )?remoto'
+      - '\bpresencial(es|idad|mente)?\b|on-?site|in-?office'
+      - 'requiere presencia|presencia (fisica|en (la )?oficina|en (el )?cliente)|acudir a la oficina|asistencia a la oficina'
+      - '(en|desde) (nuestras|las|sus) oficinas|trabajo en oficina|incorporacion en (nuestras )?oficinas'
+      - 'de lunes a (jueves|viernes)[^.]{0,30}oficina|\b[1-4] ?dias?[^.]{0,25}(oficina|presencial)'
+      - '\b[1-4] ?dias? (de |en )?(teletrabajo|remoto)|(un|dos|tres|cuatro) dias?[^.]{0,25}(oficina|presencial|teletrabajo|remoto)'
+      - 'teletrabajo (parcial|los viernes|un dia|dos dias)|viernes[^.]{0,20}(teletrabaj|remoto)|remoto parcial|parcialmente (en )?remoto'
+      - 'residencia en|residir en'
+    # Among on-site hits, these mean hybrid rather than fully on-site.
+    hybrid:
+      - 'hibrid[oa]|hybrid|semipresencial|modelo mixto|modalidad mixta|\b[1-4] ?dias? (de |en )?(teletrabajo|remoto)|(un|dos|tres|cuatro) dias? (de |en )?(teletrabajo|remoto)|teletrabajo (parcial|los viernes|un dia|dos dias)|viernes[^.]{0,20}(teletrabaj|remoto)|remoto parcial|parcialmente (en )?remoto|de lunes a jueves[^.]{0,30}oficina'
 
   language:
     # Share of Spanish function words among Spanish+English function words.
@@ -116,11 +136,10 @@ filters:
       - ['planificacion|seguimiento|cronograma|hitos|plazos|riesgos|reporting|documentacion|kpi', 4, 'Gestión operativa']
       - ['consultora|agencia|clientes externos|multi ?cliente', 4, 'Consultora / agencia']
       - ['digital|tecnolog|software|saas|startup|producto digital', 4, 'Sector tecnológico']
-      - ['ingles (b2|intermedio|medio)|nivel medio de ingles', 3, 'Inglés B2 suficiente']
+      - ['ingles[^.]{0,12}(b1|b2|intermedio|medio|conversacional|profesional)|nivel (medio|intermedio) de ingles', 3, 'Inglés intermedio suficiente']
     negative:
       - ['\b(5|6|7|8|9|10|cinco|seis|siete|ocho|diez)\+? ?(anos|years)[^.]{0,20}experiencia|experiencia[^.]{0,30}\b(5|6|7|8|9|10|cinco|seis|siete|ocho|diez)\+? ?(anos|years)', 10, 'Pide 5+ años']
       - ['\bsenior\b', 6, 'Senior']
-      - ['ingles (alto|avanzado|fluido|nativo|bilingue|c1|c2|profesional)|nivel alto de ingles|fluent english|proficient english|english (c1|c2)', 8, 'Inglés alto / C1']
       - ['informatic|\bsistemas\b|infraestructur|\berp\b|implantacion', 4, 'Componente IT']
       - ['industrial|construccion|\bobra\b|energia|renovable|fotovoltaic|ingenieria', 6, 'Sector industrial / obra / ingeniería']
       - ['clinic|farmac|pharma|biotech|laboratorio|ensayos', 15, 'Sector clínico']

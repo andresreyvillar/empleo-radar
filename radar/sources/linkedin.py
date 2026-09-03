@@ -30,6 +30,9 @@ class LinkedInSource(Source):
         self.blocked = False
 
     def _scopes(self) -> list[tuple[dict, bool]]:
+        """(query params, came through LinkedIn's remote filter). f_WT=2 only narrows the
+        candidate list: the guest search pads results ignoring the filter and the public
+        pages carry no workplace label, so the ad text decides and the flag is a mere hint."""
         scopes = []
         if self.scopes.get("remote_spain"):
             scopes.append(({"geoId": GEO_SPAIN, "f_WT": "2"}, True))
@@ -41,7 +44,7 @@ class LinkedInSource(Source):
         jobs: dict[str, Job] = {}
         time_filter = f"r{self.lookback_hours * 3600}"
         for query in self.queries:
-            for params, remote in self._scopes():
+            for params, remote_hint in self._scopes():
                 for page in range(self.max_pages):
                     if self.blocked:
                         return list(jobs.values())
@@ -55,9 +58,10 @@ class LinkedInSource(Source):
                     except requests.RequestException as exc:
                         self.errors.append(f"'{query}' page {page}: {exc}")
                         break
-                    cards = self._parse_cards(html, remote)
+                    cards = self._parse_cards(html)
                     for job in cards:
-                        jobs.setdefault(job.id, job)
+                        job = jobs.setdefault(job.id, job)
+                        job.remote_flag = job.remote_flag or remote_hint
                     if len(cards) < PAGE_SIZE:
                         break
         return list(jobs.values())
@@ -76,9 +80,11 @@ class LinkedInSource(Source):
         block = soup.select_one(".show-more-less-html__markup")
         if block:
             job.description = html_to_text(str(block))
+        labels = ["Nivel", "Tipo de empleo", "Función", "Sector"]   # LinkedIn's fixed criteria order
         criteria = [c.get_text(" ", strip=True) for c in soup.select(".description__job-criteria-text")]
-        if criteria:
-            job.description += "\n" + " · ".join(criteria)
+        extra = [f"{label}: {value}" for label, value in zip(labels, criteria) if label != "Función"]
+        if extra:
+            job.description += "\n\n" + "\n".join(extra)
 
     def _get(self, url: str, params: dict | None = None) -> str:
         for attempt in range(2):
@@ -93,7 +99,7 @@ class LinkedInSource(Source):
             return resp.text
         raise RateLimited()
 
-    def _parse_cards(self, html: str, remote: bool) -> list[Job]:
+    def _parse_cards(self, html: str) -> list[Job]:
         soup = BeautifulSoup(html, "html.parser")
         jobs = []
         for card in soup.select("[data-entity-urn]"):
@@ -113,6 +119,5 @@ class LinkedInSource(Source):
                 location=location.get_text(" ", strip=True) if location else "",
                 url=f"https://www.linkedin.com/jobs/view/{job_id}",
                 posted=posted["datetime"] if posted else None,
-                remote_flag=remote,
             ))
         return jobs

@@ -33,8 +33,19 @@ main{max-width:960px;margin:0 auto;padding:12px 16px 40px}
 .badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--text)}
 .badge.remoto{background:var(--remoto);color:#fff}
 .badge.galicia{background:var(--galicia);color:#fff}
+.badge.unconfirmed{background:#b45309;color:#fff}
 .signals{font-size:12px;color:var(--muted);margin-bottom:8px}
 .snippet{font-size:13px;color:var(--muted);margin:0 0 10px}
+.keys{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;margin:0 0 10px}
+.keys span b{font-weight:600}
+details{margin:0 0 10px;border-top:1px solid var(--line);padding-top:8px}
+summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
+@media (max-width:640px){.cols{grid-template-columns:1fr}}
+.cols h4{margin:0 0 4px;font-size:13px}
+.cols ul{margin:0;padding-left:18px;font-size:13px;color:var(--text)}
+.cols li{margin-bottom:3px}
+.cols .none{font-size:13px;color:var(--muted)}
 .actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .btn{font:inherit;font-size:13px;padding:7px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;text-decoration:none}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
@@ -87,6 +98,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const data = JSON.parse(document.getElementById('data').textContent);
   const SOURCE_LABEL = { linkedin: 'LinkedIn', indeed: 'Indeed', tecnoempleo: 'Tecnoempleo' };
   const MOD_LABEL = { remoto: '100% remoto', galicia: 'Galicia' };
+  const WP_LABEL = { remoto: 'Remoto', hibrido: 'Híbrido', presencial: 'Presencial', 'sin especificar': 'Modalidad sin especificar' };
   const STATUS_LABEL = { saved: 'Guardada', applied: 'Aplicada', discarded: 'Descartada' };
   const KEY = 'empleo-radar-status';
   let statuses = {};
@@ -135,13 +147,18 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
       </div>
       <div class="meta">${esc(j.company || 'Empresa no indicada')} · ${esc(j.location || 'ubicación n/d')}</div>
       <div class="badges">
-        <span class="badge ${esc(j.modality)}">${MOD_LABEL[j.modality] || esc(j.modality)}</span>
+        ${j.modality === 'remoto' && j.workplace === 'sin confirmar'
+          ? '<span class="badge unconfirmed" title="LinkedIn la devuelve como remota pero el anuncio no lo dice: compruébalo antes de aplicar">Remoto sin confirmar</span>'
+          : `<span class="badge ${esc(j.modality)}">${MOD_LABEL[j.modality] || esc(j.modality)}</span>`}
+        ${j.modality === 'galicia' && j.workplace ? `<span class="badge">${WP_LABEL[j.workplace] || esc(j.workplace)}</span>` : ''}
         <span class="badge">${platform}</span>
         <span class="badge">Publicada ${fmtDate(j.posted)}</span>
         ${st ? `<span class="badge">${STATUS_LABEL[st]}</span>` : ''}
       </div>
       ${j.signals && j.signals.length ? `<div class="signals">${esc(j.signals.join(' · '))}</div>` : ''}
       ${j.description ? `<p class="snippet">${esc(j.description.slice(0, 240))}…</p>` : ''}
+      ${keysHtml(j)}
+      ${detailsHtml(j)}
       <div class="actions">
         <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Ver y aplicar en ${platform} ↗</a>
         <button class="btn ${st === 'saved' ? 'active' : ''}" data-status="saved">Guardar</button>
@@ -149,6 +166,23 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
         <button class="btn ${st === 'discarded' ? 'active' : ''}" data-status="discarded">Descartar</button>
       </div>
     </article>`;
+  }
+
+  const KEY_LABEL = { etiqueta: 'Etiqueta del portal', modalidad: 'Modalidad', salario: 'Salario', horario: 'Horario', experiencia: 'Experiencia', contrato: 'Contrato' };
+  function keysHtml(j) {
+    const k = (j.details && j.details.claves) || {};
+    const parts = Object.keys(KEY_LABEL).filter((n) => k[n]).map((n) => `<span><b>${KEY_LABEL[n]}:</b> ${esc(k[n])}</span>`);
+    return parts.length ? `<div class="keys">${parts.join('')}</div>` : '';
+  }
+  function detailsHtml(j) {
+    const d = j.details || {};
+    const req = d.requisitos || [];
+    const off = d.ofrecen || [];
+    if (!req.length && !off.length) return '';
+    const list = (items) => items.length ? `<ul>${items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : '<div class="none">No se ha detectado esta sección en el anuncio.</div>';
+    return `<details><summary>Requisitos y qué ofrecen</summary><div class="cols">
+      <div><h4>Requisitos, competencias y experiencia</h4>${list(req)}</div>
+      <div><h4>Qué ofrecen</h4>${list(off)}</div></div></details>`;
   }
 
   $('list').addEventListener('click', (e) => {

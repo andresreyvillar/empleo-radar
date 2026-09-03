@@ -5,6 +5,16 @@ from datetime import datetime
 from .models import Job
 
 MODALITY_LABEL = {"remoto": "100% remoto", "galicia": "Galicia"}
+WORKPLACE_LABEL = {"remoto": "remoto", "hibrido": "híbrido", "presencial": "presencial", "sin especificar": "modalidad sin especificar"}
+
+
+def modality_text(job: Job) -> str:
+    if job.modality == "remoto" and job.workplace == "sin confirmar":
+        return "Remoto sin confirmar"
+    label = MODALITY_LABEL.get(job.modality, job.modality)
+    if job.modality == "galicia" and job.workplace:
+        label += f" · {WORKPLACE_LABEL.get(job.workplace, job.workplace)}"
+    return label
 
 
 def subject(matches: list[Job], when: datetime) -> str:
@@ -17,7 +27,7 @@ def render_text(matches: list[Job], stats: dict, when: datetime) -> str:
     lines = [f"Ofertas nuevas que pasan los filtros ({when:%d/%m/%Y %H:%M})", ""]
     for job in matches:
         lines.append(f"[{job.score}] {job.title} — {job.company or 'empresa no indicada'}")
-        lines.append(f"    {MODALITY_LABEL.get(job.modality, job.modality)} · {job.location} · {job.source} · {job.posted or 'fecha n/d'}")
+        lines.append(f"    {modality_text(job)} · {job.location} · {job.source} · {job.posted or 'fecha n/d'}")
         if job.signals:
             lines.append(f"    {', '.join(job.signals)}")
         lines.append(f"    {job.url}")
@@ -40,7 +50,7 @@ def render_html(matches: list[Job], stats: dict, when: datetime) -> str:
 
 
 def _card(job: Job) -> str:
-    modality = MODALITY_LABEL.get(job.modality, job.modality)
+    modality = modality_text(job)
     color = "#0f766e" if job.modality == "remoto" else "#1d4ed8"
     signals = " · ".join(html.escape(s) for s in job.signals) or "Sin señales adicionales"
     snippet = html.escape((job.description or "")[:260]).strip()

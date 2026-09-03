@@ -5,6 +5,8 @@ import unicodedata
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
+_SPACES_RE = re.compile(r"[ \t\xa0]+")
+_BLANKS_RE = re.compile(r"\n{3,}")
 _WORD_RE = re.compile(r"[a-z]+")
 
 
@@ -20,22 +22,41 @@ def normalize(text: str | None) -> str:
     return _WS_RE.sub(" ", strip_accents(text).lower()).strip()
 
 
+_COMPANY_NOISE = re.compile(
+    r"\b(espana|spain|iberia|iberica|group|grupo|company|holding|s\.?l\.?u?\.?|s\.?a\.?u?\.?|sl|sa|slu|sau|ltd|inc|gmbh|"
+    r"consulting|consultores|consultoria|people first|talent|recruitment|hr)\b"
+)
+
+
+def company_key(company: str | None) -> str:
+    """Company name reduced to its distinctive tokens, for cross-source deduplication."""
+    key = re.sub(r"[|–—\-·,()]+", " ", normalize(company))
+    key = _COMPANY_NOISE.sub(" ", key)
+    return _WS_RE.sub(" ", key).strip()
+
+
+def tidy_lines(text: str) -> str:
+    """Collapse spaces inside lines and runs of blank lines, keeping the line structure."""
+    lines = [_SPACES_RE.sub(" ", line).strip() for line in text.replace("\r", "").split("\n")]
+    return _BLANKS_RE.sub("\n\n", "\n".join(lines)).strip()
+
+
 def html_to_text(raw: str | None) -> str:
     if not raw:
         return ""
-    text = re.sub(r"<br\s*/?>|</p>|</li>|</div>|</h\d>", "\n", raw, flags=re.I)
+    text = re.sub(r"<br\s*/?>|</p>|</li>|</div>|</h\d>|</tr>", "\n", raw, flags=re.I)
     text = _TAG_RE.sub(" ", text)
-    text = html.unescape(text)
-    return _WS_RE.sub(" ", text).strip()
+    return tidy_lines(html.unescape(text))
 
 
 def markdown_to_text(raw: str | None) -> str:
     if not raw:
         return ""
-    text = re.sub(r"[*_`#>]+", " ", raw)
+    text = re.sub(r"\\([\\`*_{}\[\]()#+\-.!|])", r"\1", raw)   # 25\.000 \- 30\.000 -> 25.000 - 30.000
+    text = re.sub(r"[*_`#>]+", " ", text)
     text = re.sub(r"^\s*[-+]\s+", "", text, flags=re.M)
     text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
-    return _WS_RE.sub(" ", text).strip()
+    return tidy_lines(text)
 
 
 # Function words that are frequent in one language and rare in the other

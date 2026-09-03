@@ -6,6 +6,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from .config import DATA_DIR, load_config
+from .details import extract_details
 from .filters import JobFilter
 from .models import Job
 from .notify import mail_settings, send_email
@@ -73,6 +74,10 @@ def main(argv: list[str] | None = None) -> int:
             if state.duplicate_match(job):
                 continue
             job.score, job.modality, job.signals = verdict.score, verdict.modality, verdict.signals
+            job.workplace = verdict.workplace
+            job.details = extract_details(job.description)
+            if job.labels:
+                job.details["claves"]["etiqueta"] = ", ".join(job.labels)
             state.add_match(job)
             matches.append(job)
             st["accepted"] += 1

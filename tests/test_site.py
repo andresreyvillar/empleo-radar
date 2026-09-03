@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from radar.site import build_site
+from radar.text import markdown_to_text
 
 
 class SiteTests(unittest.TestCase):
@@ -21,6 +22,12 @@ class SiteTests(unittest.TestCase):
             self.assertNotIn("</script><b>", html.split('id="data"')[1].split("</script>")[0])
             payload = html.split('type="application/json">')[1].split("</script>")[0]
             self.assertEqual(json.loads(payload)["matches"][0]["company"], "ACME")
+
+
+class TextTests(unittest.TestCase):
+    def test_markdown_escapes_are_removed_and_lines_kept(self):
+        self.assertEqual(markdown_to_text("Banda salarial: 25\\.000 \\- 30\\.000 €\n\n\n\n**I\\+D\\+i**"),
+                         "Banda salarial: 25.000 - 30.000 €\n\nI+D+i")
 
 
 if __name__ == "__main__":

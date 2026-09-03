@@ -16,7 +16,8 @@ class State:
                 self.data = json.load(fh)
         else:
             self.data = {"seen": {}, "matches": []}
-        self._match_fps = {m.get("fingerprint") for m in self.data["matches"]}
+        # Recompute so that improvements to the fingerprint apply to stored matches too.
+        self._match_fps = {_fingerprint(m) for m in self.data["matches"]}
 
     def is_seen(self, job: Job) -> bool:
         return job.id in self.data["seen"]
@@ -53,6 +54,11 @@ class State:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         with open(self.path, "w", encoding="utf-8") as fh:
             json.dump(self.data, fh, ensure_ascii=False, indent=1)
+
+
+def _fingerprint(match: dict) -> str:
+    from .text import company_key, normalize
+    return f"{normalize(match.get('title'))}|{company_key(match.get('company'))}"
 
 
 def _now() -> str:
