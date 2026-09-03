@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 from .config import DATA_DIR, load_config
 from .details import extract_details
+from .feedback import Feedback
 from .filters import JobFilter
 from .models import Job
 from .notify import mail_settings, send_email
@@ -34,19 +35,21 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     load_dotenv()
     args = build_parser().parse_args(argv)
+    cfg = load_config(getattr(args, "config", None))
+    feedback = Feedback(DATA_DIR / "feedback.json")
     if args.command == "site":
-        print(f"Página generada: {build_site(State(DATA_DIR / 'seen.json').data)}")
+        print(f"Página generada: {build_site(State(DATA_DIR / 'seen.json').data, feedback.statuses, cfg.get('site'))}")
         return 0
-    cfg = load_config(args.config)
     lookback = args.since_hours or int(cfg["lookback_hours"])
     only = [s.strip() for s in args.sources.split(",")] if args.sources else None
     job_filter = JobFilter(cfg)
     state = State(DATA_DIR / "seen.json")
+    feedback.learn_fingerprints(state.data["matches"])
 
     matches: list[Job] = []
     stats: dict[str, dict] = {}
     for source in build_sources(cfg, lookback, only):
-        st = {"fetched": 0, "candidates": 0, "accepted": 0, "errors": []}
+        st = {"fetched": 0, "candidates": 0, "accepted": 0, "discarded": 0, "errors": []}
         print(f"→ {source.name}: buscando (últimas {lookback}h)…", flush=True)
         try:
             jobs = source.search()
@@ -73,6 +76,12 @@ def main(argv: list[str] | None = None) -> int:
                 continue
             if state.duplicate_match(job):
                 continue
+            if feedback.is_discarded(job):          # Laura discarded it (or its twin) on the page
+                state.mark(job, False, "discarded-by-user")
+                st["discarded"] += 1
+                if args.verbose:
+                    print(f"   ⊘ {job.title} — {job.company} → descartada previamente en la web")
+                continue
             job.score, job.modality, job.signals = verdict.score, verdict.modality, verdict.signals
             job.workplace = verdict.workplace
             job.details = extract_details(job.description)
@@ -84,6 +93,7 @@ def main(argv: list[str] | None = None) -> int:
         st["errors"].extend(source.errors)
         stats[source.name] = st
         print(f"   {st['fetched']} leídas · {st['candidates']} candidatas · {st['accepted']} aceptadas"
+              + (f" · {st['discarded']} descartadas por Laura" if st["discarded"] else "")
               + (f" · {len(st['errors'])} errores" if st["errors"] else ""), flush=True)
         for err in st["errors"]:
             print(f"   ! {err}")
@@ -102,18 +112,29 @@ def main(argv: list[str] | None = None) -> int:
         print("\n(dry-run: sin email y sin cambios en data/seen.json)")
         return 0
 
-    if matches and not args.no_mail:
+    # Matches that earlier runs could not email (SMTP down / not configured) ride along.
+    pending = state.pending_email(feedback.discarded_ids)
+    digest = pending + matches
+    mail_error = ""
+    if digest and not args.no_mail:
         settings = mail_settings()
-        if settings:
-            send_email(subject(matches, now), render_text(matches, stats, now),
-                       render_html(matches, stats, now), settings)
-            print(f"\nEmail enviado a {', '.join(settings['recipients'])}")
+        if not settings:
+            print("\nAviso: SMTP_USER / SMTP_PASS / MAIL_TO no configurados; el envío queda pendiente.")
         else:
-            print("\nAviso: SMTP_USER / SMTP_PASS / MAIL_TO no configurados; no se envía email.")
+            try:
+                send_email(subject(digest, now), render_text(digest, stats, now),
+                           render_html(digest, stats, now), settings)
+                print(f"\nEmail enviado a {', '.join(settings['recipients'])} con {len(digest)} ofertas"
+                      + (f" ({len(pending)} pendientes de envíos anteriores)" if pending else ""))
+                digest = []
+            except Exception as exc:  # keep the state, retry the email next run
+                mail_error = f"{type(exc).__name__}: {exc}"
+                print(f"\nError enviando el email, se reintentará en la próxima ejecución: {mail_error}")
+    state.set_pending_email([job.id for job in digest] if not args.no_mail else [])
     state.set_last_run(stats)
     state.save()
-    print(f"Página generada: {build_site(state.data)}")
-    return 0
+    print(f"Página generada: {build_site(state.data, feedback.statuses, cfg.get('site'))}")
+    return 1 if mail_error else 0
 
 
 if __name__ == "__main__":

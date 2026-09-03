@@ -52,12 +52,23 @@ summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
 .btn.active{background:var(--text);color:var(--bg);border-color:var(--text)}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
 footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--muted)}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:12px}
+.toolbar .btn:disabled{opacity:.6;cursor:default}
+.runstatus{font-size:13px;color:var(--muted)}
+.tokenlink{font-size:12px;color:var(--muted);text-decoration:underline;cursor:pointer;margin-left:auto}
+.syncstatus{font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
 <header>
   <h1>Radar de empleo · Project Manager</h1>
   <div class="sub" id="updated"></div>
+  <div class="toolbar">
+    <button id="runBtn" class="btn primary" type="button">Ejecutar búsqueda ahora</button>
+    <span id="runStatus" class="runstatus"></span>
+    <span id="syncStatus" class="syncstatus"></span>
+    <a id="tokenLink" class="tokenlink">Configurar token de GitHub</a>
+  </div>
 </header>
 <div class="filters"><div class="row">
   <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…">
@@ -92,7 +103,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   <div id="list"></div>
 </main>
 <footer id="footer"></footer>
-<script id="data" type="application/json">{"generated_at": "2026-09-03T14:32:57+00:00", "last_run": {"at": "2026-09-03T14:31:15+00:00", "stats": {"linkedin": {"fetched": 147, "candidates": 62, "accepted": 4, "errors": []}, "indeed": {"fetched": 132, "candidates": 7, "accepted": 1, "errors": []}, "tecnoempleo": {"fetched": 134, "candidates": 1, "accepted": 0, "errors": []}}}, "matches": [{"id": "linkedin:4460367476", "source": "linkedin", "title": "Project Manager automoción", "company": "Exact x Forestall Group", "location": "Pamplona/Iruña", "url": "https://www.linkedin.com/jobs/view/4460367476", "description": "¡Buscamos Project Manager para unirse a Exact x Forestall!\n¿Te apasiona liderar proyectos, coordinar equipos y trabajar de la mano con clientes para alcanzar resultados excelentes? Si buscas un nuevo reto profesional en el sector de los servicios industriales , esta puede ser tu oportunidad.\n📍 ¿Cuál será tu misión?\nSerás responsable de la planificación, coordinación, ejecución y seguimiento de pro", "posted": "2026-08-28", "remote_flag": true, "labels": [], "score": 34, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Gestión operativa", "-Componente IT", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en gestión de proyectos, preferiblemente en entornos industriales.", "Capacidad de liderazgo y coordinación de equipos.", "Orientación al cliente y excelentes habilidades de comunicación.", "Capacidad analítica y de resolución de problemas.", "Organización, planificación y orientación a resultados.", "Proactividad y compromiso con la mejora continua."], "ofrecen": ["Formar parte de un proyecto sólido y en crecimiento.", "Participar en proyectos industriales de alto impacto.", "Un entorno dinámico donde podrás desarrollar tu carrera profesional.", "Autonomía, responsabilidad y oportunidades de crecimiento."], "claves": {"horario": "Tipo de empleo: Jornada completa"}}, "fingerprint": "project manager automocion|exact x forestall", "notified_at": "2026-09-03T14:29:36+00:00"}, {"id": "linkedin:4462816019", "source": "linkedin", "title": "Técnico Gestión de Proyectos", "company": "Talengo", "location": "Madrid", "url": "https://www.linkedin.com/jobs/view/4462816019", "description": "Talengo es una firma independiente de expertos en liderazgo. Ayudamos a nuestros clientes a encontrar a los profesionales que lideren la transformación de sus negocios para asumir los retos de un mundo globalizado. Identificamos el talento dentro de la organización construyendo el mapa de talento y riesgos organizativos.\nPreparamos a los líderes para asumir retos actuales y futuros, y facilitamos ", "posted": "2026-09-03", "remote_flag": true, "labels": [], "score": 63, "modality": "remoto", "workplace": "remoto", "signals": ["+Stakeholders", "+Gestión operativa", "+Sector tecnológico"], "details": {"requisitos": ["Formación", "Formación superior en Psicología, Sociología, Psicopedagogía y carreras similares.", "También se considerarán perfiles de otras ramas que cuenten con formación complementaría en el ámbito de los Recursos Humanos.", "Además, se valorará positivamente conocimientos y formación relacionada con gestión de proyectos.", "Experiencia", "Experiencia de más de 3 años en posiciones relacionadas con la gestión de proyectos, preferiblemente en consultoría o servicios profesionales.", "Habituado/a al trato con clientes y a la gestión de interlocutores internos y externos.", "Dominio del paquete Microsoft Office, especialmente Excel, Outlook y PowerPoint.", "Manejo de herramientas de diseño con IA (Gamma, Canva entre otras).", "Idiomas: español e inglés (valorables otros idiomas)"], "ofrecen": ["Posibilidad de incorporarse a un equipo multidisciplinar de expertos en liderazgo", "Un entorno cultural dinámico que permite un desarrollo polivalente", "Aprendizaje continuo", "Modelo de trabajo flexible: teletrabajo y jornada intensiva en verano", "Seguro médico", "Condiciones salariales a valorar en función del perfil", "Nivel: Sin experiencia", "Tipo de empleo: Jornada completa", "Sector: Consultoría y servicios a empresas"], "claves": {"horario": "Modelo de trabajo flexible: teletrabajo y jornada intensiva en verano", "experiencia": "Experiencia de más de 3 años en posiciones relacionadas con la gestión de proyectos, preferiblemente en consultoría o servicios profesionales."}}, "fingerprint": "tecnico gestion de proyectos|talengo", "notified_at": "2026-09-03T14:30:23+00:00"}, {"id": "linkedin:4458074883", "source": "linkedin", "title": "PMO", "company": "Capitole", "location": "Barcelona y alrededores", "url": "https://www.linkedin.com/jobs/view/4458074883", "description": "🔹 Oportunidad en Capitole – PMO 🔹\n\nBuscamos incorporar un/a PMO proactivo/a y altamente organizado/a para unirse al equipo de Transformación. Brindarás coordinación de alta calidad y soporte ejecutivo, manteniendo el impulso en acciones y prioridades, y transformando los datos del programa en información clara para la toma de decisiones. Te comunicarás con confianza con stakeholders senior y mante", "posted": "2026-08-28", "remote_flag": true, "labels": [], "score": 52, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Agile", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Senior", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en uso de herramientas de automatización como Power Automate o agentes de IA."], "ofrecen": ["1.200€ al año en formación", "Seguro médico privado gratuito", "Retribución flexible en transporte, guardería y tickets restaurante", "Acceso a +10K gimnasios por toda España en Wellhub (Gymforless)", "Eventos, team buildings y afterworks cada dos meses", "Patrocinamos nuestro equipo de fútbol si te animas a jugar", "Comunidades tecnológicas inTernas para compartir y crecer juntos", "Sabemos lo importante que es informarte de la empresa, cultura y opiniones de otros profesionales del sector. Por esto, te invitamos a investigar sobre nosotros en:", "¿Quieres saber más? Haz clic here 🖱️ y descubre todos los detalles.", "Descubre lo que dicen sobre nosotros en Glassdoor Reviews 🕵️ ♀️", "¿Te gustaría conocer más sobre nuestra cultura? Mira este video 👉 YouTube", "¿Te animas a este gran reto y equipo? 🚀"], "claves": {"horario": "Tipo de empleo: Jornada completa", "experiencia": "Mínimo 3 años de experiencia en análisis PMO, coordinación o soporte a programas en entornos complejos."}}, "fingerprint": "pmo|capitole", "notified_at": "2026-09-03T14:30:37+00:00"}, {"id": "linkedin:4459527477", "source": "linkedin", "title": "Senior Project Manager", "company": "Indra Group", "location": "Comunidad de Madrid, España", "url": "https://www.linkedin.com/jobs/view/4459527477", "description": "⚡ Especialista Project Manager y Gestión de Proyectos (Sector Defensa e Industria)\nBuscamos un/a Especialista PMO / Project Management Office para incorporarse a proyectos tecnológicos de alta complejidad en el ámbito industrial y de Defensa, participando en el seguimiento, control y coordinación de proyectos estratégicos, garantizando el cumplimiento de alcance, planificación, costes, riesgos y c", "posted": "2026-09-01", "remote_flag": true, "labels": [], "score": 52, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Herramientas PM", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Senior", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en gestión y control de proyectos.", "Experiencia en tareas de PMO, reporting y seguimiento de actividades.", "Conocimiento de metodologías de gestión de proyectos.", "Experiencia en elaboración de cuadros de mando e indicadores.", "Manejo de MS Project y/o Primavera.", "Dominio de herramientas colaborativas (Teams, SharePoint, Jira, Trello).", "Capacidad analítica y orientación a resultados.", "Alta autonomía y capacidad de organización.", "Excelentes habilidades de comunicación escrita y verbal.", "Valorable experiencia en entornos industriales, ingeniería o Defensa.", "Valorable conocimiento de normativas nacionales de Defensa y gestión con proveedores industriales."], "ofrecen": ["Estabilidad y Proyección", "Participarás en proyectos estratégicos dentro de una organización sólida y en crecimiento.", "Proyectos de Alto Impacto", "Formarás parte de programas tecnológicos e industriales con gran relevancia estratégica.", "Entorno Colaborativo", "Trabajarás junto a equipos multidisciplinares fomentando la mejora continua y la excelencia operativa.", "Autonomía y Responsabilidad", "Tendrás un papel clave en el seguimiento y control de proyectos, aportando visibilidad y soporte a la toma de decisiones.", "Desarrollo Profesional", "Plan de carrera adaptado a tu perfil con oportunidades de crecimiento en PMO, Project Management y gestión de programas.", "Formación Continua", "Acceso a formación especializada en gestión de proyectos, metodologías, herramientas y procesos."], "claves": {"horario": "Tipo de empleo: Jornada completa", "experiencia": "Experiencia mínima de 2 años en gestión y seguimiento de proyectos."}}, "fingerprint": "senior project manager|indra", "notified_at": "2026-09-03T14:31:02+00:00"}, {"id": "indeed:f4b4da64c3b3a2a7", "source": "indeed", "title": "JP / PMO – Proyectos Sector Energía", "company": "Azertium IT Global Services SL", "location": "Madrid, MD, ES", "url": "https://es.indeed.com/viewjob?jk=f4b4da64c3b3a2a7", "description": "¡Estamos ampliando el equipo! ¡En Azertium IT te buscamos! Nos urge incorporar 2 perfiles de Project Manager / PMO con al menos 2-3 años de experiencia en el puesto y sector IT, para formar parte de nuestro equipo con grandes retos, trayectoria y crecimiento profesional.\n\nModalidad de trabajo: remoto con algún día puntual en oficina en Madrid centro.\n\nLa persona seleccionada dará soporte a la gest", "posted": "2026-01-02", "remote_flag": false, "labels": [], "score": 48, "modality": "remoto", "workplace": "remoto", "signals": ["+Gestión operativa", "-Sector industrial / obra / ingeniería"], "details": {"requisitos": ["Experiencia previa como PMO o Project Manager.", "Conocimiento del sector energético.", "Capacidad organizativa, comunicación fluida y trabajo en equipo.", "Disponibilidad para incorporación inmediata.", "Residencia en Madrid para acudir a oficina."], "ofrecen": ["Proyecto estable y de larga duración.", "Modalidad remoto.", "Buen entorno de trabajo y desarrollo profesional.", "Condiciones salariales acordes a la experiencia."], "claves": {"modalidad": "Modalidad de trabajo: remoto con algún día puntual en oficina en Madrid centro."}}, "fingerprint": "jp / pmo – proyectos sector energia|azertium it global services", "notified_at": "2026-09-03T14:31:14+00:00"}]}</script>
+<script id="data" type="application/json">{"generated_at": "2026-09-03T23:53:07+00:00", "repo": "andresreyvillar/empleo-radar", "workflow": "radar.yml", "feedback": {}, "last_run": {"at": "2026-09-03T14:31:15+00:00", "stats": {"linkedin": {"fetched": 147, "candidates": 62, "accepted": 4, "errors": []}, "indeed": {"fetched": 132, "candidates": 7, "accepted": 1, "errors": []}, "tecnoempleo": {"fetched": 134, "candidates": 1, "accepted": 0, "errors": []}}}, "matches": [{"id": "linkedin:4460367476", "source": "linkedin", "title": "Project Manager automoción", "company": "Exact x Forestall Group", "location": "Pamplona/Iruña", "url": "https://www.linkedin.com/jobs/view/4460367476", "description": "¡Buscamos Project Manager para unirse a Exact x Forestall!\n¿Te apasiona liderar proyectos, coordinar equipos y trabajar de la mano con clientes para alcanzar resultados excelentes? Si buscas un nuevo reto profesional en el sector de los servicios industriales , esta puede ser tu oportunidad.\n📍 ¿Cuál será tu misión?\nSerás responsable de la planificación, coordinación, ejecución y seguimiento de pro", "posted": "2026-08-28", "remote_flag": true, "labels": [], "score": 34, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Gestión operativa", "-Componente IT", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en gestión de proyectos, preferiblemente en entornos industriales.", "Capacidad de liderazgo y coordinación de equipos.", "Orientación al cliente y excelentes habilidades de comunicación.", "Capacidad analítica y de resolución de problemas.", "Organización, planificación y orientación a resultados.", "Proactividad y compromiso con la mejora continua."], "ofrecen": ["Formar parte de un proyecto sólido y en crecimiento.", "Participar en proyectos industriales de alto impacto.", "Un entorno dinámico donde podrás desarrollar tu carrera profesional.", "Autonomía, responsabilidad y oportunidades de crecimiento."], "claves": {"horario": "Tipo de empleo: Jornada completa"}}, "fingerprint": "project manager automocion|exact x forestall", "notified_at": "2026-09-03T14:29:36+00:00"}, {"id": "linkedin:4462816019", "source": "linkedin", "title": "Técnico Gestión de Proyectos", "company": "Talengo", "location": "Madrid", "url": "https://www.linkedin.com/jobs/view/4462816019", "description": "Talengo es una firma independiente de expertos en liderazgo. Ayudamos a nuestros clientes a encontrar a los profesionales que lideren la transformación de sus negocios para asumir los retos de un mundo globalizado. Identificamos el talento dentro de la organización construyendo el mapa de talento y riesgos organizativos.\nPreparamos a los líderes para asumir retos actuales y futuros, y facilitamos ", "posted": "2026-09-03", "remote_flag": true, "labels": [], "score": 63, "modality": "remoto", "workplace": "remoto", "signals": ["+Stakeholders", "+Gestión operativa", "+Sector tecnológico"], "details": {"requisitos": ["Formación", "Formación superior en Psicología, Sociología, Psicopedagogía y carreras similares.", "También se considerarán perfiles de otras ramas que cuenten con formación complementaría en el ámbito de los Recursos Humanos.", "Además, se valorará positivamente conocimientos y formación relacionada con gestión de proyectos.", "Experiencia", "Experiencia de más de 3 años en posiciones relacionadas con la gestión de proyectos, preferiblemente en consultoría o servicios profesionales.", "Habituado/a al trato con clientes y a la gestión de interlocutores internos y externos.", "Dominio del paquete Microsoft Office, especialmente Excel, Outlook y PowerPoint.", "Manejo de herramientas de diseño con IA (Gamma, Canva entre otras).", "Idiomas: español e inglés (valorables otros idiomas)"], "ofrecen": ["Posibilidad de incorporarse a un equipo multidisciplinar de expertos en liderazgo", "Un entorno cultural dinámico que permite un desarrollo polivalente", "Aprendizaje continuo", "Modelo de trabajo flexible: teletrabajo y jornada intensiva en verano", "Seguro médico", "Condiciones salariales a valorar en función del perfil", "Nivel: Sin experiencia", "Tipo de empleo: Jornada completa", "Sector: Consultoría y servicios a empresas"], "claves": {"horario": "Modelo de trabajo flexible: teletrabajo y jornada intensiva en verano", "experiencia": "Experiencia de más de 3 años en posiciones relacionadas con la gestión de proyectos, preferiblemente en consultoría o servicios profesionales."}}, "fingerprint": "tecnico gestion de proyectos|talengo", "notified_at": "2026-09-03T14:30:23+00:00"}, {"id": "linkedin:4458074883", "source": "linkedin", "title": "PMO", "company": "Capitole", "location": "Barcelona y alrededores", "url": "https://www.linkedin.com/jobs/view/4458074883", "description": "🔹 Oportunidad en Capitole – PMO 🔹\n\nBuscamos incorporar un/a PMO proactivo/a y altamente organizado/a para unirse al equipo de Transformación. Brindarás coordinación de alta calidad y soporte ejecutivo, manteniendo el impulso en acciones y prioridades, y transformando los datos del programa en información clara para la toma de decisiones. Te comunicarás con confianza con stakeholders senior y mante", "posted": "2026-08-28", "remote_flag": true, "labels": [], "score": 52, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Agile", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Senior", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en uso de herramientas de automatización como Power Automate o agentes de IA."], "ofrecen": ["1.200€ al año en formación", "Seguro médico privado gratuito", "Retribución flexible en transporte, guardería y tickets restaurante", "Acceso a +10K gimnasios por toda España en Wellhub (Gymforless)", "Eventos, team buildings y afterworks cada dos meses", "Patrocinamos nuestro equipo de fútbol si te animas a jugar", "Comunidades tecnológicas inTernas para compartir y crecer juntos", "Sabemos lo importante que es informarte de la empresa, cultura y opiniones de otros profesionales del sector. Por esto, te invitamos a investigar sobre nosotros en:", "¿Quieres saber más? Haz clic here 🖱️ y descubre todos los detalles.", "Descubre lo que dicen sobre nosotros en Glassdoor Reviews 🕵️ ♀️", "¿Te gustaría conocer más sobre nuestra cultura? Mira este video 👉 YouTube", "¿Te animas a este gran reto y equipo? 🚀"], "claves": {"horario": "Tipo de empleo: Jornada completa", "experiencia": "Mínimo 3 años de experiencia en análisis PMO, coordinación o soporte a programas en entornos complejos."}}, "fingerprint": "pmo|capitole", "notified_at": "2026-09-03T14:30:37+00:00"}, {"id": "linkedin:4459527477", "source": "linkedin", "title": "Senior Project Manager", "company": "Indra Group", "location": "Comunidad de Madrid, España", "url": "https://www.linkedin.com/jobs/view/4459527477", "description": "⚡ Especialista Project Manager y Gestión de Proyectos (Sector Defensa e Industria)\nBuscamos un/a Especialista PMO / Project Management Office para incorporarse a proyectos tecnológicos de alta complejidad en el ámbito industrial y de Defensa, participando en el seguimiento, control y coordinación de proyectos estratégicos, garantizando el cumplimiento de alcance, planificación, costes, riesgos y c", "posted": "2026-09-01", "remote_flag": true, "labels": [], "score": 52, "modality": "remoto", "workplace": "sin confirmar", "signals": ["+Herramientas PM", "+Stakeholders", "+Encaja con perfil admin", "+Gestión operativa", "+Sector tecnológico", "-Senior", "-Sector industrial / obra / ingeniería", "-Remoto solo según el portal, sin confirmar en el texto"], "details": {"requisitos": ["Experiencia en gestión y control de proyectos.", "Experiencia en tareas de PMO, reporting y seguimiento de actividades.", "Conocimiento de metodologías de gestión de proyectos.", "Experiencia en elaboración de cuadros de mando e indicadores.", "Manejo de MS Project y/o Primavera.", "Dominio de herramientas colaborativas (Teams, SharePoint, Jira, Trello).", "Capacidad analítica y orientación a resultados.", "Alta autonomía y capacidad de organización.", "Excelentes habilidades de comunicación escrita y verbal.", "Valorable experiencia en entornos industriales, ingeniería o Defensa.", "Valorable conocimiento de normativas nacionales de Defensa y gestión con proveedores industriales."], "ofrecen": ["Estabilidad y Proyección", "Participarás en proyectos estratégicos dentro de una organización sólida y en crecimiento.", "Proyectos de Alto Impacto", "Formarás parte de programas tecnológicos e industriales con gran relevancia estratégica.", "Entorno Colaborativo", "Trabajarás junto a equipos multidisciplinares fomentando la mejora continua y la excelencia operativa.", "Autonomía y Responsabilidad", "Tendrás un papel clave en el seguimiento y control de proyectos, aportando visibilidad y soporte a la toma de decisiones.", "Desarrollo Profesional", "Plan de carrera adaptado a tu perfil con oportunidades de crecimiento en PMO, Project Management y gestión de programas.", "Formación Continua", "Acceso a formación especializada en gestión de proyectos, metodologías, herramientas y procesos."], "claves": {"horario": "Tipo de empleo: Jornada completa", "experiencia": "Experiencia mínima de 2 años en gestión y seguimiento de proyectos."}}, "fingerprint": "senior project manager|indra", "notified_at": "2026-09-03T14:31:02+00:00"}, {"id": "indeed:f4b4da64c3b3a2a7", "source": "indeed", "title": "JP / PMO – Proyectos Sector Energía", "company": "Azertium IT Global Services SL", "location": "Madrid, MD, ES", "url": "https://es.indeed.com/viewjob?jk=f4b4da64c3b3a2a7", "description": "¡Estamos ampliando el equipo! ¡En Azertium IT te buscamos! Nos urge incorporar 2 perfiles de Project Manager / PMO con al menos 2-3 años de experiencia en el puesto y sector IT, para formar parte de nuestro equipo con grandes retos, trayectoria y crecimiento profesional.\n\nModalidad de trabajo: remoto con algún día puntual en oficina en Madrid centro.\n\nLa persona seleccionada dará soporte a la gest", "posted": "2026-01-02", "remote_flag": false, "labels": [], "score": 48, "modality": "remoto", "workplace": "remoto", "signals": ["+Gestión operativa", "-Sector industrial / obra / ingeniería"], "details": {"requisitos": ["Experiencia previa como PMO o Project Manager.", "Conocimiento del sector energético.", "Capacidad organizativa, comunicación fluida y trabajo en equipo.", "Disponibilidad para incorporación inmediata.", "Residencia en Madrid para acudir a oficina."], "ofrecen": ["Proyecto estable y de larga duración.", "Modalidad remoto.", "Buen entorno de trabajo y desarrollo profesional.", "Condiciones salariales acordes a la experiencia."], "claves": {"modalidad": "Modalidad de trabajo: remoto con algún día puntual en oficina en Madrid centro."}}, "fingerprint": "jp / pmo – proyectos sector energia|azertium it global services", "notified_at": "2026-09-03T14:31:14+00:00"}]}</script>
 <script>
 (function () {
   const data = JSON.parse(document.getElementById('data').textContent);
@@ -103,6 +114,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const KEY = 'empleo-radar-status';
   let statuses = {};
   try { statuses = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { statuses = {}; }
+  statuses = Object.assign({}, data.feedback || {}, statuses);
   const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(statuses)); } catch (e) { /* private mode */ } };
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -195,12 +207,143 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     if (statuses[id] === s) delete statuses[id]; else statuses[id] = s;
     persist();
     render();
+    syncStatus(id, statuses[id] || null);
   });
+
+  // ---- GitHub integration: run the search and share statuses through the repo ----------
+  const REPO = data.repo;
+  const WORKFLOW = data.workflow || 'radar.yml';
+  const TOKEN_KEY = 'empleo-radar-token';
+  let token = '';
+  try { token = localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { token = ''; }
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const setRun = (msg) => { $('runStatus').textContent = msg; };
+  const setSync = (msg) => { $('syncStatus').textContent = msg; };
+  const b64 = (str) => btoa(unescape(encodeURIComponent(str)));
+  const unb64 = (str) => decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
+
+  function updateTokenLink() {
+    $('tokenLink').textContent = token ? 'Token de GitHub configurado · cambiar' : 'Configurar token de GitHub';
+  }
+  function askToken() {
+    const t = prompt('Pega un token de GitHub (fine-grained) limitado al repositorio ' + REPO +
+      ' con permisos Actions: lectura y escritura, y Contents: lectura y escritura.\n' +
+      'Se guarda solo en este navegador. Deja vacío para borrarlo.', token);
+    if (t === null) return false;
+    token = t.trim();
+    try { token ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (e) { /* private mode */ }
+    updateTokenLink();
+    return !!token;
+  }
+  async function gh(path, init) {
+    init = init || {};
+    const r = await fetch('https://api.github.com/repos/' + REPO + path, Object.assign({}, init, {
+      headers: Object.assign({ Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28' }, init.headers || {}),
+    }));
+    if (!r.ok) throw new Error('GitHub ' + r.status + ': ' + (await r.text()).slice(0, 140));
+    return r.status === 204 ? null : r.json();
+  }
+
+  async function runSearch() {
+    if (!REPO) { setRun('Falta site.github_repo en config.yaml.'); return; }
+    if (!token && !askToken()) return;
+    const btn = $('runBtn');
+    btn.disabled = true;
+    setRun('Lanzando la búsqueda en GitHub…');
+    const startedAt = Date.now() - 60000;
+    try {
+      await gh('/actions/workflows/' + WORKFLOW + '/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: {} }) });
+    } catch (e) {
+      setRun('No se pudo lanzar: ' + e.message + ' Revisa el token (permiso Actions).');
+      btn.disabled = false;
+      return;
+    }
+    let run = null;
+    for (let i = 0; i < 12 && !run; i++) {
+      await sleep(5000);
+      try {
+        const d = await gh('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=1');
+        const r = d.workflow_runs && d.workflow_runs[0];
+        if (r && new Date(r.created_at).getTime() >= startedAt) run = r;
+      } catch (e) { /* retry */ }
+    }
+    if (!run) {
+      setRun('La búsqueda se lanzó pero no encuentro la ejecución. Consulta la pestaña Actions de GitHub.');
+      btn.disabled = false;
+      return;
+    }
+    const t0 = Date.now();
+    while (run.status !== 'completed' && Date.now() - t0 < 15 * 60000) {
+      const mins = Math.round((Date.now() - t0) / 60000);
+      setRun('Buscando en LinkedIn, Indeed y Tecnoempleo… (' + (mins ? mins + ' min' : 'iniciando') + '). Suele tardar 3-4 minutos.');
+      await sleep(10000);
+      try { run = await gh('/actions/runs/' + run.id); } catch (e) { /* retry */ }
+    }
+    if (run.status !== 'completed') { setRun('La búsqueda sigue en marcha en GitHub; recarga la página más tarde.'); btn.disabled = false; return; }
+    setRun(run.conclusion === 'success'
+      ? 'Búsqueda terminada. Esperando a que se publique la página…'
+      : 'Búsqueda terminada con avisos (probablemente el correo). Esperando a que se publique la página…');
+    for (let i = 0; i < 30; i++) {
+      await sleep(10000);
+      try {
+        const html = await (await fetch(location.pathname + '?t=' + Date.now(), { cache: 'no-store' })).text();
+        const m = html.match(/type="application\/json">(.*?)<\/script>/s);
+        if (m && JSON.parse(m[1]).generated_at > data.generated_at) { location.reload(); return; }
+      } catch (e) { /* retry */ }
+    }
+    setRun('La búsqueda terminó pero la página aún no se ha publicado. Recarga en un minuto.');
+    btn.disabled = false;
+  }
+
+  let syncChain = Promise.resolve();
+  function syncStatus(id, status) {
+    if (!token || !REPO) return;
+    syncChain = syncChain.then(() => pushStatus(id, status)).catch(() => {});
+  }
+  async function pushStatus(id, status) {
+    setSync('Guardando en el repositorio…');
+    try {
+      let sha = null, server = {};
+      try {
+        const f = await gh('/contents/data/feedback.json?ref=main');
+        sha = f.sha;
+        server = (JSON.parse(unb64(f.content)).statuses) || {};
+      } catch (e) { if (!/GitHub 404/.test(e.message)) throw e; }
+      if (status) server[id] = status; else delete server[id];
+      statuses = Object.assign({}, server);   // the repo is the shared truth once synced
+      persist();
+      render();
+      const body = { message: 'Update offer statuses from the page', branch: 'main',
+        content: b64(JSON.stringify({ statuses: server, updated_at: new Date().toISOString() }, null, 1) + '\n') };
+      if (sha) body.sha = sha;
+      await gh('/contents/data/feedback.json', { method: 'PUT', body: JSON.stringify(body) });
+      setSync('Estados guardados en el repositorio ✓');
+    } catch (e) {
+      setSync('No se pudo guardar en el repositorio: ' + e.message);
+    }
+  }
+  async function loadSharedStatuses() {
+    if (!REPO) return;
+    try {
+      const r = await fetch('https://raw.githubusercontent.com/' + REPO + '/main/data/feedback.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) return;
+      const server = (await r.json()).statuses || {};
+      statuses = Object.assign({}, server, statuses);
+      persist();
+      render();
+    } catch (e) { /* offline or file:// — keep local/embedded statuses */ }
+  }
+
+  $('runBtn').addEventListener('click', runSearch);
+  $('tokenLink').addEventListener('click', (e) => { e.preventDefault(); askToken(); });
+  updateTokenLink();
+  loadSharedStatuses();
   ['q', 'source', 'modality', 'days', 'status', 'score'].forEach((id) => $(id).addEventListener('input', render));
 
   const gen = new Date(data.generated_at);
   $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
-    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo; el estado de cada oferta se guarda en este navegador.';
+    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo. Las marcas de guardada, aplicada o descartada se guardan en este navegador y, con el token configurado, se comparten a través del repositorio.';
   if (data.last_run && data.last_run.stats) {
     $('footer').textContent = 'Última búsqueda: ' + Object.entries(data.last_run.stats)
       .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))

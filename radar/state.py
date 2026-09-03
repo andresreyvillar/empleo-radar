@@ -41,6 +41,16 @@ class State:
         self.data["matches"].append(entry)
         self._match_fps.add(job.fingerprint)
 
+    def pending_email(self, exclude_ids: set[str] = frozenset()) -> list[Job]:
+        """Matches recorded in earlier runs whose email never went out."""
+        wanted = [i for i in self.data.get("pending_email", []) if i not in exclude_ids]
+        by_id = {m["id"]: m for m in self.data["matches"]}
+        fields = Job.__dataclass_fields__
+        return [Job(**{k: v for k, v in by_id[i].items() if k in fields}) for i in wanted if i in by_id]
+
+    def set_pending_email(self, ids: list[str]) -> None:
+        self.data["pending_email"] = ids
+
     def set_last_run(self, stats: dict) -> None:
         self.data["last_run"] = {"at": _now(), "stats": stats}
 

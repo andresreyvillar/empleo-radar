@@ -49,7 +49,9 @@ jobs:
         run: python -m radar run $DRY_RUN $SINCE
 
       - name: Persist state
-        if: ${{ !inputs.dry_run }}
+        # Runs even if the radar step failed (e.g. SMTP error): the state and the page are
+        # written before the step exits, and the email is retried on the next run.
+        if: ${{ !cancelled() && !inputs.dry_run }}
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
@@ -58,5 +60,6 @@ jobs:
             echo "No state changes."
           else
             git commit -m "chore: update radar state"
+            git pull --rebase origin main   # the page may have committed data/feedback.json meanwhile
             git push
           fi

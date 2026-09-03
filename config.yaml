@@ -11,6 +11,10 @@ queries:
   - coordinador de proyectos
   - pmo
 
+site:
+  github_repo: andresreyvillar/empleo-radar   # used by the page's "run search" button and status sync
+  workflow_file: radar.yml
+
 scopes:
   remote_spain: true   # 100% remote positions anywhere in Spain
   galicia: true        # any modality (on-site, hybrid, remote) inside Galicia

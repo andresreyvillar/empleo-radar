@@ -52,12 +52,23 @@ summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
 .btn.active{background:var(--text);color:var(--bg);border-color:var(--text)}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
 footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--muted)}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:12px}
+.toolbar .btn:disabled{opacity:.6;cursor:default}
+.runstatus{font-size:13px;color:var(--muted)}
+.tokenlink{font-size:12px;color:var(--muted);text-decoration:underline;cursor:pointer;margin-left:auto}
+.syncstatus{font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
 <header>
   <h1>Radar de empleo · Project Manager</h1>
   <div class="sub" id="updated"></div>
+  <div class="toolbar">
+    <button id="runBtn" class="btn primary" type="button">Ejecutar búsqueda ahora</button>
+    <span id="runStatus" class="runstatus"></span>
+    <span id="syncStatus" class="syncstatus"></span>
+    <a id="tokenLink" class="tokenlink">Configurar token de GitHub</a>
+  </div>
 </header>
 <div class="filters"><div class="row">
   <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…">
@@ -103,6 +114,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const KEY = 'empleo-radar-status';
   let statuses = {};
   try { statuses = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { statuses = {}; }
+  statuses = Object.assign({}, data.feedback || {}, statuses);
   const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(statuses)); } catch (e) { /* private mode */ } };
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -195,12 +207,143 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     if (statuses[id] === s) delete statuses[id]; else statuses[id] = s;
     persist();
     render();
+    syncStatus(id, statuses[id] || null);
   });
+
+  // ---- GitHub integration: run the search and share statuses through the repo ----------
+  const REPO = data.repo;
+  const WORKFLOW = data.workflow || 'radar.yml';
+  const TOKEN_KEY = 'empleo-radar-token';
+  let token = '';
+  try { token = localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { token = ''; }
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const setRun = (msg) => { $('runStatus').textContent = msg; };
+  const setSync = (msg) => { $('syncStatus').textContent = msg; };
+  const b64 = (str) => btoa(unescape(encodeURIComponent(str)));
+  const unb64 = (str) => decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
+
+  function updateTokenLink() {
+    $('tokenLink').textContent = token ? 'Token de GitHub configurado · cambiar' : 'Configurar token de GitHub';
+  }
+  function askToken() {
+    const t = prompt('Pega un token de GitHub (fine-grained) limitado al repositorio ' + REPO +
+      ' con permisos Actions: lectura y escritura, y Contents: lectura y escritura.\n' +
+      'Se guarda solo en este navegador. Deja vacío para borrarlo.', token);
+    if (t === null) return false;
+    token = t.trim();
+    try { token ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (e) { /* private mode */ }
+    updateTokenLink();
+    return !!token;
+  }
+  async function gh(path, init) {
+    init = init || {};
+    const r = await fetch('https://api.github.com/repos/' + REPO + path, Object.assign({}, init, {
+      headers: Object.assign({ Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28' }, init.headers || {}),
+    }));
+    if (!r.ok) throw new Error('GitHub ' + r.status + ': ' + (await r.text()).slice(0, 140));
+    return r.status === 204 ? null : r.json();
+  }
+
+  async function runSearch() {
+    if (!REPO) { setRun('Falta site.github_repo en config.yaml.'); return; }
+    if (!token && !askToken()) return;
+    const btn = $('runBtn');
+    btn.disabled = true;
+    setRun('Lanzando la búsqueda en GitHub…');
+    const startedAt = Date.now() - 60000;
+    try {
+      await gh('/actions/workflows/' + WORKFLOW + '/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: {} }) });
+    } catch (e) {
+      setRun('No se pudo lanzar: ' + e.message + ' Revisa el token (permiso Actions).');
+      btn.disabled = false;
+      return;
+    }
+    let run = null;
+    for (let i = 0; i < 12 && !run; i++) {
+      await sleep(5000);
+      try {
+        const d = await gh('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=1');
+        const r = d.workflow_runs && d.workflow_runs[0];
+        if (r && new Date(r.created_at).getTime() >= startedAt) run = r;
+      } catch (e) { /* retry */ }
+    }
+    if (!run) {
+      setRun('La búsqueda se lanzó pero no encuentro la ejecución. Consulta la pestaña Actions de GitHub.');
+      btn.disabled = false;
+      return;
+    }
+    const t0 = Date.now();
+    while (run.status !== 'completed' && Date.now() - t0 < 15 * 60000) {
+      const mins = Math.round((Date.now() - t0) / 60000);
+      setRun('Buscando en LinkedIn, Indeed y Tecnoempleo… (' + (mins ? mins + ' min' : 'iniciando') + '). Suele tardar 3-4 minutos.');
+      await sleep(10000);
+      try { run = await gh('/actions/runs/' + run.id); } catch (e) { /* retry */ }
+    }
+    if (run.status !== 'completed') { setRun('La búsqueda sigue en marcha en GitHub; recarga la página más tarde.'); btn.disabled = false; return; }
+    setRun(run.conclusion === 'success'
+      ? 'Búsqueda terminada. Esperando a que se publique la página…'
+      : 'Búsqueda terminada con avisos (probablemente el correo). Esperando a que se publique la página…');
+    for (let i = 0; i < 30; i++) {
+      await sleep(10000);
+      try {
+        const html = await (await fetch(location.pathname + '?t=' + Date.now(), { cache: 'no-store' })).text();
+        const m = html.match(/type="application\/json">(.*?)<\/script>/s);
+        if (m && JSON.parse(m[1]).generated_at > data.generated_at) { location.reload(); return; }
+      } catch (e) { /* retry */ }
+    }
+    setRun('La búsqueda terminó pero la página aún no se ha publicado. Recarga en un minuto.');
+    btn.disabled = false;
+  }
+
+  let syncChain = Promise.resolve();
+  function syncStatus(id, status) {
+    if (!token || !REPO) return;
+    syncChain = syncChain.then(() => pushStatus(id, status)).catch(() => {});
+  }
+  async function pushStatus(id, status) {
+    setSync('Guardando en el repositorio…');
+    try {
+      let sha = null, server = {};
+      try {
+        const f = await gh('/contents/data/feedback.json?ref=main');
+        sha = f.sha;
+        server = (JSON.parse(unb64(f.content)).statuses) || {};
+      } catch (e) { if (!/GitHub 404/.test(e.message)) throw e; }
+      if (status) server[id] = status; else delete server[id];
+      statuses = Object.assign({}, server);   // the repo is the shared truth once synced
+      persist();
+      render();
+      const body = { message: 'Update offer statuses from the page', branch: 'main',
+        content: b64(JSON.stringify({ statuses: server, updated_at: new Date().toISOString() }, null, 1) + '\n') };
+      if (sha) body.sha = sha;
+      await gh('/contents/data/feedback.json', { method: 'PUT', body: JSON.stringify(body) });
+      setSync('Estados guardados en el repositorio ✓');
+    } catch (e) {
+      setSync('No se pudo guardar en el repositorio: ' + e.message);
+    }
+  }
+  async function loadSharedStatuses() {
+    if (!REPO) return;
+    try {
+      const r = await fetch('https://raw.githubusercontent.com/' + REPO + '/main/data/feedback.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) return;
+      const server = (await r.json()).statuses || {};
+      statuses = Object.assign({}, server, statuses);
+      persist();
+      render();
+    } catch (e) { /* offline or file:// — keep local/embedded statuses */ }
+  }
+
+  $('runBtn').addEventListener('click', runSearch);
+  $('tokenLink').addEventListener('click', (e) => { e.preventDefault(); askToken(); });
+  updateTokenLink();
+  loadSharedStatuses();
   ['q', 'source', 'modality', 'days', 'status', 'score'].forEach((id) => $(id).addEventListener('input', render));
 
   const gen = new Date(data.generated_at);
   $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
-    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo; el estado de cada oferta se guarda en este navegador.';
+    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo. Las marcas de guardada, aplicada o descartada se guardan en este navegador y, con el token configurado, se comparten a través del repositorio.';
   if (data.last_run && data.last_run.stats) {
     $('footer').textContent = 'Última búsqueda: ' + Object.entries(data.last_run.stats)
       .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))

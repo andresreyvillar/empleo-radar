@@ -32,6 +32,16 @@ collapsible "Requisitos y qué ofrecen" section extracted from the ad's own head
 (`radar/details.py`). Each offer can be marked as saved, applied or discarded; that state
 lives in the visitor's browser (`localStorage`).
 
+The page can also **run a search on demand** ("Ejecutar búsqueda ahora"): it dispatches the
+GitHub Actions workflow, follows the run and reloads when the new page is published. The
+saved / applied / discarded marks are **shared through the repo** (`data/feedback.json`), so
+every device sees the same marks and the radar never notifies a discarded offer again, even
+when it is republished or shows up on another portal. Both features need a GitHub token
+entered once in the page (link "Configurar token de GitHub"); it is kept only in that
+browser's `localStorage`. Create a fine-grained token at
+<https://github.com/settings/personal-access-tokens/new> → Only select repositories →
+this repo → Permissions: *Actions: Read and write*, *Contents: Read and write*.
+
 It is published with GitHub Pages at <https://andresreyvillar.github.io/empleo-radar/>
 (Settings → Pages → Deploy from branch `main`, folder `/docs`) and can also be opened locally. `python3 -m radar site` rebuilds the page from
 `data/seen.json` without searching.
@@ -78,7 +88,9 @@ Create the App Password at <https://myaccount.google.com/apppasswords>. The work
 also be launched by hand from the Actions tab (with a dry-run switch and a custom lookback).
 
 If LinkedIn or Indeed start refusing requests from GitHub's IP range, the run still
-completes with the other sources and lists the errors at the bottom of the digest.
+completes with the other sources and lists the errors at the bottom of the digest. If the
+email cannot be sent, the state and the page are still saved and the unsent offers are kept
+in `data/seen.json` (`pending_email`) to ride along with the next successful digest.
 
 ## Tuning the filters
 
@@ -105,6 +117,7 @@ radar/sources/         linkedin.py · indeed.py · tecnoempleo.py
 radar/report.py        text + HTML email digest
 radar/site.py          docs/index.html generator (template in radar/templates/site.html)
 radar/notify.py        SMTP delivery
-radar/state.py         data/seen.json persistence
+radar/state.py         data/seen.json persistence (seen ids, matches, pending email)
+radar/feedback.py      data/feedback.json (saved/applied/discarded marks written by the page)
 tests/test_filters.py  rule regression tests with real-world titles
 ```

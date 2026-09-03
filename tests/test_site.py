@@ -15,13 +15,16 @@ class SiteTests(unittest.TestCase):
                               "notified_at": "2026-09-01T10:00:00+00:00"}],
                  "last_run": {"at": "2026-09-01T10:00:00+00:00", "stats": {"linkedin": {"fetched": 1, "candidates": 1, "accepted": 1, "errors": []}}}}
         with tempfile.TemporaryDirectory() as tmp:
-            out = build_site(state, Path(tmp))
+            out = build_site(state, {"x:1": "saved"}, {"github_repo": "user/repo", "workflow_file": "radar.yml"}, Path(tmp))
             html = out.read_text(encoding="utf-8")
             self.assertTrue((Path(tmp) / ".nojekyll").exists())
             self.assertIn('id="data"', html)
             self.assertNotIn("</script><b>", html.split('id="data"')[1].split("</script>")[0])
             payload = html.split('type="application/json">')[1].split("</script>")[0]
-            self.assertEqual(json.loads(payload)["matches"][0]["company"], "ACME")
+            data = json.loads(payload)
+            self.assertEqual(data["matches"][0]["company"], "ACME")
+            self.assertEqual(data["repo"], "user/repo")
+            self.assertEqual(data["feedback"], {"x:1": "saved"})
 
 
 class TextTests(unittest.TestCase):
