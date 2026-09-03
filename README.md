@@ -29,8 +29,8 @@ search, source, modality (100% remote / Galicia), publication window, minimum sc
 button that opens each offer on the portal where it was published. Each offer can be marked
 as saved, applied or discarded; that state lives in the visitor's browser (`localStorage`).
 
-Serve `docs/` with GitHub Pages (Settings → Pages → Deploy from branch `main`, folder `/docs`)
-or simply open the file locally. `python3 -m radar site` rebuilds the page from
+It is published with GitHub Pages at <https://andresreyvillar.github.io/empleo-radar/>
+(Settings → Pages → Deploy from branch `main`, folder `/docs`) and can also be opened locally. `python3 -m radar site` rebuilds the page from
 `data/seen.json` without searching.
 
 ## Local usage
