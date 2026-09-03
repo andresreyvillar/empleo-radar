@@ -7,7 +7,7 @@ import re
 from dataclasses import dataclass, field
 
 from .models import Job
-from .text import normalize, spanish_ratio
+from .text import is_catalan, normalize, spanish_ratio
 
 
 def _compile(patterns: list[str] | None) -> list[re.Pattern]:
@@ -77,6 +77,8 @@ class JobFilter:
         ratio = spanish_ratio(job.description)
         if ratio is not None and ratio < self.min_spanish_ratio:
             return Verdict(False, f"language:spanish-ratio={ratio:.2f}")
+        if is_catalan(job.description):
+            return Verdict(False, "language:catalan")
 
         score, signals = self.score(text)
         if workplace == "sin confirmar":

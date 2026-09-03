@@ -147,6 +147,15 @@ class FilterTests(unittest.TestCase):
         self.assertFalse(v.accepted)
         self.assertTrue(v.reason.startswith("language"))
 
+    def test_catalan_description_rejected(self):
+        ca = ("Busquem un/a Project Manager per al projecte europeu. Treballaràs amb els equips dels socis, "
+              "amb seguiment de les tasques i coneixements de gestió de projectes. Oferim contracte i horari flexible. Treball remot.")
+        v = self.f.evaluate(job("Project Manager", "Vigo, Galicia, Spain", description=ca))
+        self.assertFalse(v.accepted)
+        self.assertEqual(v.reason, "language:catalan")
+        es = self.f.evaluate(job("Project Manager", description=ES_TEXT + REMOTE + " Proyectos de I+D+i con socios europeos."))
+        self.assertTrue(es.accepted, es.reason)
+
     def test_spanish_ratio(self):
         self.assertGreater(spanish_ratio(ES_TEXT), 0.8)
         self.assertLess(spanish_ratio(EN_TEXT), 0.2)

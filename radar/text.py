@@ -76,6 +76,25 @@ _EN = {
 }
 
 
+# Catalan function/content words that do not occur in Spanish (accent-free).
+_CA = {
+    "amb", "els", "dels", "aquest", "aquesta", "aquests", "aquestes", "projecte", "projectes", "tambe", "fins",
+    "seva", "nostre", "nostra", "desenvolupament", "gestio", "coneixements", "coneixement", "treball", "hores",
+    "empreses", "persones", "funcions", "requisits", "oferim", "busquem", "cerquem", "tasques", "equip", "any",
+    "anys", "sou", "lloc", "feina", "sense", "molt", "altres", "totes", "tots", "nivell", "habilitats",
+    "capacitat", "responsabilitats", "titulacio", "formacio", "contracte", "salari", "horari", "flexibilitat",
+    "incorporacio", "candidat", "candidats", "valorara", "necessari", "necessaria", "millora", "seguiment",
+}
+
+
+def is_catalan(text: str | None) -> bool:
+    """True when the text is written in Catalan (shares many function words with Spanish)."""
+    words = _WORD_RE.findall(normalize(text))
+    ca = sum(1 for w in words if w in _CA)
+    es = sum(1 for w in words if w in _ES)
+    return ca >= 4 and ca / max(1, ca + es) >= 0.2
+
+
 def spanish_ratio(text: str | None) -> float | None:
     """Share of Spanish function words among Spanish+English ones. None if too short."""
     words = _WORD_RE.findall(normalize(text))

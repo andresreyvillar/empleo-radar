@@ -2493,8 +2493,8 @@
   "linkedin:4461907477": {
    "first_seen": "2026-09-03T23:55:37+00:00",
    "title": "Project manager- projecte europeu TREE MED (Tourism Resilience and Eco-Efficiency in the Mediterranean)",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "language:catalan"
   },
   "linkedin:4460720256": {
    "first_seen": "2026-09-03T23:55:38+00:00",
@@ -3419,40 +3419,6 @@
    "notified_at": "2026-09-03T14:31:14+00:00"
   },
   {
-   "id": "linkedin:4461907477",
-   "source": "linkedin",
-   "title": "Project manager- projecte europeu TREE MED (Tourism Resilience and Eco-Efficiency in the Mediterranean)",
-   "company": "Agència Catalana de Turisme / Catalan Tourist Board",
-   "location": "Barcelona",
-   "url": "https://www.linkedin.com/jobs/view/4461907477",
-   "description": "Descripció del lloc\n\nBusquem un professional apassionat per liderar i coordinar un projecte europeu innovador enfocat en la resiliència turística i l'ecoeficiència a la regió mediterrània. La persona seleccionada serà responsable de la gestió integral del projecte, assegurant el compliment dels objectius, la coordinació efectiva entre socis internacionals i la supervisió dels recursos i terminis e",
-   "posted": "2026-09-03",
-   "remote_flag": true,
-   "labels": [],
-   "score": 40,
-   "modality": "remoto",
-   "workplace": "sin confirmar",
-   "signals": [
-    "-Remoto solo según el portal, sin confirmar en el texto"
-   ],
-   "details": {
-    "requisitos": [
-     "Coordinació amb socis europeus i actors locals per garantir la col·laboració i el compliment dels requisits.",
-     "Requisits i qualificacions",
-     "Titulació universitària en gestió de projectes, turisme, medi ambient, o àrees relacionades.",
-     "Experiència mínima de 3 anys en la gestió de projectes europeus o internacionals, preferiblement en l'àmbit turístic o ambiental."
-    ],
-    "ofrecen": [
-     "Tipo de empleo: Jornada completa"
-    ],
-    "claves": {
-     "horario": "Tipo de empleo: Jornada completa"
-    }
-   },
-   "fingerprint": "project manager- projecte europeu tree med (tourism resilience and eco-efficiency in the mediterranean)|agencia catalana de turisme / catalan tourist board",
-   "notified_at": "2026-09-03T23:55:37+00:00"
-  },
-  {
    "id": "linkedin:4422109316",
    "source": "linkedin",
    "title": "F&SCM Project Manager",
@@ -3685,7 +3651,6 @@
   "linkedin:4422109316",
   "linkedin:4449549026",
   "linkedin:4460717359",
-  "linkedin:4459936741",
-  "linkedin:4461907477"
+  "linkedin:4459936741"
  ]
 }
