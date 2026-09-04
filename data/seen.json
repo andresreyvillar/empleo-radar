@@ -4710,17 +4710,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-04T14:19:11+00:00",
+  "at": "2026-09-04T14:27:06+00:00",
   "stats": {
    "linkedin": {
     "fetched": 123,
-    "candidates": 18,
-    "accepted": 2,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 66,
+    "fetched": 65,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
