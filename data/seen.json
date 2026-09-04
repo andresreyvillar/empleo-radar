@@ -4133,6 +4133,78 @@
    "title": "QA Analyst Lead",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4463343771": {
+   "first_seen": "2026-09-04T14:34:03+00:00",
+   "title": "IT Project Manager – Cybersecurity",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461184148": {
+   "first_seen": "2026-09-04T14:34:03+00:00",
+   "title": "Tec Marketing CX e investigación de mercados",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4444956209": {
+   "first_seen": "2026-09-04T14:34:05+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria civil"
+  },
+  "linkedin:4463358807": {
+   "first_seen": "2026-09-04T14:34:07+00:00",
+   "title": "Jr. Translation Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado, c1"
+  },
+  "linkedin:4463358098": {
+   "first_seen": "2026-09-04T14:34:07+00:00",
+   "title": "Jefe de obra / Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4444946461": {
+   "first_seen": "2026-09-04T14:34:08+00:00",
+   "title": "Senior Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria civil"
+  },
+  "linkedin:4462785592": {
+   "first_seen": "2026-09-04T14:34:08+00:00",
+   "title": "Coordinador de Desarrollo Software (M/F/X)| Administración Electrónica_Sevilla _remoto hasta 40K",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463338903": {
+   "first_seen": "2026-09-04T14:34:10+00:00",
+   "title": "Scientific Relations Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:english fluent"
+  },
+  "linkedin:4461796537": {
+   "first_seen": "2026-09-04T14:34:10+00:00",
+   "title": "Técnico/a junior de marketing digital y gestión de cuentas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461956365": {
+   "first_seen": "2026-09-04T14:34:10+00:00",
+   "title": "EDI System Analyst (eInvoicing) (m/f)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4425805500": {
+   "first_seen": "2026-09-04T14:34:10+00:00",
+   "title": "Program Manager Lead – IT/Cloud Infrastructure",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463362528": {
+   "first_seen": "2026-09-04T14:34:10+00:00",
+   "title": "Líder de Proyectos Tecnológicos - Seguros de Vida",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -4710,11 +4782,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-04T14:27:06+00:00",
+  "at": "2026-09-04T14:34:17+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 123,
-    "candidates": 0,
+    "fetched": 133,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
     "errors": []
