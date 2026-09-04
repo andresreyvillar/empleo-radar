@@ -4205,6 +4205,72 @@
    "title": "Líder de Proyectos Tecnológicos - Seguros de Vida",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4463382611": {
+   "first_seen": "2026-09-04T15:54:59+00:00",
+   "title": "SAP Inhouse Consultant SAP BI with focus on SAP Cloud products (f/m/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4453526905": {
+   "first_seen": "2026-09-04T15:54:59+00:00",
+   "title": "RCM Automation, Data & CMMS Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461127661": {
+   "first_seen": "2026-09-04T15:55:01+00:00",
+   "title": "Translation Project Coordinator",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4444416374": {
+   "first_seen": "2026-09-04T15:55:01+00:00",
+   "title": "Coordinador/a de Obra en Refrigeración",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4444414399": {
+   "first_seen": "2026-09-04T15:55:01+00:00",
+   "title": "Coordinador/a de Obra en Refrigeración",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462847701": {
+   "first_seen": "2026-09-04T15:55:01+00:00",
+   "title": "¿Eres ingeniero/a mecánico/a? Queremos conocerte.",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463384346": {
+   "first_seen": "2026-09-04T15:55:32+00:00",
+   "title": "Strategic PMO/ Technology Transformation Manager",
+   "accepted": false,
+   "reason": "text:excluded:ingles nivel c1"
+  },
+  "linkedin:4461171571": {
+   "first_seen": "2026-09-04T15:55:32+00:00",
+   "title": "Migration and Delivery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463377600": {
+   "first_seen": "2026-09-04T15:55:34+00:00",
+   "title": "PMO Delivery Operations Assistant",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "indeed:fbbae23267dc523b": {
+   "first_seen": "2026-09-04T15:55:42+00:00",
+   "title": "Técnico/a PPTE",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f2603ac5a3646fda": {
+   "first_seen": "2026-09-04T15:55:42+00:00",
+   "title": "Consultor/a - Finance Transformation Strategy",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -4398,17 +4464,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-04T14:34:17+00:00",
+  "at": "2026-09-04T15:55:48+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 133,
-    "candidates": 4,
+    "fetched": 132,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 65,
+    "fetched": 67,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
