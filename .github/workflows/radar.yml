@@ -14,6 +14,10 @@ on:
         description: "Lookback window in hours (blank = config)"
         type: string
         default: ""
+      test_mail:
+        description: "Only send a test email with the configured secrets"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,12 +50,17 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           DRY_RUN: ${{ inputs.dry_run && '--dry-run' || '' }}
           SINCE: ${{ inputs.since_hours != '' && format('--since-hours {0}', inputs.since_hours) || '' }}
-        run: python -m radar run $DRY_RUN $SINCE
+        run: |
+          if [ "${{ inputs.test_mail }}" = "true" ]; then
+            python -m radar test-mail
+          else
+            python -m radar run $DRY_RUN $SINCE
+          fi
 
       - name: Persist state
         # Runs even if the radar step failed (e.g. SMTP error): the state and the page are
         # written before the step exits, and the email is retried on the next run.
-        if: ${{ !cancelled() && !inputs.dry_run }}
+        if: ${{ !cancelled() && !inputs.dry_run && !inputs.test_mail }}
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"

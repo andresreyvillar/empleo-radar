@@ -29,7 +29,26 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--config", metavar="PATH", help="alternative config.yaml")
     run.add_argument("-v", "--verbose", action="store_true", help="print rejected candidates and why")
     sub.add_parser("site", help="rebuild docs/index.html from data/seen.json without searching")
+    sub.add_parser("test-mail", help="send a test email with the SMTP_* / MAIL_TO settings and report the result")
     return parser
+
+
+def test_mail() -> int:
+    settings = mail_settings()
+    if not settings:
+        print("Faltan SMTP_USER, SMTP_PASS o MAIL_TO.")
+        return 1
+    print(f"Servidor {settings['host']}:{settings['port']} · usuario {settings['user']} · destinatarios {', '.join(settings['recipients'])}")
+    try:
+        when = datetime.now()
+        send_email(f"Radar empleo PM · correo de prueba · {when:%d/%m/%Y %H:%M}",
+                   "Si lees esto, el envío de correo del radar funciona.",
+                   "<p>Si lees esto, el envío de correo del radar funciona.</p>", settings)
+    except Exception as exc:
+        print(f"ERROR: {type(exc).__name__}: {exc}")
+        return 1
+    print("Correo de prueba enviado.")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -40,6 +59,8 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "site":
         print(f"Página generada: {build_site(State(DATA_DIR / 'seen.json').data, feedback.statuses, cfg.get('site'))}")
         return 0
+    if args.command == "test-mail":
+        return test_mail()
     lookback = args.since_hours or int(cfg["lookback_hours"])
     only = [s.strip() for s in args.sources.split(",")] if args.sources else None
     job_filter = JobFilter(cfg)

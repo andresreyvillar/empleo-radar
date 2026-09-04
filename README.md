@@ -84,8 +84,12 @@ commits the updated `data/seen.json` and `docs/index.html` back to the repo. Con
 | `SMTP_PORT` | optional, default `587`                                               |
 | `MAIL_FROM` | optional, default `SMTP_USER`                                         |
 
-Create the App Password at <https://myaccount.google.com/apppasswords>. The workflow can
-also be launched by hand from the Actions tab (with a dry-run switch and a custom lookback).
+Create the App Password at <https://myaccount.google.com/apppasswords> **on the same Google
+account as `SMTP_USER`** (2-Step Verification must be on). To check the credentials without
+waiting for new offers run `python3 -m radar test-mail` locally (reads `.env`) or launch the
+workflow from the Actions tab with the *test_mail* switch; the SMTP error, if any, is printed
+in the run log. The workflow can also be launched by hand with a dry-run switch and a custom
+lookback.
 
 If LinkedIn or Indeed start refusing requests from GitHub's IP range, the run still
 completes with the other sources and lists the errors at the bottom of the digest. If the

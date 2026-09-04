@@ -233,6 +233,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     token = t.trim();
     try { token ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (e) { /* private mode */ }
     updateTokenLink();
+    if (token && Object.keys(statuses).length) syncStatus(null, null);   // upload marks made before the token existed
     return !!token;
   }
   async function gh(path, init) {
@@ -301,6 +302,9 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     if (!token || !REPO) return;
     syncChain = syncChain.then(() => pushStatus(id, status)).catch(() => {});
   }
+  // Merge rule: marks already in the repo + marks made in this browser + the change being
+  // made now. Local marks are never dropped, so marks made before configuring the token
+  // are uploaded too, and a failed upload keeps everything as it was on screen.
   async function pushStatus(id, status) {
     setSync('Guardando en el repositorio…');
     try {
@@ -310,17 +314,18 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
         sha = f.sha;
         server = (JSON.parse(unb64(f.content)).statuses) || {};
       } catch (e) { if (!/GitHub 404/.test(e.message)) throw e; }
-      if (status) server[id] = status; else delete server[id];
-      statuses = Object.assign({}, server);   // the repo is the shared truth once synced
-      persist();
-      render();
+      const merged = Object.assign({}, server, statuses);
+      if (id) { if (status) merged[id] = status; else delete merged[id]; }
       const body = { message: 'Update offer statuses from the page', branch: 'main',
-        content: b64(JSON.stringify({ statuses: server, updated_at: new Date().toISOString() }, null, 1) + '\n') };
+        content: b64(JSON.stringify({ statuses: merged, updated_at: new Date().toISOString() }, null, 1) + '\n') };
       if (sha) body.sha = sha;
       await gh('/contents/data/feedback.json', { method: 'PUT', body: JSON.stringify(body) });
-      setSync('Estados guardados en el repositorio ✓');
+      statuses = merged;
+      persist();
+      render();
+      setSync('Marcas guardadas en el repositorio ✓');
     } catch (e) {
-      setSync('No se pudo guardar en el repositorio: ' + e.message);
+      setSync('No se pudieron guardar las marcas en el repositorio: ' + e.message);
     }
   }
   async function loadSharedStatuses() {
