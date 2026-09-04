@@ -214,8 +214,33 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const REPO = data.repo;
   const WORKFLOW = data.workflow || 'radar.yml';
   const TOKEN_KEY = 'empleo-radar-token';
+  const COOKIE_KEY = 'empleo_radar_token';
+  // The token is kept in localStorage AND in a one-year cookie (some browsers wipe one of
+  // them), and can also arrive once in the URL as #token=… (handy for a bookmark).
+  function readCookie() {
+    const m = document.cookie.match(new RegExp('(?:^|; )' + COOKIE_KEY + '=([^;]*)'));
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+  function writeCookie(value) {
+    const secure = location.protocol === 'https:' ? '; Secure' : '';
+    document.cookie = COOKIE_KEY + '=' + encodeURIComponent(value) + '; Max-Age=' + (value ? 31536000 : 0) + '; Path=/; SameSite=Strict' + secure;
+  }
+  function saveToken(value) {
+    try { value ? localStorage.setItem(TOKEN_KEY, value) : localStorage.removeItem(TOKEN_KEY); } catch (e) { /* storage blocked */ }
+    try { writeCookie(value); } catch (e) { /* cookies blocked */ }
+    let kept = '';
+    try { kept = localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { kept = ''; }
+    return kept === value || readCookie() === value;
+  }
   let token = '';
   try { token = localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { token = ''; }
+  if (!token) token = readCookie();
+  const hashToken = (location.hash.match(/[#&]token=([^&]+)/) || [])[1];
+  if (hashToken) {
+    token = decodeURIComponent(hashToken);
+    saveToken(token);
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const setRun = (msg) => { $('runStatus').textContent = msg; };
   const setSync = (msg) => { $('syncStatus').textContent = msg; };
@@ -223,7 +248,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const unb64 = (str) => decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
 
   function updateTokenLink() {
-    $('tokenLink').textContent = token ? 'Token de GitHub configurado · cambiar' : 'Configurar token de GitHub';
+    $('tokenLink').textContent = token ? 'Token de GitHub guardado ✓ · cambiar' : 'Configurar token de GitHub';
   }
   function askToken() {
     const t = prompt('Pega un token de GitHub (fine-grained) limitado al repositorio ' + REPO +
@@ -231,8 +256,12 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
       'Se guarda solo en este navegador. Deja vacío para borrarlo.', token);
     if (t === null) return false;
     token = t.trim();
-    try { token ? localStorage.setItem(TOKEN_KEY, token) : localStorage.removeItem(TOKEN_KEY); } catch (e) { /* private mode */ }
+    const kept = saveToken(token);
     updateTokenLink();
+    if (token && !kept) {
+      setRun('Aviso: este navegador no conserva los datos del sitio, así que pedirá el token en cada visita. ' +
+        'Solución: guarda un marcador con la dirección de esta página seguida de #token=TU_TOKEN, o permite que este sitio guarde datos.');
+    }
     if (token && Object.keys(statuses).length) syncStatus(null, null);   // upload marks made before the token existed
     return !!token;
   }
@@ -256,7 +285,14 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     try {
       await gh('/actions/workflows/' + WORKFLOW + '/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: {} }) });
     } catch (e) {
-      setRun('No se pudo lanzar: ' + e.message + ' Revisa el token (permiso Actions).');
+      if (/GitHub 40[13]/.test(e.message)) {
+        setRun('GitHub rechazó el token guardado (caducado o sin permiso Actions). Configúralo de nuevo.');
+        token = '';
+        saveToken('');
+        updateTokenLink();
+      } else {
+        setRun('No se pudo lanzar: ' + e.message);
+      }
       btn.disabled = false;
       return;
     }

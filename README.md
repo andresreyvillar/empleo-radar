@@ -38,7 +38,9 @@ saved / applied / discarded marks are **shared through the repo** (`data/feedbac
 every device sees the same marks and the radar never notifies a discarded offer again, even
 when it is republished or shows up on another portal. Both features need a GitHub token
 entered once in the page (link "Configurar token de GitHub"); it is kept only in that
-browser's `localStorage`. Create a fine-grained token at
+browser (`localStorage` plus a one-year cookie). Browsers that wipe site data on close will
+ask again: bookmark the page as `https://…/empleo-radar/#token=YOUR_TOKEN` and the page stores
+it and removes it from the address bar on load. Create a fine-grained token at
 <https://github.com/settings/personal-access-tokens/new> → Only select repositories →
 this repo → Permissions: *Actions: Read and write*, *Contents: Read and write*.
 
