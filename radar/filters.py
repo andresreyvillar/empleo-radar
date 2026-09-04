@@ -40,6 +40,7 @@ class JobFilter:
         self.weak_remote = _compile(loc["weak_remote"])
         self.onsite = _compile(loc["onsite"])
         self.hybrid = _compile(loc["hybrid"])
+        self.flag_unconfirmed = loc.get("unconfirmed_remote", "reject") == "flag"
         self.min_spanish_ratio = float(f["language"]["min_spanish_ratio"])
         sc = f["scoring"]
         self.base_score = int(sc["base"])
@@ -132,7 +133,7 @@ class JobFilter:
             return ("galicia" if workplace != "presencial" else ""), workplace
         if workplace == "remoto":
             return "remoto", "remoto"
-        if workplace == "sin especificar" and job.remote_flag:
+        if workplace == "sin especificar" and job.remote_flag and self.flag_unconfirmed:
             return "remoto", "sin confirmar"     # portal says remote, text is silent: flagged for review
         return "", workplace
 

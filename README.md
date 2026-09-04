@@ -105,6 +105,11 @@ in `data/seen.json` (`pending_email`) to ride along with the next successful dig
   weight of the relevant entry in `scoring.negative`.
 * **Languages:** ads demanding English above B2 (alto, fluido, C1, bilingüe) or any other
   language are rejected; intermediate, conversational or professional English is accepted.
+  Catalan-language ads are rejected too.
+* **Workplace:** LinkedIn's Presencial/Híbrido/Remoto label is not readable from public
+  pages and its remote search filter returns on-site ads, so the ad text decides. Outside
+  Galicia only text-confirmed remote offers pass; `filters.location.unconfirmed_remote: flag`
+  would instead accept silent ads with a "Remoto sin confirmar" badge and a score penalty.
 * `queries` are the search terms sent to each portal; `lookback_hours` is the window each
   run looks back (runs overlap on purpose, `seen.json` deduplicates).
 * Delete `data/seen.json` to start from scratch (the next run will re-notify everything

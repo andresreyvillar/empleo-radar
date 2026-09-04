@@ -65,11 +65,20 @@ class FilterTests(unittest.TestCase):
         self.assertTrue(v.accepted, v.reason)
         self.assertEqual(v.modality, "remoto")
 
-    def test_portal_remote_flag_with_silent_text_is_accepted_but_flagged(self):
-        v = self.f.evaluate(job("Project Manager", remote=True))
+    def test_portal_remote_flag_with_silent_text_is_rejected_by_default(self):
+        v = self.f.evaluate(job("Project Manager", "Sevilla y alrededores", remote=True))
+        self.assertFalse(v.accepted)
+        self.assertEqual(v.workplace, "sin especificar")
+
+    def test_unconfirmed_remote_can_be_flagged_instead(self):
+        import copy
+        cfg = copy.deepcopy(load_config())
+        cfg["filters"]["location"]["unconfirmed_remote"] = "flag"
+        lenient = JobFilter(cfg)
+        v = lenient.evaluate(job("Project Manager", remote=True))
         self.assertTrue(v.accepted, v.reason)
         self.assertEqual((v.modality, v.workplace), ("remoto", "sin confirmar"))
-        confirmed = self.f.evaluate(job("Project Manager", description=ES_TEXT + REMOTE))
+        confirmed = lenient.evaluate(job("Project Manager", description=ES_TEXT + REMOTE))
         self.assertLess(v.score, confirmed.score)
 
     def test_silent_text_without_remote_flag_is_rejected(self):

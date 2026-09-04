@@ -92,6 +92,11 @@ filters:
     - '\bade\b|derecho|economicas|economia|empresariales|administracion (y direccion )?de empresas|humanidades|marketing|\bcomunicacion\b|supply chain|logistica|ciencias empresariales|relaciones laborales|psicologia|sociologia|turismo|cualquier (titulacion|grado|carrera)|otras (titulaciones|carreras)|no (es )?(imprescindible|necesari[oa])|valorable'
 
   location:
+    # Outside Galicia an offer is accepted only when its own text confirms remote work.
+    # LinkedIn's remote filter returns on-site ads and its Presencial/Híbrido/Remoto label is
+    # not readable publicly, so ads whose text is silent are rejected by default.
+    # Set to 'flag' to accept them with a "Remoto sin confirmar" badge and a score penalty.
+    unconfirmed_remote: reject
     # Pontevedra province: any modality (on-site included).
     pontevedra:
       - 'pontevedra|\bvigo\b|vilagarcia|redondela|cangas|\bmarin\b|ponteareas|lalin|porrino|nigran|gondomar|\bmos\b|\btui\b|sanxenxo|baiona|a estrada|caldas de reis|silleda|salvaterra|o grove|bueu|moana|poio|soutomaior|salceda|pazos de borben'
