@@ -107,7 +107,10 @@ in `data/seen.json` (`pending_email`) to ride along with the next successful dig
   language are rejected; intermediate, conversational or professional English is accepted.
   Catalan-language ads are rejected too.
 * **Workplace:** LinkedIn's Presencial/Híbrido/Remoto label is not readable from public
-  pages and its remote search filter returns on-site ads, so the ad text decides. Outside
+  pages and its remote search filter returns on-site ads, so the ad text decides. The label
+  only exists in LinkedIn's internal API (`/voyager/api/jobs/jobPostings/{id}`, field
+  `workplaceTypes`, 1 on-site / 2 remote / 3 hybrid), which requires a logged-in session;
+  this project deliberately does not use session cookies (LinkedIn's terms, account risk). Outside
   Galicia only text-confirmed remote offers pass; `filters.location.unconfirmed_remote: flag`
   would instead accept silent ads with a "Remoto sin confirmar" badge and a score penalty.
 * `queries` are the search terms sent to each portal; `lookback_hours` is the window each
