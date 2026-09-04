@@ -4271,6 +4271,132 @@
    "title": "Consultor/a - Finance Transformation Strategy",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4463392869": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Project Operations Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462309126": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Gestor/a de Proyectos de Innovación Social",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461998334": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Jefe De Producciã\"N",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461198182": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Ingeniero/a de Proyectos Tratamiento de Aguas, con experiencia, Santiago de Compostela y alrededores",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4453519975": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Plant RCM Planner & Analyst",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463601141": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Coordinador de flota",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4453251708": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Technology Lead HP&S",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461197167": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Ingeniero/a de Proyectos Tratamiento de Aguas  Santiago de Compostela con Experiencia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4460489903": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Tecnico Prevención Riesgos Laborales y  Medio Ambiente",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4395401947": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Transition Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461181295": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Senior Change Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463603224": {
+   "first_seen": "2026-09-04T19:17:08+00:00",
+   "title": "Manager Group Projects (f/m/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0270f346a7101e63": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Desarrollador Senior Java, Python, AWS (100% Teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:bac16ba2a1975e55": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Técnico/a Contable en Madrid Centro",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5110a2aa8618a4e5": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Administrativo/a Departamento Seguridad - Sustitución maternidad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6d488e89a49ceba8": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Contable Facturación Mercancias",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1a2fe65b792d2c6d": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "SAP CO-PS Senior Consultant (Pref Madrid)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0566ddc46f194859": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Business Developer RE & NPL",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0f62b9978daf26ec": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Analista de Datos Mid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:418b49955da90ac6": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Java + Liferay Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7feb4378681ca0ba": {
+   "first_seen": "2026-09-04T19:17:14+00:00",
+   "title": "Reponedor/a Indefinido 24h Rotativo Ferrol",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -4464,24 +4590,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-04T15:55:48+00:00",
+  "at": "2026-09-04T19:17:17+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 132,
-    "candidates": 3,
+    "fetched": 118,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 67,
+    "fetched": 60,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 99,
+    "fetched": 94,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
