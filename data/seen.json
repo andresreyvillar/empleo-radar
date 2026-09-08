@@ -8129,6 +8129,168 @@
    "title": "Técnico de sistemas (h/m)",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4464636202": {
+   "first_seen": "2026-09-08T19:46:56+00:00",
+   "title": "Product Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462542448": {
+   "first_seen": "2026-09-08T19:46:58+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria electrica"
+  },
+  "linkedin:4464655513": {
+   "first_seen": "2026-09-08T19:46:58+00:00",
+   "title": "Senior Project Manager, EMEA Construction (Power & Water)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464621926": {
+   "first_seen": "2026-09-08T19:47:00+00:00",
+   "title": "PV Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4464660873": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:native) & english"
+  },
+  "linkedin:4463527100": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Android Developer (A Coruña)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464660470": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Coordinador/a Área de Instalaciones en Proyectos Industriales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463519831": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Coordinador/a de Servicios y Proyectos de Infraestructura IT",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463525279": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Senior Project Management Excellence Specialist (f/m/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462506804": {
+   "first_seen": "2026-09-08T19:47:31+00:00",
+   "title": "Architecture Instruction Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463529094": {
+   "first_seen": "2026-09-08T19:47:33+00:00",
+   "title": "Senior Project Manager (m/f/d) for Digital Procurement Transformation",
+   "accepted": false,
+   "reason": "location:presencial-outside-allowed-area"
+  },
+  "linkedin:4464642887": {
+   "first_seen": "2026-09-08T19:47:35+00:00",
+   "title": "IT Program Manager - Pharma Transformation Programs",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4464615997": {
+   "first_seen": "2026-09-08T19:47:36+00:00",
+   "title": "IT Project Manager - Customer Support Digital & Data Transformation",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.01"
+  },
+  "indeed:5a4b6cf2e63f0c5e": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Software Engineer III",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a38f7d190c67bfc7": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Administrativo/a gestión de formación (FUNDAE)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fccf44fab923fc2f": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "DBA Oracle | Madrid/Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1d4d1d3906a0a527": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Técnico/a de Estudios",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d8fee6b6301b1793": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Azure Data Engineer (Multinacional)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6aaa2806dd0daba2": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Head of Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:62863e53b6c2807c": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Quality & Experience Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:2472312594ac3b0e": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Network Security Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:91cf9695a2446e76": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Responsable de Desarrollo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8cffa840ee3fe499": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Soporte a Instalación y Mantenimiento Maqueta Telecomunicaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:78be85c0eb4dec2b": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "TÉCNICO/A DE TRADING",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a99031780ed5449f": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Arquitecto/a IA Generativa Senior | Hub de IA | Liderazgo Técnico y Preventa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fb6266ec4e051d93": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "Manual Payments QA Expert | Sector Bancario",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ca91cc610effe6e7": {
+   "first_seen": "2026-09-08T19:47:44+00:00",
+   "title": "TÉCNICO/A MECÁNICO ACÚSTICA",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -8614,17 +8776,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-08T16:07:52+00:00",
+  "at": "2026-09-08T19:47:52+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 124,
-    "candidates": 5,
+    "fetched": 130,
+    "candidates": 6,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 57,
+    "fetched": 71,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
