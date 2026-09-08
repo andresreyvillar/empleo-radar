@@ -7967,6 +7967,168 @@
    "title": "Técnico Jr. de Sistemas y Redes",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4462508700": {
+   "first_seen": "2026-09-08T16:07:35+00:00",
+   "title": "Installation Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4463506145": {
+   "first_seen": "2026-09-08T16:07:37+00:00",
+   "title": "Project Manager Ocupantes / Fit Out - Madrid",
+   "accepted": false,
+   "reason": "degree:ingenieria civil"
+  },
+  "linkedin:4462516942": {
+   "first_seen": "2026-09-08T16:07:37+00:00",
+   "title": "Gestor/a de Proyectos | Departamento de Operaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4437444949": {
+   "first_seen": "2026-09-08T16:07:39+00:00",
+   "title": "Facility Project Manager Operaciones Valencia",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4464609934": {
+   "first_seen": "2026-09-08T16:07:39+00:00",
+   "title": "PROJECT MANAGER  EN INGENIERÍA ELÉCTRICA / MECÁNICA.",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464612697": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Project Manager (PM)",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4453413792": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Ayudante Jefe Obra / Delineante – A Coruña (h/m)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464622399": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Coordinador/a en Soluciones Verdes",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462518725": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Architecture Instruction Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462502530": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Project Planning Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464623930": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "PMO Business Analyst – Real Estate Capital Projects",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464493637": {
+   "first_seen": "2026-09-08T16:07:40+00:00",
+   "title": "Change Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4449832377": {
+   "first_seen": "2026-09-08T16:07:42+00:00",
+   "title": "Técnico PMO Junior",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "indeed:4b5975f70a8323b6": {
+   "first_seen": "2026-09-08T16:07:47+00:00",
+   "title": "Asesor/a Teleoperador/a Comercial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:63b22556b11459ab": {
+   "first_seen": "2026-09-08T16:07:47+00:00",
+   "title": "Administrador BBDD Oracle",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0db2ef53aed2638a": {
+   "first_seen": "2026-09-08T16:07:47+00:00",
+   "title": "Analista Funcional – Seguros de Salud + Background Técnico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:39e2ad2223748d2f": {
+   "first_seen": "2026-09-08T16:07:47+00:00",
+   "title": "Arquitecto/a de Microsoft Entra ID y Gobierno IAM",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-bd881d50a2dc73e93e41": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Prácticas Consultoría I+D",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-da4513b0423fd3867041": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Senior Rust Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-c7751adec24e93fa4440": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Dixcover - Programa Prácticas FP Accenture",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-dc351cce123dc3f5b44c": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Desarrollador/a C++ (Hibrido)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1ddd141842cc038b1749": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "AI Solutions Architect",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d0861a72d2cd93055e41": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": ".NET Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-88051b50e2afb3c8d34c": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Técnico CNC - Técnico de herramientas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ffe41cf10288133e9f4d": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Responsable de innovación y proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e68a1d3272cae3452a44": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Product Owner con inglés",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-fd441bb412a353140946": {
+   "first_seen": "2026-09-08T16:07:51+00:00",
+   "title": "Técnico de sistemas (h/m)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -8452,24 +8614,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-08T13:04:37+00:00",
+  "at": "2026-09-08T16:07:52+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 120,
-    "candidates": 3,
+    "fetched": 124,
+    "candidates": 5,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 54,
+    "fetched": 57,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 82,
+    "fetched": 86,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
