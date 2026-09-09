@@ -386,9 +386,16 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
     + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo. Las marcas de guardada, aplicada o descartada se guardan en este navegador y, con el token configurado, se comparten a través del repositorio.';
   if (data.last_run && data.last_run.stats) {
-    $('footer').textContent = 'Última búsqueda: ' + Object.entries(data.last_run.stats)
+    const sources = Object.entries(data.last_run.stats)
       .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))
       .join(' · ');
+    const mail = data.last_run.mail || {};
+    let mailText = '';
+    if (mail.status === 'enviado') mailText = `Correo: enviado con ${mail.sent} ofertas.`;
+    else if (mail.status === 'error') mailText = `Correo: FALLO (${mail.error}). ${mail.pending} ofertas esperan al próximo envío.`;
+    else if (mail.status === 'sin configurar') mailText = `Correo: sin configurar. ${mail.pending} ofertas esperan al próximo envío.`;
+    else if (mail.status) mailText = `Correo: ${mail.status}.`;
+    $('footer').textContent = 'Última búsqueda: ' + sources + (mailText ? ' — ' + mailText : '');
   }
   render();
 })();

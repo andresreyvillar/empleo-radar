@@ -51,8 +51,8 @@ class State:
     def set_pending_email(self, ids: list[str]) -> None:
         self.data["pending_email"] = ids
 
-    def set_last_run(self, stats: dict) -> None:
-        self.data["last_run"] = {"at": _now(), "stats": stats}
+    def set_last_run(self, stats: dict, mail: dict | None = None) -> None:
+        self.data["last_run"] = {"at": _now(), "stats": stats, "mail": mail or {}}
 
     def prune(self) -> None:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()

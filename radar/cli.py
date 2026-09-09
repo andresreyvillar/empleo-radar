@@ -136,10 +136,13 @@ def main(argv: list[str] | None = None) -> int:
     # Matches that earlier runs could not email (SMTP down / not configured) ride along.
     pending = state.pending_email(feedback.discarded_ids)
     digest = pending + matches
-    mail_error = ""
-    if digest and not args.no_mail:
+    mail = {"status": "sin ofertas nuevas", "error": "", "sent": 0, "pending": 0}
+    if args.no_mail:
+        mail["status"] = "desactivado (--no-mail)"
+    elif digest:
         settings = mail_settings()
         if not settings:
+            mail["status"] = "sin configurar"
             print("\nAviso: SMTP_USER / SMTP_PASS / MAIL_TO no configurados; el envío queda pendiente.")
         else:
             try:
@@ -147,15 +150,17 @@ def main(argv: list[str] | None = None) -> int:
                            render_html(digest, stats, now), settings)
                 print(f"\nEmail enviado a {', '.join(settings['recipients'])} con {len(digest)} ofertas"
                       + (f" ({len(pending)} pendientes de envíos anteriores)" if pending else ""))
+                mail.update(status="enviado", sent=len(digest))
                 digest = []
-            except Exception as exc:  # keep the state, retry the email next run
-                mail_error = f"{type(exc).__name__}: {exc}"
-                print(f"\nError enviando el email, se reintentará en la próxima ejecución: {mail_error}")
+            except Exception as exc:  # keep the state and retry next run; the page shows the error
+                mail.update(status="error", error=f"{type(exc).__name__}: {exc}"[:300])
+                print(f"\nAviso: no se pudo enviar el email, se reintentará en la próxima ejecución: {mail['error']}")
+    mail["pending"] = len(digest) if not args.no_mail else 0
     state.set_pending_email([job.id for job in digest] if not args.no_mail else [])
-    state.set_last_run(stats)
+    state.set_last_run(stats, mail)
     state.save()
     print(f"Página generada: {build_site(state.data, feedback.statuses, cfg.get('site'))}")
-    return 1 if mail_error else 0
+    return 0
 
 
 if __name__ == "__main__":

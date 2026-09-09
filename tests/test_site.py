@@ -13,7 +13,8 @@ class SiteTests(unittest.TestCase):
                               "url": "https://example.test/1", "score": 60, "modality": "galicia", "source": "linkedin",
                               "signals": ["+Agile"], "description": "texto", "posted": "2026-09-01",
                               "notified_at": "2026-09-01T10:00:00+00:00"}],
-                 "last_run": {"at": "2026-09-01T10:00:00+00:00", "stats": {"linkedin": {"fetched": 1, "candidates": 1, "accepted": 1, "errors": []}}}}
+                 "last_run": {"at": "2026-09-01T10:00:00+00:00", "stats": {"linkedin": {"fetched": 1, "candidates": 1, "accepted": 1, "errors": []}},
+                              "mail": {"status": "error", "error": "SMTPAuthenticationError: 534", "sent": 0, "pending": 3}}}
         with tempfile.TemporaryDirectory() as tmp:
             out = build_site(state, {"x:1": "saved"}, {"github_repo": "user/repo", "workflow_file": "radar.yml"}, Path(tmp))
             html = out.read_text(encoding="utf-8")
@@ -25,6 +26,7 @@ class SiteTests(unittest.TestCase):
             self.assertEqual(data["matches"][0]["company"], "ACME")
             self.assertEqual(data["repo"], "user/repo")
             self.assertEqual(data["feedback"], {"x:1": "saved"})
+            self.assertEqual(data["last_run"]["mail"]["pending"], 3)
 
 
 class TextTests(unittest.TestCase):

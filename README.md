@@ -95,8 +95,9 @@ lookback.
 
 If LinkedIn or Indeed start refusing requests from GitHub's IP range, the run still
 completes with the other sources and lists the errors at the bottom of the digest. If the
-email cannot be sent, the state and the page are still saved and the unsent offers are kept
-in `data/seen.json` (`pending_email`) to ride along with the next successful digest.
+email cannot be sent, the run still succeeds: the state and the page are saved, the SMTP error
+is shown in the page footer, and the unsent offers are kept in `data/seen.json`
+(`pending_email`) to ride along with the next successful digest.
 
 ## Tuning the filters
 
