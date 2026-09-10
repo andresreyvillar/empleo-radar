@@ -10535,6 +10535,198 @@
    "title": "IT Desktop Support Technician",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4381110149": {
+   "first_seen": "2026-09-10T15:28:12+00:00",
+   "title": "Telecom Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4465688018": {
+   "first_seen": "2026-09-10T15:28:14+00:00",
+   "title": "Project Manager (Oficina Técnica), Huelva",
+   "accepted": false,
+   "reason": "text:excluded:ingles intermedio/avanzado"
+  },
+  "linkedin:4417877995": {
+   "first_seen": "2026-09-10T15:28:16+00:00",
+   "title": "Project Manager - International Project Execution",
+   "accepted": false,
+   "reason": "text:excluded:bilingual in english"
+  },
+  "linkedin:4463476834": {
+   "first_seen": "2026-09-10T15:28:16+00:00",
+   "title": "Data Center Project Construction Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463478271": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "JEFE DE PROYECTOS/as TIC con INGLÉS",
+   "accepted": false,
+   "reason": "text:excluded:background tecnico"
+  },
+  "linkedin:4464528537": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Jefe/a de Obra - Arquitecto/a Técnico/a | A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465677074": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Jefe/a de obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465681623": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Consultor/a I+D+i Vigo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463476454": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Programa Juniors 26/27",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465685943": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Responsable de Equipo de Artesanos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465803036": {
+   "first_seen": "2026-09-10T15:28:18+00:00",
+   "title": "Responsable de Equipo de Artesanos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4456344302": {
+   "first_seen": "2026-09-10T15:28:19+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4465696186": {
+   "first_seen": "2026-09-10T15:28:19+00:00",
+   "title": "License Owner, Santiago",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463027042": {
+   "first_seen": "2026-09-10T15:28:19+00:00",
+   "title": "Engineering Project Manager - Industrialization, innovative products - International Environment",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4445746969": {
+   "first_seen": "2026-09-10T15:28:19+00:00",
+   "title": "Coordinador/a Proyectos IT",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464539266": {
+   "first_seen": "2026-09-10T15:28:21+00:00",
+   "title": "Supply Chain & Logistics Project Coordinator",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4465691118": {
+   "first_seen": "2026-09-10T15:28:21+00:00",
+   "title": "Gestor/a de Proyectos I+D",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465678556": {
+   "first_seen": "2026-09-10T15:28:23+00:00",
+   "title": "Project Manager - Amelia",
+   "accepted": false,
+   "reason": "text:excluded:ingles muy alto"
+  },
+  "linkedin:4465681460": {
+   "first_seen": "2026-09-10T15:28:23+00:00",
+   "title": "Planificador de proyectos de construcción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464520656": {
+   "first_seen": "2026-09-10T15:28:23+00:00",
+   "title": "Coordinador de servicios",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463467475": {
+   "first_seen": "2026-09-10T15:28:23+00:00",
+   "title": "Ingeniero Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464525851": {
+   "first_seen": "2026-09-10T15:28:23+00:00",
+   "title": "Técnico/a de Planificación de la Producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4443811740": {
+   "first_seen": "2026-09-10T15:28:25+00:00",
+   "title": "Manager / Senior Manager - Oficinas Estratégicas de Gestión (PMO / EPMO / VMO)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4444534468": {
+   "first_seen": "2026-09-10T15:28:25+00:00",
+   "title": "Programme Operations Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4453483672": {
+   "first_seen": "2026-09-10T15:28:26+00:00",
+   "title": "Snr Lead Technical Portfolio & Program Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "indeed:c0974e1f16482dcc": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "Prácticas Administrativo/a en Contratación y Customer Experience",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1d7e529346bcd129": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "Analista de Procesos de Negocio",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:39fac78eb3bc177a": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "Ingeniero/a Mecánico/a para Proyectos de Edificación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3193009409470424": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "Coordinador Administrador BBDD Oracle",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6ad2023318f3b147": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "TÉCNICO/A CONTABILIDAD",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6faff0676350a92c": {
+   "first_seen": "2026-09-10T15:28:34+00:00",
+   "title": "Trabajador/a social 40hs (indefinido)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1fde1480126213d6a44e": {
+   "first_seen": "2026-09-10T15:28:39+00:00",
+   "title": "Ingeniero/a Cloud",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -11120,17 +11312,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-10T12:03:43+00:00",
+  "at": "2026-09-10T15:28:40+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 139,
-    "candidates": 14,
-    "accepted": 1,
+    "fetched": 141,
+    "candidates": 9,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 60,
+    "fetched": 64,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -11146,7 +11338,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d75a77b69052e-530a2fdcf8esm52814251cf.8 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 006d021491bc7-6c0996e0f19sm117873eaf.7 - gsmtp')",
    "sent": 0,
    "pending": 10
   }
