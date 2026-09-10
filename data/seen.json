@@ -10727,6 +10727,282 @@
    "title": "Ingeniero/a Cloud",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4414715242": {
+   "first_seen": "2026-09-10T19:30:42+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:ingles fluido"
+  },
+  "linkedin:4463491140": {
+   "first_seen": "2026-09-10T19:30:44+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:titulacion universitaria en arquitectura, arquitectura tecnica, ingenier"
+  },
+  "linkedin:4463038944": {
+   "first_seen": "2026-09-10T19:31:16+00:00",
+   "title": "Project Manager - Automoción",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4429536967": {
+   "first_seen": "2026-09-10T19:31:17+00:00",
+   "title": "Project Manager Services",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4464546017": {
+   "first_seen": "2026-09-10T19:31:17+00:00",
+   "title": "Project Manager de Infraestructuras Viarias",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465833890": {
+   "first_seen": "2026-09-10T19:31:17+00:00",
+   "title": "Social Performance Mananger",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463441977": {
+   "first_seen": "2026-09-10T19:31:17+00:00",
+   "title": "Supervisor de servicios",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464515078": {
+   "first_seen": "2026-09-10T19:31:17+00:00",
+   "title": "RESPONSABLE DE ZONE",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464580449": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "TÉCNICO/A EN GESTIÓN DE PROYECTOS",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4446578400": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "Técnico/a de Proyectos de Transformación Digital y Emprendimiento",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463478103": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "Product & Quality Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465660281": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "Planificador de Proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465634695": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "Coordinador de ingeniería (h/m)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464571517": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "Coordinador/a de compras - sector naval",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465838323": {
+   "first_seen": "2026-09-10T19:31:19+00:00",
+   "title": "PMO Lead SAP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463912136": {
+   "first_seen": "2026-09-10T19:31:21+00:00",
+   "title": "Consultor de Procesos - PMO",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4463484789": {
+   "first_seen": "2026-09-10T19:31:22+00:00",
+   "title": "Operations Strategy & Technology PMO (LATAM)",
+   "accepted": false,
+   "reason": "text:excluded:nativo o bilingue ingles"
+  },
+  "linkedin:4465689644": {
+   "first_seen": "2026-09-10T19:31:54+00:00",
+   "title": "IT Project Manager ( PMO)",
+   "accepted": false,
+   "reason": "degree:formacion academica: buscamos profesionales con titulacion universitaria de ingenier"
+  },
+  "linkedin:4463486545": {
+   "first_seen": "2026-09-10T19:31:56+00:00",
+   "title": "Junior Project Coordinator",
+   "accepted": false,
+   "reason": "text:excluded:advanced english"
+  },
+  "linkedin:4464512338": {
+   "first_seen": "2026-09-10T19:31:56+00:00",
+   "title": "Change Management & Analytics Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463487923": {
+   "first_seen": "2026-09-10T19:31:58+00:00",
+   "title": "Junior PMO / Analista Funcional",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4463457045": {
+   "first_seen": "2026-09-10T19:31:59+00:00",
+   "title": "Director de proyectos de TI",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "indeed:aa444736e8f24971": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Change Manager - Data & AI",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5892b04cf40f870b": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Representante de Desarrollo de Negocio",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9f2d6e1c9b516992": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Teleoperador venta seguros 15 a 21 h (h/m/x)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5bff2f4d548c0cc9": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "SAP SD Y MM Consultant Barcelona",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f1cb3b4001fc4a31": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Responsable de Sistemas y Seguridad de la Información",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:757f9e4319ef031c": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Técnico/a junior de soporte a proyectos de ingeniería",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ffa363590e5af697": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Técnico/a junior de soporte a proyectos de ingeniería",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:cfb91ca6728460b0": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Accountant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3779ec061321ec6a": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Ingeniero/a de Industrialización y Sistemas de Producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a9ec3c2dccdefaf0": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Software Developer | Java + Liferay | Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:03349ac058f26d2d": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Ingeniero/a Cálculo de Cargas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b8beffd72470018f": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "IA Tech Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:961c734e2deac1d5": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Field Service Engineer - Diagnostics",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4b14bee2cb8abd4c": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Ingeniero/a de Diseño Automoción (CATIA V5)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:98ea3cb2a9a2209b": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "AWS Senior Architect (DBT)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6b2d19f2eb945b69": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "SAP MDG Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fe7f0303c230f6c3": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "SAP PP Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:08bb5315bdaa024a": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "SAP MM Y SD Mid Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:39671345f5b94e0b": {
+   "first_seen": "2026-09-10T19:32:08+00:00",
+   "title": "Coordinador/a de Servicios de Atención Domiciliaria de Gestión Directa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ddb51aab82d05348a840": {
+   "first_seen": "2026-09-10T19:32:15+00:00",
+   "title": "Data Engineer / Data Modeler",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e55e138da257334d8e4a": {
+   "first_seen": "2026-09-10T19:32:15+00:00",
+   "title": "Cloud Engineer Azure/AWS (Barcelona)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-916e19d3e216430f7d43": {
+   "first_seen": "2026-09-10T19:32:15+00:00",
+   "title": "Técnico/a de Comunicaciones VoIP /Telefonía IP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-266019f312ebf3589045": {
+   "first_seen": "2026-09-10T19:32:15+00:00",
+   "title": "QA Lead | Sector Aerolíneas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a90d104ec21ed33ab14a": {
+   "first_seen": "2026-09-10T19:32:15+00:00",
+   "title": "Salesforce Developer/Release Coordinator Freelance",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -11309,27 +11585,77 @@
    },
    "fingerprint": "tecnico de proyecto -soluciones para el sector ferroviario|michael page",
    "notified_at": "2026-09-10T12:03:28+00:00"
+  },
+  {
+   "id": "linkedin:4463912136",
+   "source": "linkedin",
+   "title": "Consultor de Procesos - PMO",
+   "company": "Aubay Spain",
+   "location": "Madrid",
+   "url": "https://www.linkedin.com/jobs/view/4463912136",
+   "description": "Provincia : Madrid\n\nNº Vacantes (puestos) : 1\n\nFunciones\n\n¿Quiénes somos Aubay?\n\nSomos una multinacional europea creada en 1997 con presencia en España desde hace más de 20 años, cotizamos en bolsa con el índice (EURONEXT: AUB), nuestra sede central en Paris, y presencia en Francia, Luxemburgo, Reino Unido, Bélgica, Italia, México, Portugal y España. Contamos con un equipo humano de más de 7.500 p",
+   "posted": "2026-09-10",
+   "remote_flag": true,
+   "labels": [],
+   "score": 68,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Stakeholders",
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Sector tecnológico"
+   ],
+   "details": {
+    "requisitos": [
+     "Experiencia previa de 2-4 años en posiciones de PMO, consultoría de procesos, gestión de proyectos o similares.",
+     "Experiencia en seguimiento y coordinación de proyectos.",
+     "Conocimientos y experiencia en diseño, documentación y optimización de procesos.",
+     "Experiencia trabajando con KPIs, reporting y seguimiento de indicadores.",
+     "Capacidad para coordinarse con diferentes equipos y stakeholders.",
+     "Valorable experiencia en metodologías de gestión de proyectos y mejora continua."
+    ],
+    "ofrecen": [
+     "Contrato indefinido y desarrollo profesional.",
+     "Modalidad de trabajo: 100% remoto",
+     "Horario flexible.",
+     "Beneficios sociales (retribución flexible, portal de descuentos y formación).",
+     "Salario acorde a experiencia.",
+     "Nivel: No corresponde",
+     "Tipo de empleo: Jornada completa",
+     "Sector: Servicios y consultoría de TI"
+    ],
+    "claves": {
+     "salario": "Salario acorde a experiencia.",
+     "horario": "Horario flexible.",
+     "modalidad": "Modalidad de trabajo: 100% remoto",
+     "experiencia": "Experiencia previa de 2-4 años en posiciones de PMO, consultoría de procesos, gestión de proyectos o similares.",
+     "contrato": "Contrato indefinido y desarrollo profesional."
+    }
+   },
+   "fingerprint": "consultor de procesos - pmo|aubay",
+   "notified_at": "2026-09-10T19:31:21+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-09-10T15:28:40+00:00",
+  "at": "2026-09-10T19:32:15+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 141,
-    "candidates": 9,
-    "accepted": 0,
+    "fetched": 135,
+    "candidates": 11,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 64,
+    "fetched": 71,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 98,
+    "fetched": 99,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -11338,9 +11664,9 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 006d021491bc7-6c0996e0f19sm117873eaf.7 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33ba4b1f409sm341970eec.0 - gsmtp')",
    "sent": 0,
-   "pending": 10
+   "pending": 11
   }
  },
  "pending_email": [
@@ -11353,6 +11679,7 @@
   "linkedin:4462205809",
   "linkedin:4464444925",
   "indeed:cb22c7554410a93d",
-  "linkedin:4463457118"
+  "linkedin:4463457118",
+  "linkedin:4463912136"
  ]
 }
