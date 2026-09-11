@@ -11987,6 +11987,132 @@
    "title": "Business Analyst Camunda (Remoto)",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4465124738": {
+   "first_seen": "2026-09-11T19:25:36+00:00",
+   "title": "Project Manager_Proyectos ciberseguridad (100% remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4317930804": {
+   "first_seen": "2026-09-11T19:25:38+00:00",
+   "title": "PROJECT MANAGER - MICROSOFT",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4409366150": {
+   "first_seen": "2026-09-11T19:25:39+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria mecanica"
+  },
+  "linkedin:4464234298": {
+   "first_seen": "2026-09-11T19:25:41+00:00",
+   "title": "Project Manager (BMS)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4466336416": {
+   "first_seen": "2026-09-11T19:25:41+00:00",
+   "title": "SAP EC Berater (m/w/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466331543": {
+   "first_seen": "2026-09-11T19:25:41+00:00",
+   "title": "Berater für die Implementierung von E-Government-Produkten (m/w/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464233673": {
+   "first_seen": "2026-09-11T19:25:43+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:ingles (c1"
+  },
+  "linkedin:4466348812": {
+   "first_seen": "2026-09-11T19:25:45+00:00",
+   "title": "Project Coordinator (Hotel IT dept./ PMS)",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.04"
+  },
+  "linkedin:4446746597": {
+   "first_seen": "2026-09-11T19:25:46+00:00",
+   "title": "Coordinador de Proyectos",
+   "accepted": false,
+   "reason": "degree:ingenieria informatica"
+  },
+  "linkedin:4436220507": {
+   "first_seen": "2026-09-11T19:25:46+00:00",
+   "title": "Coordinador/a contrato marco con eléctrica - Oficina Técnica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4445005533": {
+   "first_seen": "2026-09-11T19:25:46+00:00",
+   "title": "Consultor/a para proyectos de Sector Público | Gobierno del dato en Barcelona",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466314944": {
+   "first_seen": "2026-09-11T19:25:48+00:00",
+   "title": "PMO OFFICE LEAD",
+   "accepted": false,
+   "reason": "text:excluded:ingles nivel avanzado"
+  },
+  "indeed:074e12c38bfc150c": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Infrastructure Project Manager - (Baja paternal)",
+   "accepted": false,
+   "reason": "text:excluded:background tecnico"
+  },
+  "indeed:24f3fc2b3d4d917c": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Jefe de Equipo / Team Leader (Sports)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:84eeefe87c823d58": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Product Manager de Integraciones (freelance)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:33abcbb26ffd06af": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Ingeniero/a Software Java (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:2c327c0f7879dccf": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Manager de Ventas Canales No Presenciales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3dc22c53b5a06edc": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Senior Full Stack Engineer / End-to-End Product Development / Full Remote",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:61d25db407bc5447": {
+   "first_seen": "2026-09-11T19:25:58+00:00",
+   "title": "Operario/a de Mecanizado de Drones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-81c41136d28a135c9542": {
+   "first_seen": "2026-09-11T19:26:04+00:00",
+   "title": "Functional Payments & SEPA Expert",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-14b3159512460311c34e": {
+   "first_seen": "2026-09-11T19:26:04+00:00",
+   "title": "Tester Automatización Java / Selenium",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -12681,24 +12807,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-11T16:22:33+00:00",
+  "at": "2026-09-11T19:26:05+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 141,
-    "candidates": 10,
+    "fetched": 142,
+    "candidates": 7,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 59,
-    "candidates": 0,
+    "fetched": 54,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 109,
+    "fetched": 105,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -12707,7 +12833,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33ba4e95075sm7774570eec.11 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33ba4efc398sm9453996eec.19 - gsmtp')",
    "sent": 0,
    "pending": 12
   }
