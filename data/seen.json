@@ -12113,6 +12113,144 @@
    "title": "Tester Automatización Java / Selenium",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4427363556": {
+   "first_seen": "2026-09-12T11:27:25+00:00",
+   "title": "Technical Project Manager (JetBrains Cloud Platform)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464237797": {
+   "first_seen": "2026-09-12T11:27:26+00:00",
+   "title": "Jefe/a de Proyecto (Project Manager)",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4466389465": {
+   "first_seen": "2026-09-12T11:27:28+00:00",
+   "title": "Technical Project Manager | Mobile Applications & Integrations",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4464275277": {
+   "first_seen": "2026-09-12T11:27:28+00:00",
+   "title": "Engineering Sales Manager - Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465107252": {
+   "first_seen": "2026-09-12T11:27:28+00:00",
+   "title": "Technical Customer Success Specialist (Medtech Saas)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466062190": {
+   "first_seen": "2026-09-12T11:27:28+00:00",
+   "title": "Responsable de Obras / Project Manager de Construcción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466056714": {
+   "first_seen": "2026-09-12T11:27:29+00:00",
+   "title": "Jefe de Proyectos Sanitarios",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4463984259": {
+   "first_seen": "2026-09-12T11:27:31+00:00",
+   "title": "Project Manager Zero Defect Start Up",
+   "accepted": false,
+   "reason": "text:excluded:ingles fluido"
+  },
+  "linkedin:4102972668": {
+   "first_seen": "2026-09-12T11:27:33+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4466482744": {
+   "first_seen": "2026-09-12T11:27:35+00:00",
+   "title": "Responsable de proyectos y operaciones",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4466409311": {
+   "first_seen": "2026-09-12T11:27:35+00:00",
+   "title": "A cargo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463903237": {
+   "first_seen": "2026-09-12T11:27:35+00:00",
+   "title": "Técnico/a junior de soporte a proyectos de ingeniería",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463976424": {
+   "first_seen": "2026-09-12T11:27:36+00:00",
+   "title": "Project Manager Junior | Innovación Abierta & Startups",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4465890657": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "2026_124_PROJECT MANAGER EN INNOVACIÓ TRANSFORMADORA I SALUT COMUNITÀRIA",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4464239661": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "Hays busca un Agent para agencia de representación artística",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4420930261": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "Delineante Proyectista Eléctrico/a",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464896931": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "Project Manager Lead Data Center Europe - France/UK/Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465650604": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "DIGITAL APPLICATIONS STRATEGIST",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4464228853": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "Corporate Transformation Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4463972431": {
+   "first_seen": "2026-09-12T11:27:38+00:00",
+   "title": "Project Controls Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:da93472fcec22b28": {
+   "first_seen": "2026-09-12T11:27:44+00:00",
+   "title": "Engineering Manager Data&AI",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:32b1270911dfa37d": {
+   "first_seen": "2026-09-12T11:27:44+00:00",
+   "title": "Socio/a Asesoría de empresas | CCO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ccaa2f55eb9c4e3d": {
+   "first_seen": "2026-09-12T11:27:44+00:00",
+   "title": "Técnico /a de Sistemas y Comunicaciones",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -12807,24 +12945,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-11T19:26:05+00:00",
+  "at": "2026-09-12T11:27:49+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 142,
-    "candidates": 7,
+    "fetched": 135,
+    "candidates": 8,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 54,
-    "candidates": 1,
+    "fetched": 43,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 105,
+    "fetched": 99,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -12833,7 +12971,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33ba4efc398sm9453996eec.19 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d75a77b69052e-530ca48912csm43680551cf.13 - gsmtp')",
    "sent": 0,
    "pending": 12
   }
