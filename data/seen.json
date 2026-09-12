@@ -12401,6 +12401,138 @@
    "title": "Data Platform & Cloud Engineer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4387495533": {
+   "first_seen": "2026-09-12T18:55:59+00:00",
+   "title": "Professional Services Project Manager - Core Banking",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4446902051": {
+   "first_seen": "2026-09-12T18:56:01+00:00",
+   "title": "Senior Clinical Project Manager (Renal, Obesity, MASH) - Global Study Leadership",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4446992071": {
+   "first_seen": "2026-09-12T18:56:01+00:00",
+   "title": "GCP Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465419906": {
+   "first_seen": "2026-09-12T18:56:01+00:00",
+   "title": "Senior Consultant (M/W/D), Csv/Csa & Gxp-Projektleitung (Freelance Oder Festanstellung) Remote",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465433008": {
+   "first_seen": "2026-09-12T18:56:01+00:00",
+   "title": "Product Owner - Healthtech, Flexible/Remote - La Coruña, Galicia, Spain - €35.000 Al Año",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4408850820": {
+   "first_seen": "2026-09-12T18:56:02+00:00",
+   "title": "R&D Project Manager",
+   "accepted": false,
+   "reason": "degree:titulacion universitaria en ingenier"
+  },
+  "linkedin:4408449743": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Strategy & Execution Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4464862419": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Puestos vacantes: Jefe/a de Proyectos SAP (9969)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4445090020": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Clinical Trial Coordinator - FSP - Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4429115107": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Coordinador/a BIM MEP- Zaragoza",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4439055148": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Ingenieros/as de ILS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466491930": {
+   "first_seen": "2026-09-12T18:56:04+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4456082771": {
+   "first_seen": "2026-09-12T18:56:06+00:00",
+   "title": "Senior OT Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4463481283": {
+   "first_seen": "2026-09-12T18:56:07+00:00",
+   "title": "Transformation Project Lead - Madrid (P&O and Other Transformations)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4466023312": {
+   "first_seen": "2026-09-12T18:56:09+00:00",
+   "title": "Program Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "indeed:aed891dd853949a7": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Java Engineer - Sector textil (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5893a8af8f5e3f5a": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Ingeniero/a Software Java (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:535fc65b8eb03d36": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Java Software Engineer + IA (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:24e092ffc4b47d99": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Ingeniero/a Software Java (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fe533f81df54ea2d": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Java Engineer - Sector textil (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ab5885ffb4db6384": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Software Architect – Full Remote",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c48fc46b1474240c": {
+   "first_seen": "2026-09-12T18:56:14+00:00",
+   "title": "Software Engineer Java + Inglés (Remoto)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -13095,24 +13227,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-12T14:55:48+00:00",
+  "at": "2026-09-12T18:56:19+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 127,
-    "candidates": 3,
+    "fetched": 126,
+    "candidates": 7,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 44,
+    "fetched": 35,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 99,
+    "fetched": 93,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -13121,7 +13253,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a92af1059eb24-14365b97994sm25793057c88.12 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 6a1803df08f44-9120f49444bsm52044316d6.29 - gsmtp')",
    "sent": 0,
    "pending": 12
   }
