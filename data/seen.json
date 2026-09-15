@@ -14267,6 +14267,828 @@
    "title": "Ingeniero de Soporte IoT",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4465506240": {
+   "first_seen": "2026-09-15T12:27:03+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4465513257": {
+   "first_seen": "2026-09-15T12:27:05+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4467738184": {
+   "first_seen": "2026-09-15T12:27:06+00:00",
+   "title": "IT Project Manager - Pharma Transformation Projects",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4465507782": {
+   "first_seen": "2026-09-15T12:27:08+00:00",
+   "title": "IT PROJECT MANAGER",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4466506059": {
+   "first_seen": "2026-09-15T12:27:10+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent in english"
+  },
+  "linkedin:4467496217": {
+   "first_seen": "2026-09-15T12:27:12+00:00",
+   "title": "Project Manager Desarollos Urbanos / Urbanizaciones",
+   "accepted": false,
+   "reason": "degree:titulacion en ingenieria de caminos, canales y puertos o ingenier"
+  },
+  "linkedin:4467728204": {
+   "first_seen": "2026-09-15T12:27:12+00:00",
+   "title": "Senior IT Project Manager - Salesforce Transformation in Pharma",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465539263": {
+   "first_seen": "2026-09-15T12:27:12+00:00",
+   "title": "Jefe/a de Proyecto Internacional EW (Electronic Warfare)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466503575": {
+   "first_seen": "2026-09-15T12:27:13+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "location:presencial-outside-allowed-area"
+  },
+  "linkedin:4466195421": {
+   "first_seen": "2026-09-15T12:27:15+00:00",
+   "title": "Project Manager - Trade Finance experience",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4465540009": {
+   "first_seen": "2026-09-15T12:27:15+00:00",
+   "title": "Project Manager Jr. Climatización Naval (H/M/X)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466507229": {
+   "first_seen": "2026-09-15T12:27:17+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:avanzado de ingles"
+  },
+  "linkedin:4448313718": {
+   "first_seen": "2026-09-15T12:27:18+00:00",
+   "title": "Project Manager CSX PMO EU",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4465512238": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "IT Project Manager",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4467722063": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Consultor Senior Salud Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465528725": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Ingeniero de Climatización - A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467493118": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Ingeniero/a de proyectos Junior- Sector Naval",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465522628": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Encargado/a de Obra Ferralla, A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467701486": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Director adjunto - Departamento de Edificación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467731434": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Ingeniero/a de Proyecto Automatización",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465512688": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Coordinador/a de Obra | AutoCAD & Revit",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466191687": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Tech Product Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465534152": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "Simulation Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467433156": {
+   "first_seen": "2026-09-15T12:27:20+00:00",
+   "title": "SAP S4/Hana Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466512028": {
+   "first_seen": "2026-09-15T12:27:22+00:00",
+   "title": "PMO / Senior Project Manager Software",
+   "accepted": false,
+   "reason": "text:excluded:catalan: avanzado imprescindible"
+  },
+  "linkedin:4466501634": {
+   "first_seen": "2026-09-15T12:27:22+00:00",
+   "title": "Project Manager Júnior IT - Sistemas e Infraestructura",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467733020": {
+   "first_seen": "2026-09-15T12:27:22+00:00",
+   "title": "Ingeniero/a Instalaciones Eléctricas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467737321": {
+   "first_seen": "2026-09-15T12:27:22+00:00",
+   "title": "Consultor SAP HCM / Succeessfactors junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467495474": {
+   "first_seen": "2026-09-15T12:27:22+00:00",
+   "title": "Coordinador/a Proyectos Cliente (Reformas - Obra) LEROY MERLIN PALENCIA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467499711": {
+   "first_seen": "2026-09-15T12:27:24+00:00",
+   "title": "Project Coordinator",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4408504169": {
+   "first_seen": "2026-09-15T12:27:24+00:00",
+   "title": "Coordinador de Marketing y Proyectos.",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465539460": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Coordinador/a de VMO / PMO – Gestión de Proyectos",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4406495297": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Coordinador/a de Instalaciones a nivel nacional",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465533425": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Ingeniero/a Junior de Gestión de Proyectos I+D+i",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467726379": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Planificador/a de Proyectos Automoción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465548259": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Coordinador/a de Treball de Camp",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465552060": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "SAP HCM y SAP Success Factor Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467714092": {
+   "first_seen": "2026-09-15T12:27:25+00:00",
+   "title": "Asistente de Dirección con japonés y español",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4465515299": {
+   "first_seen": "2026-09-15T12:27:27+00:00",
+   "title": "PMO",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4467717429": {
+   "first_seen": "2026-09-15T12:27:29+00:00",
+   "title": "IT Program Manager - Pharma Transformation Programs",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4467499623": {
+   "first_seen": "2026-09-15T12:27:29+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467200296": {
+   "first_seen": "2026-09-15T12:27:29+00:00",
+   "title": "Strategy & Transformation Director",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:102908c2c5c45f84": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Project Manager Ciberseguridad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0ebb17fd10ab4196": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Financial Controller",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f880e99ad88d1ba9": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "English Teacher presencial y online",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8e99d3e7c799af81": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Ingeniero/a de IA Generativa | LLMs, RAG y Sistemas Multiagente",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f1ee6b01e4894287": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Asesor comercial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b62e4aab9399a4a0": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Bar Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7826880cde55f657": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Técnico/a Instalador/a de Electrodomésticos y Televisores a domicilio en la zona de Barcelona. 1 1",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:006df9fc52d9102a": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Ingeniero/a Software Java (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7ca7f691c44f05a1": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Ingeniero/a Software Java (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:589bb5c110c05bba": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Java Software Engineer + Inglés (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:86aafd64c959f7c9": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Java Software Engineer + Inglés (100% teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c395c46b40a9c769": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Revenue Assurance & Fraud Prevention Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4d4edc52e83c5390": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Teleoperadora con experiencia comercial, B2B",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b7033527d88cdfa6": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Ingeniero/a de Producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1796dfb16dcf13a9": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Java Technical Lead + IA (Híbrido Madrid)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9ebbf8619c7873d9": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Arquitecto/a IA Generativa Senior | Hub de IA | Liderazgo Técnico y Preventa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:987a23dcf4a09249": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Supervisor/a De Auxiliares - Residencia Zapateira",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d9248006d542e965": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "EXPENDEDOR/A GASOLINERA. FIN DE SEMANA. VIGO. (INDEFINIDO)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:2efcafbee3d7bc92": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "EXPENDEDOR/A GASOLINERA. MONFORTE DE LEMOS. (SUSTITUCIÓN).",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8993613b98367b9e": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Consultor SAP HCM / Succeessfactors junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8e2ae7bc9738ede8": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "Director/a Comercial Bodega",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ffd23f784fe8ac01": {
+   "first_seen": "2026-09-15T12:27:35+00:00",
+   "title": "COORDINADOR DE RUTAS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-407d1a24e2e78388304f": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Integration Architect Technical Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a8ac152572e7739a0c46": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Big Data Administrator (100% Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-68281fb5b23de3001a48": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "SSR Fullstack Java / Angular",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e40518993233b3a0574b": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Ingeniero Voz IP / Cisco videoconferencia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-925d13fb1280d3ae8341": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Data Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5fc0133052c073ab324d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Project Product Owner - Global AI Transformation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-82be151be2a9936cf243": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "IT Change, Problem, Incident & CMDB Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-63b3136e92b0131aa743": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a facturación hospitalaria SAP IS-H",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d81d1d130208034ac742": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Engineer Node.js +AWS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9a7c1c63c2e1e32f7340": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrollador Frontend Engineer (Angular / React)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-77da1031c2df53bfe34b": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Analista Programador/a Java",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2743126b8272d37f7c4d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "DevOps + AWS + inglés",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0d3616ec52a97306cb40": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a SAP Signavio (100% Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5958154ec25dc38c6448": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a SAP Ariba",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-fe9d17bb02d9c3f8274f": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Developer Java SpringBoot IA (Claude Code)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-18c5171a82bb33c24148": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a Power Platform",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-97351998021bc3d71343": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Helpdesk / jornada parcial (Teleoperador)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-307f147142b343a8cc47": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Engineer Node/C#/SQL con Inglés",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a32c15c9f2cfc3100242": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Project Manager Junior - Proyectos IT",
+   "accepted": true,
+   "reason": ""
+  },
+  "tecnoempleo:rf-a6ea1972127293742144": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a SAP TRM",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-126c1eb2e2ca2314db4f": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrollador/a SAP ABAP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-36c9181d426933b31c43": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Java Backend Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-b95016581262e344a846": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrolladores/a Senior BACKEND JAVA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0da215632290f3442f47": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Jefe de Proyectos TIC con Inglés",
+   "accepted": false,
+   "reason": "text:excluded:background tecnico"
+  },
+  "tecnoempleo:rf-938f1d72c201832d8e4e": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Técnico audiovisual",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-17f71c55728fa3d00945": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Jefe/a de proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-564e18e592cc430ce04c": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Full Stack Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ae9a12cf6281638d254d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior AWS Application Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-eaa41ae2e202a3f8d247": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "DevOps Engineer - 100% Remote",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9cfa1bb8e22a037aa542": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "QA Tester Esp. en FX (Foreign Exchange)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-b0db120da2ed43907443": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrollador/a Java Oracle Banca",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-40c41839b25243ba5c46": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Ingeniero/a Proyectos Software Industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1fdd10fd424b63749949": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Prácticas: Optimización de algoritmos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9fae163882c39375394d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Ingeniero/a Especialista en Sistemas SIEM",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-143e10b152f2f3f6b74d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Microsoft Dynamics 365 Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-68221e68a26a03ef1a4f": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Técnico/a de calidad y seguridad industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e9e61527f2be433e0749": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrollador Full Stack Python (FastAPI) + React",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f4301591f209c3ec1941": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "SAP Solutions Architect (SAP BTP)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f635129af238a3662346": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Ingeniero/a PMO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-dbcc1df66210034c6a46": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Desarrollador/a MS Power Platform",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f2ec143202b343bb7d40": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Gestor/a de proyectos ERP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-13cf1588d2ed332a9049": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Data Analyst sector Telecomunicaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-6343159be2c9c393a346": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Amazon Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-80951054b26be3e33e45": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Técnico mantenimiento mecánico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-37fd17b8829c8368164d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Java Backend Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-092c1100b2d24308024f": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Lead AIV/AIT",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-98ef1c9d72038325344d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Java Developer (Inglés alto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-7be3145e921a3374d34e": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Developer - Catalog Games",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9ed015d2928bb31a3545": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Analista Funcional IT para sector Banca",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-447e1d2bf2e6e3ec9e40": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Appian Senior Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-20f6121302be83318645": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a Funcional Business Central",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-021e1ba0b2c823551b44": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Developer Java Spring Boot",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f5e61ff132314342344d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor/a Funcional Senior - Business Central",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-82c61f0762b7a3f7984e": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Junior Java Software Engineer Community",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d4681fd2f258037e3f40": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Software Engineer (Backend)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9f8917fcf24fb37efd44": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Lead AI Programmer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-cc961b1ad2ec035aee4a": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "AI Tech Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-8dd716d812fa237ec04d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Senior Software Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-94f61719622d332be347": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Marketing SEO Manager Spanish Market",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-06ec1d78e2894392d94a": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Motion Designer, Stripe Identity",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-8ba819c0229553adc846": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Arquitecto/a Salesforce",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-def215d962d9436d254b": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Técnico/a informático/a",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-4a29162e6290b318f34d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Staff Data Scientist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-14fd1a29329fb3a8c34d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "IA Technical Leader",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-099e1edfb2b833d43e46": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Engineer - Memberships",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1bbd19b3b248239c904a": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Analista Programador Odoo v18",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2d661215c231c3bade4e": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Analista Funcional",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-3aef15de1274f3625c46": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Backend Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d7d9137c32fd239a0f47": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "IT Business Partner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2466142ed2feb3f2da48": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "AI Digital Workplace Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-43bf1067b2f08370414d": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Profesionales Dynamics 365 F&O",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-954f1dcfa26143b3c84c": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Administrador/a sistemas Linux con Ansible",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a63a1ea2326c738a074e": {
+   "first_seen": "2026-09-15T12:27:42+00:00",
+   "title": "Consultor Senior - DocuSign CLM / IAM",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -15017,38 +15839,86 @@
    },
    "fingerprint": "project manager plm 3dexperience getafe hibrido|ct solutions",
    "notified_at": "2026-09-14T20:44:30+00:00"
+  },
+  {
+   "id": "tecnoempleo:rf-a32c15c9f2cfc3100242",
+   "source": "tecnoempleo",
+   "title": "Project Manager Junior - Proyectos IT",
+   "company": "Baoss",
+   "location": "A Coruña, A Coruña",
+   "url": "https://www.tecnoempleo.com/project-manager-junior-proyectos-it-baoss/scrum-sql/rf-a32c15c9f2cfc3100242",
+   "description": "Buscamos incorporar Project Manager Junior para participar en un proyecto dentro del sector público, integrado/a en la PMO y colaborando con equipos funcionales y de desarrollo.\n\nLa persona seleccionada será responsable de la planificación, coordinación y seguimiento de proyectos y servicios IT, asegurando el cumplimiento de hitos, plazos y objetivos, así como la correcta coordinación entre los di",
+   "posted": "2026-09-15",
+   "remote_flag": false,
+   "labels": [],
+   "score": 84,
+   "modality": "galicia",
+   "workplace": "sin especificar",
+   "signals": [
+    "+Agile",
+    "+Herramientas PM",
+    "+Certificación PM",
+    "+Junior / sin experiencia previa",
+    "+Gestión operativa",
+    "+Sector tecnológico"
+   ],
+   "details": {
+    "requisitos": [
+     "Titulación universitaria.",
+     "Experiencia en gestión de servicios o proyectos IT.",
+     "Experiencia en coordinación y seguimiento de equipos y proyectos tecnológicos.",
+     "Tecnologías: Scrum, SQL, Power BI, Power Automate, Power Apps, TestLink, Jira Redmine, Confluence,",
+     "Tipo de Contrato: Indefinido",
+     "Salario: Sin especificar",
+     "Experiencia: 2 años",
+     "Funciones: Jefe de Equipo - Jefe de Proyecto",
+     "Formación mínima: Licenciado",
+     "Descubre más: https://www.tecnoempleo.com/project-manager-junior-proyectos-it-baoss/scrum-sql/rf-a32c15c9f2cfc3100242"
+    ],
+    "ofrecen": [
+     "Tipo de Contrato: Indefinido",
+     "Salario: Sin especificar"
+    ],
+    "claves": {
+     "salario": "Salario: Sin especificar",
+     "experiencia": "Experiencia: 2 años",
+     "contrato": "Tipo de Contrato: Indefinido"
+    }
+   },
+   "fingerprint": "project manager junior - proyectos it|baoss",
+   "notified_at": "2026-09-15T12:27:42+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-09-14T20:45:12+00:00",
+  "at": "2026-09-15T12:27:43+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 112,
-    "candidates": 18,
-    "accepted": 1,
+    "fetched": 116,
+    "candidates": 16,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 28,
-    "candidates": 1,
+    "fetched": 51,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 70,
-    "candidates": 0,
-    "accepted": 0,
+    "fetched": 88,
+    "candidates": 2,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    }
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d75a77b69052e-530ca460a32sm109615301cf.9 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33bbeb053a5sm18892584eec.27 - gsmtp')",
    "sent": 0,
-   "pending": 13
+   "pending": 14
   }
  },
  "pending_email": [
@@ -15064,6 +15934,7 @@
   "linkedin:4463457118",
   "linkedin:4463912136",
   "linkedin:4465816695",
-  "linkedin:4458161901"
+  "linkedin:4458161901",
+  "tecnoempleo:rf-a32c15c9f2cfc3100242"
  ]
 }
