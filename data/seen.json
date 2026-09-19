@@ -18863,6 +18863,96 @@
    "title": "Product Adoption & Value Lead",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4441114403": {
+   "first_seen": "2026-09-19T19:09:07+00:00",
+   "title": "PROJECT MANAGER INFRAESTRUCTURA ELECTRICA EN DATA CENTERS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468414064": {
+   "first_seen": "2026-09-19T19:09:07+00:00",
+   "title": "Clinical Affairs Manager (Medtech Saas)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469135966": {
+   "first_seen": "2026-09-19T19:09:09+00:00",
+   "title": "Senior Project Manager Internacional Hidráulica ( Experiencia en Uk & Ireland)",
+   "accepted": false,
+   "reason": "text:excluded:ingles (c1"
+  },
+  "linkedin:4467853124": {
+   "first_seen": "2026-09-19T19:09:09+00:00",
+   "title": "Jefe de Proyecto Ciberseguridad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466645935": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:formacion universitaria en ingenier"
+  },
+  "linkedin:4467836786": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Especialista Ciberseguridad (Arquitecto/a IAM)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4448973252": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Comercial Técnico/a de Gestión de Residuos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468082831": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "MATERIAL PLANNING PROFESSIONAL (F/M/X)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467597014": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Coordinador/a tècnic/a de projectes",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467824951": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Ingeniero/a Junior de Oficina Técnica y Obras - Barcelona",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469532035": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "TÉCNICO/A DE QA/QC - PROYECTOS INDUSTRIALES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4450579333": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Data, Digital & Technology (DD&T) Cluster Lead Iberia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468401475": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Scp Program Champion",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4445077461": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Strategic Project Controller",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4448015816": {
+   "first_seen": "2026-09-19T19:09:11+00:00",
+   "title": "Business Excellence Senior Consultant",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -19751,24 +19841,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-19T15:16:56+00:00",
+  "at": "2026-09-19T19:09:18+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 137,
-    "candidates": 6,
+    "fetched": 133,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 24,
+    "fetched": 7,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 87,
+    "fetched": 83,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -19777,7 +19867,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 006d021491bc7-6cd2ea874c3sm3029593eaf.0 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 6a1803df08f44-91260a60b81sm27375166d6.18 - gsmtp')",
    "sent": 0,
    "pending": 16
   }
