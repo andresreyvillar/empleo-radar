@@ -18653,6 +18653,126 @@
    "title": "Senior IT Project Manager",
    "accepted": false,
    "reason": "text:excluded:ingles alto"
+  },
+  "linkedin:4449466890": {
+   "first_seen": "2026-09-19T11:46:59+00:00",
+   "title": "CSA Project Manager",
+   "accepted": false,
+   "reason": "degree:licenciatura en ingenier"
+  },
+  "linkedin:4469529106": {
+   "first_seen": "2026-09-19T11:46:59+00:00",
+   "title": "SUPERVISOR/A MECÁNICO/A - PROYECTOS INDUSTRIALES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469519331": {
+   "first_seen": "2026-09-19T11:46:59+00:00",
+   "title": "SUPERVISOR/A CIVIL - PROYECTOS INDUSTRIALES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468085653": {
+   "first_seen": "2026-09-19T11:46:59+00:00",
+   "title": "Key Account Manager — Contratación Internacional en Origen",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467823594": {
+   "first_seen": "2026-09-19T11:46:59+00:00",
+   "title": "Senior Process Engineer: Epitaxy (III-V Foundry)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4449463896": {
+   "first_seen": "2026-09-19T11:47:00+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4469172898": {
+   "first_seen": "2026-09-19T11:47:00+00:00",
+   "title": "Site Activation  Coordinator, Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469136000": {
+   "first_seen": "2026-09-19T11:47:00+00:00",
+   "title": "Técnico/a de Organización y Coordinación de Eventos Sociales y Educativos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469181655": {
+   "first_seen": "2026-09-19T11:47:00+00:00",
+   "title": "Site Activation  Coordinator, Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467825239": {
+   "first_seen": "2026-09-19T11:47:00+00:00",
+   "title": "Gestor/a de Proyectos - Albacete",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468014271": {
+   "first_seen": "2026-09-19T11:47:02+00:00",
+   "title": "Clinical Research Project Officer",
+   "accepted": false,
+   "reason": "location:presencial-outside-allowed-area"
+  },
+  "linkedin:4458953996": {
+   "first_seen": "2026-09-19T11:47:02+00:00",
+   "title": "Beca Dpto. Producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466957889": {
+   "first_seen": "2026-09-19T11:47:02+00:00",
+   "title": "Consultor Agile Tecnológico (Microsoft 365 & Power BI)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469244642": {
+   "first_seen": "2026-09-19T11:47:02+00:00",
+   "title": "Project (R&D) Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466690150": {
+   "first_seen": "2026-09-19T11:47:02+00:00",
+   "title": "Senior Digital Transformation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4447269921": {
+   "first_seen": "2026-09-19T11:47:04+00:00",
+   "title": "Health Program Manager en Barcelona (m/f/d)",
+   "accepted": false,
+   "reason": "text:excluded:idiomas (ingles, espanol y aleman"
+  },
+  "linkedin:4469199007": {
+   "first_seen": "2026-09-19T11:47:04+00:00",
+   "title": "Operational Excellence Partner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4449752908": {
+   "first_seen": "2026-09-19T11:47:05+00:00",
+   "title": "Senior Program Manager.",
+   "accepted": false,
+   "reason": "text:excluded:fluent in english"
+  },
+  "linkedin:4466279325": {
+   "first_seen": "2026-09-19T11:47:05+00:00",
+   "title": "AD, Tech Product Management -Solution Delivery (Authoring & Planning)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4429697217": {
+   "first_seen": "2026-09-19T11:47:05+00:00",
+   "title": "Project Controls Manager",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -19541,25 +19661,25 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-18T19:26:51+00:00",
+  "at": "2026-09-19T11:47:14+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 147,
-    "candidates": 12,
+    "fetched": 143,
+    "candidates": 5,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 46,
+    "fetched": 33,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 103,
-    "candidates": 1,
+    "fetched": 87,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
@@ -19567,7 +19687,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a92af1059eb24-144d55bfec0sm776222c88.7 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 46e09a7af769-8107dd8bc84sm1921681a34.9 - gsmtp')",
    "sent": 0,
    "pending": 16
   }
