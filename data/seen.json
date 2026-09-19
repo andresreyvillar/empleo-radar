@@ -18773,6 +18773,96 @@
    "title": "Project Controls Manager",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4469536591": {
+   "first_seen": "2026-09-19T15:16:36+00:00",
+   "title": "Jefe/a de proyecto SAP para Sector Sanitario (m/f/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4458996265": {
+   "first_seen": "2026-09-19T15:16:38+00:00",
+   "title": "Service Project Manager - High Voltage",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4469546171": {
+   "first_seen": "2026-09-19T15:16:38+00:00",
+   "title": "diectora proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466975857": {
+   "first_seen": "2026-09-19T15:16:38+00:00",
+   "title": "Técnico/a de Ofertas de Electricidad y Automatización (h/m)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469536593": {
+   "first_seen": "2026-09-19T15:16:39+00:00",
+   "title": "Program Manager (m/f/d)",
+   "accepted": false,
+   "reason": "text:excluded:idiomas (ingles, espanol y aleman"
+  },
+  "linkedin:4467828113": {
+   "first_seen": "2026-09-19T15:16:41+00:00",
+   "title": "Post-Award Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:advanced level of english"
+  },
+  "linkedin:4467883032": {
+   "first_seen": "2026-09-19T15:16:41+00:00",
+   "title": "Graduate Trainee - Visibility & Merchandising (Retail Design)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4447383315": {
+   "first_seen": "2026-09-19T15:16:41+00:00",
+   "title": "Partner Management Associate",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467581558": {
+   "first_seen": "2026-09-19T15:16:41+00:00",
+   "title": "ADMINISTRATIVO/A DE OBRA-A CORUÑA-REF 2658",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469527135": {
+   "first_seen": "2026-09-19T15:16:41+00:00",
+   "title": "SUPERVISOR/A ELÉCTRICO/A - PROYECTOS INDUSTRIALES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469134866": {
+   "first_seen": "2026-09-19T15:16:43+00:00",
+   "title": "Security Project Manager (m/f/d)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4468657608": {
+   "first_seen": "2026-09-19T15:16:43+00:00",
+   "title": "Senior Technical Program Manager – Embedded Software",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4459154544": {
+   "first_seen": "2026-09-19T15:16:45+00:00",
+   "title": "Senior Project Manager - Financial Services",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4469132035": {
+   "first_seen": "2026-09-19T15:16:46+00:00",
+   "title": "Security Project Manager (m/f/d)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4449219287": {
+   "first_seen": "2026-09-19T15:16:46+00:00",
+   "title": "Product Adoption & Value Lead",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -19661,17 +19751,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-19T11:47:14+00:00",
+  "at": "2026-09-19T15:16:56+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 143,
-    "candidates": 5,
+    "fetched": 137,
+    "candidates": 6,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 33,
+    "fetched": 24,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -19687,7 +19777,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 46e09a7af769-8107dd8bc84sm1921681a34.9 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 006d021491bc7-6cd2ea874c3sm3029593eaf.0 - gsmtp')",
    "sent": 0,
    "pending": 16
   }
