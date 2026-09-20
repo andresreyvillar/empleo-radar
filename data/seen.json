@@ -19325,6 +19325,132 @@
    "title": "Técnico/a de Sistemas y Soporte IT",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4424461973": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Senior Project Manager, Data Center Expansion – Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4460392483": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Project Engineering Manager, AMZL Field Engineering",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4460394438": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Project Engineering Manager, AMZL Field Engineering",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4459753162": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Beca Edificación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4459746290": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Beca Edificación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4441464303": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Project Engineering Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467329711": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "JEFE DE OBRA (INDUSTRIAL)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466986239": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "RESPONSABLE DE PROYECTOS MECÁNICOS - AGUA & SANEAMIENTO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469803880": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Técnica o técnico de programas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4460981021": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Sr Site Activation Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467335423": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Coordinador/a de Patching y Operaciones IT",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4467351001": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Responsable / encargado (Datos y Automatización)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468405397": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Responsable De Instalaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468033679": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Data Analyst Senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4424472232": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Project Leader / Principal / Partner, AI Transformation, Spain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4441183182": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "Controlling Digital  Product Processes",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469596229": {
+   "first_seen": "2026-09-20T19:17:06+00:00",
+   "title": "IT BUSINESS PARTNER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-979a140912e1c3e88c4f": {
+   "first_seen": "2026-09-20T19:17:16+00:00",
+   "title": "Product Owner | Soluciones Digitales + IA Aplicada",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-3009134252a2b3148145": {
+   "first_seen": "2026-09-20T19:17:16+00:00",
+   "title": "Administrador/a Oracle L2 – Soporte 24x7",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5a8315db72ca9373c544": {
+   "first_seen": "2026-09-20T19:17:16+00:00",
+   "title": "Coordinador/a ITIL Sistemas ITSM Windows",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f1e01f98125d238c6d4c": {
+   "first_seen": "2026-09-20T19:17:16+00:00",
+   "title": "Coordinador/a de Servicios de Ciberseguridad SOC",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -20213,11 +20339,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-20T15:53:51+00:00",
+  "at": "2026-09-20T19:17:18+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 90,
-    "candidates": 6,
+    "fetched": 86,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
@@ -20230,7 +20356,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 75,
+    "fetched": 64,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -20239,7 +20365,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor af79cd13be357-93bedc103e7sm428551185a.18 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 5a478bee46e88-33c33142a37sm14910258eec.15 - gsmtp')",
    "sent": 0,
    "pending": 16
   }
