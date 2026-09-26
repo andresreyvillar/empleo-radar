@@ -25565,6 +25565,90 @@
    "title": "Arquitecto/a / Jefe/a de Producción",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4468543154": {
+   "first_seen": "2026-09-26T19:32:33+00:00",
+   "title": "Salesforce Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4436791032": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Project Manager Web (Drupal)",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4472408118": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Jefe de obra gestor proyectos construcción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4471049701": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Jefe/A De Obra - Edificación Residencial | Lugo / Vigo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4471048725": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Encargado De Obra - Proyectos Integrales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4471058475": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Coordinador de Proyectos - Oficina Técnica (Ingeniería de Detalle)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470560734": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Consultor/a Proyectos SAP BTP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470304752": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Engagement Operations Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470137403": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Gestor/a de Obras",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4471889295": {
+   "first_seen": "2026-09-26T19:32:34+00:00",
+   "title": "Junior Consultant. Transformación digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469792364": {
+   "first_seen": "2026-09-26T19:32:36+00:00",
+   "title": "IT PROGRAM MANAGER",
+   "accepted": false,
+   "reason": "text:excluded:ingles alto/fluido"
+  },
+  "linkedin:4470306566": {
+   "first_seen": "2026-09-26T19:32:36+00:00",
+   "title": "Consultor/a Senior GRC / Ciberseguridad – Soporte a la Coordinación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470125743": {
+   "first_seen": "2026-09-26T19:32:36+00:00",
+   "title": "INTEGRATED PLANNING",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:af8a27c123754c52": {
+   "first_seen": "2026-09-26T19:32:44+00:00",
+   "title": "Responsable de estrategia, marca y marketing",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -27199,27 +27283,79 @@
    },
    "fingerprint": "senior project manager - centros comerciales - a coruna|turner & townsend pty limited",
    "notified_at": "2026-09-25T20:14:30+00:00"
+  },
+  {
+   "id": "linkedin:4436791032",
+   "source": "linkedin",
+   "title": "Project Manager Web (Drupal)",
+   "company": "Centro de Observación y Teledetección Espacial S.A.U. - COTESA",
+   "location": "Madrid",
+   "url": "https://www.linkedin.com/jobs/view/4436791032",
+   "description": "🎉 ¡TE INVITAMOS A CONOCERNOS! 🎉\n\nSi te motiva liderar proyectos con tecnología Drupal donde la coordinación, la calidad y la relación con cliente marcan la diferencia, aquí tendrás espacio para impulsar entregas sólidas y equipos alineados.\n\n¿QUIÉNES SOMOS?\n\nNos especializamos en la utilización de tecnologías avanzadas para la observación de la Tierra y el desarrollo de soluciones innovadoras en á",
+   "posted": "2026-09-25",
+   "remote_flag": true,
+   "labels": [],
+   "score": 76,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Agile",
+    "+Herramientas PM",
+    "+Stakeholders",
+    "+Certificación PM",
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Sector tecnológico",
+    "-Componente IT",
+    "-Sector industrial / obra / ingeniería"
+   ],
+   "details": {
+    "requisitos": [
+     "Se valorará especialmente una base en informática, telecomunicaciones o áreas afines (Ingeniería/Grado o FP Superior), porque facilitará entender dependencias técnicas, estimaciones y decisiones de arquitectura sin perde",
+     "También se valorarán certificaciones tipo SCRUM Manager, PSM/PSPO o PMP, ya que en proyectos con varios stakeholders ayudan a estandarizar la forma de planificar, medir avance y gestionar alcance.",
+     "Experiencia: Al menos 3 años liderando o coordinando proyectos web, porque te permitirá manejar con soltura planificación, riesgos, relación con cliente y gobierno del backlog en entornos con exigencias de calidad y plaz",
+     "Informática y Lenguajes De Programación",
+     "Experiencia como Project Manager en portales web y/o apps, porque el foco estará en entregas iterativas y en alinear negocio, UX y tecnología.",
+     "Conocimiento de metodologías ágiles (Scrum/Kanban), ya que la coordinación del equipo y la priorización se apoyarán en marcos de trabajo repetibles.",
+     "Familiaridad con Drupal (y otros CMS como WordPress), porque la conversación diaria incluirá módulos, integraciones, despliegues, roles/permisos y evolución funcional del portal.",
+     "Nociones de usabilidad, accesibilidad y posicionamiento, porque en el sector público son palancas críticas de éxito (cumplimiento, adopción y experiencia ciudadana).",
+     "Experiencia o contexto en Administración Pública, porque pliegos, entregables y trazabilidad requieren un enfoque especialmente ordenado.",
+     "Conocimiento general de arquitecturas y tecnologías de desarrollo de software (APIs, integraciones, entornos, CI/CD), para facilitar decisiones y anticipar bloqueos.",
+     "Manejo de herramientas de gestión de proyectos (Jira, Azure DevOps, Trello u otras) y de análisis/diseño (por ejemplo, documentación funcional, diagramas), porque serán el “sistema operativo” del proyecto.",
+     "Idioma: Inglés con soltura oral y escrita se valorará positivamente, especialmente si colaboras con documentación técnica o interlocutores fuera del entorno local, aunque no será un freno si tu experiencia encaja."
+    ],
+    "ofrecen": [
+     "Teletrabajo y flexibilidad horaria, para que puedas organizar tu jornada con foco y conciliación.",
+     "Jornada intensiva en verano, pensada para ganar bienestar sin perder ritmo de trabajo.",
+     "Tipo de empleo: Jornada completa"
+    ],
+    "claves": {
+     "horario": "Teletrabajo y flexibilidad horaria, para que puedas organizar tu jornada con foco y conciliación."
+    }
+   },
+   "fingerprint": "project manager web (drupal)|centro de observacion y teledeteccion espacial . cotesa",
+   "notified_at": "2026-09-26T19:32:34+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-09-26T12:07:19+00:00",
+  "at": "2026-09-26T19:32:50+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 124,
-    "candidates": 6,
-    "accepted": 0,
+    "fetched": 111,
+    "candidates": 2,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 71,
+    "fetched": 52,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 97,
+    "fetched": 95,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -27228,9 +27364,9 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPServerDisconnected: Connection unexpectedly closed",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a92af1059eb24-145a7318afcsm13926908c88.0 - gsmtp')",
    "sent": 0,
-   "pending": 31
+   "pending": 32
   }
  },
  "pending_email": [
@@ -27264,6 +27400,7 @@
   "linkedin:4471892016",
   "tecnoempleo:rf-869d1b45e21cd3a63b49",
   "linkedin:4472031078",
-  "indeed:702ce457388c9421"
+  "indeed:702ce457388c9421",
+  "linkedin:4436791032"
  ]
 }
