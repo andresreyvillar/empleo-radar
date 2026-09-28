@@ -27071,6 +27071,204 @@
    "title": "Desarrollador/a - Analista Cobol",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4471513233": {
+   "first_seen": "2026-09-28T16:24:38+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4470893118": {
+   "first_seen": "2026-09-28T16:24:38+00:00",
+   "title": "Project Manager – Edificación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470891379": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "IT Project Manager (3 años de experiencia)",
+   "accepted": false,
+   "reason": "text:excluded:ingles fluido"
+  },
+  "linkedin:4472746651": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Adjunto/a Gerencia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470894309": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Consultor/a Generalista Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470889480": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Técnico/a de Estudios (Oficinas Centrales Sigüeiro)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4471509461": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "AI Architect",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472747882": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Analista de proyectos junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472750862": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Post-production coordinator/Editor",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4470892254": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "TÉCNICO DE ESTUDIOS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472735979": {
+   "first_seen": "2026-09-28T16:24:40+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472752773": {
+   "first_seen": "2026-09-28T16:24:42+00:00",
+   "title": "Service Delivery Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4472746853": {
+   "first_seen": "2026-09-28T16:24:42+00:00",
+   "title": "Core Banking Architect - PMO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7d53516bd2e93ad4": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "INGENIERO/A DE DESARROLLO SOFTWARE DEFENSA (arTMSa)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:adee10a0ed6d737b": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Cocinero/a - Santiago de Compostela",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:67ff477a1761cc34": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Senior Data Governance",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:83a8f9f9bca94315": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Analista Funcional IT – Galicia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e96d7b6a89baad7f": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Asesor/a Comercial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f24048d21309d84e": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Ingeniero/a Telecomunicaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e0d2cb6c3d456990": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Aparejador/a Junior (Media Jornada · Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4ab0be55f43dbebe": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Responsable de datos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ffb83804f542dfa0": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Global Strategic Buyer (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ec82d8d85fa1c2ab": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Global Strategic Buyer (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:046b4350f184e9b5": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Global Strategic Buyer (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1ba7b3faa5fddbb2": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Global Strategic Buyer (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a87776d1ec1cb4a6": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Global Strategic Buyer (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9ce9b38f33064c0a": {
+   "first_seen": "2026-09-28T16:24:49+00:00",
+   "title": "Responsable de datos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-947e1e03d233934ae743": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "Ingeniero/a de Sistemas - GNSS y RF",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2669101ad27173c5a045": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "SAP ABAP Senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f4a21f64c26993e4654d": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "Arquitecto/a de Infraestructura Wintel",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1bf71c47e211238a6e42": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "Arquitecto / Analista Funcional Temenos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-df4a19a0623c33f7b640": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "Programador/a ANGULAR + PYTHON junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-797f153f02ae037c6144": {
+   "first_seen": "2026-09-28T16:24:56+00:00",
+   "title": "Ingeniero/a Senior de V&V de Misión",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -28927,25 +29125,25 @@
   }
  ],
  "last_run": {
-  "at": "2026-09-28T14:56:13+00:00",
+  "at": "2026-09-28T16:24:57+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 117,
-    "candidates": 25,
-    "accepted": 1,
+    "fetched": 121,
+    "candidates": 3,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 22,
-    "candidates": 2,
-    "accepted": 1,
+    "fetched": 35,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 69,
-    "candidates": 1,
+    "fetched": 75,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
@@ -28953,7 +29151,7 @@
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-cc7879438a0sm4769716a12.22 - gsmtp')",
+   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a92af1059eb24-146bb6551d9sm18225267c88.9 - gsmtp')",
    "sent": 0,
    "pending": 35
   }
