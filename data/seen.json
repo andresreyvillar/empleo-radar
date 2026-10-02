@@ -31769,6 +31769,258 @@
    "title": "Head of Account Management",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4473143523": {
+   "first_seen": "2026-10-02T21:09:17+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.03"
+  },
+  "linkedin:4473343485": {
+   "first_seen": "2026-10-02T21:09:17+00:00",
+   "title": "Jefe/a de Instalaciones especialidad Instalaciones Mecánicas.",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473350997": {
+   "first_seen": "2026-10-02T21:09:17+00:00",
+   "title": "Customer Support",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473180067": {
+   "first_seen": "2026-10-02T21:09:17+00:00",
+   "title": "JEFE/A DE OBRA (Montaje E,I&C-proyectos internacionales)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473347763": {
+   "first_seen": "2026-10-02T21:09:17+00:00",
+   "title": "Ingeniero/a de Procesos – Sector Farmacéutico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473343821": {
+   "first_seen": "2026-10-02T21:09:18+00:00",
+   "title": "Senior Project Manager - Business Operations",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.00"
+  },
+  "linkedin:4473369931": {
+   "first_seen": "2026-10-02T21:09:18+00:00",
+   "title": "Jefe/a de Proyecto TIC",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472997053": {
+   "first_seen": "2026-10-02T21:09:18+00:00",
+   "title": "Project Manager Obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473174143": {
+   "first_seen": "2026-10-02T21:09:20+00:00",
+   "title": "Brand Project Coordinator",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4474766805": {
+   "first_seen": "2026-10-02T21:09:22+00:00",
+   "title": "PMO",
+   "accepted": false,
+   "reason": "text:excluded:ingles c1"
+  },
+  "linkedin:4474773506": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "PMO CONFIGURACIÓN",
+   "accepted": false,
+   "reason": "location:presencial-outside-allowed-area"
+  },
+  "linkedin:4474766309": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Store Openings Associate",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473365009": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Ingeniero/a de Utilities - Sector Industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474771849": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Digital Innovation Board and Portfolio Lead - Pharma Technical Operations",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473384410": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Technology & AI Analyst - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473355451": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Project Recovery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474783076": {
+   "first_seen": "2026-10-02T21:09:24+00:00",
+   "title": "Scheduler Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3aa2561d1c60c494": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "SENIOR PROJECT LEADER",
+   "accepted": false,
+   "reason": "text:excluded:ingles c1"
+  },
+  "indeed:0e8010a09c12a938": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Brand Project Coordinator",
+   "accepted": true,
+   "reason": ""
+  },
+  "indeed:24a517be060d0f6b": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Transformation Project Manager",
+   "accepted": true,
+   "reason": ""
+  },
+  "indeed:c335746caa02d39b": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Especialista de Producción (Plantas de Tratamiento de Residuos)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b38baa55714a591b": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Gestor/a de Recobros - 39h Hibrido (Tardes)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:23dbba2005e9dcf5": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Consultor Tecnológico .Net, hibrido",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1b6cae427e234e7e": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Encargado/a de Obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:90c2e6b8f0a78a6b": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Beca Dpto. GIS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0881e960cd366c01": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "ARQUITECTO PYTHON",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1f0fc23e32a5c60e": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Responsable comercial y de desarrollo de mercado",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4253633ddf9e8a8b": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Ingeniero/a Junior de Calidad Aeronáutico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fbda978ee471ca87": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Beca Departamento Jurídico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:89d64a0da1da61b2": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Asociado M&A Transaction Services- ESG Madrid/Barcelona",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c5ae08b79df979f3": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Corporate HR Controller & People Analytics",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0f197d1869e636d0": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Site Manager - HV Substation Construction",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e47e4b4caf340855": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Responsable Control Financiero - REMOTO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8de015cd3feeba7c": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Responsable de Servicios Técnicos y Soluciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5ff7a860c4c2b45d": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Architect AI & Automation (n8n | IA Generativa | Multiagentes)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:daa61218ced5ede1": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Architect AI & Automation (n8n | IA Generativa | Multiagentes)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:318d0661e41c3492": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Architect AI & Automation (n8n | IA Generativa | Multiagentes)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ba55bb60a31637e3": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Remote Technical Support",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:66fd23e6154820be": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "TÉCNICO/A CONTABILIDAD",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:cd517f0aeefb1787": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Comercial de Energía – Autónomo/a | Ámbito Nacional",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3b342c7133cce92e": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "Responsable de Supply Chain – Curtis (A Coruña)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a20288ca8cd22978": {
+   "first_seen": "2026-10-02T21:09:30+00:00",
+   "title": "TECNICO/A CONTABLE",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -33878,38 +34130,157 @@
    },
    "fingerprint": "project pmo (docman)|hays",
    "notified_at": "2026-10-02T13:33:15+00:00"
+  },
+  {
+   "id": "linkedin:4473174143",
+   "source": "linkedin",
+   "title": "Brand Project Coordinator",
+   "company": "Telpark",
+   "location": "Madrid",
+   "url": "https://www.linkedin.com/jobs/view/4473174143",
+   "description": "Si hay algo que nos mueve y apasiona en Telpark es el talento.\n\nMisión del puesto\n\nBuscamos una persona organizada, resolutiva y con sensibilidad por la marca para coordinar la ejecución de proyectos de branding en Telpark.\n\nSu misión será asegurar que las necesidades de marca de la organización se convierten en proyectos bien gestionados: desde la identificación de la necesidad y la coordinación ",
+   "posted": "2026-10-02",
+   "remote_flag": true,
+   "labels": [],
+   "score": 63,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Consultora / agencia",
+    "+Sector tecnológico",
+    "-Componente IT"
+   ],
+   "details": {
+    "requisitos": [
+     "Formación universitaria o superior en Publicidad y Relaciones Públicas, ADE, Marketing, Comunicación, Organización de Eventos o titulaciones similares.",
+     "Entre 1 y 2 años de experiencia en coordinación de proyectos, gestión de proveedores, agencias, marketing, comunicación, branding o funciones similares.",
+     "Perfil generalista, con interés por la marca y la creatividad, pero orientado principalmente a la gestión y la ejecución.",
+     "Experiencia trabajando con distintos interlocutores internos y externos.",
+     "Valorable experiencia en empresas con múltiples centros, establecimientos, delegaciones o despliegues territoriales.",
+     "Valorable experiencia en la gestión de materiales físicos, señalética, pantallas o campañas en entornos operativos.",
+     "Organización y atención al detalle.",
+     "Capacidad para hacer seguimiento constante de varias peticiones a la vez.",
+     "Orientación a la ejecución y al cumplimiento de plazos.",
+     "Capacidad de coordinación y comunicación con equipos diversos.",
+     "Proactividad para anticipar necesidades y desbloquear problemas.",
+     "Buen criterio para priorizar."
+    ],
+    "ofrecen": [
+     "Contrato indefinido con 6 meses de periodo de prueba",
+     "Salario fijo: 26-28 k en función de la experiencia del candidato",
+     "Salario variable: 5%",
+     "Vacaciones: 22 días + 5 días Telpark",
+     "Horario: de lunes a jueves 8,5 horas de trabajo efectivo (entrada flexible de 8 a 10 y entre 30 y 90 minutos para comer). Los viernes 7 horas (8 a 15).",
+     "Horario intensivo en verano (última semana de junio a primera semana de septiembre incluidas) y Navidad de 8a 15 horas.",
+     "Teletrabajo 1 día a la semana + Navidad + Semana Santa + 2 semanas a elección del empleado con aprobación del manager.",
+     "Seguro de vida",
+     "Beneficio aparca y sigue: aparca en casi todos nuestros aparcamientos gratis según política",
+     "Retribución flexible y adelanto de nómina a través de Payflow",
+     "Club de empleados BeWell: desayunos los lunes, fisioterapia los lunes subvencionada, excursiones, padel, corredores, cine de navidad para familias...",
+     "Empresa innovadora y líder en movilidad, con la app y marca más reconocida en España y Portugal de aparcamiento."
+    ],
+    "claves": {
+     "salario": "Salario fijo: 26-28 k en función de la experiencia del candidato",
+     "horario": "Horario: de lunes a jueves 8,5 horas de trabajo efectivo (entrada flexible de 8 a 10 y entre 30 y 90 minutos para comer). Los viernes 7 horas (8 a 15).",
+     "modalidad": "Teletrabajo 1 día a la semana + Navidad + Semana Santa + 2 semanas a elección del empleado con aprobación del manager.",
+     "experiencia": "Entre 1 y 2 años de experiencia en coordinación de proyectos, gestión de proveedores, agencias, marketing, comunicación, branding o funciones similares.",
+     "contrato": "Contrato indefinido con 6 meses de periodo de prueba"
+    }
+   },
+   "fingerprint": "brand project coordinator|telpark",
+   "notified_at": "2026-10-02T21:09:20+00:00"
+  },
+  {
+   "id": "indeed:24a517be060d0f6b",
+   "source": "indeed",
+   "title": "Transformation Project Manager",
+   "company": "Telpark",
+   "location": "Madrid, MD, ES",
+   "url": "https://es.indeed.com/viewjob?jk=24a517be060d0f6b",
+   "description": "Si hay algo que nos mueve y apasiona en Telpark es el talento.\n\nSobre Telpark\n-----------------\n\nTelpark es una compañía líder en movilidad y aparcamiento, participada por Macquarie Asset Management. Contamos con más de 6 millones de clientes, más de 300 parkings y una red de más de 3.500 puntos de recarga eléctrica.\n\nEstamos acelerando nuestra transformación para mejorar la experiencia de cliente",
+   "posted": "2026-10-02",
+   "remote_flag": true,
+   "labels": [],
+   "score": 49,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Agile",
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Sector tecnológico",
+    "-Pide 5+ años",
+    "-Componente IT",
+    "-Sector industrial / obra / ingeniería"
+   ],
+   "details": {
+    "requisitos": [
+     "Entre 2 y 5 años de experiencia en consultoría, transformación, mejora de procesos, PMO de transformación o roles similares en empresa.",
+     "Experiencia participando en proyectos de cambio e implantación, idealmente con exposición a diferentes áreas de negocio.",
+     "Capacidad analítica y facilidad para estructurar problemas, identificar causas y proponer soluciones prácticas.",
+     "Mentalidad ejecutora: interés por asumir responsabilidad sobre la implantación y el seguimiento de resultados.",
+     "Buenas capacidades de organización, gestión de proyectos y comunicación con distintos interlocutores.",
+     "Autonomía, proactividad, pragmatismo y ganas de asumir responsabilidad desde el inicio.",
+     "Uso fluido y práctico de herramientas de IA generativa y automatización; capacidad para incorporarlas al trabajo diario e identificar casos de uso de valor en procesos de negocio.",
+     "Manejo avanzado de Excel y PowerPoint.",
+     "Nivel alto de español e inglés.",
+     "Titulación universitaria superior; se valorará formación de posgrado.",
+     "Será especialmente valorable la experiencia en compañías participadas por fondos, servicios, infraestructuras, movilidad, energía o entornos operativos complejos."
+    ],
+    "ofrecen": [
+     "Salario fijo + variable",
+     "Flexibilidad horaria: entrada entre 8 y 10 de la mañana. 8,5 horas de trabajo efectivo de lunes a viernes (con entre 30 y 90 minutos para comer). Todos los viernes del año y desde la última semana de junio a la primera d",
+     "Trabajo en remoto: Oportunidad de 1 dia de trabajo en remoto a la semana, además de la semana santa y la navidad y 2 semanas no consecutivas de acuerdo con el manager.",
+     "Beneficio Aparca y sigue: aparca gratis en nuestros aparcamientos (según política).",
+     "Compensación flexible: a través de nuestro partner Payflow.",
+     "Posibilidad de unirse a la póliza de la empresa de Sanitas (a coste del empleado).",
+     "Adelantos de nómina a través de nuestro partner Payflow.",
+     "Club de empleados BeWell: desayunos los lunes, fruta los martes y miércoles, fisioterapeuta copagado (los lunes), charlas de salud, carreras, equipo de futbol, padel, evento en navidad para las familias.",
+     "Nociones básicas de seguridad de la información. (Política Normativas y Seguridad).",
+     "Si quieres formar parte de una empresa en crecimiento y en pleno proceso de transformación digital y cultural, este es tu momento."
+    ],
+    "claves": {
+     "salario": "Salario fijo + variable",
+     "modalidad": "Trabajo en remoto: Oportunidad de 1 dia de trabajo en remoto a la semana, además de la semana santa y la navidad y 2 semanas no consecutivas de acuerdo con el manager.",
+     "experiencia": "Entre 2 y 5 años de experiencia en consultoría, transformación, mejora de procesos, PMO de transformación o roles similares en empresa."
+    }
+   },
+   "fingerprint": "transformation project manager|telpark",
+   "notified_at": "2026-10-02T21:09:30+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-10-02T13:33:16+00:00",
+  "at": "2026-10-02T21:09:33+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 153,
-    "candidates": 20,
-    "accepted": 0,
+    "fetched": 152,
+    "candidates": 5,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 109,
-    "candidates": 1,
-    "accepted": 0,
+    "fetched": 115,
+    "candidates": 3,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 100,
-    "candidates": 2,
-    "accepted": 1,
+    "fetched": 93,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    }
   },
   "mail": {
    "status": "error",
-   "error": "SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. For more information, go to\\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a92af1059eb24-14f46ab87bcsm6754919c88.9 - gsmtp')",
+   "error": "SMTPServerDisconnected: Connection unexpectedly closed",
    "sent": 0,
-   "pending": 41
+   "pending": 43
   }
  },
  "pending_email": [
@@ -33953,6 +34324,8 @@
   "linkedin:4472901825",
   "linkedin:4474348451",
   "indeed:1a7339fe20684927",
-  "tecnoempleo:rf-ae4617790268a387df40"
+  "tecnoempleo:rf-ae4617790268a387df40",
+  "linkedin:4473174143",
+  "indeed:24a517be060d0f6b"
  ]
 }
