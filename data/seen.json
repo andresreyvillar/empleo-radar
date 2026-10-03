@@ -32021,6 +32021,96 @@
    "title": "TECNICO/A CONTABLE",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4474723870": {
+   "first_seen": "2026-10-03T12:12:44+00:00",
+   "title": "Senior Project Manager - Business Operations",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.00"
+  },
+  "linkedin:4474769527": {
+   "first_seen": "2026-10-03T12:12:44+00:00",
+   "title": "Arquitecto técnico - Aparejador",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472561065": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Soporte a Gestión de Proyectos (con alemán)",
+   "accepted": false,
+   "reason": "text:excluded:idiomas: ingles y aleman"
+  },
+  "linkedin:4474345204": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Coordinador/a Inversiones y Consultor/a de Alta y Baja tensión",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4472965368": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "COORDINADOR/A SERVICIOS Y SOLUCIONES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473352930": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Assistant CSA Project Manager – Data Centre",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473331732": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Técnico/a Junior de Proyectos de Reformas e Instalaciones - Vitoria",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475043252": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Digital Innovation Board and Portfolio Lead - Pharma Technical Operations",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475081605": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4473418969": {
+   "first_seen": "2026-10-03T12:12:45+00:00",
+   "title": "IT Business Partner R&D",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474349339": {
+   "first_seen": "2026-10-03T12:12:47+00:00",
+   "title": "Senior Program Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4474722346": {
+   "first_seen": "2026-10-03T12:12:49+00:00",
+   "title": "IT Poject Manager (PMO)",
+   "accepted": false,
+   "reason": "degree:formacion academica universitaria de ingenier"
+  },
+  "linkedin:4474709940": {
+   "first_seen": "2026-10-03T12:12:49+00:00",
+   "title": "Project Control / Document Control (Madrid)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474326648": {
+   "first_seen": "2026-10-03T12:12:50+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:imprescindibles buscamos una persona con formacion en ingenier"
+  },
+  "indeed:fe54e6952b52ac96": {
+   "first_seen": "2026-10-03T12:12:56+00:00",
+   "title": "Sales Coordination/Processes Junior Project - 5 meses",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -34252,24 +34342,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-02T21:09:33+00:00",
+  "at": "2026-10-03T12:13:00+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 152,
+    "fetched": 142,
     "candidates": 5,
-    "accepted": 1,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 115,
-    "candidates": 3,
-    "accepted": 1,
+    "fetched": 86,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 93,
+    "fetched": 85,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
