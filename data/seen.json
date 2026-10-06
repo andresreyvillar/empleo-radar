@@ -34067,6 +34067,816 @@
    "title": "Tecnico/a Logística Internacional",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4474005169": {
+   "first_seen": "2026-10-06T13:53:45+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent in english"
+  },
+  "linkedin:4474059010": {
+   "first_seen": "2026-10-06T13:53:46+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4476187115": {
+   "first_seen": "2026-10-06T13:53:46+00:00",
+   "title": "Project Manager - Data Centres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474063243": {
+   "first_seen": "2026-10-06T13:53:48+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria industrial"
+  },
+  "linkedin:4474904037": {
+   "first_seen": "2026-10-06T13:53:48+00:00",
+   "title": "Project Manager - Retail Construction",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476179499": {
+   "first_seen": "2026-10-06T13:53:48+00:00",
+   "title": "Project Manager - Data Centres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476163638": {
+   "first_seen": "2026-10-06T13:53:50+00:00",
+   "title": "Senior Project Manager - Major Retail Development",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4474052230": {
+   "first_seen": "2026-10-06T13:53:52+00:00",
+   "title": "IT Project Manager Madrid",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4474037826": {
+   "first_seen": "2026-10-06T13:53:53+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4474048898": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Project Manager – German Market (FMCG)",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.01"
+  },
+  "linkedin:4474065502": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Ingeniero de Proyectos HVAC - A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474045181": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Director/a Técnico/a - Empresa Gallega de Construcción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476172891": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Supervisor de servicios",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4341523189": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Aparejador para la Oficina técnica del CTG",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476158254": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Promotor/a de I+D+i",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476166212": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Jefe de equipo - Técnico Electricidad (H/M/X) sector Naval",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476184142": {
+   "first_seen": "2026-10-06T13:53:55+00:00",
+   "title": "Senior Project Manager - Data Centres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474937962": {
+   "first_seen": "2026-10-06T13:53:57+00:00",
+   "title": "PROJECT MANAGER | FLIX - CENTRO DE DATOS",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476150808": {
+   "first_seen": "2026-10-06T13:53:59+00:00",
+   "title": "Global Quality Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:english fluent"
+  },
+  "linkedin:4476189465": {
+   "first_seen": "2026-10-06T13:53:59+00:00",
+   "title": "Graduado/a interiorismo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476152845": {
+   "first_seen": "2026-10-06T13:54:00+00:00",
+   "title": "IT Project Manager - BARCELONA",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4473636014": {
+   "first_seen": "2026-10-06T13:54:02+00:00",
+   "title": "IT Project Manager (Implementación ERP)",
+   "accepted": false,
+   "reason": "text:excluded:bilingue"
+  },
+  "linkedin:4474681726": {
+   "first_seen": "2026-10-06T13:54:02+00:00",
+   "title": "Especialista Ciberseguridad (Arquitecto/a IAM)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474686846": {
+   "first_seen": "2026-10-06T13:54:02+00:00",
+   "title": "Senior Remote Sensing / Earth Observation Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476158376": {
+   "first_seen": "2026-10-06T13:54:02+00:00",
+   "title": "Coordinador/-a Proyectos de Instalaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476150906": {
+   "first_seen": "2026-10-06T13:54:02+00:00",
+   "title": "Coordinador/a Proyectos Cliente Vitoria",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474952575": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "PMO IT Junior – Madrid / Barcelona",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4474945778": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "Coordinador de preparación de proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476182313": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "Empleado de Back Office",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474032783": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "Gestor/a de Proyectos Fotovoltaicos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476142867": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "Coordinació tècnica de l’Ateneu Cooperatiu del Baix Llobregat",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474901034": {
+   "first_seen": "2026-10-06T13:54:04+00:00",
+   "title": "Coordinador/a de Projecte de Comunicació, Tercer Sector i Voluntariat",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476141806": {
+   "first_seen": "2026-10-06T13:54:05+00:00",
+   "title": "Junior Implementation Project Manager (SaaS)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476304490": {
+   "first_seen": "2026-10-06T13:54:05+00:00",
+   "title": "Coordinador de Obra y Mantenimiento - Protección Incendios",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476168610": {
+   "first_seen": "2026-10-06T13:54:05+00:00",
+   "title": "Integration Project Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474949709": {
+   "first_seen": "2026-10-06T13:54:05+00:00",
+   "title": "Consultor/a de Proyectos de Transformación Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474046515": {
+   "first_seen": "2026-10-06T13:54:07+00:00",
+   "title": "PMO Consultant",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476174428": {
+   "first_seen": "2026-10-06T13:54:07+00:00",
+   "title": "Gestor/a de proyecto / Activador",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476176314": {
+   "first_seen": "2026-10-06T13:54:07+00:00",
+   "title": "Interiorista Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474040785": {
+   "first_seen": "2026-10-06T13:54:09+00:00",
+   "title": "PMO IT",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4474069155": {
+   "first_seen": "2026-10-06T13:54:09+00:00",
+   "title": "Consultor/a de Soporte Oficina Portfolio y Gobernanza de la Innovación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476162052": {
+   "first_seen": "2026-10-06T13:54:11+00:00",
+   "title": "🚀 Analista de Transformación / PMO",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476129639": {
+   "first_seen": "2026-10-06T13:54:11+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476175756": {
+   "first_seen": "2026-10-06T13:54:11+00:00",
+   "title": "Responsable servicio de planificación y proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474074015": {
+   "first_seen": "2026-10-06T13:54:12+00:00",
+   "title": "PMO Specialist – Telecom Projects",
+   "accepted": false,
+   "reason": "location:presencial-outside-allowed-area"
+  },
+  "linkedin:4474904297": {
+   "first_seen": "2026-10-06T13:54:12+00:00",
+   "title": "Puestos vacantes: Salesforce PMO (10046)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4474952837": {
+   "first_seen": "2026-10-06T13:54:14+00:00",
+   "title": "Global CS Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4476173283": {
+   "first_seen": "2026-10-06T13:54:16+00:00",
+   "title": "Senior Technical Program Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "indeed:08e679586f98fb29": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "IT project manager / PMO – Proyectos Sector Energía",
+   "accepted": true,
+   "reason": ""
+  },
+  "indeed:8b9ceeaa7c18503b": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Técnico Comercial Prescriptor - Galicia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9e0df4bdc8ca2c9e": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "BIM Manager Proyectos Industriales (Energía- Oil & Gas)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6c38452d25b876b7": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "GESTOR/A DE ADOPCIÓN DE IA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:aa98fee47f5fa24e": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Ingeniero/a Senior Guerra Electrónica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:dda3b5ee6596a029": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Responsable de Desarrollo de Negocio Educativo | Zaragoza y Cataluña Sur",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ceec8099fb83dc8c": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Coordinador Administrador BBDD Oracle",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:93eeb4f5dd3f59cf": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "¿Quieres despegar tu carrera en tecnología? Prácticas Universitarias (Foro de Empleo 2026 UC3M)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3dd66ba5e0db8acc": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "EXPERTO EN OPERACIÓN DE IDENTIDADES Y ACCESOS CLOUD",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:920d4f6a34e94b75": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Responsable de Soporte Técnico Operaciones - Energías Renovables",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fc0786815f42a265": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Desarrollador/a HW Juniors para Equipos de Ensayos (EGSEs)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:56224dbc660ab67a": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Application Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3db27ce58de27db9": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Back Office Specialist | Italian Speaker",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fd6f04c911d74af9": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "MUREX DATAMART DEVELOPER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1a70909bfa80dd07": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Data Governance Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:aaf24dd4303fb85d": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Ingeniero/a de Operaciones RED SDN",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:eccf89a8a750a7f3": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Workplace L3 engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a1a15fde07570a37": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Azure Backend Engineer – Cloud Native & AI-Assisted Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0838ef29da0ab0d1": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Programador Java | Inglés | Híbrido",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fd1ba00e8c8f50bc": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "INGENIERO/A de Aprovisionamiento",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b9691bc6b5043244": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Senior Stress Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9df1459d1be51ff6": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "INGENIERO/A DESARROLLO CABLEADO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c271d140457669c8": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Ingeniero/a de Supply Chain",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:215ca72f8cb54230": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Technical Service IVD Specialist en Galicia –...",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:66ac48a841415ab8": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Director/a de albergue – Albergue Monte do Gozo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0f9418fa04838a53": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Junior Java Developer (Sistemas IoT)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b17dd04bccf054d9": {
+   "first_seen": "2026-10-06T13:54:25+00:00",
+   "title": "Cocinero/a Hotel 4*",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-951c1a555261430a2f4b": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Full Stack - Senior Developer (remote)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-72a61f42d2fdb3fd724a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Especialista en Electrónica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-8d821217620b135d9e49": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Data Engineer con Snowflake",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0f0a15d9a23803041d40": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "SAP Basis Senior (Ingles alto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-b3821b60829c331a3c42": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Tecnico/a de mensajería SWIFT (Teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-8e4a1c69a280a3c2ee44": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Java Developer Ingles Alto (Remoto)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e6c7165612bf3393d445": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Java Developer SpringBoot con Ingles",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-08a61255426183f21946": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Desarrollador/a Senior PHP SYMFONY",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e12614d912f59311774a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Analista Programador/a ABAP (7:30 15:30h)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-45f9116d626bb38d7c49": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Azure Platform Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f0ee179092b1a3607f48": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Consultor/a SAP SD / EDI",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-78c91f74c28873a8d949": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Consultor SAP BRIM SOM",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f71d1f5ac2ce6309fb4b": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Consultor/a Senior SAP PM",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-223a11574254b3796947": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "QA Lead Inglés B2 Karate, APIs, Postman, JMeter",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-33ab1cf6c25be322034f": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Data Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e6981117a2b383015c4f": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Security Analyst - DLP (Inglés C1)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f55c1375929c0374fc4a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "DevOps Engineer | AWS y CloudFormation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0d2c1f16824713454445": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Scrum Master",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-cd4f1bd13243f39a634e": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Desarrollador/a Full Stack | Blockchain e IA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-3b431064825c03e53b43": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Programador/a iOS, Swift, Objetive C, Viper",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-cfd412691283f331b14a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Consultor/a SAP RE-FX",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-80b01d2d3220d3ae7c46": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Data Expert / Data Architect Azure Synapse",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-89b319e3f286c34b5947": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Consultor/a SAP VISTEX",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-6e9f1b34423ef3880a4e": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Data Center Technical Operations",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0f4b1c9a823c333d7944": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Analista Desarrollador ERP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d2041dff42d9a3416042": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Head of AI Engineering - Software Company",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-773d166e32d953697f44": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Project Manager ERP",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "tecnoempleo:rf-960510fbe2f4d38cb042": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior AI & Product Enablement Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-72e617d202d72313ad46": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "degree:ingenieria informatica"
+  },
+  "tecnoempleo:rf-208e1d44229c337c0446": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Full Stack Developer .NET",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-4cbc1d6982d6d36b1e4c": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Técnico/a Calidad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e9271a6d32e5f3349645": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Data Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2ace107a121d632b0449": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Ingeniero/a Junior Sistemas Embebidos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5566149982ac53abaa4c": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Responsable Técnico/a de Producto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-043611993229036d1e4d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Desarrollador .NET",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-4e7f1355223da3a8004d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Plant Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5ea41309e224a353004c": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Product Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-92b31983f2b4430e3047": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Ingeniero/a de Ofertas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d1a618eae2a6334aab48": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Incident Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2b521385f2400369a44c": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Backend Developer (Projects / CRM)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a226115b121243139845": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "QA Quality Assurance Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e00a1bf952867375914e": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Arquitecto/a de Soluciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-51f61750a2eb232d4849": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Network Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-3a241be772434342e54b": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Ingeniero/a de Calidad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ae511c3c02c3c37ea249": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Electromecanico/a",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1ff0172cd23d73d27044": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Data Scientist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-7a041586a26f93a46c4a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Data Scientist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-507016b71248f39ea045": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Ingeniero/a de sistemas ciberseguridad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-af7e1b8fa23ae36e3b4a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Full Stack Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-41bf1909f26f13070c4d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Senior Software Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-55d115a5422da32ba54d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Analista Funcional Banking Risk",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e9af158f62dc937cba42": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Experienced Artificial Intelligence",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-12251791726c0300724d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "SAP Analytics Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-8a971ee4f262b3f1ff41": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Opentext Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-fcd7109f22ba939b1c4a": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "PHP Developer (Laravel)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ab601002b25663f4464f": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Firmware Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9ca012dcb26753c9a841": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "DevSecOps Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-dc9516da5237632d8c4d": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Técnico microinformatico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-c3f01888927c932be149": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "CMDB Developer / Lead Developer DevOps",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-6e9e192f2209e3aedb49": {
+   "first_seen": "2026-10-06T13:54:30+00:00",
+   "title": "Remote BI Developer (Power BI)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -36334,28 +37144,120 @@
    },
    "fingerprint": "pmo con experiencia en diseno y gestion de procesos - 100% remoto|metrica",
    "notified_at": "2026-10-03T19:40:56+00:00"
+  },
+  {
+   "id": "linkedin:4474952575",
+   "source": "linkedin",
+   "title": "PMO IT Junior – Madrid / Barcelona",
+   "company": "Grupo TECDATA Engineering",
+   "location": "Madrid",
+   "url": "https://www.linkedin.com/jobs/view/4474952575",
+   "description": "Buscamos incorporar 2 perfiles PMO IT Junior para participar en la gestión y coordinación de proyectos tecnológicos.\nBuscamos personas con experiencia en Project Management / PMO dentro de entornos IT, que sepan coordinar equipos, hacer seguimiento de proyectos y que tengan una base técnica suficiente para desenvolverse con conceptos como bases de datos, CMDB, firewalls, infraestructura, aplicacio",
+   "posted": "2026-10-06",
+   "remote_flag": true,
+   "labels": [],
+   "score": 72,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Stakeholders",
+    "+Junior / sin experiencia previa",
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Sector tecnológico",
+    "-Componente IT"
+   ],
+   "details": {
+    "requisitos": [
+     "Experiencia previa en PMO, Project Management o coordinación de proyectos IT .",
+     "Conocimientos generales de entornos tecnológicos: bases de datos, CMDB, redes, firewalls, sistemas, aplicaciones, infraestructura, etc.",
+     "Capacidad para entender y comunicarse con equipos técnicos.",
+     "Experiencia trabajando con metodologías y herramientas de gestión de proyectos.",
+     "Capacidad de organización, seguimiento y coordinación.",
+     "Buenas habilidades de comunicación y trabajo en equipo.",
+     "Se valorará especialmente",
+     "Formación o experiencia relacionada con Inteligencia Artificial / IA .",
+     "Máster, posgrado o certificación relacionada con IA, Data o tecnologías emergentes .",
+     "Experiencia en proyectos de transformación digital o innovación tecnológica."
+    ],
+    "ofrecen": [
+     "Ubicación: Madrid o Barcelona.",
+     "Modalidad: Principalmente teletrabajo, con posibilidad de acudir puntualmente a oficina.",
+     "Proyecto estable.",
+     "Incorporación a equipo y proyectos tecnológicos de relevancia.",
+     "Si tienes experiencia coordinando proyectos IT y te interesa seguir creciendo en el ámbito de la gestión tecnológica, ¡queremos conocerte!",
+     "Nivel: Intermedio",
+     "Tipo de empleo: Jornada completa"
+    ],
+    "claves": {
+     "horario": "Tipo de empleo: Jornada completa",
+     "modalidad": "Modalidad: Principalmente teletrabajo, con posibilidad de acudir puntualmente a oficina."
+    }
+   },
+   "fingerprint": "pmo it junior – madrid / barcelona|tecdata engineering",
+   "notified_at": "2026-10-06T13:54:04+00:00"
+  },
+  {
+   "id": "indeed:08e679586f98fb29",
+   "source": "indeed",
+   "title": "IT project manager / PMO – Proyectos Sector Energía",
+   "company": "Azertium IT Global Services SL",
+   "location": "Madrid, MD, ES",
+   "url": "https://es.indeed.com/viewjob?jk=08e679586f98fb29",
+   "description": "¡Estamos ampliando el equipo! ¡En Azertium IT te buscamos!\n\nNos urge incorporar un perfil de IT Project Manager / PMO con al menos 2 años de experiencia en el puesto y sector IT, para formar parte de nuestro equipo con grandes retos, trayectoria y crecimiento profesional.\n\nLa persona seleccionada dará soporte a la gestión y seguimiento de proyectos en el sector energético, colaborando con distinto",
+   "posted": "2026-10-06",
+   "remote_flag": true,
+   "labels": [],
+   "score": 48,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Gestión operativa",
+    "-Sector industrial / obra / ingeniería"
+   ],
+   "details": {
+    "requisitos": [
+     "Experiencia previa como PMO o Project Manager IT.",
+     "Conocimiento del sector energético.",
+     "Capacidad organizativa, comunicación fluida y trabajo en equipo.",
+     "Disponibilidad para incorporación inmediata.",
+     "Residencia en Madrid o posibilidad de acudir a oficina 2 días/semana si lo requiere el proyecto."
+    ],
+    "ofrecen": [
+     "Contrato indefinido.",
+     "Proyecto estable y de larga duración.",
+     "Modalidad remoto.",
+     "Buen entorno de trabajo y desarrollo profesional."
+    ],
+    "claves": {
+     "modalidad": "Modalidad remoto.",
+     "contrato": "Contrato indefinido."
+    }
+   },
+   "fingerprint": "it project manager / pmo – proyectos sector energia|azertium it global services",
+   "notified_at": "2026-10-06T13:54:25+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-10-05T23:04:12+00:00",
+  "at": "2026-10-06T13:54:31+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 136,
-    "candidates": 10,
-    "accepted": 0,
+    "fetched": 145,
+    "candidates": 19,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 50,
-    "candidates": 0,
-    "accepted": 0,
+    "fetched": 74,
+    "candidates": 1,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 63,
-    "candidates": 0,
+    "fetched": 86,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "errors": []
@@ -36365,7 +37267,7 @@
    "status": "error",
    "error": "SMTPServerDisconnected: Connection unexpectedly closed",
    "sent": 0,
-   "pending": 44
+   "pending": 46
   }
  },
  "pending_email": [
@@ -36412,6 +37314,8 @@
   "tecnoempleo:rf-ae4617790268a387df40",
   "linkedin:4473174143",
   "indeed:24a517be060d0f6b",
-  "linkedin:4473336983"
+  "linkedin:4473336983",
+  "linkedin:4474952575",
+  "indeed:08e679586f98fb29"
  ]
 }
