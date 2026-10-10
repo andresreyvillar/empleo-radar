@@ -38441,6 +38441,126 @@
    "title": "Senior Software Engineer Java & AI | Remoto",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4475211092": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Jefe/a de proyecto de producción DASS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476806904": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4478076260": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "INGENIERO/A JUNIOR",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476802181": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Marketing Operations Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477227318": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Dirección Centro Fpb Basauri (Bizkaia)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475214686": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Ingeniero de automatización - A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475608623": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Ingeniero/a de Proyectos Tratamiento de Aguas  Santiago de Compostela con Experiencia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475606730": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Ingeniero/a de Proyectos Tratamiento de Aguas | Santiago de Compostela",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475615286": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Técnico/a de Instalaciones y Eficiencia Energética",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477218859": {
+   "first_seen": "2026-10-10T20:27:58+00:00",
+   "title": "Técnico/a de Compras, Presupuestos y Logística de Obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ebd6d5bd742e01c0": {
+   "first_seen": "2026-10-10T20:28:04+00:00",
+   "title": "Business Development Manager | Servicios B2B",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:05bd240e9db7d022": {
+   "first_seen": "2026-10-10T20:28:04+00:00",
+   "title": "Educador social especialista en participación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ebc31164120993555b4f": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Desarrollador/a Senior Core Banking (Hibrido)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-988617d5520d937f3647": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Java Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5e6c1d3c223b13eb0c42": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Coordinador/a QA & Testing – Inglés y Alemán",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-6e151ff2c2ca83b57143": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Desarrollador/a Backend Node.js TypeScript remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-5da01192d28c63cadb49": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Presales Consultant / Presales Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-37eb127f12594334824d": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Senior Backend Engineer Java - Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-6c6311c1128393f20a46": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "AWS Cloud DevOps Engineer - Remoto Sector Seguros",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9dc2171ec2b1f35b634f": {
+   "first_seen": "2026-10-10T20:28:07+00:00",
+   "title": "Backend Developer Java",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -41091,24 +41211,26 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-10T13:16:54+00:00",
+  "at": "2026-10-10T20:28:07+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 134,
-    "candidates": 6,
-    "accepted": 1,
+    "fetched": 64,
+    "candidates": 1,
+    "accepted": 0,
     "discarded": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'jefe de proyecto' page 1"
+    ]
    },
    "indeed": {
-    "fetched": 53,
+    "fetched": 34,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 89,
+    "fetched": 83,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
