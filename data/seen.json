@@ -38825,6 +38825,120 @@
    "title": "Director/a d´Innovació i Transformació Digital",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4475671313": {
+   "first_seen": "2026-10-11T20:47:00+00:00",
+   "title": "Jefe/a de Proyecto (Project Manager)",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4477277395": {
+   "first_seen": "2026-10-11T20:47:02+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4450638935": {
+   "first_seen": "2026-10-11T20:47:02+00:00",
+   "title": "Global Air Logistics Vertical Implementation Manager (m/f/d) - Aerospace/Defence",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4404739287": {
+   "first_seen": "2026-10-11T20:47:03+00:00",
+   "title": "Technical Project Leader Rail Projects",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.15"
+  },
+  "linkedin:4477266633": {
+   "first_seen": "2026-10-11T20:47:03+00:00",
+   "title": "Research Manager 2026/Cp/177",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477268566": {
+   "first_seen": "2026-10-11T20:47:03+00:00",
+   "title": "Research Manager 2026/Cp/180",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475636839": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Responsable de Proyectos",
+   "accepted": false,
+   "reason": "text:excluded:ingles (c1"
+  },
+  "linkedin:4478039538": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "🚀 Coordinador/a Data Science | Advanced Analytics & IA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477270528": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Coordinador/a de Eventos - Grand Hyatt La Manga Club Golf & Spa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475608812": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "PLANIFICADOR/A DE OBRA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475618689": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Técnico/a Estudios Edificación e Instalaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4469180848": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Project Engineer - Granollers (Spain)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4449799131": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Site Specialist II",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476864571": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Coordinador/a Estudios de Licitaciones de Mantenimiento",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477864757": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Arquitecte/a seguiment de projectes i obres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4439221865": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Portugese Team Member - International Projects & Operations (Junior)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477205734": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Revenue Strategy & Planning Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466927427": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Gestión del Cambio - Servicio TIC",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4432978368": {
+   "first_seen": "2026-10-11T20:47:05+00:00",
+   "title": "Business Capability Lead - Source-to-Pay",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -41475,24 +41589,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-11T13:45:38+00:00",
+  "at": "2026-10-11T20:47:16+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 102,
-    "candidates": 11,
+    "fetched": 87,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 19,
+    "fetched": 4,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 65,
+    "fetched": 27,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
