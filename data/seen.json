@@ -38939,6 +38939,120 @@
    "title": "Business Capability Lead - Source-to-Pay",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4477578243": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Project Manager – INSIS Core Insurance Implementations",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477509758": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Senior Project Manager - Retail",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4478520230": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "SF Project Manager & Support Specialist (m/f/d)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477296301": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "PROJECT MANAGER INFRAESTRUCTURA ELECTRICA EN DATA CENTERS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478549184": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Project Manager - IRT",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477506510": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Sr Project Manager Partner Experience MX",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4451509685": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Senior Pharmacovigilance Project Manager/PV Project Manager- Europe",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477505891": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Junior Project Manager - Construction Project",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477284653": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Program/Project Management Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477288144": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Technical Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477579474": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Project Manager (IT Infrastructure) | €39K - €44K",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476028477": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Associate Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477572880": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Consultor/a y Gestor/a de Proyectos SAP HCM / SuccessFactors | Full Remote SPAIN | €40K - €60K",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476008929": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Cybersecurity project manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478380712": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Lead Project Manager (Luxury Residential)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477298259": {
+   "first_seen": "2026-10-12T16:27:16+00:00",
+   "title": "Manager | Consulting & Business Development | Product Mid-Market",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:eb5ccdbeed852222": {
+   "first_seen": "2026-10-12T16:27:22+00:00",
+   "title": "GESTOR/A DATA SCIENTIST RIESGO OPERACIONAL (MAD/BCN)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1a99c768bade645c": {
+   "first_seen": "2026-10-12T16:27:22+00:00",
+   "title": "Consultor/a Junior de Eficiencia Energética – Proyectos CAE",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b08dcbc6263d94bc": {
+   "first_seen": "2026-10-12T16:27:22+00:00",
+   "title": "Content Creator",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -41589,24 +41703,26 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-11T20:47:16+00:00",
+  "at": "2026-10-12T16:27:27+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 87,
-    "candidates": 4,
+    "fetched": 38,
+    "candidates": 10,
     "accepted": 0,
     "discarded": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'gestor de proyectos' page 0"
+    ]
    },
    "indeed": {
-    "fetched": 4,
+    "fetched": 5,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 27,
+    "fetched": 4,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
