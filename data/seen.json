@@ -39053,6 +39053,48 @@
    "title": "Content Creator",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4477903426": {
+   "first_seen": "2026-10-12T23:26:51+00:00",
+   "title": "Customer Project Manager Health Systems (Imaging & Image Guided Therapy)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4478579073": {
+   "first_seen": "2026-10-12T23:26:51+00:00",
+   "title": "Commercial Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4141976171": {
+   "first_seen": "2026-10-12T23:26:51+00:00",
+   "title": "(Senior) Project Manager in Procurement / Supply Chain Management",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476082013": {
+   "first_seen": "2026-10-12T23:26:51+00:00",
+   "title": "Infrastructure Cybersecurity Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:96a47e3ec5b783a4": {
+   "first_seen": "2026-10-12T23:26:56+00:00",
+   "title": "Coordinador de governança senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:446f6d1164bcef68": {
+   "first_seen": "2026-10-12T23:26:56+00:00",
+   "title": "Teleoperador con Inglés venta a empresas y pymes Elige tu turno!! (h/m/x)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:326dc7092d3e7716": {
+   "first_seen": "2026-10-12T23:26:56+00:00",
+   "title": "Teleoperador con Catalán venta a empresas y pymes Elige tu turno!! (h/m/x)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -41703,15 +41745,15 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-12T16:27:27+00:00",
+  "at": "2026-10-12T23:26:58+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 38,
-    "candidates": 10,
+    "fetched": 30,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "errors": [
-     "rate limited during 'gestor de proyectos' page 0"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
@@ -41722,7 +41764,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 4,
+    "fetched": 2,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
