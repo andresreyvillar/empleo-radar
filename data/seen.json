@@ -39647,6 +39647,102 @@
    "title": "Desarrollador Software e Inteligencia Artificial",
    "accepted": false,
    "reason": "title"
+  },
+  "indeed:f697cfb54873b781": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Gestor/a Proyectos Educativos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:f2a64bd31f99df65": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Técnico/a de fabricación de drones UAS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9a2ae8e14afb22f4": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Responsable de Oficina Técnica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5a064efe274b6752": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Perito de Riesgos Diversos (Back office) - Lugo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:db4013b120c042d7": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Técnico/a de Riesgos Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:71932a7ca0007dec": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Tech Product Owner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5af19ed42a645b73": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Arquitecto/a .NET Senior | Cloud & Microservices",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6e74092262f34567": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Arquitecto/a .NET Senior | Cloud & Microservices",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:91d8fe142dfe76fb": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Digital Data Expert (with Product Owner role)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:47745536325dc6d1": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Global Labor Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b51db11667229df4": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Desarrollador/a Angular + NgRx",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6f78ff5e01f9ed7f": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Desarrollador Senior .NET",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c39b5bd738d5ebf4": {
+   "first_seen": "2026-10-13T21:43:10+00:00",
+   "title": "Responsable Flujos Logísticos (Coordinador de Logística) - LEROY MERLIN A CORUÑA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-fa951112626273028b4a": {
+   "first_seen": "2026-10-13T21:43:15+00:00",
+   "title": "Administrador/a Senior Control-M L3",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f589149292f2d3a6844f": {
+   "first_seen": "2026-10-13T21:43:15+00:00",
+   "title": "Consultor/a SAP SuccessFactors (Teletrabajo)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-55531fd0128c13f8a440": {
+   "first_seen": "2026-10-13T21:43:15+00:00",
+   "title": "Soporte helpdesk",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -42297,27 +42393,27 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-13T14:46:52+00:00",
+  "at": "2026-10-13T21:43:16+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 20,
-    "candidates": 13,
+    "fetched": 0,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
-    "fetched": 26,
-    "candidates": 4,
+    "fetched": 39,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 56,
-    "candidates": 1,
+    "fetched": 58,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
