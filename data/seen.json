@@ -42989,6 +42989,60 @@
    "title": "Desarrollador/a Mid Java + Angular",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4477778325": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Project Manager - Data Migration",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477373484": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Project Manager Zero Defect Start Up",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4479144749": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Project Manager - Remote Work",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4480350851": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Ingeniero/a Industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477767280": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Técnico de Operaciones Cloud y Migraciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480524079": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Product Manager (m/w/d) T Cloud Public - German native",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479384534": {
+   "first_seen": "2026-10-17T11:20:03+00:00",
+   "title": "Sr. Application Tendering Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c34171484faedb2d": {
+   "first_seen": "2026-10-17T11:20:12+00:00",
+   "title": "Auxiliar de oficina técnica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0dfe15571256533abb4d": {
+   "first_seen": "2026-10-17T11:20:17+00:00",
+   "title": "Consultor/a Estratégico/a del Dato (100% Remoto)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -45819,29 +45873,54 @@
    },
    "fingerprint": "responsable de proyecto (cordoba). ref.: rp pu co|provivienda asociacion",
    "notified_at": "2026-10-16T19:49:12+00:00"
+  },
+  {
+   "id": "linkedin:4479144749",
+   "source": "linkedin",
+   "title": "Project Manager - Remote Work",
+   "company": "BairesDev",
+   "location": "España",
+   "url": "https://www.linkedin.com/jobs/view/4479144749",
+   "description": "",
+   "posted": "2026-10-15",
+   "remote_flag": true,
+   "labels": [],
+   "score": 50,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "Sin descripción disponible"
+   ],
+   "details": {
+    "requisitos": [],
+    "ofrecen": [],
+    "claves": {}
+   },
+   "fingerprint": "project manager - remote work|bairesdev",
+   "notified_at": "2026-10-17T11:20:03+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-10-16T19:49:18+00:00",
+  "at": "2026-10-17T11:20:17+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 69,
-    "candidates": 2,
-    "accepted": 0,
+    "fetched": 61,
+    "candidates": 3,
+    "accepted": 1,
     "discarded": 0,
     "errors": [
      "rate limited during 'gestor de proyectos' page 2"
     ]
    },
    "indeed": {
-    "fetched": 108,
-    "candidates": 2,
-    "accepted": 1,
+    "fetched": 76,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 90,
+    "fetched": 81,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -45852,7 +45931,7 @@
    "status": "error",
    "error": "SMTPServerDisconnected: Connection unexpectedly closed",
    "sent": 0,
-   "pending": 58
+   "pending": 59
   }
  },
  "pending_email": [
@@ -45913,6 +45992,7 @@
   "linkedin:4478156086",
   "linkedin:4479523137",
   "linkedin:4479810266",
-  "indeed:e49738a25d7af190"
+  "indeed:e49738a25d7af190",
+  "linkedin:4479144749"
  ]
 }
