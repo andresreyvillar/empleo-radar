@@ -43043,6 +43043,24 @@
    "title": "Consultor/a Estratégico/a del Dato (100% Remoto)",
    "accepted": false,
    "reason": "title"
+  },
+  "indeed:c6afd6ec276c2438": {
+   "first_seen": "2026-10-17T14:53:02+00:00",
+   "title": "Jefe/a de Ventas - Automoción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:bb5e16bff37f5988": {
+   "first_seen": "2026-10-17T14:53:02+00:00",
+   "title": "Director/a de operaciones Iberia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:341dad0d0fa8374e": {
+   "first_seen": "2026-10-17T14:53:02+00:00",
+   "title": "Desarrollador especialista Atoti",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -45901,19 +45919,19 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-17T11:20:17+00:00",
+  "at": "2026-10-17T14:53:05+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 61,
-    "candidates": 3,
-    "accepted": 1,
+    "fetched": 20,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": [
-     "rate limited during 'gestor de proyectos' page 2"
+     "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
-    "fetched": 76,
+    "fetched": 74,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
