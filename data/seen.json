@@ -43061,6 +43061,114 @@
    "title": "Desarrollador especialista Atoti",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4477369783": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "IT PM Mobile y Software",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475969555": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Project Manager (medios de pago)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4480517006": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Senior Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4480364794": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "License Owner & Operator, Santiago",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480374656": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Supervisor de Grandes Correctivos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480810749": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Technical Digital Analyst (GA4 & GTM)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477327080": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Technical Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479679054": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Gerente ejecutivo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479369595": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Jefe/a de proyecto ECOP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480340734": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Project Leader (Broadcast & Live Events)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477363078": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Alliances/Strategic Account Manager - Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477390191": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Consultor/a en suelos contaminados y aguas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480354708": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Project Manager IT Logística (H/M)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4477369656": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Jefe/a de Proyecto BI & Data Warehouse",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480353471": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "ENGINEERING PROJECT MANAGER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480831416": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Jefe/a de Proyecto | Instrumentación y Sistemas de Medición",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480367318": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Director de franquicia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480366051": {
+   "first_seen": "2026-10-17T19:01:29+00:00",
+   "title": "Líder Electromecánico/a",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -45919,19 +46027,19 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-17T14:53:05+00:00",
+  "at": "2026-10-17T19:01:38+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 20,
-    "candidates": 0,
+    "fetched": 69,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'responsable de proyecto' page 1"
     ]
    },
    "indeed": {
-    "fetched": 74,
+    "fetched": 43,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
