@@ -43625,6 +43625,108 @@
    "title": "Lead Artist - Proyecto AA JRPG",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4476283810": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Senior Project Engineer (English & German Speaker)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480911352": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Production Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462891170": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Senior Water Infrastructure Manager, AWS EMEA Water Team",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478217823": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Jefe/a de Obra | Proyecto Ferroviario e Industrial de Alta Complejidad",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477787609": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "JEFE/A DE OBRA CIVIL - JAÉN",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477154331": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Global Study Associate Director - Single Sponsor dedicated",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479633080": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "AI Delivery Manager - Retail",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478234393": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Encargado/a de obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461991671": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Director/a de Obra Hidroeléctrica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477784024": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Jefe/a de Obra Senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4461989694": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Ingeniero/a Civil / ITOP – Conservación de Carreteras y Dirección de Obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479651645": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Clinical Trials Unit Coordinator (Rheumatology Research Group)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478235234": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Encargado/a de Obra Especializado/a en Obras Marítimas y Portuarias",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480554945": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Payroll Integration Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479911816": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Salesforce Marketing Cloud & MarTech Consultants / Project Leads | €45K - €55K",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479672759": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Associate Director, Data & AI Policy, Assurance, and Monitoring",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4441095859": {
+   "first_seen": "2026-10-18T19:13:01+00:00",
+   "title": "Tech Program - Transformation & Technology Strategy - Prácticas Octubre 2026 - Barcelona",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -46535,24 +46637,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-18T15:20:27+00:00",
+  "at": "2026-10-18T19:13:11+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 95,
-    "candidates": 4,
-    "accepted": 1,
+    "fetched": 80,
+    "candidates": 0,
+    "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 16,
+    "fetched": 7,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 55,
+    "fetched": 45,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
