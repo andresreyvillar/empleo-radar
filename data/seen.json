@@ -43523,6 +43523,108 @@
    "title": "Jefe/a de Proyecto (Project Manager)",
    "accepted": false,
    "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4480899531": {
+   "first_seen": "2026-10-18T15:20:13+00:00",
+   "title": "Senior IT Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4479917536": {
+   "first_seen": "2026-10-18T15:20:13+00:00",
+   "title": "Consultor/a SAP HCM / SuccessFactors y Jefe/a de Proyectos (Sector Público) · 100% remoto desde España · 40–60 K€",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477707560": {
+   "first_seen": "2026-10-18T15:20:13+00:00",
+   "title": "Technical Project/Product Manager | Energy Sector | Hybrid Model (Madrid)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480511246": {
+   "first_seen": "2026-10-18T15:20:15+00:00",
+   "title": "Healthcare Presales & Project Manager (m/f/d)",
+   "accepted": false,
+   "reason": "text:excluded:idiomas (ingles y aleman"
+  },
+  "linkedin:4478214973": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "IT Project Manager / Delivery Manager -50% teletrabajo (MADRID)",
+   "accepted": true,
+   "reason": ""
+  },
+  "linkedin:4480903227": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Supervisor de Grandes Correctivos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480519204": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Jefe/a de Producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4451119952": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Técnico/a para Ingeniería de Servicios Técnicos Centrales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4452917625": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Técnico/a de Proyectos Eléctricos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477717049": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Integration Manager (Sales) f/m/d",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479675424": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "GESTOR REPORTING OPERACIONES",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480909455": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "Director of Operations, Slate Development",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479385051": {
+   "first_seen": "2026-10-18T15:20:17+00:00",
+   "title": "PROCESS ENGINEER MANAGER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4447047184": {
+   "first_seen": "2026-10-18T15:20:18+00:00",
+   "title": "Service Delivery Manager (Hybrid)",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4479924701": {
+   "first_seen": "2026-10-18T15:20:18+00:00",
+   "title": "Finance Planning Transformation Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4480531342": {
+   "first_seen": "2026-10-18T15:20:18+00:00",
+   "title": "GTM Enablement Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d98769b2adbf1c0d": {
+   "first_seen": "2026-10-18T15:20:24+00:00",
+   "title": "Lead Artist - Proyecto AA JRPG",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -46378,21 +46480,73 @@
    },
    "fingerprint": "project manager - remote work|bairesdev",
    "notified_at": "2026-10-17T11:20:03+00:00"
+  },
+  {
+   "id": "linkedin:4478214973",
+   "source": "linkedin",
+   "title": "IT Project Manager / Delivery Manager -50% teletrabajo (MADRID)",
+   "company": "Aubay Spain",
+   "location": "Madrid",
+   "url": "https://www.linkedin.com/jobs/view/4478214973",
+   "description": "Localidad : MADRID\n\nProvincia : Madrid\n\nNº Vacantes (puestos) : 1\n\nFunciones\n\nEn Aubay Spain estamos buscando un/a IT Project Manager / Delivery Manager con experiencia en la gestión integral de proyectos tecnológicos, coordinación de equipos y seguimiento de entregas de software.\n\nBuscamos una persona proactiva, organizada y orientada a resultados, con capacidad para anticipar riesgos, resolver b",
+   "posted": "2026-10-18",
+   "remote_flag": true,
+   "labels": [],
+   "score": 76,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Agile",
+    "+Herramientas PM",
+    "+Stakeholders",
+    "+Encaja con perfil admin",
+    "+Gestión operativa",
+    "+Sector tecnológico",
+    "-Componente IT"
+   ],
+   "details": {
+    "requisitos": [
+     "Experiencia sólida como IT Project Manager, IT Delivery Manager o en posiciones similares.",
+     "Experiencia demostrable en gestión integral de proyectos tecnológicos.",
+     "Conocimiento del ciclo de vida del desarrollo de software (SDLC).",
+     "Experiencia trabajando con metodologías Agile/Scrum.",
+     "Capacidad para gestionar presupuestos, planificación, riesgos y dependencias.",
+     "Experiencia en coordinación de equipos multidisciplinares y gestión de stakeholders.",
+     "Conocimientos de gobierno de proyectos, reporting y seguimiento de KPIs.",
+     "Perfil resolutivo, autónomo, organizado y orientado a resultados",
+     "onocimientos técnicos valorables"
+    ],
+    "ofrecen": [
+     "Contrato indefinido. 50% teletrabajo",
+     "Proyecto tecnológico con oportunidades de desarrollo profesional.",
+     "Formación continua y posibilidad de adquirir nuevas competencias.",
+     "Excelente ambiente de trabajo y colaboración con equipos multidisciplinares.",
+     "Retribución competitiva, acorde con la experiencia aportada.",
+     "Nivel: No corresponde",
+     "Tipo de empleo: Jornada completa"
+    ],
+    "claves": {
+     "horario": "Tipo de empleo: Jornada completa",
+     "modalidad": "Contrato indefinido. 50% teletrabajo"
+    }
+   },
+   "fingerprint": "it project manager / delivery manager -50% teletrabajo (madrid)|aubay",
+   "notified_at": "2026-10-18T15:20:17+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-10-18T11:57:38+00:00",
+  "at": "2026-10-18T15:20:27+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 111,
-    "candidates": 11,
-    "accepted": 0,
+    "fetched": 95,
+    "candidates": 4,
+    "accepted": 1,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 24,
-    "candidates": 2,
+    "fetched": 16,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
@@ -46409,7 +46563,7 @@
    "status": "error",
    "error": "SMTPServerDisconnected: Connection unexpectedly closed",
    "sent": 0,
-   "pending": 59
+   "pending": 60
   }
  },
  "pending_email": [
@@ -46471,6 +46625,7 @@
   "linkedin:4479523137",
   "linkedin:4479810266",
   "indeed:e49738a25d7af190",
-  "linkedin:4479144749"
+  "linkedin:4479144749",
+  "linkedin:4478214973"
  ]
 }
