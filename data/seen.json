@@ -48329,6 +48329,42 @@
    "title": "DevOps Engineer Azure",
    "accepted": false,
    "reason": "title"
+  },
+  "indeed:8a7c050aef2e2a88": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "Especialista Comunicación Deportiva",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:72812f4b2bdbe7d7": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "Administrador/a de Bases de Datos (DBA)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c6369bfdc35b5693": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "Operador/a de Seguridad – Centro de Control",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:18c303eea1de918e": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "Trabajador/a social con capacidad administrativa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:016975d3d64c85ac": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "Técnico/a de Selección IT Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:26d14a128a36ba12": {
+   "first_seen": "2026-10-24T11:50:04+00:00",
+   "title": "OT SECURITY LEAD",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -51465,11 +51501,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-23T20:12:41+00:00",
+  "at": "2026-10-24T11:50:08+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 40,
-    "candidates": 4,
+    "fetched": 10,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": [
@@ -51477,14 +51513,14 @@
     ]
    },
    "indeed": {
-    "fetched": 79,
-    "candidates": 2,
+    "fetched": 67,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 87,
+    "fetched": 82,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
