@@ -51501,19 +51501,19 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-24T11:50:08+00:00",
+  "at": "2026-10-24T15:19:06+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 10,
+    "fetched": 0,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": [
-     "rate limited during 'project manager' page 1"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
-    "fetched": 67,
+    "fetched": 61,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
