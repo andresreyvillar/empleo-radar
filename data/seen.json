@@ -53909,6 +53909,144 @@
    "title": "Arquitecto/a de Soluciones de IA & Datos – Sector Bancario",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4485167496": {
+   "first_seen": "2026-10-31T20:25:32+00:00",
+   "title": "IT Project Manager | Madrid | Híbrido.",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4485915322": {
+   "first_seen": "2026-10-31T20:25:33+00:00",
+   "title": "Senior Business Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4485359313": {
+   "first_seen": "2026-10-31T20:26:05+00:00",
+   "title": "Gestor de Proyectos EPC Subestaciones y Lineas AT/MT",
+   "accepted": false,
+   "reason": "degree:ingenieria electrica"
+  },
+  "linkedin:4485309395": {
+   "first_seen": "2026-10-31T20:26:07+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:proficient in english"
+  },
+  "linkedin:4472302870": {
+   "first_seen": "2026-10-31T20:26:09+00:00",
+   "title": "Senior Information Technology Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4483442247": {
+   "first_seen": "2026-10-31T20:26:10+00:00",
+   "title": "Buscamos Senior Project Manager | Eventos & Activaciones de Marca (Madrid",
+   "accepted": false,
+   "reason": "text:excluded:ingles alto"
+  },
+  "linkedin:4485369410": {
+   "first_seen": "2026-10-31T20:26:12+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:advanced english"
+  },
+  "linkedin:4485287562": {
+   "first_seen": "2026-10-31T20:26:12+00:00",
+   "title": "Ingeniero de diseño mecánico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485920402": {
+   "first_seen": "2026-10-31T20:26:14+00:00",
+   "title": "JUNIOR PROJECT MANAGER - EVENTOS & ARQUITECTURA EFÍMERA | MARTORELL",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4484879080": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "ETCS Delivery Manager (coordinator) - Rail Signalling",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4485244321": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Ingeniero de proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485307661": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Learning Experience Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485346197": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Ingeniero/a de proyectos junior ITS - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4484820719": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Gestor/a Obras Hospitalarias Junior - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4484854693": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Orientador/a vocacional-profesional (Celanova y Maceda) - Ourense",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485901687": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Enterprise Integration Delivery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4483439333": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Senior Director Business Operations",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468660832": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Ingeniero/a organización industrial - Gestión de programas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4484830681": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Component and Process Optimisation Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485318260": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Accreditation support Manager / MCC Accreditation Lead (ASM)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4466272441": {
+   "first_seen": "2026-10-31T20:26:15+00:00",
+   "title": "Ingeniero/a organización industrial - Gestión de programas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:dc6ca3d42d4632b2": {
+   "first_seen": "2026-10-31T20:26:22+00:00",
+   "title": "Responsable de Sistemas y Aplicaciones / Soporte a Negocio",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:89323d0566a3dfbe": {
+   "first_seen": "2026-10-31T20:26:22+00:00",
+   "title": "Coordinador/a SAD - Trabajador/a Social y/o Terapeuta Ocupacional",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -57468,24 +57606,24 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-31T13:17:23+00:00",
+  "at": "2026-10-31T20:26:28+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 123,
-    "candidates": 6,
+    "fetched": 112,
+    "candidates": 9,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 65,
+    "fetched": 44,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 36,
+    "fetched": 20,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
