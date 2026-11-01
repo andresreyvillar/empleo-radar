@@ -54095,6 +54095,60 @@
    "title": "Ingeniero/a eléctrico",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4485393699": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Lead Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485151973": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Jefe/a de Proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485404060": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Project Manager (IT Infrastructure) | €39K - €44K",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485144524": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Technical Project Manager- Low Voltage, CCTV and Access Control",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485661354": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "AI Factory Service Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4468653768": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Director de proyecto",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485420517": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "Encargado De Obra - Proyectos Integrales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4483981965": {
+   "first_seen": "2026-11-01T20:57:54+00:00",
+   "title": "JEFE/A DE OBRA (Montaje E,I&C-proyectos internacionales)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d7ad05e8347546a8": {
+   "first_seen": "2026-11-01T20:57:59+00:00",
+   "title": "Director/a de operaciones de outsourcing logístico",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -57654,10 +57708,10 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-01T14:01:36+00:00",
+  "at": "2026-11-01T20:58:05+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 37,
+    "fetched": 32,
     "candidates": 4,
     "accepted": 0,
     "discarded": 0,
@@ -57666,7 +57720,7 @@
     ]
    },
    "indeed": {
-    "fetched": 27,
+    "fetched": 9,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
