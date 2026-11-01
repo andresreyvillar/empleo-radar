@@ -54047,6 +54047,54 @@
    "title": "Coordinador/a SAD - Trabajador/a Social y/o Terapeuta Ocupacional",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4483971447": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Project Manager (Microsoft Dynamics 365 F&SCM) (all genders welcome)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4483975188": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Project Manager (Microsoft Dynamics 365 F&SCM) (all genders welcome)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4483966960": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Project Manager de Arquitectura Modular",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4483979853": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Project Manager (Experiencias/Eventos)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485142568": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Weekend Localization & Interpreting Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4485615817": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Naval Project Manager (Mammoet Spain)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4483981008": {
+   "first_seen": "2026-11-01T14:01:24+00:00",
+   "title": "Project Manager (Microsoft Dynamics 365 F&SCM) (all genders welcome)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0e1cd42d119e4193": {
+   "first_seen": "2026-11-01T14:01:30+00:00",
+   "title": "Ingeniero/a eléctrico",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -57606,24 +57654,26 @@
   }
  ],
  "last_run": {
-  "at": "2026-10-31T20:26:28+00:00",
+  "at": "2026-11-01T14:01:36+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 112,
-    "candidates": 9,
+    "fetched": 37,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'gestor de proyectos' page 0"
+    ]
    },
    "indeed": {
-    "fetched": 44,
+    "fetched": 27,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 20,
+    "fetched": 0,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
