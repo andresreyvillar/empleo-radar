@@ -1,0 +1,8 @@
+- Años y tipo de experiencia (sector, tamaño de empresa), sin nombres de empresas.
+- Responsabilidades y ciclos que gestiona de principio a fin.
+- Partes que coordina, volúmenes aproximados.
+- Proyectos propios.
+- Herramientas.
+- Formación y certificaciones.
+- Idiomas y provincia de residencia.
+- Objetivo profesional y preferencias (remoto, sector, tipo de empresa).

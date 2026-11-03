@@ -74,8 +74,11 @@ Copy `.env.example` to `.env` for local email delivery. Run the tests with
 ## Scheduled runs on GitHub Actions
 
 `.github/workflows/radar.yml` runs three times a day (07:00, 12:00 and 17:00 UTC) and
-commits the updated `data/seen.json` and `docs/index.html` back to the repo. Configure these repository secrets
-(Settings → Secrets and variables → Actions):
+commits the updated `data/seen.json` and `docs/index.html` back to the repo.
+
+**Email is currently disabled** (the workflow passes `--no-mail`): results are only published on
+the GitHub Pages site. To turn it back on, drop `--no-mail` from the workflow and configure these
+repository secrets (Settings → Secrets and variables → Actions):
 
 | Secret      | Value                                                                 |
 |-------------|-----------------------------------------------------------------------|
@@ -99,6 +102,39 @@ email cannot be sent, the run still succeeds: the state and the page are saved, 
 is shown in the page footer, and the unsent offers are kept in `data/seen.json`
 (`pending_email`) to ride along with the next successful digest.
 
+## AI review (Claude Code sidecar)
+
+After the regex filters, every surviving offer is read by Claude (`ai` in `config.yaml`):
+it rejects offers that miss the mandatory criteria (technical background, location rule,
+English above B2, not really a PM role) and its 0-100 fit with the candidate profile
+replaces the regex score. Cards and emails show the one-line reason plus strengths and gaps.
+
+The model is reached through the **local Claude Code session** (`claude -p`, no tools, no
+MCP servers, no hooks, no saved session), so there is no API key. GitHub Actions has no
+such session, hence the split:
+
+1. The workflow runs `python -m radar run --ai-defer`: offers that pass the filters are
+   stored in `data/seen.json` (`review_queue`) instead of being published.
+2. Once a day, `scripts/daily-local.sh` on the Mac dispatches a fresh search, waits for it,
+   runs `python -m radar review` (verdicts go to `data/reviews.json`, the only file the Mac
+   commits), pushes and dispatches the workflow again.
+3. That run applies the verdicts: accepted offers reach the page and the email.
+
+The launchd agent calls the script every hour and at login/wake; the script works only the
+first time after 08:00 each day that `claude auth status` reports a logged-in session (a
+stamp in `~/Library/Caches/empleo-radar/` marks the day as done), so a Mac that wakes at
+noon still gets that day's review:
+
+```bash
+cp scripts/com.empleo-radar.daily.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.empleo-radar.daily.plist
+tail -f ~/Library/Logs/empleo-radar-daily.log
+```
+
+While the Mac is off the offers simply wait in the queue (the page footer shows how many).
+`python -m radar run` on the Mac reviews inline instead of queueing; `ai.enabled: false`
+restores the regex-only behaviour.
+
 ## Tuning the filters
 
 * **Missing a good offer?** Run with `--dry-run -v`, find its rejection reason
@@ -116,6 +152,14 @@ is shown in the page footer, and the unsent offers are kept in `data/seen.json`
   this project deliberately does not use session cookies (LinkedIn's terms, account risk). Outside
   Galicia only text-confirmed remote offers pass; `filters.location.unconfirmed_remote: flag`
   would instead accept silent ads with a "Remoto sin confirmar" badge and a score penalty.
+* **LinkedIn exclusions:** `sources.linkedin.exclude_keywords` are appended to every
+  LinkedIn query as `NOT` terms; the guest search honours them while `f_WT` (remote) and
+  `sortBy` are ignored (checked 2026-11-03). Keep them specific: LinkedIn may match them
+  anywhere in the ad.
+* **AI criteria:** `ai.criteria` (in `config.yaml`) and the candidate profile are plain Spanish
+  text; edit them to change what the reviewer accepts. The profile lives in the gitignored
+  `ai_profile.local.md` (template: `ai_profile.example.md`) because the repo is public; without
+  it the Mac does not review and offers stay queued.
 * `queries` are the search terms sent to each portal; `lookback_hours` is the window each
   run looks back (runs overlap on purpose, `seen.json` deduplicates).
 * Delete `data/seen.json` to start from scratch (the next run will re-notify everything
@@ -127,6 +171,8 @@ is shown in the page footer, and the unsent offers are kept in `data/seen.json`
 config.yaml            search terms, sources, filter and scoring rules
 radar/cli.py           orchestration (python -m radar run)
 radar/filters.py       rule engine
+radar/ai.py            AI review through Claude Code (`claude -p`), data/reviews.json
+scripts/               daily-local.sh + launchd agent: daily search + AI review on the Mac
 radar/details.py       requirements / benefits / key facts extraction
 radar/sources/         linkedin.py · indeed.py · tecnoempleo.py
 radar/report.py        text + HTML email digest

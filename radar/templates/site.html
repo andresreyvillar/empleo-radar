@@ -3,66 +3,285 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Radar de empleo · Project Manager</title>
 <style>
-:root{--bg:#f4f5f7;--card:#fff;--text:#1f2933;--muted:#616e7c;--line:#e4e7eb;--accent:#1d4ed8;--remoto:#0f766e;--galicia:#1d4ed8;--chip:#eef2f7}
-@media (prefers-color-scheme: dark){:root{--bg:#0f1419;--card:#171d25;--text:#e5e9ef;--muted:#9aa5b1;--line:#2a333f;--chip:#212a35;--accent:#3b82f6}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-header{padding:20px 16px 10px;max-width:960px;margin:0 auto}
-h1{font-size:22px;margin:0}
-.sub{color:var(--muted);font-size:13px;margin-top:4px}
-.filters{position:sticky;top:0;z-index:2;background:var(--bg);padding:10px 16px;border-bottom:1px solid var(--line)}
-.filters .row{max-width:960px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr 1.2fr;gap:8px}
-@media (max-width:760px){.filters .row{grid-template-columns:1fr 1fr}.filters .row>input[type=search],.filters .range{grid-column:1/-1}}
-input,select{width:100%;min-width:0;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--text);font:inherit}
-.range{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);min-width:0}
-.range input{padding:0;flex:1;min-width:0}
-.range span{min-width:2ch;text-align:right}
-main{max-width:960px;margin:0 auto;padding:12px 16px 40px}
-.count{font-size:13px;color:var(--muted);margin:6px 0 12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
-.card.done{opacity:.55}
-.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.title{min-width:0;overflow-wrap:anywhere}
-.title{font-size:17px;font-weight:600;color:var(--text);text-decoration:none}
-.title:hover{text-decoration:underline}
-.score{font-weight:700;font-size:14px;white-space:nowrap;padding:2px 8px;border-radius:6px;background:var(--chip)}
-.meta{color:var(--muted);margin:4px 0 8px;font-size:14px}
-.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
-.badge{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--text)}
-.badge.remoto{background:var(--remoto);color:#fff}
-.badge.galicia{background:var(--galicia);color:#fff}
-.badge.unconfirmed{background:#b45309;color:#fff}
-.signals{font-size:12px;color:var(--muted);margin-bottom:8px}
-.snippet{font-size:13px;color:var(--muted);margin:0 0 10px}
-.keys{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;margin:0 0 10px}
-.keys span b{font-weight:600}
-details{margin:0 0 10px;border-top:1px solid var(--line);padding-top:8px}
-summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
-.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
-@media (max-width:640px){.cols{grid-template-columns:1fr}}
-.cols h4{margin:0 0 4px;font-size:13px}
-.cols ul{margin:0;padding-left:18px;font-size:13px;color:var(--text)}
-.cols li{margin-bottom:3px}
-.cols .none{font-size:13px;color:var(--muted)}
-.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.btn{font:inherit;font-size:13px;padding:7px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;text-decoration:none}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
-.btn.active{background:var(--text);color:var(--bg);border-color:var(--text)}
-.empty{text-align:center;color:var(--muted);padding:40px 0}
-footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:var(--muted)}
-.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:12px}
-.toolbar .btn:disabled{opacity:.6;cursor:default}
-.runstatus{font-size:13px;color:var(--muted)}
-.tokenlink{font-size:12px;color:var(--muted);text-decoration:underline;cursor:pointer;margin-left:auto}
-.syncstatus{font-size:12px;color:var(--muted)}
+@layer tokens, base, layout, components, motion;
+
+@layer tokens {
+  :root {
+    color-scheme: light dark;
+    interpolate-size: allow-keywords;
+    --bg: light-dark(oklch(97.5% .006 250), oklch(17% .012 255));
+    --bg-glow: light-dark(oklch(93% .05 195 / .55), oklch(32% .07 200 / .35));
+    --card: light-dark(oklch(100% 0 0), oklch(21.5% .014 255));
+    --card-hover: light-dark(oklch(99.3% .004 250), oklch(24% .016 255));
+    --text: light-dark(oklch(24% .02 260), oklch(93% .01 250));
+    --muted: light-dark(oklch(50% .02 260), oklch(70% .015 250));
+    --line: light-dark(oklch(91% .01 250), oklch(30% .015 255));
+    --chip: light-dark(oklch(95.5% .008 250), oklch(27% .015 255));
+    --accent: light-dark(oklch(52% .13 195), oklch(74% .12 190));
+    --accent-ink: light-dark(oklch(99% 0 0), oklch(18% .02 200));
+    --remoto: light-dark(oklch(52% .12 170), oklch(72% .13 168));
+    --galicia: light-dark(oklch(50% .16 262), oklch(72% .13 262));
+    --good: light-dark(oklch(52% .14 150), oklch(76% .14 150));
+    --warn: light-dark(oklch(58% .14 65), oklch(80% .13 75));
+    --bad: light-dark(oklch(55% .17 25), oklch(72% .15 25));
+    --shadow: 0 1px 2px oklch(20% .02 260 / .06), 0 8px 24px -12px oklch(20% .02 260 / .18);
+    --shadow-hover: 0 2px 4px oklch(20% .02 260 / .08), 0 18px 40px -16px oklch(20% .02 260 / .32);
+    --radius: 16px;
+    --ease-out: cubic-bezier(.22, 1, .36, 1);
+    --ease-spring: linear(0, .35 7%, .77 16%, 1.01 26%, 1.08 34%, 1.05 43%, 1 55%, .99 70%, 1);
+  }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 520px at 12% -8%, var(--bg-glow), transparent 70%), var(--bg);
+    background-attachment: fixed;
+    color: var(--text);
+    font: 15px/1.5 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+}
+
+@layer layout {
+  .wrap { max-width: 1000px; margin-inline: auto; padding-inline: 16px; }
+  header.hero { padding-block: 28px 14px; }
+  main { padding-block: 8px 48px; }
+  #list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  footer { padding-block: 0 32px; font-size: 12px; color: var(--muted); }
+}
+
+@layer components {
+  /* ---------- hero ---------- */
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .radar {
+    position: relative; inline-size: 52px; aspect-ratio: 1; flex: none; border-radius: 50%;
+    background:
+      radial-gradient(circle, transparent 31%, color-mix(in oklab, var(--accent) 35%, transparent) 32% 33%, transparent 34% 63%,
+        color-mix(in oklab, var(--accent) 35%, transparent) 64% 65%, transparent 66%),
+      color-mix(in oklab, var(--accent) 10%, var(--card));
+    box-shadow: inset 0 0 0 1.5px color-mix(in oklab, var(--accent) 45%, transparent);
+    overflow: hidden;
+  }
+  .radar::before {
+    content: ""; position: absolute; inset: 0; border-radius: 50%;
+    background: conic-gradient(from 0deg, color-mix(in oklab, var(--accent) 70%, transparent), transparent 28%);
+  }
+  .radar::after {
+    content: ""; position: absolute; inline-size: 7px; aspect-ratio: 1; border-radius: 50%;
+    inset: 24% auto auto 62%; background: var(--accent); box-shadow: 0 0 10px var(--accent);
+  }
+  h1 { font-size: clamp(22px, 4vw, 30px); line-height: 1.15; margin: 0; letter-spacing: -.02em; }
+  .tagline { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+  .sub { color: var(--muted); font-size: 13px; margin: 14px 0 0; max-width: 70ch; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+  @media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .stat {
+    background: color-mix(in oklab, var(--card) 80%, transparent); border: 1px solid var(--line);
+    border-radius: 12px; padding: 10px 14px; backdrop-filter: blur(6px);
+  }
+  .stat b { display: block; font-size: 24px; line-height: 1.1; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .stat span { font-size: 12px; color: var(--muted); }
+
+  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 16px; }
+  .runstatus, .syncstatus { font-size: 13px; color: var(--muted); }
+  .runstatus:empty, .syncstatus:empty { display: none; }
+  .tokenlink { font-size: 12px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; margin-left: auto; }
+
+  /* ---------- filters ---------- */
+  .filters {
+    position: sticky; top: 0; z-index: 5; padding-block: 10px;
+    background: color-mix(in oklab, var(--bg) 78%, transparent);
+    backdrop-filter: saturate(1.4) blur(14px);
+    border-block-end: 1px solid color-mix(in oklab, var(--line) 70%, transparent);
+  }
+  /* flex instead of a fixed grid: each select keeps its full label and the row wraps */
+  .filters .row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filters .row > * { flex: 0 1 auto; min-inline-size: 0; }
+  .filters .row > select { inline-size: auto; }
+  .filters .search { flex: 1 1 240px; }
+  .filters .range { flex: 1 1 170px; }
+  @media (max-width: 640px) {
+    .filters .row > select { flex: 1 1 calc(50% - 4px); }
+    .filters .search, .filters .range { flex-basis: 100%; }
+  }
+  .search { position: relative; }
+  .search svg { position: absolute; inset: 50% auto auto 11px; translate: 0 -50%; inline-size: 16px; color: var(--muted); pointer-events: none; }
+  .search input[type=search] { padding-inline-start: 34px; }
+  input[type=search], select {
+    inline-size: 100%; min-inline-size: 0; padding: 8px 10px; font: inherit; font-size: 14px; color: var(--text);
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  select { appearance: none; padding-inline-end: 28px; cursor: pointer;
+    background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
+  input[type=search]:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent) 22%, transparent); }
+  .range { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); white-space: nowrap; min-block-size: 38px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0 10px; }
+  .range input { flex: 1; min-inline-size: 0; accent-color: var(--accent); }
+  .range output { min-inline-size: 3ch; text-align: end; font-variant-numeric: tabular-nums; color: var(--text); font-weight: 600; }
+  .count { font-size: 13px; color: var(--muted); margin: 14px 0 12px; }
+
+  /* ---------- buttons ---------- */
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: 13px; font-weight: 500;
+    padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    cursor: pointer; text-decoration: none; white-space: nowrap;
+    transition: background .2s, border-color .2s, color .2s, scale .25s var(--ease-spring);
+  }
+  .btn:active { scale: .95; }
+  @media (hover: hover) { .btn:hover { border-color: color-mix(in oklab, var(--text) 30%, var(--line)); } }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+  @media (hover: hover) { .btn.primary:hover { background: color-mix(in oklab, var(--accent) 88%, var(--text)); } }
+  .btn[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+  .btn[data-status="discarded"][aria-pressed="true"] { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .btn:disabled { opacity: .65; cursor: progress; }
+  .btn:disabled::before {
+    content: ""; inline-size: 12px; aspect-ratio: 1; border-radius: 50%;
+    border: 2px solid currentColor; border-inline-end-color: transparent; animation: spin .8s linear infinite;
+  }
+  .btn svg { inline-size: 14px; block-size: 14px; flex: none; }
+
+  /* ---------- card ---------- */
+  .card {
+    --tone: var(--galicia);
+    container-type: inline-size;
+    position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px 18px 16px 22px; box-shadow: var(--shadow); overflow: clip;
+    transition: translate .35s var(--ease-out), box-shadow .35s var(--ease-out), background .25s, opacity .3s;
+  }
+  .card[data-modality="remoto"] { --tone: var(--remoto); }
+  .card::before { content: ""; position: absolute; inset: 0 auto 0 0; inline-size: 4px; background: var(--tone); }
+  @media (hover: hover) { .card:hover { translate: 0 -2px; box-shadow: var(--shadow-hover); background: var(--card-hover); } }
+  .card:has(.btn[data-status="applied"][aria-pressed="true"]),
+  .card:has(.btn[data-status="discarded"][aria-pressed="true"]) { opacity: .6; }
+  .card:has(.btn[data-status="saved"][aria-pressed="true"]) { border-color: color-mix(in oklab, var(--warn) 55%, var(--line)); }
+
+  .head { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; align-items: start; }
+  .title { font-size: 17px; font-weight: 650; line-height: 1.3; text-decoration: none; overflow-wrap: anywhere; letter-spacing: -.01em; }
+  @media (hover: hover) { .title:hover { color: var(--accent); } }
+  .meta { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+  /* score ring: @property makes the percentage animatable */
+  .ring {
+    --p: var(--score); --c: var(--muted);
+    grid-row: span 2; inline-size: 54px; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center;
+    background: radial-gradient(closest-side, var(--card) 76%, transparent 78% 100%),
+      conic-gradient(var(--c) calc(var(--p) * 1%), color-mix(in oklab, var(--c) 14%, transparent) 0);
+    transition: --p 1.1s var(--ease-out);
+  }
+  .ring.hi { --c: var(--good); }
+  .ring.mid { --c: var(--warn); }
+  .ring > div { display: grid; justify-items: center; line-height: 1; }
+  .ring b { font-size: 15px; font-variant-numeric: tabular-nums; }
+  .ring small { font-size: 9px; font-weight: 700; color: var(--accent); letter-spacing: .06em; margin-top: 2px; }
+
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+  .badge { font-size: 12px; line-height: 1; padding: 6px 10px; border-radius: 999px; background: var(--chip); color: var(--text); }
+  .badge.remoto { background: color-mix(in oklab, var(--remoto) 16%, var(--card)); color: var(--remoto); font-weight: 600; }
+  .badge.galicia { background: color-mix(in oklab, var(--galicia) 15%, var(--card)); color: var(--galicia); font-weight: 600; }
+  .badge.unconfirmed { background: color-mix(in oklab, var(--warn) 18%, var(--card)); color: var(--warn); font-weight: 600; }
+  .badge.state { background: var(--text); color: var(--bg); }
+
+  .ai {
+    margin: 14px 0 0; padding: 12px 14px; border-radius: 12px; font-size: 14px;
+    background: linear-gradient(135deg, color-mix(in oklab, var(--accent) 10%, var(--card)), color-mix(in oklab, var(--accent) 3%, var(--card)));
+    border: 1px solid color-mix(in oklab, var(--accent) 22%, var(--line));
+  }
+  .ai .why { display: flex; gap: 8px; align-items: baseline; margin: 0; }
+  .ai .why::before { content: "✦"; color: var(--accent); font-size: 13px; }
+  .fit { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; margin-top: 10px; }
+  @container (max-width: 520px) { .fit { grid-template-columns: 1fr; } }
+  .fit ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 13px; }
+  .fit li { display: grid; grid-template-columns: 16px 1fr; gap: 6px; }
+  .fit .pro li::before { content: "✓"; color: var(--good); font-weight: 700; }
+  .fit .con li::before { content: "△"; color: var(--warn); font-size: 11px; padding-top: 2px; }
+  .fit h4 { margin: 0 0 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .signals { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; font-size: 12px; }
+  .signals span { padding: 3px 8px; border-radius: 6px; background: var(--chip); }
+  .signals .pro { color: var(--good); }
+  .signals .con { color: var(--warn); }
+
+  .snippet { font-size: 13px; color: var(--muted); margin: 12px 0 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .keys { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; margin: 12px 0 0; }
+  .keys span b { font-weight: 600; color: var(--muted); }
+
+  details { margin: 12px 0 0; border-block-start: 1px solid var(--line); padding-block-start: 10px; }
+  summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--accent); list-style: none; display: inline-flex; align-items: center; gap: 6px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "›"; display: inline-block; font-size: 16px; line-height: 1; transition: rotate .25s var(--ease-out); }
+  details[open] summary::before { rotate: 90deg; }
+  details::details-content { block-size: 0; overflow: clip; transition: block-size .35s var(--ease-out), content-visibility .35s allow-discrete; }
+  details[open]::details-content { block-size: auto; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
+  @container (max-width: 560px) { .cols { grid-template-columns: 1fr; } }
+  .cols h4 { margin: 0 0 4px; font-size: 13px; }
+  .cols ul { margin: 0; padding-inline-start: 18px; font-size: 13px; }
+  .cols li { margin-bottom: 3px; }
+  .cols .none { font-size: 13px; color: var(--muted); }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+  .actions .btn.primary { margin-inline-end: auto; }
+  @container (max-width: 460px) {
+    .head { grid-template-columns: 1fr; }
+    .ring { grid-row: auto; justify-self: start; order: -1; inline-size: 46px; }
+    .actions .btn.primary { inline-size: 100%; justify-content: center; }
+  }
+
+  .empty { display: grid; justify-items: center; gap: 10px; text-align: center; color: var(--muted); padding: 56px 16px; }
+  .empty .radar { inline-size: 72px; }
+}
+
+@layer motion {
+  @property --p { syntax: "<number>"; inherits: false; initial-value: 0; }
+  @keyframes spin { to { rotate: 1turn; } }
+  @keyframes sweep { to { rotate: 1turn; } }
+  @keyframes blip { 0%, 70%, 100% { opacity: 0; scale: .4; } 78% { opacity: 1; scale: 1.2; } 90% { opacity: .6; scale: 1; } }
+  @keyframes rise { from { opacity: 0; translate: 0 14px; scale: .985; } }
+  @keyframes reveal { from { opacity: 0; translate: 0 24px; } }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .radar::before { animation: sweep 3.2s linear infinite; }
+    .radar::after { animation: blip 3.2s linear infinite; }
+    /* first paint: cards rise in, staggered by position */
+    .card { animation: rise .55s var(--ease-out) both; animation-delay: calc(min(var(--i, 0), 10) * 45ms); }
+    @starting-style { [data-enter] .ring { --p: 0; } }
+    /* below the fold: reveal on scroll where the browser supports scroll-driven animations */
+    @supports (animation-timeline: view()) {
+      .card.later { animation: reveal linear both; animation-timeline: view(); animation-range: entry 0% entry 45%; animation-delay: 0s; }
+    }
+    ::view-transition-group(*) { animation-duration: .38s; animation-timing-function: var(--ease-out); }
+    ::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
 </style>
 </head>
 <body>
-<header>
-  <h1>Radar de empleo · Project Manager</h1>
-  <div class="sub" id="updated"></div>
+<header class="hero wrap">
+  <div class="brand">
+    <div class="radar" aria-hidden="true"></div>
+    <div>
+      <h1>Radar de empleo</h1>
+      <p class="tagline">Project Manager · 100% remoto o Galicia · filtrado con IA según tu perfil</p>
+    </div>
+  </div>
+  <div class="stats" id="stats"></div>
+  <p class="sub" id="updated"></p>
   <div class="toolbar">
     <button id="runBtn" class="btn primary" type="button">Ejecutar búsqueda ahora</button>
     <span id="runStatus" class="runstatus"></span>
@@ -70,39 +289,42 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     <a id="tokenLink" class="tokenlink">Configurar token de GitHub</a>
   </div>
 </header>
-<div class="filters"><div class="row">
-  <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…">
-  <select id="source">
+<div class="filters"><div class="row wrap">
+  <label class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Buscar por título, empresa o ciudad…" aria-label="Buscar">
+  </label>
+  <select id="source" aria-label="Fuente">
     <option value="">Todas las fuentes</option>
     <option value="linkedin">LinkedIn</option>
     <option value="indeed">Indeed</option>
     <option value="tecnoempleo">Tecnoempleo</option>
   </select>
-  <select id="modality">
+  <select id="modality" aria-label="Modalidad">
     <option value="">Remoto y Galicia</option>
     <option value="remoto">100% remoto</option>
     <option value="galicia">Galicia</option>
   </select>
-  <select id="days">
-    <option value="7">Encontradas: últimos 7 días</option>
-    <option value="14">Encontradas: últimos 14 días</option>
-    <option value="30" selected>Encontradas: últimos 30 días</option>
+  <select id="days" aria-label="Antigüedad">
+    <option value="7">Últimos 7 días</option>
+    <option value="14">Últimos 14 días</option>
+    <option value="30" selected>Últimos 30 días</option>
     <option value="0">Todo el histórico</option>
   </select>
-  <select id="status">
+  <select id="status" aria-label="Estado">
     <option value="open" selected>Pendientes y guardadas</option>
     <option value="saved">Solo guardadas</option>
     <option value="applied">Aplicadas</option>
     <option value="discarded">Descartadas</option>
     <option value="">Todas</option>
   </select>
-  <label class="range">Afinidad mín. <input id="score" type="range" min="0" max="100" step="5" value="0"><span id="scoreVal">0</span></label>
+  <label class="range">Encaje mín. <input id="score" type="range" min="0" max="100" step="5" value="0"><output id="scoreVal">0</output></label>
 </div></div>
-<main>
-  <div class="count" id="count"></div>
+<main class="wrap">
+  <div class="count" id="count" aria-live="polite"></div>
   <div id="list"></div>
 </main>
-<footer id="footer"></footer>
+<footer class="wrap" id="footer"></footer>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 (function () {
@@ -111,6 +333,11 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   const MOD_LABEL = { remoto: '100% remoto', galicia: 'Galicia' };
   const WP_LABEL = { remoto: 'Remoto', hibrido: 'Híbrido', presencial: 'Presencial', 'sin especificar': 'Modalidad sin especificar' };
   const STATUS_LABEL = { saved: 'Guardada', applied: 'Aplicada', discarded: 'Descartada' };
+  const ICON = {
+    saved: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+    applied: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>',
+    discarded: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  };
   const KEY = 'empleo-radar-status';
   let statuses = {};
   try { statuses = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { statuses = {}; }
@@ -126,6 +353,25 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     const d = new Date(iso.slice(0, 10) + 'T00:00:00');
     return isNaN(d) ? iso : d.toLocaleDateString('es-ES', { day: '2-digit', month: 'short' });
   };
+  // Stable, unique view-transition names so filtered cards glide to their new place.
+  const vtNames = new Map();
+  const vtName = (id) => {
+    if (!vtNames.has(id)) vtNames.set(id, 'c' + vtNames.size + '-' + String(id).replace(/[^a-z0-9]/gi, '-'));
+    return vtNames.get(id);
+  };
+  let firstPaint = true;
+
+  function renderStats() {
+    const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+    const count = (fn) => data.matches.filter(fn).length;
+    const tiles = [
+      [count((j) => !['applied', 'discarded'].includes(statuses[j.id])), 'Pendientes de revisar'],
+      [count((j) => jobDate(j) >= weekAgo), 'Nuevas esta semana'],
+      [count((j) => statuses[j.id] === 'saved'), 'Guardadas'],
+      [count((j) => statuses[j.id] === 'applied'), 'Aplicadas'],
+    ];
+    $('stats').innerHTML = tiles.map(([n, label]) => `<div class="stat"><b>${n}</b><span>${label}</span></div>`).join('');
+  }
 
   function render() {
     const q = $('q').value.trim().toLowerCase();
@@ -148,18 +394,28 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
       return true;
     }).sort((a, b) => (b.score - a.score) || jobDate(b).localeCompare(jobDate(a)));
     $('count').textContent = rows.length + (rows.length === 1 ? ' oferta' : ' ofertas') + ' de ' + data.matches.length + ' encontradas';
-    $('list').innerHTML = rows.length ? rows.map(card).join('') : '<div class="empty">Ninguna oferta coincide con los filtros.</div>';
+    $('list').innerHTML = rows.length ? rows.map(card).join('')
+      : '<div class="empty"><div class="radar" aria-hidden="true"></div><strong>Ninguna oferta coincide con los filtros.</strong><span>Prueba a ampliar el periodo o bajar el encaje mínimo.</span></div>';
+    renderStats();
+    firstPaint = false;
   }
+  // Filter and status changes morph the list instead of redrawing it abruptly.
+  const update = () => (document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches
+    ? document.startViewTransition(render) : render());
 
-  function card(j) {
+  function card(j, i) {
     const st = statuses[j.id] || '';
     const platform = SOURCE_LABEL[j.source] || esc(j.source);
-    return `<article class="card ${st === 'discarded' || st === 'applied' ? 'done' : ''}" data-id="${esc(j.id)}">
-      <div class="top">
-        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-        <span class="score" title="Afinidad con el perfil">${j.score}/100</span>
+    const score = Number(j.score) || 0;
+    const url = /^https?:\/\//i.test(j.url || '') ? esc(j.url) : '#';   // scraped links: never javascript: or data:
+    const tier = score >= 70 ? 'hi' : score >= 45 ? 'mid' : 'lo';
+    const style = `--i:${i};--score:${score};view-transition-name:${vtName(j.id)}` + (firstPaint ? '' : ';animation:none');
+    return `<article class="card ${firstPaint && i > 5 ? 'later' : ''}" ${firstPaint ? 'data-enter' : ''} data-id="${esc(j.id)}" data-modality="${esc(j.modality)}" style="${style}">
+      <div class="head">
+        <a class="title" href="${url}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="ring ${tier}" title="${j.ai_reason ? 'Encaje con el perfil según la revisión IA' : 'Afinidad con el perfil (reglas)'}"><div><b>${score}</b>${j.ai_reason ? '<small>IA</small>' : ''}</div></div>
+        <div class="meta">${esc(j.company || 'Empresa no indicada')} · ${esc(j.location || 'ubicación n/d')}</div>
       </div>
-      <div class="meta">${esc(j.company || 'Empresa no indicada')} · ${esc(j.location || 'ubicación n/d')}</div>
       <div class="badges">
         ${j.modality === 'remoto' && j.workplace === 'sin confirmar'
           ? '<span class="badge unconfirmed" title="LinkedIn la devuelve como remota pero el anuncio no lo dice: compruébalo antes de aplicar">Remoto sin confirmar</span>'
@@ -167,19 +423,32 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
         ${j.modality === 'galicia' && j.workplace ? `<span class="badge">${WP_LABEL[j.workplace] || esc(j.workplace)}</span>` : ''}
         <span class="badge">${platform}</span>
         <span class="badge">Publicada ${fmtDate(j.posted)}</span>
-        ${st ? `<span class="badge">${STATUS_LABEL[st]}</span>` : ''}
+        ${st ? `<span class="badge state">${STATUS_LABEL[st]}</span>` : ''}
       </div>
-      ${j.signals && j.signals.length ? `<div class="signals">${esc(j.signals.join(' · '))}</div>` : ''}
-      ${j.description ? `<p class="snippet">${esc(j.description.slice(0, 240))}…</p>` : ''}
+      ${fitHtml(j)}
+      ${j.description ? `<p class="snippet">${esc(j.description.slice(0, 320))}…</p>` : ''}
       ${keysHtml(j)}
       ${detailsHtml(j)}
       <div class="actions">
-        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Ver y aplicar en ${platform} ↗</a>
-        <button class="btn ${st === 'saved' ? 'active' : ''}" data-status="saved">Guardar</button>
-        <button class="btn ${st === 'applied' ? 'active' : ''}" data-status="applied">Aplicada</button>
-        <button class="btn ${st === 'discarded' ? 'active' : ''}" data-status="discarded">Descartar</button>
+        <a class="btn primary" href="${url}" target="_blank" rel="noopener">Ver y aplicar en ${platform} ↗</a>
+        ${['saved', 'applied', 'discarded'].map((s) => `<button class="btn" type="button" data-status="${s}" aria-pressed="${st === s}">${ICON[s]}${{ saved: 'Guardar', applied: 'Aplicada', discarded: 'Descartar' }[s]}</button>`).join('')}
       </div>
     </article>`;
+  }
+
+  // Signals are "+label" / "-label": strengths and gaps from the AI review, or rule hits.
+  function fitHtml(j) {
+    const sig = j.signals || [];
+    const pro = sig.filter((s) => s.startsWith('+')).map((s) => s.slice(1));
+    const con = sig.filter((s) => s.startsWith('-')).map((s) => s.slice(1));
+    const other = sig.filter((s) => !/^[+-]/.test(s));
+    if (j.ai_reason) {
+      const list = (items, cls, title) => items.length ? `<div class="${cls}"><h4>${title}</h4><ul>${items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '';
+      return `<div class="ai"><p class="why">${esc(j.ai_reason)}</p>
+        ${pro.length || con.length ? `<div class="fit">${list(pro, 'pro', 'Encaja con tu perfil')}${list(con, 'con', 'Te puede faltar')}</div>` : ''}</div>`;
+    }
+    if (!sig.length) return '';
+    return `<div class="signals">${pro.map((s) => `<span class="pro">+ ${esc(s)}</span>`).join('')}${con.map((s) => `<span class="con">− ${esc(s)}</span>`).join('')}${other.map((s) => `<span>${esc(s)}</span>`).join('')}</div>`;
   }
 
   const KEY_LABEL = { etiqueta: 'Etiqueta del portal', modalidad: 'Modalidad', salario: 'Salario', horario: 'Horario', experiencia: 'Experiencia', contrato: 'Contrato' };
@@ -206,7 +475,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     const s = btn.dataset.status;
     if (statuses[id] === s) delete statuses[id]; else statuses[id] = s;
     persist();
-    render();
+    update();
     syncStatus(id, statuses[id] || null);
   });
 
@@ -320,7 +589,7 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     if (run.status !== 'completed') { setRun('La búsqueda sigue en marcha en GitHub; recarga la página más tarde.'); btn.disabled = false; return; }
     setRun(run.conclusion === 'success'
       ? 'Búsqueda terminada. Esperando a que se publique la página…'
-      : 'Búsqueda terminada con avisos (probablemente el correo). Esperando a que se publique la página…');
+      : 'Búsqueda terminada con avisos. Esperando a que se publique la página…');
     for (let i = 0; i < 30; i++) {
       await sleep(10000);
       try {
@@ -370,9 +639,11 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
       const r = await fetch('https://raw.githubusercontent.com/' + REPO + '/main/data/feedback.json?t=' + Date.now(), { cache: 'no-store' });
       if (!r.ok) return;
       const server = (await r.json()).statuses || {};
-      statuses = Object.assign({}, server, statuses);
+      const merged = Object.assign({}, server, statuses);
+      if (JSON.stringify(merged) === JSON.stringify(statuses)) return;   // keep the entrance animation running
+      statuses = merged;
       persist();
-      render();
+      update();
     } catch (e) { /* offline or file:// — keep local/embedded statuses */ }
   }
 
@@ -380,11 +651,12 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
   $('tokenLink').addEventListener('click', (e) => { e.preventDefault(); askToken(); });
   updateTokenLink();
   loadSharedStatuses();
-  ['q', 'source', 'modality', 'days', 'status', 'score'].forEach((id) => $(id).addEventListener('input', render));
+  ['source', 'modality', 'days', 'status'].forEach((id) => $(id).addEventListener('input', update));
+  ['q', 'score'].forEach((id) => $(id).addEventListener('input', render));   // typing / dragging: no morph per keystroke
 
   const gen = new Date(data.generated_at);
   $('updated').textContent = 'Actualizado el ' + gen.toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' })
-    + '. La búsqueda se repite tres veces al día en LinkedIn, Indeed y Tecnoempleo. Las marcas de guardada, aplicada o descartada se guardan en este navegador y, con el token configurado, se comparten a través del repositorio.';
+    + '. Se busca en LinkedIn, Indeed y Tecnoempleo tres veces al día y la IA revisa las ofertas nuevas una vez al día. Las marcas de guardada, aplicada o descartada se guardan en este navegador y, con el token configurado, se comparten a través del repositorio.';
   if (data.last_run && data.last_run.stats) {
     const sources = Object.entries(data.last_run.stats)
       .map(([k, v]) => `${SOURCE_LABEL[k] || k} ${v.fetched} leídas, ${v.candidates} candidatas, ${v.accepted} nuevas` + (v.errors && v.errors.length ? `, ${v.errors.length} errores` : ''))
@@ -394,8 +666,10 @@ footer{max-width:960px;margin:0 auto;padding:0 16px 30px;font-size:12px;color:va
     if (mail.status === 'enviado') mailText = `Correo: enviado con ${mail.sent} ofertas.`;
     else if (mail.status === 'error') mailText = `Correo: FALLO (${mail.error}). ${mail.pending} ofertas esperan al próximo envío.`;
     else if (mail.status === 'sin configurar') mailText = `Correo: sin configurar. ${mail.pending} ofertas esperan al próximo envío.`;
-    else if (mail.status) mailText = `Correo: ${mail.status}.`;
-    $('footer').textContent = 'Última búsqueda: ' + sources + (mailText ? ' — ' + mailText : '');
+    else if (mail.status && !mail.status.startsWith('desactivado')) mailText = `Correo: ${mail.status}.`;
+    const pending = data.last_run.review_pending
+      ? ` — ${data.last_run.review_pending} ofertas esperan la revisión IA en el Mac.` : '';
+    $('footer').textContent = 'Última búsqueda: ' + sources + (mailText ? ' — ' + mailText : '') + pending;
   }
   render();
 })();

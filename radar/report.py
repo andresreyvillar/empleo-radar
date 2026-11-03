@@ -28,6 +28,8 @@ def render_text(matches: list[Job], stats: dict, when: datetime) -> str:
     for job in matches:
         lines.append(f"[{job.score}] {job.title} — {job.company or 'empresa no indicada'}")
         lines.append(f"    {modality_text(job)} · {job.location} · {job.source} · {job.posted or 'fecha n/d'}")
+        if job.ai_reason:
+            lines.append(f"    IA: {job.ai_reason}")
         if job.signals:
             lines.append(f"    {', '.join(job.signals)}")
         lines.append(f"    {job.url}")
@@ -65,6 +67,7 @@ def _card(job: Job) -> str:
     <span style="background:#e4e7eb;border-radius:4px;padding:2px 8px;font-size:12px;margin-left:4px">{html.escape(job.source)}</span>
     <span style="color:#7b8794;font-size:12px;margin-left:6px">{html.escape(job.posted or '')}</span>
   </div>
+  {f'<div style="font-size:13px;color:#1f2933;margin:6px 0"><b>IA:</b> {html.escape(job.ai_reason)}</div>' if job.ai_reason else ''}
   <div style="font-size:12px;color:#52606d;margin:6px 0">{signals}</div>
   <p style="font-size:13px;color:#3e4c59;margin:8px 0 0">{snippet}…</p>
 </div>"""

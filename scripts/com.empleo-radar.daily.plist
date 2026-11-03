@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- launchd agent: calls scripts/daily-local.sh every hour (and at login / wake); the script
+     itself does the work only once a day, when the Claude Code session is available.
+     Install: cp scripts/com.empleo-radar.daily.plist ~/Library/LaunchAgents/ &&
+              launchctl load ~/Library/LaunchAgents/com.empleo-radar.daily.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.empleo-radar.daily</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/andres/Projects/Personal/laura/empleo-radar/scripts/daily-local.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <!-- claude (nvm) and gh (Homebrew) are not on launchd's default PATH. -->
+    <key>PATH</key>
+    <string>/Users/andres/.nvm/versions/node/v20.19.4/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartInterval</key>
+  <integer>3600</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/andres/Library/Logs/empleo-radar-daily.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/andres/Library/Logs/empleo-radar-daily.log</string>
+</dict>
+</plist>

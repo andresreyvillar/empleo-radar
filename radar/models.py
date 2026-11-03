@@ -20,13 +20,19 @@ class Job:
     workplace: str = ""         # remoto | hibrido | presencial | sin especificar | sin confirmar
     signals: list[str] = field(default_factory=list)
     details: dict = field(default_factory=dict)   # requisitos / ofrecen / claves
+    ai_reason: str = ""         # one-line verdict from the AI review, empty when not reviewed
 
     @property
     def fingerprint(self) -> str:
         from .text import company_key, normalize
         return f"{normalize(self.title)}|{company_key(self.company)}"
 
-    def to_dict(self) -> dict:
+    def to_dict(self, full: bool = False) -> dict:
         data = asdict(self)
-        data["description"] = (self.description or "")[:400]
+        if not full:
+            data["description"] = (self.description or "")[:400]
         return data
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Job":
+        return cls(**{k: v for k, v in data.items() if k in cls.__dataclass_fields__})

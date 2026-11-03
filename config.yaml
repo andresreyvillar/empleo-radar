@@ -15,6 +15,36 @@ site:
   github_repo: andresreyvillar/empleo-radar   # used by the page's "run search" button and status sync
   workflow_file: radar.yml
 
+# AI review: runs after the regex filters below. Each candidate is read by Claude through the
+# local Claude Code session (`claude -p`); it rejects offers that miss the criteria and its fit
+# score replaces the regex score. GitHub Actions has no session, so there the jobs wait in a
+# queue until `radar review` (scripts/daily-local.sh) runs on the Mac.
+ai:
+  enabled: true
+  command: claude
+  model: claude-opus-5-5
+  effort: medium
+  timeout_seconds: 180
+  # Candidate profile, kept out of this public repo (gitignored, only the Mac reviews).
+  # Copy ai_profile.example.md to ai_profile.local.md and fill it in.
+  profile_file: ai_profile.local.md
+  criteria: |
+    Rechaza (apta = false) si se cumple cualquiera:
+    1. El puesto exige experiencia o formación de desarrollador/a, ingeniero/a o perfil técnico (programación,
+       arquitectura, sistemas, implantación de ERP/CRM como consultor técnico, obra, construcción, instalaciones o
+       ingeniería industrial). Trabajar con equipos técnicos sin serlo no es motivo de rechazo.
+    2. Ubicación: en la provincia de Pontevedra vale cualquier modalidad; en el resto de Galicia, solo remoto o híbrido;
+       fuera de Galicia, solo si el anuncio confirma teletrabajo al 100 % o como modalidad principal con desplazamientos
+       puntuales (reuniones o visitas ocasionales). Rechaza si exige presencia regular (días fijos de oficina, híbrido).
+       Si el anuncio no dice la modalidad y está fuera de Galicia, rechaza.
+    3. Exige inglés por encima de B2 (C1, fluido, bilingüe) o cualquier otro idioma distinto del español o el gallego.
+    4. En realidad no es un puesto de gestión o coordinación de proyectos (comercial puro, técnico de campo,
+       administrativo sin proyectos, prácticas o beca).
+    No rechaces solo por pedir más años de experiencia o seniority: refléjalo en un encaje más bajo.
+    Para el encaje, puntúa más alto: sector tecnológico, consultora o agencia, remoto, abierto a perfiles junior o en
+    transición, y tareas que se parecen a su experiencia (stakeholders, plazos, proveedores, presupuestos, incidencias,
+    documentación, reporting). Puntúa más bajo: pide 5+ años como PM, senior, sector clínico o farmacéutico.
+
 scopes:
   remote_spain: true   # 100% remote positions anywhere in Spain
   galicia: true        # any modality (on-site, hybrid, remote) inside Galicia
@@ -24,6 +54,9 @@ sources:
     enabled: true
     max_pages: 3          # 10 results per page; LinkedIn throttles around 10 pages per IP
     delay_seconds: 1.5
+    # Appended to every query as NOT terms. Keep them specific: LinkedIn may match them
+    # anywhere in the ad, and generic words ("desarrollo") would hide valid offers.
+    exclude_keywords: [developer, engineer, SAP, Salesforce, Dynamics, data center, construcción, obra]
   indeed:
     enabled: true
     results_wanted: 40

@@ -28,6 +28,10 @@ class LinkedInSource(Source):
         self.delay = float(self.options.get("delay_seconds", 1.5))
         self.max_pages = int(self.options.get("max_pages", 3))
         self.blocked = False
+        # The guest search honours boolean NOT (checked 2026-11-03), so obvious noise is
+        # dropped by LinkedIn itself and the few result pages we read carry more real offers.
+        self.exclude = " ".join(f'NOT "{w}"' if " " in w else f"NOT {w}"
+                                for w in self.options.get("exclude_keywords", []))
 
     def _scopes(self) -> list[tuple[dict, bool]]:
         """(query params, came through LinkedIn's remote filter). f_WT=2 only narrows the
@@ -49,7 +53,7 @@ class LinkedInSource(Source):
                     if self.blocked:
                         return list(jobs.values())
                     try:
-                        html = self._get(LIST_URL, {"keywords": query, "f_TPR": time_filter,
+                        html = self._get(LIST_URL, {"keywords": f"{query} {self.exclude}".strip(), "f_TPR": time_filter,
                                                     "start": page * PAGE_SIZE, **params})
                     except RateLimited:
                         self.errors.append(f"rate limited during '{query}' page {page}")

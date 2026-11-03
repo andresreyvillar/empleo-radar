@@ -54,7 +54,9 @@ jobs:
           if [ "${{ inputs.test_mail }}" = "true" ]; then
             python -m radar test-mail
           else
-            python -m radar run $DRY_RUN $SINCE
+            # No Claude Code session here: new matches wait for the Mac's `radar review`.
+            # Email is off: results are only published on the GitHub Pages site.
+            python -m radar run --ai-defer --no-mail $DRY_RUN $SINCE
           fi
 
       - name: Persist state

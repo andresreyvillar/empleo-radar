@@ -48,16 +48,30 @@ class State:
         fields = Job.__dataclass_fields__
         return [Job(**{k: v for k, v in by_id[i].items() if k in fields}) for i in wanted if i in by_id]
 
+    # -- AI review queue: jobs that passed the filters where Claude Code was not available ----
+    def queue_review(self, job: Job) -> None:
+        entry = job.to_dict(full=True)      # the reviewer needs the whole description
+        entry["queued_at"] = _now()
+        self.data.setdefault("review_queue", []).append(entry)
+
+    def review_queue(self) -> list[Job]:
+        return [Job.from_dict(e) for e in self.data.get("review_queue", [])]
+
+    def unqueue(self, job_id: str) -> None:
+        self.data["review_queue"] = [e for e in self.data.get("review_queue", []) if e["id"] != job_id]
+
     def set_pending_email(self, ids: list[str]) -> None:
         self.data["pending_email"] = ids
 
-    def set_last_run(self, stats: dict, mail: dict | None = None) -> None:
-        self.data["last_run"] = {"at": _now(), "stats": stats, "mail": mail or {}}
+    def set_last_run(self, stats: dict, mail: dict | None = None, review_pending: int = 0) -> None:
+        self.data["last_run"] = {"at": _now(), "stats": stats, "mail": mail or {}, "review_pending": review_pending}
 
     def prune(self) -> None:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
         self.data["seen"] = {k: v for k, v in self.data["seen"].items() if v["first_seen"] >= cutoff}
         self.data["matches"] = [m for m in self.data["matches"] if m["notified_at"] >= cutoff]
+        if "review_queue" in self.data:
+            self.data["review_queue"] = [e for e in self.data["review_queue"] if e["queued_at"] >= cutoff]
 
     def save(self) -> None:
         self.prune()
