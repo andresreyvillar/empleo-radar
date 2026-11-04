@@ -55889,6 +55889,72 @@
    "title": "Tecnico/a de Redes (Presencial)",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4486312272": {
+   "first_seen": "2026-11-04T07:31:56+00:00",
+   "title": "Consultor Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486316189": {
+   "first_seen": "2026-11-04T07:31:56+00:00",
+   "title": "Consultor Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486088918": {
+   "first_seen": "2026-11-04T07:31:57+00:00",
+   "title": "Project Manager/PMO Proyectos Cerrados Administración Pública - Híbrido Sevilla",
+   "accepted": false,
+   "reason": "text:excluded:background tecnico"
+  },
+  "linkedin:4485038271": {
+   "first_seen": "2026-11-04T07:31:59+00:00",
+   "title": "Digital Project Manager Jr",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4486093883": {
+   "first_seen": "2026-11-04T07:31:59+00:00",
+   "title": "Encargado/a de Obra – Especialista en Ferralla (ZONA NORTE)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486301777": {
+   "first_seen": "2026-11-04T07:31:59+00:00",
+   "title": "Consultor Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486891224": {
+   "first_seen": "2026-11-04T07:31:59+00:00",
+   "title": "Enterprise Integration Delivery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:03356ac7b1689e5a": {
+   "first_seen": "2026-11-04T07:32:07+00:00",
+   "title": "Consultor Digital",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c3c618584a57d80a": {
+   "first_seen": "2026-11-04T07:32:07+00:00",
+   "title": "People Analytics Trainee STP27",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c39ea2215d1e158c": {
+   "first_seen": "2026-11-04T07:32:07+00:00",
+   "title": "AI Solutions Specialist Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:51c377b22100d51f": {
+   "first_seen": "2026-11-04T07:32:07+00:00",
+   "title": "Responsable de datos",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -59448,11 +59514,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-03T22:12:26+00:00",
+  "at": "2026-11-04T07:32:14+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 109,
-    "candidates": 8,
+    "fetched": 113,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -59460,11 +59526,11 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 51,
-    "candidates": 2,
+    "fetched": 55,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
