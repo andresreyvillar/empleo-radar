@@ -1,21 +1,3 @@
 {
- "reviews": {
-  "indeed:234786a637fb61e4": {
-   "apta": false,
-   "encaje": 15,
-   "modalidad": "hibrido",
-   "motivo": "El puesto está en Badajoz, con centro de trabajo en la Calle Zurbarán 27, y solo ofrece \"teletrabajo a tiempo parcial\", así que pide presencia regular fuera de Galicia. Además exige experiencia en intervención social con personas migradas y solicitantes de asilo, algo que ella no tiene.",
-   "fortalezas": [
-    "Licenciatura en Derecho, una de las titulaciones que pide la oferta",
-    "Experiencia coordinando a muchas partes, con plazos, documentación y reporting",
-    "Office avanzado y formación de compañeras en procesos"
-   ],
-   "carencias": [
-    "2 años de intervención social y de gestión de proyectos con colectivos vulnerables o migrantes",
-    "Experiencia en justificación de subvenciones públicas y en la normativa SAPIT",
-    "Formación en migraciones y acompañamiento social; además, el anuncio pide un máster"
-   ],
-   "reviewed_at": "2026-11-04T08:33:13+01:00"
-  }
- }
+ "reviews": {}
 }
