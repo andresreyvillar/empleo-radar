@@ -60354,11 +60354,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-05T07:35:01+00:00",
+  "at": "2026-11-05T07:37:02+00:00",
   "stats": {
    "linkedin": {
     "fetched": 123,
-    "candidates": 2,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
