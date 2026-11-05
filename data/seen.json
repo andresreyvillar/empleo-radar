@@ -56747,6 +56747,54 @@
    "title": "Senior Java Backend Developer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4486528878": {
+   "first_seen": "2026-11-05T07:34:50+00:00",
+   "title": "Head of Project Management Office (PMO) and Risk Management - Global Operations Biologics",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4486375706": {
+   "first_seen": "2026-11-05T07:34:52+00:00",
+   "title": "Responsable de proyectos",
+   "accepted": false,
+   "reason": "degree:titulacion universitaria en ingenier"
+  },
+  "linkedin:4486537822": {
+   "first_seen": "2026-11-05T07:34:52+00:00",
+   "title": "Jefe/a de Proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486511431": {
+   "first_seen": "2026-11-05T07:34:52+00:00",
+   "title": "Jefe De Obra Civil",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486369566": {
+   "first_seen": "2026-11-05T07:34:52+00:00",
+   "title": "Senior Financial Planning Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:755035f07fb895ae": {
+   "first_seen": "2026-11-05T07:34:58+00:00",
+   "title": "Desarrollador Cobol",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fc6dec81e7ea6e7b": {
+   "first_seen": "2026-11-05T07:34:58+00:00",
+   "title": "DBA Senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:bebaaf09c1510529": {
+   "first_seen": "2026-11-05T07:34:58+00:00",
+   "title": "Promotor/a cosmética Campaña de Navidad",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -60306,11 +60354,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-04T22:25:10+00:00",
+  "at": "2026-11-05T07:35:01+00:00",
   "stats": {
    "linkedin": {
     "fetched": 123,
-    "candidates": 14,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -60318,7 +60366,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 64,
+    "fetched": 65,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -60328,7 +60376,7 @@
    },
    "tecnoempleo": {
     "fetched": 81,
-    "candidates": 2,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
