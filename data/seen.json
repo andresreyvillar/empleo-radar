@@ -56821,16 +56821,16 @@
    "reason": "text:excluded:ingles fluido c1"
   },
   "linkedin:4487729529": {
-   "first_seen": "2026-11-05T15:09:28+00:00",
+   "first_seen": "2026-11-06T07:38:51+00:00",
    "title": "Product Transition Project Manager",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Se descarta porque el puesto está en Madrid con «Política de Flexiwork; 6 días de teletrabajo», así que pide ir a la oficina con regularidad fuera de Galicia. Además es del sector farmacéutico-cosm"
   },
   "linkedin:4487736346": {
-   "first_seen": "2026-11-05T15:09:30+00:00",
+   "first_seen": "2026-11-06T07:38:51+00:00",
    "title": "Product Transition Project Manager",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Se descarta porque el puesto está en Madrid y el anuncio solo ofrece «Política de Flexiwork; 6 días de teletrabajo», lo que supone presencia regular en la oficina fuera de Galicia; además, es del s"
   },
   "linkedin:4485806416": {
    "first_seen": "2026-11-05T15:09:32+00:00",
@@ -61233,14 +61233,121 @@
    },
    "fingerprint": "project manager junior - transformacion digital (oficina de proyectos)|k lagan",
    "notified_at": "2026-10-30T21:22:37+00:00"
+  },
+  {
+   "id": "linkedin:4485807266",
+   "source": "linkedin",
+   "title": "Junior IT Project Analyst / PMO Analyst",
+   "company": "Pasiona",
+   "location": "España",
+   "url": "https://www.linkedin.com/jobs/view/4485807266",
+   "description": "Descripción del puesto / Funciones\n\n¿Tienes experiencia en gestión de datos y soporte a proyectos IT y te motiva trabajar en un entorno internacional, dinámico y con diferentes stakeholders?\n\nBuscamos un/a Junior IT Project Analyst / PMO Analyst para incorporarse al equipo CIO y dar soporte a programas estratégicos tanto a nivel local como de grupo, dentro de una organización internacional con inf",
+   "posted": "2026-11-05",
+   "remote_flag": true,
+   "labels": [],
+   "score": 66,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Coordina a la vez a muchas partes (clientes, fábrica, bancos, aseguradoras, aduanas), como pide el papel de enlace entre negocio, IT y dirección",
+    "+Experiencia en documentación, cruce y validación de datos (registro histórico aduanero, gestión documental, Excel avanzado, SAP)",
+    "+Ha mejorado el CRM con IT y ha formado a compañeras en sistemas y procesos, parecido a mantener user guides y dar soporte a usuarios",
+    "-No ha trabajado antes como PMO, Junior PM o Business Analyst (piden más de 2 años)",
+    "-No conoce IT Asset Management, IT Governance ni Power BI",
+    "-No ha trabajado en grandes compañías con IT multinacional"
+   ],
+   "details": {
+    "requisitos": [
+     "Más de 2 años de experiencia profesional en posiciones similares.",
+     "Experiencia previa como Assistant Project Manager, Junior Project Manager, PMO Analyst o Junior IT / Business Analyst.",
+     "Experiencia valorable en grandes compañías con infraestructuras IT internacionales y entornos multicountry.",
+     "Buenos conocimientos de Data Management: estructuración, gestión y tratamiento de datos.",
+     "Experiencia trabajando con diferentes herramientas y bases de datos, realizando cruces de información y validaciones.",
+     "Conocimientos básicos de Project Management.",
+     "Capacidad para gestionar múltiples tareas y trabajar con diferentes prioridades.",
+     "Buen nivel de inglés, tanto oral como escrito.",
+     "Capacidad para trabajar de forma autónoma, organizada y rigurosa.",
+     "Buenas habilidades de comunicación para interactuar con diferentes perfiles: Business, IT y Dirección.",
+     "Mentalidad analítica, orientación al detalle y ganas de aprender.",
+     "Conocimientos de Power BI."
+    ],
+    "ofrecen": [
+     "¡Un día libre por tu cumpleaños para que lo celebres como quieras!",
+     "Mejoras en permisos retribuidos para un mejor equilibrio personal y profesional.",
+     "Acceso a seguro médico privado para tu tranquilidad.",
+     "Días de vacaciones extra según tu antigüedad, porque valoramos tu descanso y bienestar.",
+     "En Pasiona apostamos por la diversidad y la igualdad de oportunidades.",
+     "Animamos a postularse a todas las personas, con independencia de su género, edad, discapacidad, orientación sexual, identidad de género, origen étnico, religión u otras circunstancias personales o sociales."
+    ],
+    "claves": {
+     "horario": "Tipo de empleo: Jornada completa",
+     "modalidad": "Remoto preferencias: Madrid y Barcelona.",
+     "experiencia": "Más de 2 años de experiencia profesional en posiciones similares."
+    }
+   },
+   "ai_reason": "Es un puesto junior de PMO en una consultora tecnológica, en remoto («Remoto preferencias: Madrid y Barcelona») y pidiendo «buen nivel de inglés», no C1; resta encaje que pida más de 2 años como PMO o analista y conocimientos de gestión de datos e IT Governance.",
+   "fingerprint": "junior it project analyst / pmo analyst|pasiona",
+   "notified_at": "2026-11-06T07:38:51+00:00"
+  },
+  {
+   "id": "indeed:6f70f8e66d14b4b1",
+   "source": "indeed",
+   "title": "Project Coordinator",
+   "company": "",
+   "location": "Campo Lameiro, GA, ES",
+   "url": "https://es.indeed.com/viewjob?jk=6f70f8e66d14b4b1",
+   "description": "Resumen del Puesto\n\nBuscamos una persona organizada y motivada para incorporarse como Coordinador/a de Proyectos de TI , brindando apoyo en la planificación y ejecución de proyectos tecnológicos. Este puesto es ideal para alguien que disfruta coordinando equipos, gestionando plazos y manteniendo los proyectos organizados desde su inicio hasta su finalización.\n\nTrabajarás en estrecha colaboración c",
+   "posted": "2026-11-05",
+   "remote_flag": true,
+   "labels": [],
+   "score": 78,
+   "modality": "galicia",
+   "workplace": "presencial",
+   "signals": [
+    "+Experiencia coordinando a varias partes a la vez (proveedores, plazos, incidencias, documentación y reporting) que encaja con las responsabilidades",
+    "+Gestión de presupuestos y facturación, y mejora de procesos y sistemas (CRM con IT, portales, gestión documental)",
+    "+Excel avanzado, Office 365 y Google Project Management Certificate; el puesto está abierto a perfiles que vienen de administración",
+    "-Conocimientos de TI y procesos tecnológicos limitados (Jira y Scrum solo a nivel teórico)",
+    "-Sin experiencia previa en proyectos de TI ni en apoyo a la implantación de software",
+    "-No consta empresa y la modalidad es presencial, aunque con teletrabajo opcional"
+   ],
+   "details": {
+    "requisitos": [
+     "Se valorará la experiencia previa en coordinación de proyectos, administración, soporte informático o puestos relacionados.",
+     "Conocimientos básicos sobre proyectos de TI y procesos tecnológicos.",
+     "Buenas habilidades de organización y gestión del tiempo.",
+     "Capacidad de comunicación oral y escrita.",
+     "Manejo de Microsoft Office, Excel y herramientas de gestión de proyectos.",
+     "Capacidad para gestionar varias tareas simultáneamente y cumplir con los plazos establecidos.",
+     "Atención al detalle y habilidades para resolver problemas.",
+     "Disposición para aprender nuevas tecnologías y procesos.",
+     "Sueldo: 28.000,00€-34.000,00€ al año"
+    ],
+    "ofrecen": [
+     "Ayuda al desarrollo profesional",
+     "Flexibilidad horaria",
+     "Formación en certificaciones profesionales",
+     "Seguro médico privado",
+     "Teletrabajo opcional",
+     "Ubicación del trabajo: Empleo presencial"
+    ],
+    "claves": {
+     "salario": "Sueldo: 28.000,00€-34.000,00€ al año",
+     "horario": "Flexibilidad horaria",
+     "modalidad": "Teletrabajo opcional"
+    }
+   },
+   "ai_reason": "Es apta: es un puesto de coordinación de proyectos TI en Campo Lameiro (Pontevedra), donde vale cualquier modalidad aunque indique «Empleo presencial» (con «Teletrabajo opcional» en beneficios); no exige perfil técnico, solo «conocimientos básicos sobre proyectos de TI», y valora experiencia en administración.",
+   "fingerprint": "project coordinator|",
+   "notified_at": "2026-11-06T07:38:51+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-11-06T07:37:20+00:00",
+  "at": "2026-11-06T07:40:03+00:00",
   "stats": {
    "linkedin": {
     "fetched": 124,
-    "candidates": 3,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -61272,220 +61379,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 4
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4487729529",
-   "source": "linkedin",
-   "title": "Product Transition Project Manager",
-   "company": "Cantabria Labs",
-   "location": "Madrid",
-   "url": "https://www.linkedin.com/jobs/view/4487729529",
-   "description": "Cantabria Labs es hoy una marca de referencia en prescripción dermatológica en Europa cuyo propósito es mejorar la salud y calidad de vida de las personas . Su presencia en más de 80 países le han dado su renombre y respaldo internacional. Hoy cuenta con el reconocimiento del sector Healthcare tanto por sus innovaciones y aval científico como por la cercanía y capacidad de emprendimiento de sus más de 1.000 empleados.\nEn Cantabria Labs llevamos dentro de nuestro ADN genes emprendedores, inconformistas y alegres, con el objetivo de ofrecer a la sociedad productos para poder vivir la vida con mayor calidad: \"celebrate life\".\nSi quieres conocer más acerca de nuestra historia, misión, valores. Te invitamos a explorar el siguiente enlace: https://www.cantabrialabs.es/nosotros/quienes-somos/\nNos apasiona la gente inquieta, innovadora y cercana de cualquier raza, color, sexo, religión, nacionalidad, discapacidad, identidad de género u orientación sexual. Consideramos a todos los solicitantes para nuestras vacantes.\nSi te apasionan los retos... ¡sigue leyendo, tenemos una propuesta para ti!\nBuscamos un/a Product Transition Project Manager para el grupo Cantabria Labs,\nLa misión del Product Transition Project Manager es liderar los proyectos de repack y reformulación de nuestro portfolio, ya respondan a la estrategia de marketing, a incidencias de suministro o a cambios regulatorios. Coordinar a todas las áreas implicadas para que cada transición de producto se ejecute en plazo, coste y calidad, con continuidad del suministro, mínima obsolescencia y un reflejo correcto en los sistemas.\nTus funciones serán:\nObjetivo principal: Liderar los proyectos de repack y reformulación desde su lanzamiento hasta su cierre: definición de alcance, planificación de hitos, asignación de responsables y seguimiento del avance.\nCoordinar a los equipos implicados en cada proyecto (Galénica, Regulatorio, Calidad, Compras, Packaging, Industrial, Marketing/Brand y Negocios), actuando como punto único de contacto y facilitando la toma de decisiones.\nPlanificar y ejecutar el phase-out / phase-in de cada transición: fechas de corte de venta, última fabricación del SKU saliente, primera fabricación del entrante y agotamiento de materiales y producto terminado.\nIdentificar y gestionar riesgos de cada proyecto (roturas de stock, obsolescencia, suministro, bloqueos regulatorios), proponiendo planes de mitigación y escalando cuando sea necesario.\nSupervisar el inventario de materiales y producto terminado afectado por las transiciones para minimizar destrucciones y provisiones contables por obsolescencia.\nReportar el estado del portfolio de proyectos a la dirección de Operaciones mediante KPIs y dashboards de seguimiento (portfolio en fase de cambio, cumplimiento de plazos, riesgo de obsolescencia por transición, roturas de stock, etc).\n¿Qué podemos ofrecerte?\n-Formar parte de una gran compañía líder en su sector, cuyos valores son la Cercanía, la Innovación y el Emprendimiento.\n-Seguro médico privado gratuito.\n-Política de Flexiwork; 6 días de teletrabajo.\n-Horario flexible y jornada intensiva los viernes y en los meses de verano.\n-Ayuda a comida mediante tickets restaurante en jornada partida\n-Programa de retribución flexible; con opción a seguro médico, ticket guardería, etc..\n-Programa de On boarding y “Buddy” para que tu incorporación a la familia Cantabria Labs sea una experiencia sencilla, eficiente y cálida\n\nREQUISITOS MÍNIMOS:\nBuscamos un perfil con Grado en Ingeniería, farmacia, ADE, economía\nFormación complementaria: Master o especialización en Gestión de Proyectos.\nExperiencia de más de 2 años en empresas desempeñando un rol similar.\nConocimientos sobre:\n\nDesarrollo de cosméticos,\nFormulación y tecnología farmacéutica.\nConocimientos regulatorios.\nGestión de proyectos (Project Management)\nConocimientos en sistemas y tecnologías .\nConocimiento de ERP (Valorable JD Edwards / Oracle)\nConocimiento de herramientas de gestión de proyectos (Valorable ZOHO).\nPaquete Office 365 - Nivel Intermedio\"\nQue aporte las siguientes cualidades:\n\nSer proactivo\nComunicación\nToma de decisiones\nOrientación al cliente\nComunicación eficaz\nOrganización y planificación\n\nNivel: Algo de responsabilidad\nTipo de empleo: Jornada completa",
-   "posted": "2026-11-05",
-   "remote_flag": true,
-   "labels": [],
-   "score": 33,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "+Gestión operativa",
-    "+Sector tecnológico",
-    "-Componente IT",
-    "-Sector industrial / obra / ingeniería",
-    "-Sector clínico"
-   ],
-   "details": {
-    "requisitos": [
-     "Buscamos un perfil con Grado en Ingeniería, farmacia, ADE, economía",
-     "Formación complementaria: Master o especialización en Gestión de Proyectos.",
-     "Experiencia de más de 2 años en empresas desempeñando un rol similar.",
-     "Desarrollo de cosméticos,",
-     "Formulación y tecnología farmacéutica.",
-     "Conocimientos regulatorios.",
-     "Gestión de proyectos (Project Management)",
-     "Conocimientos en sistemas y tecnologías .",
-     "Conocimiento de ERP (Valorable JD Edwards / Oracle)",
-     "Conocimiento de herramientas de gestión de proyectos (Valorable ZOHO).",
-     "Paquete Office 365 - Nivel Intermedio\""
-    ],
-    "ofrecen": [
-     "Formar parte de una gran compañía líder en su sector, cuyos valores son la Cercanía, la Innovación y el Emprendimiento.",
-     "Seguro médico privado gratuito.",
-     "Política de Flexiwork; 6 días de teletrabajo.",
-     "Horario flexible y jornada intensiva los viernes y en los meses de verano.",
-     "Ayuda a comida mediante tickets restaurante en jornada partida",
-     "Programa de retribución flexible; con opción a seguro médico, ticket guardería, etc..",
-     "Programa de On boarding y “Buddy” para que tu incorporación a la familia Cantabria Labs sea una experiencia sencilla, eficiente y cálida"
-    ],
-    "claves": {
-     "horario": "Horario flexible y jornada intensiva los viernes y en los meses de verano.",
-     "modalidad": "Política de Flexiwork; 6 días de teletrabajo.",
-     "experiencia": "Experiencia de más de 2 años en empresas desempeñando un rol similar."
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-05T15:09:28+00:00"
-  },
-  {
-   "id": "linkedin:4487736346",
-   "source": "linkedin",
-   "title": "Product Transition Project Manager",
-   "company": "Cantabria Labs",
-   "location": "Madrid",
-   "url": "https://www.linkedin.com/jobs/view/4487736346",
-   "description": "Cantabria Labs es hoy una marca de referencia en prescripción dermatológica en Europa cuyo propósito es mejorar la salud y calidad de vida de las personas . Su presencia en más de 80 países le han dado su renombre y respaldo internacional. Hoy cuenta con el reconocimiento del sector Healthcare tanto por sus innovaciones y aval científico como por la cercanía y capacidad de emprendimiento de sus más de 1.000 empleados.\n\nEn Cantabria Labs llevamos dentro de nuestro ADN genes emprendedores, inconformistas y alegres, con el objetivo de ofrecer a la sociedad productos para poder vivir la vida con mayor calidad: \"celebrate life\".\n\nSi quieres conocer más acerca de nuestra historia, misión, valores. Te invitamos a explorar el siguiente enlace: https://www.cantabrialabs.es/nosotros/quienes-somos/\n\nNos apasiona la gente inquieta, innovadora y cercana de cualquier raza, color, sexo, religión, nacionalidad, discapacidad, identidad de género u orientación sexual. Consideramos a todos los solicitantes para nuestras vacantes.\n\nSi te apasionan los retos... ¡sigue leyendo, tenemos una propuesta para ti!\n\nBuscamos un/a Product Transition Project Manager para el grupo Cantabria Labs,\n\nLa misión del Product Transition Project Manager es liderar los proyectos de repack y reformulación de nuestro portfolio, ya respondan a la estrategia de marketing, a incidencias de suministro o a cambios regulatorios. Coordinar a todas las áreas implicadas para que cada transición de producto se ejecute en plazo, coste y calidad, con continuidad del suministro, mínima obsolescencia y un reflejo correcto en los sistemas.\n\nTus Funciones Serán\nObjetivo principal: Liderar los proyectos de repack y reformulación desde su lanzamiento hasta su cierre: definición de alcance, planificación de hitos, asignación de responsables y seguimiento del avance.\nCoordinar a los equipos implicados en cada proyecto (Galénica, Regulatorio, Calidad, Compras, Packaging, Industrial, Marketing/Brand y Negocios), actuando como punto único de contacto y facilitando la toma de decisiones.\nPlanificar y ejecutar el phase-out / phase-in de cada transición: fechas de corte de venta, última fabricación del SKU saliente, primera fabricación del entrante y agotamiento de materiales y producto terminado.\nIdentificar y gestionar riesgos de cada proyecto (roturas de stock, obsolescencia, suministro, bloqueos regulatorios), proponiendo planes de mitigación y escalando cuando sea necesario.\nSupervisar el inventario de materiales y producto terminado afectado por las transiciones para minimizar destrucciones y provisiones contables por obsolescencia.\nReportar el estado del portfolio de proyectos a la dirección de Operaciones mediante KPIs y dashboards de seguimiento (portfolio en fase de cambio, cumplimiento de plazos, riesgo de obsolescencia por transición, roturas de stock, etc).\n\n¿Qué podemos ofrecerte?\n\n-Formar parte de una gran compañía líder en su sector, cuyos valores son la Cercanía, la Innovación y el Emprendimiento.\n\n-Seguro médico privado gratuito.\n\n-Política de Flexiwork; 6 días de teletrabajo.\n\n-Horario flexible y jornada intensiva los viernes y en los meses de verano.\n\n-Ayuda a comida mediante tickets restaurante en jornada partida\n\n-Programa de retribución flexible; con opción a seguro médico, ticket guardería, etc..\n\n-Programa de On boarding y “Buddy” para que tu incorporación a la familia Cantabria Labs sea una experiencia sencilla, eficiente y cálida\n\nRequisitos mínimos\n\nBuscamos un perfil con Grado en Ingeniería, farmacia, ADE, economía\n\nFormación complementaria: Master o especialización en Gestión de Proyectos.\n\nExperiencia de más de 2 años en empresas desempeñando un rol similar.\n\nConocimientos Sobre\nDesarrollo de cosméticos,\nFormulación y tecnología farmacéutica.\nConocimientos regulatorios.\nGestión de proyectos (Project Management)\nConocimientos en sistemas y tecnologías .\nConocimiento de ERP (Valorable JD Edwards / Oracle)\nConocimiento de herramientas de gestión de proyectos (Valorable ZOHO).\nPaquete Office 365 - Nivel Intermedio\"\n\nQue Aporte Las Siguientes Cualidades\nSer proactivo\nComunicación\nToma de decisiones\nOrientación al cliente\nComunicación eficaz\nOrganización y planificación\n\nNivel: No corresponde\nTipo de empleo: Jornada completa",
-   "posted": "2026-11-05",
-   "remote_flag": true,
-   "labels": [],
-   "score": 33,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "+Gestión operativa",
-    "+Sector tecnológico",
-    "-Componente IT",
-    "-Sector industrial / obra / ingeniería",
-    "-Sector clínico"
-   ],
-   "details": {
-    "requisitos": [
-     "Buscamos un perfil con Grado en Ingeniería, farmacia, ADE, economía",
-     "Formación complementaria: Master o especialización en Gestión de Proyectos.",
-     "Experiencia de más de 2 años en empresas desempeñando un rol similar.",
-     "Desarrollo de cosméticos,",
-     "Formulación y tecnología farmacéutica.",
-     "Conocimientos regulatorios.",
-     "Gestión de proyectos (Project Management)",
-     "Conocimientos en sistemas y tecnologías .",
-     "Conocimiento de ERP (Valorable JD Edwards / Oracle)",
-     "Conocimiento de herramientas de gestión de proyectos (Valorable ZOHO).",
-     "Paquete Office 365 - Nivel Intermedio\"",
-     "Que Aporte Las Siguientes Cualidades"
-    ],
-    "ofrecen": [
-     "Formar parte de una gran compañía líder en su sector, cuyos valores son la Cercanía, la Innovación y el Emprendimiento.",
-     "Seguro médico privado gratuito.",
-     "Política de Flexiwork; 6 días de teletrabajo.",
-     "Horario flexible y jornada intensiva los viernes y en los meses de verano.",
-     "Ayuda a comida mediante tickets restaurante en jornada partida",
-     "Programa de retribución flexible; con opción a seguro médico, ticket guardería, etc..",
-     "Programa de On boarding y “Buddy” para que tu incorporación a la familia Cantabria Labs sea una experiencia sencilla, eficiente y cálida"
-    ],
-    "claves": {
-     "horario": "Horario flexible y jornada intensiva los viernes y en los meses de verano.",
-     "modalidad": "Política de Flexiwork; 6 días de teletrabajo.",
-     "experiencia": "Experiencia de más de 2 años en empresas desempeñando un rol similar."
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-05T15:09:30+00:00"
-  },
-  {
-   "id": "linkedin:4485807266",
-   "source": "linkedin",
-   "title": "Junior IT Project Analyst / PMO Analyst",
-   "company": "Pasiona",
-   "location": "España",
-   "url": "https://www.linkedin.com/jobs/view/4485807266",
-   "description": "Descripción del puesto / Funciones\n\n¿Tienes experiencia en gestión de datos y soporte a proyectos IT y te motiva trabajar en un entorno internacional, dinámico y con diferentes stakeholders?\n\nBuscamos un/a Junior IT Project Analyst / PMO Analyst para incorporarse al equipo CIO y dar soporte a programas estratégicos tanto a nivel local como de grupo, dentro de una organización internacional con infraestructuras IT multicountry.\n\nTendrás un papel clave en la gestión y calidad de los datos de aplicaciones IT, el seguimiento de procesos de IT Governance y la coordinación entre los equipos de Business, IT Owners y CIO.\n\nSerás el punto de conexión entre diferentes áreas de negocio y equipos tecnológicos, asegurando la correcta gestión de la información, el cumplimiento del IT Framework y la aplicación de los procesos establecidos.\n\nEntre tus principales responsabilidades:\n\nDar soporte en la gestión de aplicaciones locales y garantizar la precisión de sus datos dentro del ámbito de IT Asset Management.\nActuar como interlocutor entre los Business IT Owners y CIO PLM cuando la responsabilidad de IT Ownership recaiga en las áreas de negocio.\nAsegurar que los IT Owners cumplen con el IT Framework, procesos y estándares establecidos.\nRecopilar, consolidar y cruzar información procedente de diferentes fuentes y bases de datos.\nIdentificar inconsistencias, analizar discrepancias y aplicar las correcciones necesarias para garantizar la calidad de los datos.\nGestionar grandes volúmenes de información mediante herramientas y procesos de tratamiento de datos.\nDar soporte en la coordinación y seguimiento de programas estratégicos de IT a nivel local y de grupo.\nCrear, actualizar y mantener procedimientos, documentación y user guides.\nDar soporte a los usuarios en la comprensión y aplicación de procesos y procedimientos IT.\nCoordinarse con diferentes stakeholders de negocio, equipos IT y perfiles de dirección.\nGestionar múltiples tareas y prioridades de forma organizada y autónoma.\n\nRequisitos mínimos\n\nMás de 2 años de experiencia profesional en posiciones similares.\nExperiencia previa como Assistant Project Manager, Junior Project Manager, PMO Analyst o Junior IT / Business Analyst.\nExperiencia valorable en grandes compañías con infraestructuras IT internacionales y entornos multicountry.\nBuenos conocimientos de Data Management: estructuración, gestión y tratamiento de datos.\nExperiencia trabajando con diferentes herramientas y bases de datos, realizando cruces de información y validaciones.\nConocimientos básicos de Project Management.\nCapacidad para gestionar múltiples tareas y trabajar con diferentes prioridades.\nBuen nivel de inglés, tanto oral como escrito.\nCapacidad para trabajar de forma autónoma, organizada y rigurosa.\nBuenas habilidades de comunicación para interactuar con diferentes perfiles: Business, IT y Dirección.\nMentalidad analítica, orientación al detalle y ganas de aprender.\n\nRequisitos valorables\n\nConocimientos de Power BI.\nExperiencia en IT Asset Management.\nConocimientos de IT Governance y frameworks de gestión IT.\nExperiencia en organizaciones internacionales o con equipos distribuidos geográficamente.\nFamiliaridad con procesos de gestión de aplicaciones y calidad de datos.\n\nIdiomas\n\nInglés.\n\nUbicación\n\nRemoto preferencias: Madrid y Barcelona.\n\n¿Por qué nosotros?\n\n¡Un día libre por tu cumpleaños para que lo celebres como quieras!\n\nMejoras en permisos retribuidos para un mejor equilibrio personal y profesional.\n\nAcceso a seguro médico privado para tu tranquilidad.\n\nDías de vacaciones extra según tu antigüedad, porque valoramos tu descanso y bienestar.\n\nEn Pasiona apostamos por la diversidad y la igualdad de oportunidades.\n\nAnimamos a postularse a todas las personas, con independencia de su género, edad, discapacidad, orientación sexual, identidad de género, origen étnico, religión u otras circunstancias personales o sociales.\n\n¿Quiénes somos?\n\nPasiona Consulting es una consultora tecnológica, partner de Microsoft, dedicada al diseño, desarrollo e implementación de aplicaciones de software a medida para clientes de múltiples sectores.\n\nNivel: Algo de responsabilidad\nTipo de empleo: Jornada completa",
-   "posted": "2026-11-05",
-   "remote_flag": true,
-   "labels": [],
-   "score": 71,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "+Stakeholders",
-    "+Junior / sin experiencia previa",
-    "+Gestión operativa",
-    "+Consultora / agencia",
-    "+Sector tecnológico",
-    "-Componente IT"
-   ],
-   "details": {
-    "requisitos": [
-     "Más de 2 años de experiencia profesional en posiciones similares.",
-     "Experiencia previa como Assistant Project Manager, Junior Project Manager, PMO Analyst o Junior IT / Business Analyst.",
-     "Experiencia valorable en grandes compañías con infraestructuras IT internacionales y entornos multicountry.",
-     "Buenos conocimientos de Data Management: estructuración, gestión y tratamiento de datos.",
-     "Experiencia trabajando con diferentes herramientas y bases de datos, realizando cruces de información y validaciones.",
-     "Conocimientos básicos de Project Management.",
-     "Capacidad para gestionar múltiples tareas y trabajar con diferentes prioridades.",
-     "Buen nivel de inglés, tanto oral como escrito.",
-     "Capacidad para trabajar de forma autónoma, organizada y rigurosa.",
-     "Buenas habilidades de comunicación para interactuar con diferentes perfiles: Business, IT y Dirección.",
-     "Mentalidad analítica, orientación al detalle y ganas de aprender.",
-     "Conocimientos de Power BI."
-    ],
-    "ofrecen": [
-     "¡Un día libre por tu cumpleaños para que lo celebres como quieras!",
-     "Mejoras en permisos retribuidos para un mejor equilibrio personal y profesional.",
-     "Acceso a seguro médico privado para tu tranquilidad.",
-     "Días de vacaciones extra según tu antigüedad, porque valoramos tu descanso y bienestar.",
-     "En Pasiona apostamos por la diversidad y la igualdad de oportunidades.",
-     "Animamos a postularse a todas las personas, con independencia de su género, edad, discapacidad, orientación sexual, identidad de género, origen étnico, religión u otras circunstancias personales o sociales."
-    ],
-    "claves": {
-     "horario": "Tipo de empleo: Jornada completa",
-     "modalidad": "Remoto preferencias: Madrid y Barcelona.",
-     "experiencia": "Más de 2 años de experiencia profesional en posiciones similares."
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-05T15:09:42+00:00"
-  },
-  {
-   "id": "indeed:6f70f8e66d14b4b1",
-   "source": "indeed",
-   "title": "Project Coordinator",
-   "company": "",
-   "location": "Campo Lameiro, GA, ES",
-   "url": "https://es.indeed.com/viewjob?jk=6f70f8e66d14b4b1",
-   "description": "Resumen del Puesto\n\nBuscamos una persona organizada y motivada para incorporarse como Coordinador/a de Proyectos de TI , brindando apoyo en la planificación y ejecución de proyectos tecnológicos. Este puesto es ideal para alguien que disfruta coordinando equipos, gestionando plazos y manteniendo los proyectos organizados desde su inicio hasta su finalización.\n\nTrabajarás en estrecha colaboración con equipos técnicos, responsables de proyectos y otros departamentos para garantizar que las actividades se desarrollen según lo previsto y que los objetivos se cumplan de manera eficiente.\n\nPrincipales Responsabilidades\n\nCoordinar las actividades diarias y los calendarios de los proyectos de TI.\nRealizar el seguimiento de plazos, hitos, tareas y entregables.\nElaborar informes de proyectos, actualizaciones de estado y documentación.\nOrganizar reuniones y realizar el seguimiento de las tareas acordadas.\nMantener la comunicación con desarrolladores, equipos técnicos, proveedores y otras partes interesadas.\nSupervisar el progreso de los proyectos e identificar posibles retrasos o incidencias.\nMantener actualizados los registros, calendarios y datos relacionados con los recursos del proyecto.\nColaborar en la gestión de presupuestos, facturas y tareas administrativas.\nApoyar la implementación de nuevos sistemas, programas informáticos y soluciones tecnológicas.\nContribuir a mejorar los procesos y métodos de coordinación de proyectos.\n\nRequisitos\n\nSe valorará la experiencia previa en coordinación de proyectos, administración, soporte informático o puestos relacionados.\nConocimientos básicos sobre proyectos de TI y procesos tecnológicos.\nBuenas habilidades de organización y gestión del tiempo.\nCapacidad de comunicación oral y escrita.\nManejo de Microsoft Office, Excel y herramientas de gestión de proyectos.\nCapacidad para gestionar varias tareas simultáneamente y cumplir con los plazos establecidos.\nAtención al detalle y habilidades para resolver problemas.\nDisposición para aprender nuevas tecnologías y procesos.\n\nSueldo: 28.000,00€-34.000,00€ al año\n\nBeneficios:\n\nAyuda al desarrollo profesional\nFlexibilidad horaria\nFormación en certificaciones profesionales\nSeguro médico privado\nTeletrabajo opcional\n\nUbicación del trabajo: Empleo presencial",
-   "posted": "2026-11-05",
-   "remote_flag": true,
-   "labels": [],
-   "score": 64,
-   "modality": "galicia",
-   "workplace": "hibrido",
-   "signals": [
-    "+Stakeholders",
-    "+Encaja con perfil admin",
-    "+Gestión operativa",
-    "+Sector tecnológico",
-    "-Componente IT"
-   ],
-   "details": {
-    "requisitos": [
-     "Se valorará la experiencia previa en coordinación de proyectos, administración, soporte informático o puestos relacionados.",
-     "Conocimientos básicos sobre proyectos de TI y procesos tecnológicos.",
-     "Buenas habilidades de organización y gestión del tiempo.",
-     "Capacidad de comunicación oral y escrita.",
-     "Manejo de Microsoft Office, Excel y herramientas de gestión de proyectos.",
-     "Capacidad para gestionar varias tareas simultáneamente y cumplir con los plazos establecidos.",
-     "Atención al detalle y habilidades para resolver problemas.",
-     "Disposición para aprender nuevas tecnologías y procesos.",
-     "Sueldo: 28.000,00€-34.000,00€ al año"
-    ],
-    "ofrecen": [
-     "Ayuda al desarrollo profesional",
-     "Flexibilidad horaria",
-     "Formación en certificaciones profesionales",
-     "Seguro médico privado",
-     "Teletrabajo opcional",
-     "Ubicación del trabajo: Empleo presencial"
-    ],
-    "claves": {
-     "salario": "Sueldo: 28.000,00€-34.000,00€ al año",
-     "horario": "Flexibilidad horaria",
-     "modalidad": "Teletrabajo opcional"
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-05T22:30:48+00:00"
-  }
- ]
+ "review_queue": []
 }
