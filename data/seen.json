@@ -57593,6 +57593,90 @@
    "title": "MongoDB Platform Engineer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4487776870": {
+   "first_seen": "2026-11-06T07:36:59+00:00",
+   "title": "Técnico producción y organización",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486927166": {
+   "first_seen": "2026-11-06T07:37:00+00:00",
+   "title": "Senior Analyst / Consultor Funcional / PMO & Banking Transformation",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4488127242": {
+   "first_seen": "2026-11-06T07:37:02+00:00",
+   "title": "PMO Coordinator",
+   "accepted": false,
+   "reason": "text:excluded:ingles nivel c1"
+  },
+  "linkedin:4488070639": {
+   "first_seen": "2026-11-06T07:37:04+00:00",
+   "title": "CSD Global Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4486914994": {
+   "first_seen": "2026-11-06T07:37:04+00:00",
+   "title": "PMO MRO Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9dba90fdd4b70ea4": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Salesforce Business Analyst",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e2cf7c29a605f50f": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Jefe de Obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:847850bca90eb849": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Especialista RPA – SS&C Blue Prism",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5fa449ce0e1df6c0": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Network Operations Team Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8a52815420ba5aa7": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Técnico/a de PRL (Madrid)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d3cd1cde85a0365d": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "SW Quality Assurance Senior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:55dea3b2b18d0f21": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Responsable de Ventas sector Municipal - Zona Norte",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3dd5689c4713f050": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "Ingeniero/a de Software C++ Senior (Embebido)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7b233b89524a9b62": {
+   "first_seen": "2026-11-06T07:37:15+00:00",
+   "title": "PMO MRO Engineer",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -61152,11 +61236,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-05T22:30:54+00:00",
+  "at": "2026-11-06T07:37:20+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 126,
-    "candidates": 7,
+    "fetched": 124,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -61164,16 +61248,16 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 66,
-    "candidates": 3,
+    "fetched": 71,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 91,
+    "fetched": 82,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
