@@ -58613,6 +58613,12 @@
    "title": "AI Powered Senior Data Analyst",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4486652265": {
+   "first_seen": "2026-11-07T15:47:57+00:00",
+   "title": "PMO Officer",
+   "accepted": true,
+   "reason": ""
   }
  },
  "matches": [
@@ -62279,11 +62285,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-07T13:48:34+00:00",
+  "at": "2026-11-07T15:48:12+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 117,
-    "candidates": 7,
+    "fetched": 113,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -62291,7 +62297,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 57,
+    "fetched": 51,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
