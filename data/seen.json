@@ -62285,11 +62285,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-07T15:48:12+00:00",
+  "at": "2026-11-07T15:53:00+00:00",
   "stats": {
    "linkedin": {
     "fetched": 113,
-    "candidates": 1,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
