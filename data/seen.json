@@ -58475,6 +58475,144 @@
    "title": "Técnico/a de Mantenimiento Industrial",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4488406679": {
+   "first_seen": "2026-11-07T13:47:40+00:00",
+   "title": "Project Manager (m/f/d) - Portfolio Excellence",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4486219963": {
+   "first_seen": "2026-11-07T13:47:42+00:00",
+   "title": "Finance Transformation Project Manager / Analytics Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4488128959": {
+   "first_seen": "2026-11-07T13:47:42+00:00",
+   "title": "Jefe/a de Proyectos (Comunicaciones Aeronáuticas)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4449728999": {
+   "first_seen": "2026-11-07T13:47:43+00:00",
+   "title": "Project Manager - Mantenimiento Aeronautico",
+   "accepted": false,
+   "reason": "degree:titulacion en ingenier"
+  },
+  "linkedin:4486651189": {
+   "first_seen": "2026-11-07T13:47:43+00:00",
+   "title": "Cross-site Product Manager - H/M",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486223548": {
+   "first_seen": "2026-11-07T13:47:43+00:00",
+   "title": "Especialista en Finanzas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4485839483": {
+   "first_seen": "2026-11-07T13:47:43+00:00",
+   "title": "Business Process Consultant (Català Imprescindible)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486774421": {
+   "first_seen": "2026-11-07T13:47:45+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:ingles: nivel alto"
+  },
+  "linkedin:4488136722": {
+   "first_seen": "2026-11-07T13:47:45+00:00",
+   "title": "DIGITAL APPLICATIONS STRATEGIST",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486243132": {
+   "first_seen": "2026-11-07T13:47:47+00:00",
+   "title": "Digital Technology Project Manager Consultant",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4488144337": {
+   "first_seen": "2026-11-07T13:47:47+00:00",
+   "title": "Responsable Comercial Galicia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487795439": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Consultor/a en Gestión de Proyectos TIC",
+   "accepted": false,
+   "reason": "degree:titulacion: grado o titulacion equivalente en ingenier"
+  },
+  "linkedin:4480115481": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Planificador/a de Proyectos Industriales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488132104": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Técnico/a de Proyectos – Idioma Alemán",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4476672648": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Técnico/a de Obras y Reformas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486973586": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Academic Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488451453": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Project Portfolio & Operational Performance Analyst 80 – 100% (f/m/d)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486209309": {
+   "first_seen": "2026-11-07T13:48:19+00:00",
+   "title": "Digital Coordinator & Digital Twin Management for Spain (d/f/m)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486999723": {
+   "first_seen": "2026-11-07T13:48:20+00:00",
+   "title": "IT Lead Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent in english"
+  },
+  "indeed:f3ad6200a5973b72": {
+   "first_seen": "2026-11-07T13:48:28+00:00",
+   "title": "Software Engineer Java - Azure Devops&Openshift",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:95144c3949a7becd": {
+   "first_seen": "2026-11-07T13:48:28+00:00",
+   "title": "Administrador de redes y seguridad perimetral",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7e1e1cc21b646cb6": {
+   "first_seen": "2026-11-07T13:48:28+00:00",
+   "title": "OPERATIONAL MANAGER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8c36365484c096bf": {
+   "first_seen": "2026-11-07T13:48:28+00:00",
+   "title": "AI Powered Senior Data Analyst",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -62141,11 +62279,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-06T21:57:48+00:00",
+  "at": "2026-11-07T13:48:34+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 122,
-    "candidates": 6,
+    "fetched": 117,
+    "candidates": 7,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -62153,7 +62291,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 65,
+    "fetched": 57,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -62162,7 +62300,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 89,
+    "fetched": 86,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
