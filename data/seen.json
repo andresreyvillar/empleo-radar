@@ -58619,6 +58619,24 @@
    "title": "PMO Officer",
    "accepted": true,
    "reason": ""
+  },
+  "linkedin:4488732710": {
+   "first_seen": "2026-11-07T20:40:45+00:00",
+   "title": "Administrativo de obra",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:6ac99d83ff8467f0": {
+   "first_seen": "2026-11-07T20:40:53+00:00",
+   "title": "Gestor de projectes i atenció al client",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fef73ffdf18a963a": {
+   "first_seen": "2026-11-07T20:40:53+00:00",
+   "title": "Responsable de Propuestas Comerciales y Storytelling Estratégico",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -62285,19 +62303,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-07T15:53:00+00:00",
+  "at": "2026-11-07T20:40:58+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 113,
+    "fetched": 39,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'project manager' page 1"
+    ]
    },
    "indeed": {
-    "fetched": 51,
+    "fetched": 38,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -62306,7 +62326,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 86,
+    "fetched": 85,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
