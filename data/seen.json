@@ -58751,6 +58751,24 @@
    "title": "Operario de fábrica",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4486252475": {
+   "first_seen": "2026-11-08T15:54:36+00:00",
+   "title": "Delivery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486641730": {
+   "first_seen": "2026-11-08T15:54:36+00:00",
+   "title": "PROJECT MANAGER",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4487315772": {
+   "first_seen": "2026-11-08T15:54:36+00:00",
+   "title": "Connected Devices - Solution Implementation Lead",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -62417,21 +62435,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-08T14:03:16+00:00",
+  "at": "2026-11-08T15:54:45+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 55,
-    "candidates": 6,
+    "fetched": 43,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'jefe de proyecto' page 0"
+     "rate limited during 'gestor de proyectos' page 0"
     ]
    },
    "indeed": {
-    "fetched": 16,
+    "fetched": 12,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
