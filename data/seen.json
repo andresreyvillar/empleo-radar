@@ -58637,6 +58637,120 @@
    "title": "Responsable de Propuestas Comerciales y Storytelling Estratégico",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4486881615": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Payroll Implementation Project Manager – Nordic Countries | Temporary Role",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4488784402": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "TECNICO/A GESTION DE PROYECTOS OTC",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4486268354": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4486981816": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Jefa/Jefe Proyecto Mejora Procesos y Análisis Datos - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486238916": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Project Manager, Proyecto Tráfico San Sebastián",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4486233996": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Jefe de Obra/Project Manager - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486277693": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "GERENTE PROYECTOS DE RIESGOS (BARCELONA/MADRID)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4462127155": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "EV Charger Project Manager, Amazon Maintenance Operation Centre (EU AMOC)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4487608517": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Project manager (Instalaciones y proyectos)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475212790": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Healthcare IT Functional Analyst",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488762901": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Digital PMO Lead",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4486678909": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Técnico/a de Proyectos y Legalizaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487330753": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Junior Manager, Learning Innovation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479328952": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Finance and Deployment Analyst II",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488776278": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "Arquitecto/a Técnico/a para proyectos de reforma y rehabilitación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486238897": {
+   "first_seen": "2026-11-08T14:03:04+00:00",
+   "title": "2026_152_GESTOR/A DE PROJECTES DE RECERCA PER A GRENBA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5b350ec27c76e563": {
+   "first_seen": "2026-11-08T14:03:11+00:00",
+   "title": "Comercial Restauración Colectiva B2B",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:de050fa2c579bb46": {
+   "first_seen": "2026-11-08T14:03:11+00:00",
+   "title": "TÉCNICO/A DE SEGURIDAD DE LA INFORMACIÓN | AUDITORÍA Y CERTIFICACIÓN",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:43b303ecbc6fc091": {
+   "first_seen": "2026-11-08T14:03:11+00:00",
+   "title": "Operario de fábrica",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -62303,21 +62417,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-07T20:40:58+00:00",
+  "at": "2026-11-08T14:03:16+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 39,
-    "candidates": 0,
+    "fetched": 55,
+    "candidates": 6,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 1"
+     "rate limited during 'jefe de proyecto' page 0"
     ]
    },
    "indeed": {
-    "fetched": 38,
+    "fetched": 16,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -62326,7 +62440,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 85,
+    "fetched": 56,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
