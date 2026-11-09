@@ -58973,6 +58973,78 @@
    "title": "Responsible Sourcing Program Manager",
    "accepted": false,
    "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4476638325": {
+   "first_seen": "2026-11-09T07:08:57+00:00",
+   "title": "Project Manager Ingeniería Eléctrica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488820417": {
+   "first_seen": "2026-11-09T07:08:57+00:00",
+   "title": "IS Project Manager & SAP ARIBA SCC Implementation Coordinator (flexible location)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4486527881": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Water Infrastructure Project Manager",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4487677461": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Marketing Operations Manager (fixed term)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487687186": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Técnico/a de Proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4484709731": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Responsable Técnico de Proyectos, Obras y Montajes",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488798746": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Arquitecto técnico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488834306": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Coordinador/a Eventos y Ferias",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487112592": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Specialist Cost Planner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487679177": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Project Director",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4444966810": {
+   "first_seen": "2026-11-09T07:08:59+00:00",
+   "title": "Additive Manufacturing Business Officer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d72fbeec5306c82d": {
+   "first_seen": "2026-11-09T07:09:04+00:00",
+   "title": "Captador de clientes",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -62639,11 +62711,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-08T20:57:56+00:00",
+  "at": "2026-11-09T07:09:10+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 73,
-    "candidates": 7,
+    "fetched": 70,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -62651,7 +62723,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 8,
+    "fetched": 5,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -62660,7 +62732,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 34,
+    "fetched": 0,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
