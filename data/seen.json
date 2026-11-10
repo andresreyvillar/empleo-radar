@@ -59591,6 +59591,90 @@
    "title": "Analista Programador/a Natural Adabas (DB2)",
    "accepted": false,
    "reason": "title"
+  },
+  "indeed:234759d8a054a260": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "SAP SD Project Manager / PMO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ff4d631e75faf1a6": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "SAP Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:56a744c14321630a": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Oficial Senior de Proyectos - Seguridad Alimentaria, Medios de Vida y ASH",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8b8dceaaa87f6b15": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "IT Business Analyst",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4af87e6a85cf09fd": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Communication Officer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9d7c21b5fc67c00e": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Copywriter",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:db4c6a1e7bff4150": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "SAP FI Consultant (Pref Barcelona)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5dbeb96050db211b": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "SAP PP Senior Consultant (Pref Barcelona)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fc74e5cd6847baee": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Responsable de Marketing, Comunicación y Marca Personal",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:eae9837fda7b3877": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Operations Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:cd4b71600ae503ce": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "3D Content Creative",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:93e10480bf3296dd": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Senior Java Developer Inglés C1",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c3a39144f429fab6": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Oficial en Seguridad Alimentaria, Medios de Vida y AHS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5d44ec80307fcf6a": {
+   "first_seen": "2026-11-10T07:10:39+00:00",
+   "title": "Asistente de Seguridad Alimentaria y Medios de Vida-1",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -63257,21 +63341,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-09T17:08:44+00:00",
+  "at": "2026-11-10T07:10:44+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 67,
-    "candidates": 12,
+    "fetched": 0,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'responsable de proyecto' page 0"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
-    "fetched": 17,
+    "fetched": 28,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -63281,7 +63365,7 @@
    },
    "tecnoempleo": {
     "fetched": 27,
-    "candidates": 1,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
