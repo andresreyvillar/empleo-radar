@@ -1,3 +1,21 @@
 {
- "reviews": {}
+ "reviews": {
+  "linkedin:4487831229": {
+   "apta": false,
+   "encaje": 25,
+   "modalidad": "sin especificar",
+   "motivo": "El puesto está en San Cibrao das Viñas, en la provincia de Ourense y no en la de Pontevedra, y el anuncio no tiene descripción ni modalidad, así que no se puede confirmar que sea remoto o híbrido, que es lo que se exige fuera de Pontevedra.",
+   "fortalezas": [
+    "Experiencia coordinando a muchas partes a la vez (clientes, proveedores, transportistas, bancos)",
+    "Gestión de plazos, incidencias y documentación de principio a fin",
+    "Google Project Management Certificate y proyectos internos de mejora"
+   ],
+   "carencias": [
+    "El anuncio no tiene descripción y no se puede comprobar si el puesto es técnico (taller, obra, instalaciones) en un grupo de automoción",
+    "No tiene experiencia previa en el sector de automoción ni en concesionarios",
+    "No consta experiencia formal como Project Manager"
+   ],
+   "reviewed_at": "2026-11-11T08:32:05+01:00"
+  }
+ }
 }
