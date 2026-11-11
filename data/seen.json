@@ -60563,6 +60563,12 @@
    "title": "Director/a de Ingeniería",
    "accepted": false,
    "reason": "title"
+  },
+  "tecnoempleo:rf-1749121f12d2034f0e44": {
+   "first_seen": "2026-11-11T07:51:03+00:00",
+   "title": "Gestor/a de proyectos IT",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -64229,21 +64235,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-11T07:37:04+00:00",
+  "at": "2026-11-11T07:51:03+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 97,
-    "candidates": 4,
+    "fetched": 30,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'coordinador de proyectos' page 2"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
-    "fetched": 57,
+    "fetched": 58,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -64252,7 +64258,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 70,
+    "fetched": 71,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
