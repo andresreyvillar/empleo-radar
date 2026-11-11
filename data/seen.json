@@ -60569,6 +60569,114 @@
    "title": "Gestor/a de proyectos IT",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4487476112": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Consultor de Proyectos I+D Junior",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489431703": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "PMO Engineering Service Contracts Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489631770": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Fieldwork Coordinator (Sensory and Consumer Science)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489606661": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Program Management Officer, Global HR Time & Payroll Transformation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487950190": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Operations Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489467119": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Coordinador/a de Seguridad y Salud - A Coruña",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488840998": {
+   "first_seen": "2026-11-11T07:53:55+00:00",
+   "title": "Coordinador de investigaciones clínicas",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487897250": {
+   "first_seen": "2026-11-11T07:53:57+00:00",
+   "title": "PMO Gestión Riesgos",
+   "accepted": false,
+   "reason": "degree:titulacion en ingenier"
+  },
+  "linkedin:4489903100": {
+   "first_seen": "2026-11-11T07:53:59+00:00",
+   "title": "Digital PMO Lead",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4487174561": {
+   "first_seen": "2026-11-11T07:53:59+00:00",
+   "title": "Engineering PMO Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488852343": {
+   "first_seen": "2026-11-11T07:53:59+00:00",
+   "title": "Group Engineering Lead PMO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489444709": {
+   "first_seen": "2026-11-11T07:54:00+00:00",
+   "title": "PROJECT MANAGER",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4487693388": {
+   "first_seen": "2026-11-11T07:54:02+00:00",
+   "title": "Global PMO Lead",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.01"
+  },
+  "linkedin:4489479387": {
+   "first_seen": "2026-11-11T07:54:02+00:00",
+   "title": "IT Program Manager / PMO SAP S/4HANA – Transformación Global",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489910559": {
+   "first_seen": "2026-11-11T07:54:02+00:00",
+   "title": "Gestor/a Visión Económica Global Plan estrategico e Innovación",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489486146": {
+   "first_seen": "2026-11-11T07:54:04+00:00",
+   "title": "Project Coordinator",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4487841447": {
+   "first_seen": "2026-11-11T07:54:04+00:00",
+   "title": "Transforming Care Partner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487857772": {
+   "first_seen": "2026-11-11T07:54:05+00:00",
+   "title": "Transformation Program Manager",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.00"
   }
  },
  "matches": [
@@ -64235,18 +64343,16 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-11T07:51:03+00:00",
+  "at": "2026-11-11T07:54:19+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 30,
-    "candidates": 0,
+    "fetched": 119,
+    "candidates": 6,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": [
-     "rate limited during 'project manager' page 0"
-    ]
+    "errors": []
    },
    "indeed": {
     "fetched": 58,
