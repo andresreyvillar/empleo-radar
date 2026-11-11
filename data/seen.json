@@ -60401,6 +60401,84 @@
    "title": "Desarrollador/a Frontend LitElement (Remoto)",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4488643669": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4487858573": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "PSS Implementation Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4489667793": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "Project Manager (m/f/d) - Portfolio Excellence",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4489661350": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "Jefe/a de Proyectos de Digitalización Industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488638026": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "Técnica/o de Educación para la Ciudadanía Global (ECG)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487831963": {
+   "first_seen": "2026-11-11T07:31:33+00:00",
+   "title": "Ingeniero/a de Proyectos – Riegos, Medio Ambiente y Agroindustria",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5a8f2fb52b8c5e46": {
+   "first_seen": "2026-11-11T07:31:42+00:00",
+   "title": "Responsable para Reclamaciones de Crédito - Rubí",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:3a8b963cfe21858d": {
+   "first_seen": "2026-11-11T07:31:42+00:00",
+   "title": "Junior/Mid-level Front-End Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:46a1b21fd6348335": {
+   "first_seen": "2026-11-11T07:31:42+00:00",
+   "title": "Analista Programador | Java + JSP/Thymeleaf | Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9127b05524f9730c": {
+   "first_seen": "2026-11-11T07:31:42+00:00",
+   "title": "Sales Assistant Tienda A Coruña | Jornada 12h/20h",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-f42914db02af0347a84d": {
+   "first_seen": "2026-11-11T07:31:47+00:00",
+   "title": "Arquitecto/a de IA Generativa & Agentic AI",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-94d31fb53294b321bb42": {
+   "first_seen": "2026-11-11T07:31:47+00:00",
+   "title": "Programador/a PLC - Automatización Industrial",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-a4e017268250a3847143": {
+   "first_seen": "2026-11-11T07:31:47+00:00",
+   "title": "Power BI Developer",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -64067,21 +64145,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-10T22:09:21+00:00",
+  "at": "2026-11-11T07:31:47+00:00",
   "stats": {
    "linkedin": {
     "fetched": 49,
-    "candidates": 9,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": [
      "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
-    "fetched": 56,
+    "fetched": 57,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -64090,7 +64168,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 67,
+    "fetched": 70,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
