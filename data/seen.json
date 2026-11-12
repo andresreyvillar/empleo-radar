@@ -61249,10 +61249,10 @@
    "reason": "title"
   },
   "indeed:18e59596413e681b": {
-   "first_seen": "2026-11-11T23:19:33+00:00",
+   "first_seen": "2026-11-12T08:13:47+00:00",
    "title": "PROJECT MANAGER _OUTSOURCING COMERCIAL",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El puesto está en A Coruña (Galicia, fuera de Pontevedra) y el anuncio no indica remoto ni híbrido; además, menciona la «sede» y la «rest zone» con horario fijo L-V, lo que apunta a trabajo presenc"
   },
   "indeed:5b111b82b2fc26ad": {
    "first_seen": "2026-11-11T23:19:33+00:00",
@@ -65123,17 +65123,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-12T08:12:33+00:00",
+  "at": "2026-11-12T08:15:39+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 49,
-    "candidates": 1,
+    "fetched": 63,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'gestor de proyectos' page 1"
     ]
    },
    "indeed": {
@@ -65161,44 +65161,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "indeed:18e59596413e681b",
-   "source": "indeed",
-   "title": "PROJECT MANAGER _OUTSOURCING COMERCIAL",
-   "company": "Servicios Reunidos",
-   "location": "A Coruña, GA, ES",
-   "url": "https://es.indeed.com/viewjob?jk=18e59596413e681b",
-   "description": "DESCRIPCIóN\n\n¿Te gustaría ayudarnos a que la planificación de nuestros recursos y proyectos sean lo más eficientes posibles? ¿Disfrutas analizando datos a través de diferentes programas y aplicaciones?\n\n¿Quieres saber quiénes somos?\n\nSomos la única empresa TRADE MARKETING con acento gallego”.\n\nEstamos orgullosos de decir que nuestra misión es empoderar las marcas para que brillen en el punto de venta.\n\nDesde nuestra sede, gestionamos a equipos que trabajan en ruta en toda la península.\n\n¿Cuáles serán tus principales responsabilidades?\n\nCapacitación de las nuevas incorporaciones en cuanto a proyecto y herramientas de trabajo, para que estén alineadas desde el primer momento con la marca y objetivo\n\nAcompañamiento y evaluación de nuestrxs trabajadorxs a través de reuniones de proyecto periódicas, evaluaciones de desempeño y otras acciones\n\nDiseño de rutas de trabajo eficientes , para que nuestrs trabajadorxs estén el mayor tiempo en los Puntos de Venta haciendo brillar nuestras marcas y el menor en carretera\n\nAnálisis de datos a través de nuestras diferentes herramientas digitales, así como posterior reporte de los mismos mediante informes que añadan valor al proyecto\n\n¿Por qué nos vas a encantar?\n\nPorque como a nosotrxs, te gusta gestionar y acompañar a personas\n\nPorque estés interesadx en ver la otra parte” de los proyectos de TRADE MARKETING\n\nPorque te gusta trabajar coordinadx con diferentes departamentos\n\nPorque tienes formación en Excel y/o Power Bi (nos encantaría, ¡pero por supuesto no es excluyente!)\n\n¿Qué podemos ofrecerte?\n\nContratación indefinida\n\nHorario : L-J 8:30h a 17:30h V 8:30h-16:00h ( con los descansos que establece la ley)\n\nPlan formativo y acompañamiento continuo.\n\n¿Por qué vamos a enamorarte?\n\nPorque lo mejor de nuestra empresa son las personas, intentaremos que te sientas parte del equipo desde el minuto 0\n\nPorque nos encanta el verano y en ese periodo nuestro horario es de 8:30h-15:45h\n\nPorque en nuestra rest zone tendrás todo lo necesario, para hacer un break, comer, descansar o celebrar ocasiones especiales con todo el equipo ( ¡esto último nos encanta hacerlo!\n\nPorque tendremos en cuenta tu opinión, nos encantaría que aportaras tu visión a nuestros procesos para buscar una mejora continua\n\nDesde Servicios Reunidos Externalización estamos comprometidos con la igualdad de oportunidades y la no discriminación por motivos de sexo, edad, raza, religión, discapacidad, orientación sexual, identidad de género o ideología política. Por ello, evaluamos las candidaturas a nuestras ofertas de empleo únicamente en base a conocimientos, habilidades y experiencias, aplicando en todo momento la normativa vigente relativa a la igualdad de género",
-   "posted": "2026-11-11",
-   "remote_flag": false,
-   "labels": [],
-   "score": 58,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "+Gestión operativa",
-    "+Sector tecnológico"
-   ],
-   "details": {
-    "requisitos": [
-     "Porque tienes formación en Excel y/o Power Bi (nos encantaría, ¡pero por supuesto no es excluyente!)"
-    ],
-    "ofrecen": [
-     "Contratación indefinida",
-     "Horario : L-J 8:30h a 17:30h V 8:30h-16:00h ( con los descansos que establece la ley)",
-     "Plan formativo y acompañamiento continuo."
-    ],
-    "claves": {
-     "horario": "Horario : L-J 8:30h a 17:30h V 8:30h-16:00h ( con los descansos que establece la ley)",
-     "contrato": "Contratación indefinida"
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-11T23:19:33+00:00"
-  }
- ]
+ "review_queue": []
 }
