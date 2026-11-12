@@ -61421,6 +61421,42 @@
    "title": "SAP SAC CONSULTANT",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4490074886": {
+   "first_seen": "2026-11-12T08:12:19+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "indeed:6ae5c73decf90125": {
+   "first_seen": "2026-11-12T08:12:27+00:00",
+   "title": "Junior Engineer APIs y Eventos - Software Engineering",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:061b81c5a475024c": {
+   "first_seen": "2026-11-12T08:12:27+00:00",
+   "title": "Consultor/a de Seguridad de la información _GRC",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7e33fcf996c2f845": {
+   "first_seen": "2026-11-12T08:12:27+00:00",
+   "title": "Asesor de Servicio al Cliente - Mercado Gallego - Remoto WP01",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8a2698b5ae9e32f7": {
+   "first_seen": "2026-11-12T08:12:27+00:00",
+   "title": "Asesor de Servicio al Cliente - Mercado Vasco WP01",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-4631164d12af836e734b": {
+   "first_seen": "2026-11-12T08:12:33+00:00",
+   "title": "Senior Software Engineer AI",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -65087,23 +65123,25 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-11T23:19:39+00:00",
+  "at": "2026-11-12T08:12:33+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 118,
-    "candidates": 11,
+    "fetched": 49,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'project manager' page 2"
+    ]
    },
    "indeed": {
-    "fetched": 76,
-    "candidates": 3,
+    "fetched": 74,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
