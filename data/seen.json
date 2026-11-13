@@ -66017,11 +66017,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-13T07:48:02+00:00",
+  "at": "2026-11-13T07:53:55+00:00",
   "stats": {
    "linkedin": {
     "fetched": 111,
-    "candidates": 2,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
