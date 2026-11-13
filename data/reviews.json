@@ -1,21 +1,3 @@
 {
- "reviews": {
-  "indeed:18e59596413e681b": {
-   "apta": false,
-   "encaje": 30,
-   "modalidad": "sin especificar",
-   "motivo": "El puesto está en A Coruña (Galicia, fuera de Pontevedra) y el anuncio no indica remoto ni híbrido; además, menciona la «sede» y la «rest zone» con horario fijo L-V, lo que apunta a trabajo presencial, y el rol se parece más a coordinar equipos de trade marketing en ruta que a gestionar proyectos.",
-   "fortalezas": [
-    "Coordinación con diferentes departamentos y múltiples interlocutores",
-    "Excel avanzado para análisis de datos y reporting",
-    "Experiencia formando a compañeras en sistemas y procesos"
-   ],
-   "carencias": [
-    "Experiencia en trade marketing y gestión de equipos de campo en ruta",
-    "Diseño y optimización de rutas comerciales",
-    "Power BI (deseable, no excluyente)"
-   ],
-   "reviewed_at": "2026-11-12T09:13:20+01:00"
-  }
- }
+ "reviews": {}
 }
