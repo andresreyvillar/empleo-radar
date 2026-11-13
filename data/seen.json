@@ -62237,6 +62237,120 @@
    "title": "Senior Technical Architect | Java & Microservicios",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4490557336": {
+   "first_seen": "2026-11-13T07:47:43+00:00",
+   "title": "Project Manager - Automoción y logística H/M",
+   "accepted": false,
+   "reason": "degree:ingenieria industrial"
+  },
+  "linkedin:4490538482": {
+   "first_seen": "2026-11-13T07:47:43+00:00",
+   "title": "TÉCNICO/A DE GESTIÓN PROYECTO IDi",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489027064": {
+   "first_seen": "2026-11-13T07:47:45+00:00",
+   "title": "Supply Chain & Logistics Project Coordinator",
+   "accepted": false,
+   "reason": "text:excluded:ingles avanzado"
+  },
+  "linkedin:4488538408": {
+   "first_seen": "2026-11-13T07:47:45+00:00",
+   "title": "Digital Technology Portfolio Manager - ERP",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489993043": {
+   "first_seen": "2026-11-13T07:47:45+00:00",
+   "title": "Senior Manager Strategy",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7a0fb0fab9b963bd": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Gestor/a de Proyectos I+D",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:72e9b99e739feef2": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Client Process Owner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b4834ae48df0f9a5": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Analista de Datos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a5d992ac7d45fcf4": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Retail Marketing Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a16d8ab0247f2321": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Senior B2B Marketing Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:db15bbb994b4e7c6": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "¿Eres moter@? Incorporamos teleoperadores expertos en motos! 15-21 l-v (h/m/x)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8810fd6055245b83": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Alianzas Estratégicas - Ejecutivo/a de cuentas (Sustitución)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c351b34d0ac2793b": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Dirección académica de formación online en oposiciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:fc8b52d784581c2d": {
+   "first_seen": "2026-11-13T07:47:55+00:00",
+   "title": "Ingenieria de Mantenimiento de Señalización Embarcada",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-7e6c19a5c23f93072e4f": {
+   "first_seen": "2026-11-13T07:48:02+00:00",
+   "title": "Senior Java Software Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-2e93138c523c5394d347": {
+   "first_seen": "2026-11-13T07:48:02+00:00",
+   "title": "Analista Mainframe COBOL, CICS y DB2",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-bb301093626aa3dd864e": {
+   "first_seen": "2026-11-13T07:48:02+00:00",
+   "title": "Solution Architect Security Focus (Banca)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-3bc415a242dcf3566847": {
+   "first_seen": "2026-11-13T07:48:02+00:00",
+   "title": "Técnico/a Soporte IT L3",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-9174196bf29a73580e42": {
+   "first_seen": "2026-11-13T07:48:02+00:00",
+   "title": "Desarrollador/a Salesforce Apex LWC OmniStudio",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -65903,11 +66017,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-12T22:34:01+00:00",
+  "at": "2026-11-13T07:48:02+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 112,
-    "candidates": 10,
+    "fetched": 111,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -65915,7 +66029,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 79,
+    "fetched": 84,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -65924,7 +66038,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 89,
+    "fetched": 80,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
