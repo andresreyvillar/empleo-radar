@@ -63035,6 +63035,114 @@
    "title": "Mecánico/a de Turismos – Oficial de 1.ª | Narón (A Coruña)",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4489877619": {
+   "first_seen": "2026-11-14T13:56:07+00:00",
+   "title": "Project Manager Footprint (ESP)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4491010707": {
+   "first_seen": "2026-11-14T13:56:09+00:00",
+   "title": "PMO AERONÁUTICO",
+   "accepted": false,
+   "reason": "text:excluded:ingles c1"
+  },
+  "linkedin:4489563248": {
+   "first_seen": "2026-11-14T13:56:09+00:00",
+   "title": "MEP Project Manager - Data Centres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490386526": {
+   "first_seen": "2026-11-14T13:56:09+00:00",
+   "title": "Gestor/a de proyecto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489311998": {
+   "first_seen": "2026-11-14T13:56:09+00:00",
+   "title": "Project Manager Data Centers",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490725532": {
+   "first_seen": "2026-11-14T13:56:09+00:00",
+   "title": "License Owner & Operator, Santiago",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488922849": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Technology Project Manager - Transformation",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4490348624": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Prácticas - Analista de negocio internacional",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488949457": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Jefe/a de Obra Hospitalaria",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489869091": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "JEFE/A DE OBRA HOSPITALARIA (SECTOR SANITARIO)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4478993448": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Implementation Manager (TCS) | Client Support | French Speaker",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490588546": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Customer Relationship Manager (Laguna)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490599292": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Técnico/a de obra y gestión de proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490711024": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "ING. LOGÍSTICA INTERNA - AUTOMOCIÓN Vigo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489809108": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "ESTRATEGIA Y TRANSFORMACIÓN EN CIBERSEGURIDAD",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4479495442": {
+   "first_seen": "2026-11-14T13:56:11+00:00",
+   "title": "Business Continuity Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e382c84e25efc15b": {
+   "first_seen": "2026-11-14T13:56:17+00:00",
+   "title": "INGENIERO/A DE GESTIÓN DE PROCESOS- CADENA DE SUMINISTRO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:93f05967ed10e494": {
+   "first_seen": "2026-11-14T13:56:17+00:00",
+   "title": "Consultor RPA – SS&C Blue Prism",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -66701,11 +66809,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-13T22:22:43+00:00",
+  "at": "2026-11-14T13:56:21+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 112,
-    "candidates": 5,
+    "fetched": 110,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -66713,8 +66821,8 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 79,
-    "candidates": 1,
+    "fetched": 52,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -66722,7 +66830,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 87,
+    "fetched": 80,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
