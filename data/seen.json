@@ -66917,11 +66917,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-14T21:05:03+00:00",
+  "at": "2026-11-14T21:57:12+00:00",
   "stats": {
    "linkedin": {
     "fetched": 97,
-    "candidates": 5,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -66938,7 +66938,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 67,
+    "fetched": 61,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
