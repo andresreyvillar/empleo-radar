@@ -63143,6 +63143,114 @@
    "title": "Consultor RPA – SS&C Blue Prism",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4489334885": {
+   "first_seen": "2026-11-14T21:04:45+00:00",
+   "title": "PMO (Gestión proyectos IT). Inglés alto",
+   "accepted": false,
+   "reason": "text:excluded:ingles alto"
+  },
+  "linkedin:4477303332": {
+   "first_seen": "2026-11-14T21:04:47+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "language:spanish-ratio=0.00"
+  },
+  "linkedin:4489566234": {
+   "first_seen": "2026-11-14T21:04:47+00:00",
+   "title": "Mechanical Project Manager- Data Centres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489892704": {
+   "first_seen": "2026-11-14T21:04:47+00:00",
+   "title": "Research Manager 2026/Cp/179",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488922823": {
+   "first_seen": "2026-11-14T21:04:48+00:00",
+   "title": "Transformation Project Manager - Operations & Service Delivery",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4489515491": {
+   "first_seen": "2026-11-14T21:04:48+00:00",
+   "title": "Project Manager – Microsoft .NET & Azure",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490720851": {
+   "first_seen": "2026-11-14T21:04:48+00:00",
+   "title": "GESTIÓN PROYECTOS / Gestión Cliente con ALEMÁN",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490725788": {
+   "first_seen": "2026-11-14T21:04:50+00:00",
+   "title": "Jr Community Engagement Project Coordinator",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4490726540": {
+   "first_seen": "2026-11-14T21:04:50+00:00",
+   "title": "Ingeniero/a Planificación y Logística (Hernani)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4487470334": {
+   "first_seen": "2026-11-14T21:04:50+00:00",
+   "title": "Coordinador/a de Ferias y Proyectos Culturales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4475235428": {
+   "first_seen": "2026-11-14T21:04:50+00:00",
+   "title": "Junior Change Coordinator (German Speaker)- life science sector- International Projects",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490738407": {
+   "first_seen": "2026-11-14T21:04:50+00:00",
+   "title": "Jr Community Engagement Project Ops",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491084654": {
+   "first_seen": "2026-11-14T21:04:52+00:00",
+   "title": "Transcend Manager PMO",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490528596": {
+   "first_seen": "2026-11-14T21:04:52+00:00",
+   "title": "Client Projects Delivery & Change Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490763257": {
+   "first_seen": "2026-11-14T21:04:52+00:00",
+   "title": "Consultor/a Junior de Estrategia y Operaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4488987446": {
+   "first_seen": "2026-11-14T21:04:52+00:00",
+   "title": "International Product Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d8c442a8ab3dca56": {
+   "first_seen": "2026-11-14T21:04:58+00:00",
+   "title": "Contable",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1b03dd8f59f9118a": {
+   "first_seen": "2026-11-14T21:04:58+00:00",
+   "title": "Marketing community lead",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -66809,11 +66917,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-14T13:56:21+00:00",
+  "at": "2026-11-14T21:05:03+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 110,
-    "candidates": 3,
+    "fetched": 97,
+    "candidates": 5,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -66821,7 +66929,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 52,
+    "fetched": 40,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -66830,7 +66938,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 80,
+    "fetched": 67,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
