@@ -63251,6 +63251,30 @@
    "title": "Marketing community lead",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4490703162": {
+   "first_seen": "2026-11-15T08:37:00+00:00",
+   "title": "Senior SDLC Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:alto de ingles"
+  },
+  "linkedin:4491204390": {
+   "first_seen": "2026-11-15T08:37:02+00:00",
+   "title": "PMO AERONÁUTICO",
+   "accepted": false,
+   "reason": "text:excluded:ingles c1"
+  },
+  "linkedin:4489576560": {
+   "first_seen": "2026-11-15T08:37:04+00:00",
+   "title": "Project Manager - Residencial Córdoba (Spain)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4489848888": {
+   "first_seen": "2026-11-15T08:37:04+00:00",
+   "title": "Director, R&D IT Operational Excellence",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -66917,11 +66941,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-14T21:57:12+00:00",
+  "at": "2026-11-15T08:37:16+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 97,
-    "candidates": 0,
+    "fetched": 92,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -66929,7 +66953,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 40,
+    "fetched": 31,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -66938,7 +66962,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 61,
+    "fetched": 44,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
