@@ -63653,6 +63653,48 @@
    "title": "Comercial Autónomo",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4489396904": {
+   "first_seen": "2026-11-16T08:07:06+00:00",
+   "title": "PMO AERONÁUTICO",
+   "accepted": false,
+   "reason": "text:excluded:ingles c1"
+  },
+  "linkedin:4491290634": {
+   "first_seen": "2026-11-16T08:07:06+00:00",
+   "title": "Project & Digital Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490395994": {
+   "first_seen": "2026-11-16T08:07:37+00:00",
+   "title": "Project Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluido de ingles"
+  },
+  "linkedin:4482061237": {
+   "first_seen": "2026-11-16T08:07:37+00:00",
+   "title": "Técnico/a Estudios Murcia",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491082697": {
+   "first_seen": "2026-11-16T08:07:37+00:00",
+   "title": "Junior Planning Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491099043": {
+   "first_seen": "2026-11-16T08:07:37+00:00",
+   "title": "Senior Planning Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5c72afd541c280e3": {
+   "first_seen": "2026-11-16T08:07:42+00:00",
+   "title": "Comercial Autónomo",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -67319,11 +67361,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-15T21:27:31+00:00",
+  "at": "2026-11-16T08:07:46+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 74,
-    "candidates": 4,
+    "fetched": 69,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -67331,7 +67373,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 10,
+    "fetched": 7,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -67340,7 +67382,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 41,
+    "fetched": 3,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
