@@ -1,3 +1,21 @@
 {
- "reviews": {}
+ "reviews": {
+  "linkedin:4463909726": {
+   "apta": false,
+   "encaje": 10,
+   "modalidad": "remoto",
+   "motivo": "Se descarta porque es un puesto de Project Manager / Technical Lead que exige «definir la arquitectura y supervisar el ciclo completo de desarrollo» y conocimientos sólidos en Java, React, AWS, microservicios y CI/CD, un perfil técnico de desarrollo que la candidata no tiene, aunque la modalidad sea remota.",
+   "fortalezas": [
+    "Experiencia en logística y transporte internacional (sector valorado en la oferta)",
+    "Gestión de stakeholders, plazos, riesgos e incidencias con múltiples partes",
+    "Google Project Management Certificate y nociones de Scrum"
+   ],
+   "carencias": [
+    "Perfil técnico de desarrollo: Java, React, AWS, microservicios, Oracle, GIS",
+    "Definición de arquitectura, DevOps y pipelines CI/CD",
+    "Mínimo 5 años como PM o Technical Lead liderando equipos de software"
+   ],
+   "reviewed_at": "2026-11-16T09:08:07+01:00"
+  }
+ }
 }
