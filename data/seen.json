@@ -63283,10 +63283,10 @@
    "reason": "degree:ingenieria industrial"
   },
   "linkedin:4463909726": {
-   "first_seen": "2026-11-15T14:29:54+00:00",
+   "first_seen": "2026-11-16T08:08:36+00:00",
    "title": "PROJECT MANAGER",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Se descarta porque es un puesto de Project Manager / Technical Lead que exige «definir la arquitectura y supervisar el ciclo completo de desarrollo» y conocimientos sólidos en Java, React, AWS, mic"
   },
   "linkedin:4489805329": {
    "first_seen": "2026-11-15T14:29:55+00:00",
@@ -67361,11 +67361,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-16T08:07:46+00:00",
+  "at": "2026-11-16T08:09:24+00:00",
   "stats": {
    "linkedin": {
     "fetched": 69,
-    "candidates": 2,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -67373,7 +67373,7 @@
     "errors": []
    },
    "indeed": {
-    "fetched": 7,
+    "fetched": 8,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -67397,70 +67397,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4463909726",
-   "source": "linkedin",
-   "title": "PROJECT MANAGER",
-   "company": "Atos",
-   "location": "Valencia/València",
-   "url": "https://www.linkedin.com/jobs/view/4463909726",
-   "description": "Modelo de trabajo Remoto\n\nAtos es líder europeo en transformación digital, ciberseguridad, cloud y computación de alto rendimiento. Con presencia global y un firme compromiso con la innovación y la sostenibilidad, ofrecemos soluciones tecnológicas que impulsan el futuro digital. Con más de 67.000 profesionales en 61 países, trabajamos para diseñar un espacio de información seguro y sostenible, apoyando el desarrollo científico y tecnológico a nivel mundial.\n\nBuscamos un/a Project Manager / Technical Lead con al menos 5 años de experiencia liderando proyectos tecnológicos y equipos multidisciplinares. La persona seleccionada será responsable de coordinar iniciativas estratégicas, asegurar la correcta ejecución técnica de los proyectos y actuar como enlace entre negocio y tecnología.\n\nSe valorará especialmente la experiencia previa en el sector logístico , participando en proyectos de transformación digital, optimización de operaciones o desarrollo de plataformas críticas.\n\nFunciones principales\n\nLiderar proyectos tecnológicos garantizando el cumplimiento de alcance, plazos y calidad.\nCoordinar equipos de desarrollo y asegurar la correcta ejecución técnica de las soluciones.\nDefinir la arquitectura y supervisar el ciclo completo de desarrollo de aplicaciones.\nColaborar con stakeholders de negocio para la toma de requisitos y la definición de soluciones.\nGestionar riesgos, dependencias e incidencias de los proyectos.\nPromover buenas prácticas de desarrollo, integración continua y automatización.\nSupervisar despliegues y procesos DevOps.\nParticipar en la planificación técnica y funcional de nuevas iniciativas y evolutivos.\n\nRequisitos\n\nMínimo 5 años de experiencia como Project Manager, Technical Lead o posición similar.\nExperiencia liderando equipos técnicos y proyectos de desarrollo software.\nConocimientos sólidos en\nAWS\nJava\nArquitecturas de Microservicios\nGIS (Geographic Information Systems)\nOracle Database\nReact\nCI/CD Pipelines\nDevOps y automatización de despliegues\n\nCompetencias\n\nCapacidad de liderazgo y coordinación de equipos multidisciplinares.\nOrientación a resultados y resolución de problemas.\nExcelentes habilidades de comunicación con interlocutores técnicos y de negocio.\nCapacidad para gestionar múltiples iniciativas simultáneamente.\nVisión estratégica y enfoque en mejora continua.\n\nValorable\n\nExperiencia en el sector de Logística y Transporte.\nExperiencia en entornos cloud-native.\nConocimientos de metodologías Agile (Scrum, Kanban, SAFe).\nCertificaciones AWS, PMP, PRINCE2 o Scrum.\n\nQué Ofrecemos\n\nContrato indefinido con periodo de prueba.\nHorario de lunes a viernes.\nJornada intensiva el verano.\nAcceso al plan de retribución flexible e-Flex.\nOportunidades reales de crecimiento profesional dentro de la compañía.\nParticipación en un proyecto estable, en crecimiento y con impacto.\nFormación continua y apoyo para obtener certificaciones relevantes para el puesto.\n\nEn Atos valoramos la diversidad y la inclusión. Fomentamos un entorno donde todas las personas puedan desarrollarse y aportar su talento, sin importar su origen, identidad o condición. Únete a Atos y desarrolla tu carrera en un entorno flexible, estable y orientado a la innovación.\n\nElige tu futuro con nosotros\n\nNivel: No corresponde\nTipo de empleo: Jornada completa",
-   "posted": "2026-11-14",
-   "remote_flag": true,
-   "labels": [],
-   "score": 70,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "+Agile",
-    "+Stakeholders",
-    "+Certificación PM",
-    "+Encaja con perfil admin",
-    "+Gestión operativa",
-    "+Sector tecnológico",
-    "-Pide 5+ años"
-   ],
-   "details": {
-    "requisitos": [
-     "Mínimo 5 años de experiencia como Project Manager, Technical Lead o posición similar.",
-     "Experiencia liderando equipos técnicos y proyectos de desarrollo software.",
-     "AWS",
-     "Java",
-     "Arquitecturas de Microservicios",
-     "GIS (Geographic Information Systems)",
-     "Oracle Database",
-     "React",
-     "CI/CD Pipelines",
-     "DevOps y automatización de despliegues",
-     "Capacidad de liderazgo y coordinación de equipos multidisciplinares.",
-     "Orientación a resultados y resolución de problemas."
-    ],
-    "ofrecen": [
-     "Contrato indefinido con periodo de prueba.",
-     "Horario de lunes a viernes.",
-     "Jornada intensiva el verano.",
-     "Acceso al plan de retribución flexible e-Flex.",
-     "Oportunidades reales de crecimiento profesional dentro de la compañía.",
-     "Participación en un proyecto estable, en crecimiento y con impacto.",
-     "Formación continua y apoyo para obtener certificaciones relevantes para el puesto.",
-     "En Atos valoramos la diversidad y la inclusión. Fomentamos un entorno donde todas las personas puedan desarrollarse y aportar su talento, sin importar su origen, identidad o condición. Únete a Atos y desarrolla tu carrer",
-     "Elige tu futuro con nosotros",
-     "Nivel: No corresponde",
-     "Tipo de empleo: Jornada completa"
-    ],
-    "claves": {
-     "horario": "Horario de lunes a viernes.",
-     "modalidad": "Modelo de trabajo Remoto",
-     "experiencia": "Mínimo 5 años de experiencia como Project Manager, Technical Lead o posición similar.",
-     "contrato": "Contrato indefinido con periodo de prueba."
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-15T14:29:54+00:00"
-  }
- ]
+ "review_queue": []
 }
