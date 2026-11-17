@@ -63727,10 +63727,10 @@
    "reason": "location:sin especificar-outside-allowed-area"
   },
   "linkedin:4490656491": {
-   "first_seen": "2026-11-16T16:43:34+00:00",
+   "first_seen": "2026-11-17T07:34:22+00:00",
    "title": "Project Manager | Sector Público y Administración Digital | Galicia",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El anuncio no tiene descripción y solo indica «Galicia / Galiza», así que no se puede comprobar que sea en Pontevedra ni que admita remoto o híbrido, ni descartar requisitos técnicos o de idioma. A"
   },
   "linkedin:4489728456": {
    "first_seen": "2026-11-16T16:43:34+00:00",
@@ -63835,10 +63835,10 @@
    "reason": "location:sin especificar-outside-allowed-area"
   },
   "linkedin:4490270925": {
-   "first_seen": "2026-11-16T16:43:34+00:00",
+   "first_seen": "2026-11-17T07:34:22+00:00",
    "title": "Project Manager IT – Product Owner",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El anuncio está ubicado en \"La Coruña\", fuera de la provincia de Pontevedra, y no tiene descripción: no confirma que sea remoto o híbrido ni detalla requisitos técnicos ni de idioma."
   },
   "linkedin:4489750583": {
    "first_seen": "2026-11-16T16:43:34+00:00",
@@ -64423,10 +64423,10 @@
    "reason": "title"
   },
   "indeed:d6f52c44ed66b521": {
-   "first_seen": "2026-11-17T00:38:56+00:00",
+   "first_seen": "2026-11-17T07:34:22+00:00",
    "title": "Responsable de Proyectos y Logística",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Se descarta porque pide formación técnica (\"Ingeniería (Caminos/Obras Públicas, Minas, Industrial, Naval), Geociencias…\") e \"imprescindible fluidez profesional en inglés\", por encima de su B2. Adem"
   },
   "indeed:21fd7ee472d5201d": {
    "first_seen": "2026-11-17T00:38:56+00:00",
@@ -64521,6 +64521,222 @@
   "indeed:d38eecc74efc3030": {
    "first_seen": "2026-11-17T07:32:57+00:00",
    "title": "Ingeniero/a de Orquestación Agéntica para el Ciclo de Vida de Desarrollo (AI DX and Agent Tooling Engineer)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490916592": {
+   "first_seen": "2026-11-17T07:37:24+00:00",
+   "title": "Delivery Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490660835": {
+   "first_seen": "2026-11-17T07:37:24+00:00",
+   "title": "Ayudante de producción",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491502656": {
+   "first_seen": "2026-11-17T07:37:24+00:00",
+   "title": "Beca Operaciones y CRM Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489727570": {
+   "first_seen": "2026-11-17T07:37:24+00:00",
+   "title": "Cybersecurity Project Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489799300": {
+   "first_seen": "2026-11-17T07:37:26+00:00",
+   "title": "Project Manager BI",
+   "accepted": false,
+   "reason": "text:excluded:imprescindibles: al menos 3 anos de experiencia desarroll"
+  },
+  "linkedin:4490296381": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Project Manager IT",
+   "accepted": false,
+   "reason": "text:excluded:ingles nivel alto"
+  },
+  "linkedin:4486230209": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Analista Funcional / Jefe de Proyecto Microsoft Dynamics 365 Customer Engagement (Sales & Customer Service)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490930832": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Gestor/a de projectes de recerca d'àmbit internacional, Ref. 37-2026",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490671220": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Organizador/a de Congresos Médicos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489767120": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Técnico/a Comercial Posventa (Ubicación)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490279859": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Director General Junior- proyectos de construcción.",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490939815": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "HR Project & Talent Intelligence Coordinator - Central Europe",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490125156": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "HR Project & Talent Intelligence Coordinator - Central Europe",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489744525": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "TECNICO/A PROYECTOS INDUSTRIALES. INDUSTRIA FARMACEUTICA",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489783025": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "ANALISTA / COORDINADOR/A TÉCNICO/A DE PROYECTO – xPay",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489792609": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Disaster Recovery Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490109507": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Disaster Recovery Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489788746": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Ingeniero/a-Coordinador/a de Proyectos de Mantenimiento de Instalaciones Mecánicas (Clima-HVAC, PCI, Inst.Térmicas..ect)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489799022": {
+   "first_seen": "2026-11-17T07:37:28+00:00",
+   "title": "Proyect Planner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489726513": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "PMO Analyst",
+   "accepted": false,
+   "reason": "location:hibrido-outside-allowed-area"
+  },
+  "linkedin:4489782253": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Tècnic/a de Projectes i Obres",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489752446": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Scrum Master",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490692407": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Planner Lead",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489735250": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Técnico Junior de Proyectos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490905374": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Coordinador De Salud Y Seguridad - €28.000 - €35.000 Al Año",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490645376": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "CP Transformation Lead GA South",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489768299": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Manager, Strategy & Transformation",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490969238": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "CONSULTOR/A SENIOR DE GESTIÓN DEL CAMBIO",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490943353": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Senior Consultant - Operaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4483235674": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Gestión del cambio orientada a Google Workspace",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489779793": {
+   "first_seen": "2026-11-17T07:37:29+00:00",
+   "title": "Service & Agile Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490100086": {
+   "first_seen": "2026-11-17T07:38:01+00:00",
+   "title": "Senior Program Manager",
+   "accepted": false,
+   "reason": "text:excluded:fluent english"
+  },
+  "linkedin:4490615040": {
+   "first_seen": "2026-11-17T07:38:01+00:00",
+   "title": "TSA & Service Transition Manager – Financial Services",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4489794675": {
+   "first_seen": "2026-11-17T07:38:03+00:00",
+   "title": "Senior Program Manager H/F",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490692914": {
+   "first_seen": "2026-11-17T07:38:03+00:00",
+   "title": "Delivery Service Manager - TechOps Quality Solutions (LIMS, LabExec)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4446758135": {
+   "first_seen": "2026-11-17T07:38:03+00:00",
+   "title": "TECNICO DE ORGANIZACION Y PROCESOS JUNIOR",
    "accepted": false,
    "reason": "title"
   }
@@ -68189,18 +68405,16 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-17T07:33:00+00:00",
+  "at": "2026-11-17T07:38:14+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 52,
-    "candidates": 4,
+    "fetched": 101,
+    "candidates": 5,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": [
-     "rate limited during 'gestor de proyectos' page 2"
-    ]
+    "errors": []
    },
    "indeed": {
     "fetched": 45,
@@ -68227,106 +68441,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 3
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4490656491",
-   "source": "linkedin",
-   "title": "Project Manager | Sector Público y Administración Digital | Galicia",
-   "company": "NTT DATA Europe & Latam",
-   "location": "Galicia / Galiza, España",
-   "url": "https://www.linkedin.com/jobs/view/4490656491",
-   "description": "",
-   "posted": "2026-11-16",
-   "remote_flag": true,
-   "labels": [],
-   "score": 59,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "+Encaja con perfil admin",
-    "+Sector tecnológico",
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-16T16:43:34+00:00"
-  },
-  {
-   "id": "linkedin:4490270925",
-   "source": "linkedin",
-   "title": "Project Manager IT – Product Owner",
-   "company": "Vitae Consultores",
-   "location": "La Coruña",
-   "url": "https://www.linkedin.com/jobs/view/4490270925",
-   "description": "",
-   "posted": "2026-11-16",
-   "remote_flag": false,
-   "labels": [],
-   "score": 50,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-16T16:43:34+00:00"
-  },
-  {
-   "id": "indeed:d6f52c44ed66b521",
-   "source": "indeed",
-   "title": "Responsable de Proyectos y Logística",
-   "company": "Isprox",
-   "location": "Ferrol, GA, ES",
-   "url": "https://es.indeed.com/viewjob?jk=d6f52c44ed66b521",
-   "description": "DESCRIPCIóN\n\nDesde ISPROX colaboramos con un sólido grupo internacional especializado en la producción y suministro de materias primas para grandes proyectos marinos, infraestructuras y energía offshore.\n\nBuscamos a un/a Responsable de Proyectos y Logística que quiera asumir un rol estratégico, dinámico y con gran autonomía. En dependencia directa de Dirección, serás el motor que coordine cada proyecto de principio a fin: desde el aprovisionamiento en origen y el transporte terrestre, hasta la operativa portuaria, la estiba y el fletamento marítimo.\n\nTus principales retos:\n\nLiderar proyectos operativos: Coordinar los proyectos de clientes de inicio a fin en plazo, coste y calidad, manteniendo una comunicación fluida con Dirección y dando soporte técnico a las ofertas comerciales.\nOptimizar la cadena logística: Planificar y supervisar los flujos entre canteras colaboradoras, agencias de transporte, autoridades portuarias y carga de buques.\nGestión de partners clave: Homologar, negociar y coordinar a los proveedores de transporte, contratas en muelle y operadores marítimos.\nCompromiso con la calidad y la seguridad: Velar por el cumplimiento de los estándares de calidad, medio ambiente y prevención (ISO 9001, 14001, 45001), así como por la conformidad técnica del material.\nAtención al cliente e incidencias: Asesorar técnicamente al cliente y resolver contingencias de manera ágil y resolutiva.\n\n¿Qué te ofrece la compañía?\n\nEstabilidad y desarrollo: Contrato indefinido en un proyecto sólido y en plena expansión internacional.\nRetribución adaptada a ti: Salario competitivo acorde a tu nivel de experiencia y seniority (Middle o Senior).\nFlexibilidad y autonomía: Horario flexible, esquema de trabajo con amplia capacidad de decisión y un entorno colaborativo.\nImpacto real: Posición clave con visibilidad directa ante el Comité de Dirección y participación activa en el crecimiento del negocio.\n\nSi buscas un proyecto donde tu trabajo tenga un impacto visible en obras de gran envergadura técnica y te motive trabajar en un entorno internacional, ¡este puesto es para ti!\n\nREQUISITOS\n\n¿Qué buscamos en ti?\n\nFormación: Ingeniería (Caminos/Obras Públicas, Minas, Industrial, Naval), Geociencias, Logística o disciplinas técnicas afines.\nExperiencia: Abiertos a valorar perfiles Middle o Senior con trayectoria en gestión de proyectos técnicos, logística o cadena de suministro (muy valorable entorno portuario, transporte a granel/marítimo o proyectos offshore e infraestructuras).\nIdiomas: Imprescindible fluidez profesional en inglés y español (negociación oral y escrita). El alemán será un plus bienvenido.\nHabilidades clave: Perfil resolutivo, con buena capacidad analítica orientada a datos, dotes de negociación y facilidad para coordinar equipos y contratas.\nMovilidad: Disponibilidad para supervisar operativas en puertos y canteras de Galicia, con viajes puntuales por Europa.",
-   "posted": "2026-11-11",
-   "remote_flag": false,
-   "labels": [],
-   "score": 43,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "+Encaja con perfil admin",
-    "+Consultora / agencia",
-    "-Senior",
-    "-Componente IT",
-    "-Sector industrial / obra / ingeniería"
-   ],
-   "details": {
-    "requisitos": [
-     "Formación: Ingeniería (Caminos/Obras Públicas, Minas, Industrial, Naval), Geociencias, Logística o disciplinas técnicas afines.",
-     "Experiencia: Abiertos a valorar perfiles Middle o Senior con trayectoria en gestión de proyectos técnicos, logística o cadena de suministro (muy valorable entorno portuario, transporte a granel/marítimo o proyectos offsh",
-     "Idiomas: Imprescindible fluidez profesional en inglés y español (negociación oral y escrita). El alemán será un plus bienvenido.",
-     "Habilidades clave: Perfil resolutivo, con buena capacidad analítica orientada a datos, dotes de negociación y facilidad para coordinar equipos y contratas.",
-     "Movilidad: Disponibilidad para supervisar operativas en puertos y canteras de Galicia, con viajes puntuales por Europa."
-    ],
-    "ofrecen": [
-     "Estabilidad y desarrollo: Contrato indefinido en un proyecto sólido y en plena expansión internacional.",
-     "Retribución adaptada a ti: Salario competitivo acorde a tu nivel de experiencia y seniority (Middle o Senior).",
-     "Flexibilidad y autonomía: Horario flexible, esquema de trabajo con amplia capacidad de decisión y un entorno colaborativo.",
-     "Impacto real: Posición clave con visibilidad directa ante el Comité de Dirección y participación activa en el crecimiento del negocio.",
-     "Si buscas un proyecto donde tu trabajo tenga un impacto visible en obras de gran envergadura técnica y te motive trabajar en un entorno internacional, ¡este puesto es para ti!"
-    ],
-    "claves": {
-     "salario": "Retribución adaptada a ti: Salario competitivo acorde a tu nivel de experiencia y seniority (Middle o Senior).",
-     "horario": "Flexibilidad y autonomía: Horario flexible, esquema de trabajo con amplia capacidad de decisión y un entorno colaborativo.",
-     "contrato": "Estabilidad y desarrollo: Contrato indefinido en un proyecto sólido y en plena expansión internacional."
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-17T00:38:56+00:00"
-  }
- ]
+ "review_queue": []
 }
