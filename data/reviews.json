@@ -1,21 +1,55 @@
 {
  "reviews": {
-  "linkedin:4463909726": {
+  "linkedin:4490656491": {
    "apta": false,
-   "encaje": 10,
-   "modalidad": "remoto",
-   "motivo": "Se descarta porque es un puesto de Project Manager / Technical Lead que exige «definir la arquitectura y supervisar el ciclo completo de desarrollo» y conocimientos sólidos en Java, React, AWS, microservicios y CI/CD, un perfil técnico de desarrollo que la candidata no tiene, aunque la modalidad sea remota.",
+   "encaje": 45,
+   "modalidad": "sin especificar",
+   "motivo": "El anuncio no tiene descripción y solo indica «Galicia / Galiza», así que no se puede comprobar que sea en Pontevedra ni que admita remoto o híbrido, ni descartar requisitos técnicos o de idioma. Aun así, al ser una consultora tecnológica en Galicia (NTT DATA), merece revisarlo a mano.",
    "fortalezas": [
-    "Experiencia en logística y transporte internacional (sector valorado en la oferta)",
-    "Gestión de stakeholders, plazos, riesgos e incidencias con múltiples partes",
-    "Google Project Management Certificate y nociones de Scrum"
+    "Coordinación de muchas partes a la vez (clientes, proveedores, bancos, aseguradoras, aduanas)",
+    "Formación en Derecho Económico-Empresarial, útil para trabajar con la administración pública",
+    "Google Project Management Certificate y proyectos internos de mejora de procesos y gestión documental"
    ],
    "carencias": [
-    "Perfil técnico de desarrollo: Java, React, AWS, microservicios, Oracle, GIS",
-    "Definición de arquitectura, DevOps y pipelines CI/CD",
-    "Mínimo 5 años como PM o Technical Lead liderando equipos de software"
+    "No ha trabajado como Project Manager en proyectos tecnológicos",
+    "No conoce la contratación pública ni los proyectos de administración digital",
+    "Es posible que el puesto pida un perfil técnico, aunque el anuncio no lo dice"
    ],
-   "reviewed_at": "2026-11-16T09:08:07+01:00"
+   "reviewed_at": "2026-11-17T08:33:45+01:00"
+  },
+  "linkedin:4490270925": {
+   "apta": false,
+   "encaje": 35,
+   "modalidad": "sin especificar",
+   "motivo": "El anuncio está ubicado en \"La Coruña\", fuera de la provincia de Pontevedra, y no tiene descripción: no confirma que sea remoto o híbrido ni detalla requisitos técnicos ni de idioma.",
+   "fortalezas": [
+    "Coordinación de múltiples partes (clientes, proveedores, bancos, aduanas) aplicable a la gestión de proyectos",
+    "Google Project Management Certificate y conocimiento teórico de Scrum/Jira",
+    "Proyectos internos con IT (mejora del CRM, portales de cliente y proveedor)"
+   ],
+   "carencias": [
+    "No tiene experiencia práctica como Product Owner ni en metodologías ágiles",
+    "No tiene trayectoria previa como PM en el sector IT",
+    "No se conocen la modalidad ni los requisitos por falta de descripción"
+   ],
+   "reviewed_at": "2026-11-17T08:33:51+01:00"
+  },
+  "indeed:d6f52c44ed66b521": {
+   "apta": false,
+   "encaje": 25,
+   "modalidad": "sin especificar",
+   "motivo": "Se descarta porque pide formación técnica (\"Ingeniería (Caminos/Obras Públicas, Minas, Industrial, Naval), Geociencias…\") e \"imprescindible fluidez profesional en inglés\", por encima de su B2. Además, es en Ferrol, fuera de Pontevedra, y el anuncio no dice que sea remoto ni híbrido.",
+   "fortalezas": [
+    "Experiencia en coordinación logística internacional de principio a fin: proveedores, transportistas, aduanas y entrega",
+    "Negociación con proveedores y transportistas y gestión de incidencias con clientes industriales (minería, metalurgia)",
+    "Seguimiento de plazos, costes y documentación en pedidos de exportación"
+   ],
+   "carencias": [
+    "Pide formación en ingeniería, geociencias o disciplina técnica y asesoría técnica al cliente",
+    "Pide inglés con fluidez profesional para negociar (ella tiene B2) y valora el alemán",
+    "Pide experiencia en operativa portuaria y fletamento marítimo, y supervisión presencial en puertos y canteras"
+   ],
+   "reviewed_at": "2026-11-17T08:33:59+01:00"
   }
  }
 }
