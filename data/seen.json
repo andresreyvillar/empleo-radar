@@ -64457,6 +64457,72 @@
    "title": "QA Tester Junior",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4490921315": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Project Manager Telecomunicaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490106675": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "IT Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490127088": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Associate Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490123285": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Clinical Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490108951": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Digital Project Manager Jr",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4490138109": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Director de proyectos de telecomunicaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490619112": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Técnico/a de Mercados e Internacionalización - Sector Alimentario",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490913157": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Arquitecto/A Tã‰Cnico/A (Coordinador/A De Obra)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491505810": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Jefe/a de Obra Edificación - Vigo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490177953": {
+   "first_seen": "2026-11-17T07:32:51+00:00",
+   "title": "Product Owner",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d38eecc74efc3030": {
+   "first_seen": "2026-11-17T07:32:57+00:00",
+   "title": "Ingeniero/a de Orquestación Agéntica para el Ciclo de Vida de Desarrollo (AI DX and Agent Tooling Engineer)",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -68123,25 +68189,25 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-17T00:39:00+00:00",
+  "at": "2026-11-17T07:33:00+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 10,
-    "candidates": 2,
+    "fetched": 52,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 1"
+     "rate limited during 'gestor de proyectos' page 2"
     ]
    },
    "indeed": {
-    "fetched": 44,
-    "candidates": 3,
+    "fetched": 45,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
