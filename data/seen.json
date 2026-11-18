@@ -65461,10 +65461,10 @@
    "reason": "text:excluded:ingles, minimo c1"
   },
   "linkedin:4490804816": {
-   "first_seen": "2026-11-17T23:44:24+00:00",
+   "first_seen": "2026-11-18T07:37:39+00:00",
    "title": "Project Manager (remote vanuit Spanje)",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Aunque el puesto es remoto desde España y de coordinación de proyectos en una empresa tecnológica, exige \"Goede beheersing van Nederlands en Engels in woord en geschrift\", es decir, dominio del nee"
   },
   "linkedin:4491701233": {
    "first_seen": "2026-11-17T23:44:25+00:00",
@@ -65763,6 +65763,18 @@
   "indeed:a56739164c2ada0f": {
    "first_seen": "2026-11-18T07:36:22+00:00",
    "title": "Consultor/a Senior de Negocio - Sevilla",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-07b91dd4a2bf4359984e": {
+   "first_seen": "2026-11-18T07:40:31+00:00",
+   "title": "Consultor Tecnico - Funcional Dynamics",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-c5c4109f22a913bd7540": {
+   "first_seen": "2026-11-18T07:40:31+00:00",
+   "title": "Ingeniero de Redes Cloud AWS",
    "accepted": false,
    "reason": "title"
   }
@@ -69431,7 +69443,7 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-18T07:36:28+00:00",
+  "at": "2026-11-18T07:40:31+00:00",
   "stats": {
    "linkedin": {
     "fetched": 124,
@@ -69467,52 +69479,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4490804816",
-   "source": "linkedin",
-   "title": "Project Manager (remote vanuit Spanje)",
-   "company": "Decos",
-   "location": "España",
-   "url": "https://www.linkedin.com/jobs/view/4490804816",
-   "description": "Word jij enthousiast van coördineren en het verbinden van mensen? Ben jij voor onze klanten het vaste aanspreekpunt dat precies weet wat er speelt en waar jij met onze producten én ons team meerwaarde kunt leveren? Zorg jij ervoor dat implementaties soepel verlopen en stakeholders dezelfde richting op gaan? Dan zoeken wij jou als Project Manager bij Decos.\n\nWHO ARE WE ?\nBij Decos Technology Group zetten we technologie in om een positieve impact te maken op de wereld. Met onze innovatieve oplossingen helpen we klanten hun digitale fundament op te bouwen, bedrijfsprocessen te optimaliseren, innovatie te versnellen en het serviceniveau te verbeteren. Decos heeft verschillende business units, ieder een eigen specialisme en waar we elkaar kunnen versterken, doen we dat.\n\nWij zijn een internationale organisatie, met het hoofdkantoor in Noordwijk (NL). Wij richten ons voornamelijk op de (semi-)overheidsinstellingen in Nederland, maar ook daarbuiten.\n\nAls professional vind jij het fijn om de ruimte te hebben om je werk in te delen naar eigen inzicht, maar ben je ook nieuwsgierig naar wat je nog meer in je mars hebt en ben je altijd opzoek naar nieuwe uitdagingen. Jij gaat samen met je team voor resultaten. Bij Decos bieden wij je de mogelijkheid te ontdekken en om te ondernemen, maar dan met de voordelen van een stabiele omgeving.\n\nSluit je aan bij team Spanje en maak het verschil!\n\nWE ARE LOOKING FOR\n…iemand die de klanten het beste kent en implementaties van onze software van A tot Z begeleidt.\nGedurende een project houd je je continu bezig met de volgende vragen: Worden de gestelde deadlines gehaald? Blijven we binnen budget? En sluiten onze producten aan op de wensen van de klant? Dit alles ga je bereiken door middel van een coördinerende en bewakende rol waarbij je zorgt voor een optimale samenwerking tussen de verschillende stakeholders. Het overzicht verlies je nooit uit het oog! Je hebt overtuigingskracht en bent in staat om een team te motiveren. Je houdt je continu bezig met het signaleren van mogelijke risico’s en draagt hier vroegtijdig mogelijke oplossingen voor aan. Je houdt de klant op de hoogte van de projectvoortgang door hier proactief over te rapporteren. Daarnaast ben je in staat om meerdere projecten tegelijkertijd aan te sturen. Hoewel het coördineren van een lopend project jouw hoofdtaak is, is het ook belangrijk dat je snel in staat bent om de inhoud eigen te maken. Uiteindelijk ben jij pas tevreden als je samen met het team een geslaagd project gedraaid hebt: de verwachtingen en wensen van de klant zijn op een juiste manier vertaald en de gebruikers kunnen de software naar tevredenheid gebruiken.\n\nIn de rol van Project Manager ben jij naast het managen van projecten ook het vaste aanspreekpunt van onze klanten en onderzoek je welke meerwaarde wij nog meer kunnen leveren. Je werkt samen met een team van Functioneel- en Technisch Consultants.\n\nSKILLS & REQUIREMENTS\n\nEen afgeronde HBO-/WO-opleiding bij voorkeur in de richting van IT of communicatie;\nJe hebt werkervaring opgedaan in bijvoorbeeld een coördinerende rol binnen projectmanagement of als functioneel Consultant;\nUitstekende communicatieve vaardigheden om onze klanten zo goed mogelijk te begeleiden, maar ook om intern alles vlekkeloos te laten verlopen;\nGoede beheersing van Nederlands en Engels in woord en geschrift;\nProbleemoplossend vermogen en ziet commerciële kansen\nZelfstandige, klant- en kwaliteitsgerichte houding zodat onze klanten precies weten waar ze aan toe zijn en projecten naar verwachting lopen\nAffiniteit met Software en de overheidsbranche, je vindt het leuk om je te verdiepen in technologieën en de toepassing hiervan binnen de overheidsbranche;\nBeschikbaarheid van 32 tot 40 uur\nJe bent woonachtig in Spanje en in het bezit van een NIE\n\nWHEN?! NOW\n\nBen jij de Project Manager die graag remote aan de slag wilt? Ben jij leergierig en gedreven? Stuur dan je sollicitatie in en vertel ons waarom jij een waardevolle toevoeging bent voor de Decos Technology Group. Wie weet kom jij ons team versterken!\nHeb je vragen? Neem dan contact op met Sylvia de Jezus op +34 699 347 418 of stuur je vragen per mail naar myfuture@decos.com\n\nOnze klanten zijn overheden en semioverheden, daarom is het belangrijk dat je in deze rol rekening houdt met beveiliging en privacy.\nHet gehele recruitmentproces houden wij in eigen beheer.\n\nNivel: Sin experiencia\nTipo de empleo: Jornada completa",
-   "posted": "2026-11-17",
-   "remote_flag": true,
-   "labels": [],
-   "score": 59,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "+Stakeholders",
-    "+Sector tecnológico"
-   ],
-   "details": {
-    "requisitos": [
-     "Een afgeronde HBO-/WO-opleiding bij voorkeur in de richting van IT of communicatie;",
-     "Je hebt werkervaring opgedaan in bijvoorbeeld een coördinerende rol binnen projectmanagement of als functioneel Consultant;",
-     "Uitstekende communicatieve vaardigheden om onze klanten zo goed mogelijk te begeleiden, maar ook om intern alles vlekkeloos te laten verlopen;",
-     "Goede beheersing van Nederlands en Engels in woord en geschrift;",
-     "Probleemoplossend vermogen en ziet commerciële kansen",
-     "Zelfstandige, klant- en kwaliteitsgerichte houding zodat onze klanten precies weten waar ze aan toe zijn en projecten naar verwachting lopen",
-     "Affiniteit met Software en de overheidsbranche, je vindt het leuk om je te verdiepen in technologieën en de toepassing hiervan binnen de overheidsbranche;",
-     "Beschikbaarheid van 32 tot 40 uur",
-     "Je bent woonachtig in Spanje en in het bezit van een NIE",
-     "WHEN?! NOW",
-     "Ben jij de Project Manager die graag remote aan de slag wilt? Ben jij leergierig en gedreven? Stuur dan je sollicitatie in en vertel ons waarom jij een waardevolle toevoeging bent voor de Decos Technology Group. Wie weet",
-     "Heb je vragen? Neem dan contact op met Sylvia de Jezus op +34 699 347 418 of stuur je vragen per mail naar myfuture@decos.com"
-    ],
-    "ofrecen": [
-     "Tipo de empleo: Jornada completa"
-    ],
-    "claves": {
-     "horario": "Tipo de empleo: Jornada completa"
-    }
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-17T23:44:24+00:00"
-  }
- ]
+ "review_queue": []
 }
