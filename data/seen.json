@@ -65729,6 +65729,42 @@
    "title": "Senior .NET & AI Engineer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4491790358": {
+   "first_seen": "2026-11-18T07:36:11+00:00",
+   "title": "PM Sector Aeronáutico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4491763901": {
+   "first_seen": "2026-11-18T07:36:11+00:00",
+   "title": "Jefa/e de Obra instalaciones Vigo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4490864119": {
+   "first_seen": "2026-11-18T07:36:11+00:00",
+   "title": "A400M Business Manager",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a34cf7b94916eea2": {
+   "first_seen": "2026-11-18T07:36:22+00:00",
+   "title": "Gestor Comercial Cadenas Hoteleras",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:5650b570e73c28cb": {
+   "first_seen": "2026-11-18T07:36:22+00:00",
+   "title": "Analista de negocio (Sector Público)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a56739164c2ada0f": {
+   "first_seen": "2026-11-18T07:36:22+00:00",
+   "title": "Consultor/a Senior de Negocio - Sevilla",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -69395,20 +69431,20 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-17T23:44:41+00:00",
+  "at": "2026-11-18T07:36:28+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 123,
-    "candidates": 7,
+    "fetched": 124,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
    "indeed": {
-    "fetched": 94,
-    "candidates": 1,
+    "fetched": 98,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
