@@ -1,21 +1,21 @@
 {
  "reviews": {
-  "linkedin:4490804816": {
-   "apta": false,
-   "encaje": 25,
+  "linkedin:4490883103": {
+   "apta": true,
+   "encaje": 50,
    "modalidad": "remoto",
-   "motivo": "Aunque el puesto es remoto desde España y de coordinación de proyectos en una empresa tecnológica, exige \"Goede beheersing van Nederlands en Engels in woord en geschrift\", es decir, dominio del neerlandés, un idioma distinto del español y del gallego.",
+   "motivo": "El título indica «Remoto España» y no aparece ningún requisito excluyente, pero el anuncio no tiene descripción: no se puede comprobar el nivel de inglés que pide un puesto «internacional», ni si exige perfil técnico IT o años como PM.",
    "fortalezas": [
-    "Coordina a muchas partes a la vez y es la persona de contacto fija del cliente",
-    "Controla plazos, presupuesto, riesgos e incidencias e informa de cómo avanzan los pedidos",
-    "Ha trabajado con el departamento de IT para mejorar el CRM y ha formado a compañeras en sistemas"
+    "Gestión de operaciones internacionales y coordinación de muchas partes (clientes, bancos, aseguradoras, proveedores)",
+    "Conocimiento de medios de pago, cobros, avales y confirming, útil en el sector de pagos",
+    "Google Project Management Certificate y experiencia con SAP, CRM y portales"
    ],
    "carencias": [
-    "Pide buen dominio del neerlandés hablado y escrito",
-    "Valora experiencia en implantación de software o como consultora funcional",
-    "Pide afinidad con el sector público neerlandés"
+    "Sin experiencia previa como Project Manager IT",
+    "Puede pedir inglés por encima de B2 por ser internacional (no consta)",
+    "Puede necesitar conocimientos técnicos de sistemas de pago (no consta)"
    ],
-   "reviewed_at": "2026-11-18T08:37:14+01:00"
+   "reviewed_at": "2026-11-19T08:28:24+01:00"
   }
  }
 }
