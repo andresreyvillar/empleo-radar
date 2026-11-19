@@ -70322,14 +70322,45 @@
    "ai_reason": "Es apta: es un puesto de coordinación de proyectos TI en Campo Lameiro (Pontevedra), donde vale cualquier modalidad aunque indique «Empleo presencial» (con «Teletrabajo opcional» en beneficios); no exige perfil técnico, solo «conocimientos básicos sobre proyectos de TI», y valora experiencia en administración.",
    "fingerprint": "project coordinator|",
    "notified_at": "2026-11-06T07:38:51+00:00"
+  },
+  {
+   "id": "linkedin:4490883103",
+   "source": "linkedin",
+   "title": "IT Project Manager internacional Payments - Remoto España",
+   "company": "CAS Training",
+   "location": "España",
+   "url": "https://www.linkedin.com/jobs/view/4490883103",
+   "description": "",
+   "posted": "2026-11-18",
+   "remote_flag": true,
+   "labels": [],
+   "score": 50,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Gestión de operaciones internacionales y coordinación de muchas partes (clientes, bancos, aseguradoras, proveedores)",
+    "+Conocimiento de medios de pago, cobros, avales y confirming, útil en el sector de pagos",
+    "+Google Project Management Certificate y experiencia con SAP, CRM y portales",
+    "-Sin experiencia previa como Project Manager IT",
+    "-Puede pedir inglés por encima de B2 por ser internacional (no consta)",
+    "-Puede necesitar conocimientos técnicos de sistemas de pago (no consta)"
+   ],
+   "details": {
+    "requisitos": [],
+    "ofrecen": [],
+    "claves": {}
+   },
+   "ai_reason": "El título indica «Remoto España» y no aparece ningún requisito excluyente, pero el anuncio no tiene descripción: no se puede comprobar el nivel de inglés que pide un puesto «internacional», ni si exige perfil técnico IT o años como PM.",
+   "fingerprint": "it project manager internacional payments - remoto espana|cas training",
+   "notified_at": "2026-11-19T07:29:00+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-11-19T07:27:38+00:00",
+  "at": "2026-11-19T07:35:22+00:00",
   "stats": {
    "linkedin": {
     "fetched": 123,
-    "candidates": 8,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -70361,34 +70392,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4490883103",
-   "source": "linkedin",
-   "title": "IT Project Manager internacional Payments - Remoto España",
-   "company": "CAS Training",
-   "location": "España",
-   "url": "https://www.linkedin.com/jobs/view/4490883103",
-   "description": "",
-   "posted": "2026-11-18",
-   "remote_flag": true,
-   "labels": [],
-   "score": 50,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-18T23:16:54+00:00"
-  }
- ]
+ "review_queue": []
 }
