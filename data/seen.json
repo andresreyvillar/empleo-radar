@@ -67121,6 +67121,84 @@
    "title": "Junior full-stack developer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4492447319": {
+   "first_seen": "2026-11-19T23:23:53+00:00",
+   "title": "Project Manager | IT",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "indeed:bfb83dd7aa692f94": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Técnico/a selección - perfiles Ingeniería",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d995cc22b40a4652": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Ingeniero/a Cloud AWS/ Azure (REMOTO)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:eb104be72ae80fc4": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Ingeniero/a de desarrollo SW de sistemas de control de tráfico aéreo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:8dc370d40b3e907b": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Abogado/a Laboralista",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9c5e8862a51604aa": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Ingeniero/a de Sistemas Agénticos (AI Agent Engineer – Python)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:a904570f4c6e269a": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Ingeniero/a RAMS - Aeroespacial y Defensa",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:c66b4dd92d64dfea": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Ingeniero/a de Arquitectura Eléctrica-Electrónica de Vehículo",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:88eb840a95b95a20": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Comercial Gerente de Cuentas Prinex",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:2b18f4ff8f927cf6": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Gerocultores/as - Residencia Pontevedra (Temporal)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d2dc085f823fbcf2": {
+   "first_seen": "2026-11-19T23:24:01+00:00",
+   "title": "Enfermero/a - Residencia Culleredo (temporal)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e372129802b99325204b": {
+   "first_seen": "2026-11-19T23:24:05+00:00",
+   "title": "Administrador/a Zabbix",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-c2831a67b20603281346": {
+   "first_seen": "2026-11-19T23:24:05+00:00",
+   "title": "Técnicos de Soporte",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -70818,31 +70896,31 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-19T16:18:55+00:00",
+  "at": "2026-11-19T23:24:05+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 91,
-    "candidates": 9,
+    "fetched": 20,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'responsable de proyecto' page 0"
+     "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
-    "fetched": 82,
-    "candidates": 2,
+    "fetched": 72,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 93,
-    "candidates": 1,
+    "fetched": 90,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
