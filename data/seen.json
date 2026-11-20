@@ -67721,6 +67721,126 @@
    "title": "Consultor/a Funcional-Técnico/a Dynamics 365",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4493205796": {
+   "first_seen": "2026-11-20T22:57:11+00:00",
+   "title": "Technical Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4492586690": {
+   "first_seen": "2026-11-20T22:57:11+00:00",
+   "title": "Project Manager - Edificación Hospitalario - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4492593190": {
+   "first_seen": "2026-11-20T22:57:11+00:00",
+   "title": "Project Manager Comercial",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4491928360": {
+   "first_seen": "2026-11-20T22:57:11+00:00",
+   "title": "Project Manager (H/M)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4492926562": {
+   "first_seen": "2026-11-20T22:57:11+00:00",
+   "title": "Senior Project Manager. Compliance",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "indeed:a664de98eca9caab": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Customer Success Manager (Multinacional)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:cd5030ac5dfc4c1b": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Internal Audit Consultant",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:426ca75dbe832b35": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "SENIOR ENGINEER - CONTACT CENTER PLATFORM ENGINEERING",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0a8560e6812eff1b": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Senior SysOps Engineer | Kubernetes, Ansible, Jenkins y CI/CD | Madrid Híbrido",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b05dd94c004f28e5": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Senior SysOps Engineer | Kubernetes, Ansible, Jenkins y CI/CD | Madrid Mallorca",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0e7794d427c238b7": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Líder Técnico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:01fd9fda1fb435a2": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Ingeniero/a DevOps",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b81095a0d1e80330": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Senior CI/CD Engineer | GitHub Actions, Kubernetes y DevOps",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ed98f380df843f15": {
+   "first_seen": "2026-11-20T22:57:18+00:00",
+   "title": "Arquitecto/a Técnico/a (Lalín)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e77119eb22d2b368b747": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "ServiceDesk con alemán",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-cbc01e4f62601345134a": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "ServiceDesk con francés",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ce62174ac230f35df441": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "Consultor/a de implantación SaaS y onboarding",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d62c13c1a27bb3d3e146": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "Data Engineer PowerCenter Java Azure",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-e87e10d3523a13f19843": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "Analista Funcional Medios de Pago",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-7ae11db6f2e37336f347": {
+   "first_seen": "2026-11-20T22:57:24+00:00",
+   "title": "AWS Cloud Engineer",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -71418,21 +71538,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-20T15:54:26+00:00",
+  "at": "2026-11-20T22:57:24+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 20,
-    "candidates": 3,
+    "fetched": 30,
+    "candidates": 4,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'project manager' page 0"
     ]
    },
    "indeed": {
-    "fetched": 66,
+    "fetched": 60,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -71441,7 +71561,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 101,
+    "fetched": 97,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
