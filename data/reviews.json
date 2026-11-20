@@ -1,21 +1,21 @@
 {
  "reviews": {
-  "linkedin:4490883103": {
-   "apta": true,
-   "encaje": 50,
-   "modalidad": "remoto",
-   "motivo": "El título indica «Remoto España» y no aparece ningún requisito excluyente, pero el anuncio no tiene descripción: no se puede comprobar el nivel de inglés que pide un puesto «internacional», ni si exige perfil técnico IT o años como PM.",
+  "indeed:954b4b86c6f5e792": {
+   "apta": false,
+   "encaje": 5,
+   "modalidad": "sin especificar",
+   "motivo": "Se descarta porque es un puesto de ingeniería que exige \"titulación en electrónica, automoción o similar\" y diseñar cableados, fijaciones y fusibles. Además, está en Valladolid y el anuncio no confirma el teletrabajo: solo dice que depende \"del proyecto y características del puesto\".",
    "fortalezas": [
-    "Gestión de operaciones internacionales y coordinación de muchas partes (clientes, bancos, aseguradoras, proveedores)",
-    "Conocimiento de medios de pago, cobros, avales y confirming, útil en el sector de pagos",
-    "Google Project Management Certificate y experiencia con SAP, CRM y portales"
+    "Experiencia en relación con proveedores, peticiones de oferta (RFQ) y gestión de incidencias",
+    "Reporting de plazos, costes y calidad, y control documental",
+    "Inglés B2, el nivel que pide la oferta"
    ],
    "carencias": [
-    "Sin experiencia previa como Project Manager IT",
-    "Puede pedir inglés por encima de B2 por ser internacional (no consta)",
-    "Puede necesitar conocimientos técnicos de sistemas de pago (no consta)"
+    "Titulación de ingeniería en electrónica o automoción",
+    "Nivel experto en la tabla de composición de cableados (TCC), BOM y convergencia geométrica y eléctrica",
+    "Diseño de piezas de cableado y dimensionado de cables y fusibles"
    ],
-   "reviewed_at": "2026-11-19T08:28:24+01:00"
+   "reviewed_at": "2026-11-20T08:09:12+01:00"
   }
  }
 }
