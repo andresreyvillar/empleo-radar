@@ -67199,6 +67199,42 @@
    "title": "Técnicos de Soporte",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4491619287": {
+   "first_seen": "2026-11-20T07:08:41+00:00",
+   "title": "IT Project Manager Barcelona / Madrid",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4478697484": {
+   "first_seen": "2026-11-20T07:08:41+00:00",
+   "title": "PMO - Instalaciones (h/m)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:37fd174edccd4efc": {
+   "first_seen": "2026-11-20T07:08:47+00:00",
+   "title": "Software Engineer Senior Mobile iOS",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d2da2155c04341c7": {
+   "first_seen": "2026-11-20T07:08:47+00:00",
+   "title": "Fullstack Developer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d03e1198a9affa33": {
+   "first_seen": "2026-11-20T07:08:47+00:00",
+   "title": "Senior Frontend Engineer (React / Angular)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:1a96edbbc52b452e": {
+   "first_seen": "2026-11-20T07:08:47+00:00",
+   "title": "Coordinador/a de Controladores de Acceso - Iberia",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -70896,21 +70932,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-19T23:24:05+00:00",
+  "at": "2026-11-20T07:08:50+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 20,
+    "fetched": 39,
     "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'project manager' page 1"
     ]
    },
    "indeed": {
-    "fetched": 72,
+    "fetched": 70,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -70919,7 +70955,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 90,
+    "fetched": 81,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
