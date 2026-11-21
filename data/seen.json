@@ -67841,6 +67841,60 @@
    "title": "AWS Cloud Engineer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4491394141": {
+   "first_seen": "2026-11-21T07:01:18+00:00",
+   "title": "Gestor/a de proyectos IT",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4492935348": {
+   "first_seen": "2026-11-21T07:01:18+00:00",
+   "title": "Coordinador/a de proyectos de obras lineales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4492929223": {
+   "first_seen": "2026-11-21T07:01:18+00:00",
+   "title": "Jefe/a de Proyecto Especialista en Seguridad Alimentaria",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:7dcce4e6a5cc4d0e": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "4633- 2 Técnicos/as Senior de Oficina - Delineantes",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4e51731185ca0273": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "Payroll Specialist",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:de2a11c9c412f28f": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "4597- Ingeniero/a especialista Jefe/a de Zona",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e8353dfa4e342df3": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "Academic Coordinator",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:af21aadb8baeb888": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "Técnico/a de Oficina Técnica",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:0e577290c283028d": {
+   "first_seen": "2026-11-21T07:01:24+00:00",
+   "title": "PL/SQL Developer",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -71538,21 +71592,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-20T22:57:24+00:00",
+  "at": "2026-11-21T07:01:29+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 30,
-    "candidates": 4,
+    "fetched": 38,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 0"
+     "rate limited during 'project manager' page 1"
     ]
    },
    "indeed": {
-    "fetched": 60,
+    "fetched": 63,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -71561,7 +71615,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 97,
+    "fetched": 84,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
