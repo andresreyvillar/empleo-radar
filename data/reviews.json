@@ -1,21 +1,3 @@
 {
- "reviews": {
-  "indeed:954b4b86c6f5e792": {
-   "apta": false,
-   "encaje": 5,
-   "modalidad": "sin especificar",
-   "motivo": "Se descarta porque es un puesto de ingeniería que exige \"titulación en electrónica, automoción o similar\" y diseñar cableados, fijaciones y fusibles. Además, está en Valladolid y el anuncio no confirma el teletrabajo: solo dice que depende \"del proyecto y características del puesto\".",
-   "fortalezas": [
-    "Experiencia en relación con proveedores, peticiones de oferta (RFQ) y gestión de incidencias",
-    "Reporting de plazos, costes y calidad, y control documental",
-    "Inglés B2, el nivel que pide la oferta"
-   ],
-   "carencias": [
-    "Titulación de ingeniería en electrónica o automoción",
-    "Nivel experto en la tabla de composición de cableados (TCC), BOM y convergencia geométrica y eléctrica",
-    "Diseño de piezas de cableado y dimensionado de cables y fusibles"
-   ],
-   "reviewed_at": "2026-11-20T08:09:12+01:00"
-  }
- }
+ "reviews": {}
 }
