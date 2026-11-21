@@ -67895,6 +67895,18 @@
    "title": "PL/SQL Developer",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4493233409": {
+   "first_seen": "2026-11-21T15:05:20+00:00",
+   "title": "Jefe/a de Proyecto ServiceNow",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:b5021b01e305a2c9": {
+   "first_seen": "2026-11-21T15:05:25+00:00",
+   "title": "Ingeniero geotécnico",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -71592,7 +71604,7 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-21T07:02:42+00:00",
+  "at": "2026-11-21T15:05:28+00:00",
   "stats": {
    "linkedin": {
     "fetched": 20,
@@ -71606,7 +71618,7 @@
     ]
    },
    "indeed": {
-    "fetched": 63,
+    "fetched": 46,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -71615,7 +71627,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 84,
+    "fetched": 83,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
