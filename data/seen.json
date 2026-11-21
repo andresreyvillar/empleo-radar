@@ -71592,17 +71592,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-21T07:01:29+00:00",
+  "at": "2026-11-21T07:02:42+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 38,
+    "fetched": 20,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 1"
+     "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
