@@ -68291,6 +68291,36 @@
    "title": "RISK ESG Senior Regulatory and Program Implementation expert",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4493503110": {
+   "first_seen": "2026-11-22T15:01:38+00:00",
+   "title": "Junior Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4492943808": {
+   "first_seen": "2026-11-22T15:01:38+00:00",
+   "title": "MES Project Manager",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4492812671": {
+   "first_seen": "2026-11-22T15:01:38+00:00",
+   "title": "Gestor/A De Obras Y Reformas- Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4492828218": {
+   "first_seen": "2026-11-22T15:01:38+00:00",
+   "title": "Senior Project Manager – Electromechanical Hardware & Agile",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4477679348": {
+   "first_seen": "2026-11-22T15:01:38+00:00",
+   "title": "OPERATIONS PROJECT MANAGER (M/F)",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
   }
  },
  "matches": [
@@ -71988,19 +72018,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-22T07:59:59+00:00",
+  "at": "2026-11-22T15:01:49+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 95,
-    "candidates": 12,
+    "fetched": 30,
+    "candidates": 3,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'project manager' page 0"
+    ]
    },
    "indeed": {
-    "fetched": 35,
+    "fetched": 16,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
