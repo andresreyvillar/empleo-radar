@@ -68537,6 +68537,12 @@
    "title": "Continuous Improvement & Industrialization Engineer",
    "accepted": false,
    "reason": "title"
+  },
+  "indeed:9ce3a6a02c42d5f0": {
+   "first_seen": "2026-11-23T07:59:26+00:00",
+   "title": "LETRADO/A ASESORIA JURIDICA LABORAL",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -72234,19 +72240,21 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-22T22:18:37+00:00",
+  "at": "2026-11-23T07:59:27+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 71,
-    "candidates": 6,
+    "fetched": 0,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
-    "errors": []
+    "errors": [
+     "rate limited during 'project manager' page 0"
+    ]
    },
    "indeed": {
-    "fetched": 7,
+    "fetched": 3,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -72255,7 +72263,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 24,
+    "fetched": 0,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
