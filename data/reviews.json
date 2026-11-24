@@ -1,3 +1,55 @@
 {
- "reviews": {}
+ "reviews": {
+  "linkedin:4492602174": {
+   "apta": true,
+   "encaje": 70,
+   "modalidad": "sin especificar",
+   "motivo": "Es un puesto de «Junior PMO General» en Vigo (provincia de Pontevedra, donde vale cualquier modalidad) en MIGSO-PCUBED, consultora de gestión de proyectos. Está abierto a perfiles junior, pero no tiene descripción, así que no se pueden confirmar los requisitos técnicos ni el nivel de inglés.",
+   "fortalezas": [
+    "Experiencia en coordinar a 7 o más partes (clientes, fábrica, proveedores, bancos), con seguimiento de plazos e incidencias",
+    "Contexto industrial y exportador, que encaja con los clientes industriales de la zona de Vigo",
+    "Google Project Management Certificate y vive en la provincia de Pontevedra"
+   ],
+   "carencias": [
+    "No tiene experiencia formal como PMO ni como Project Manager",
+    "Puede que MIGSO pida titulación de ingeniería para proyectos industriales o de automoción (el anuncio no lo aclara)",
+    "El nivel de inglés exigido no consta y en consultoras internacionales podría ser superior a B2"
+   ],
+   "reviewed_at": "2026-11-24T09:11:20+01:00"
+  },
+  "linkedin:4493642219": {
+   "apta": false,
+   "encaje": 25,
+   "modalidad": "sin especificar",
+   "motivo": "El puesto está en Lugo, fuera de Pontevedra, y el anuncio no tiene descripción: no confirma que sea remoto o híbrido, que es lo exigido en el resto de Galicia, y como «IT Project Manager» podría pedir un perfil técnico.",
+   "fortalezas": [
+    "Coordinación de muchas partes a la vez (clientes, proveedores, transportistas, bancos, aseguradoras y aduanas)",
+    "Proyectos internos de mejora del CRM con IT y gestión documental",
+    "Google Project Management Certificate y Jira/Scrum a nivel teórico"
+   ],
+   "carencias": [
+    "Sin experiencia previa como Project Manager",
+    "Posible requisito de perfil técnico de IT, sin confirmar por falta de descripción",
+    "No consta la modalidad ni los requisitos de idioma"
+   ],
+   "reviewed_at": "2026-11-24T09:11:27+01:00"
+  },
+  "indeed:cf6b4cc0e6932d55": {
+   "apta": false,
+   "encaje": 20,
+   "modalidad": "sin especificar",
+   "motivo": "Se descarta porque el anuncio exige «Formación técnica» y experiencia en «instalaciones o seguimiento de obra», con supervisión de montaje y obra. Además, el puesto está en A Coruña y no indica si es remoto o híbrido.",
+   "fortalezas": [
+    "Coordina a la vez al cliente, la fábrica, los transportistas y los proveedores, y resuelve plazos e incidencias",
+    "Ha trabajado en una pyme industrial exportadora, con seguimiento de la fabricación y la logística",
+    "Trata directamente con clientes y gestiona documentación"
+   ],
+   "carencias": [
+    "No tiene la formación técnica (ingeniería) que exige el anuncio",
+    "No tiene experiencia en obra, instalaciones ni montaje, ni en leer documentación técnica",
+    "El puesto está en A Coruña y el anuncio no confirma que sea remoto o híbrido"
+   ],
+   "reviewed_at": "2026-11-24T09:11:33+01:00"
+  }
+ }
 }
