@@ -68665,10 +68665,10 @@
    "reason": ""
   },
   "linkedin:4493642219": {
-   "first_seen": "2026-11-23T18:57:33+00:00",
+   "first_seen": "2026-11-24T08:11:59+00:00",
    "title": "IT Project Manager (Lugo)",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El puesto está en Lugo, fuera de Pontevedra, y el anuncio no tiene descripción: no confirma que sea remoto o híbrido, que es lo exigido en el resto de Galicia, y como «IT Project Manager» podría pe"
   },
   "linkedin:4493644902": {
    "first_seen": "2026-11-23T18:57:33+00:00",
@@ -69151,10 +69151,10 @@
    "reason": "location:hibrido-outside-allowed-area"
   },
   "indeed:cf6b4cc0e6932d55": {
-   "first_seen": "2026-11-24T08:10:54+00:00",
+   "first_seen": "2026-11-24T08:11:59+00:00",
    "title": "Project Manager Técnico/a - A Coruña",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:Se descarta porque el anuncio exige «Formación técnica» y experiencia en «instalaciones o seguimiento de obra», con supervisión de montaje y obra. Además, el puesto está en A Coruña y no indica si "
   },
   "indeed:aad5a12889df8dec": {
    "first_seen": "2026-11-24T08:10:54+00:00",
@@ -69225,6 +69225,42 @@
   "tecnoempleo:rf-5e7915673231a3a7ed4e": {
    "first_seen": "2026-11-24T08:10:57+00:00",
    "title": "Administrador/a Sistemas Linux/Unix L2 - L3",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-245415dc228c6344f343": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Jefe/a de Producción - Proyecto Data Center",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-ec1b1fca02bf93f8e14f": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Técnico electromecánico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-1c2b12c9027903a55e45": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Ingeniero/a Senior de Mejora Continua",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-75d41164324e83dd8c49": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Ingeniero/a de Diseño Eléctrico",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-93981d6c02ea93e05940": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Director/a Industrial - TIER1/2",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-d7eb1a9792f3d3cd4342": {
+   "first_seen": "2026-11-24T08:13:12+00:00",
+   "title": "Responsable de Producción y Mejora Continua",
    "accepted": false,
    "reason": "title"
   }
@@ -72921,14 +72957,45 @@
    "ai_reason": "El título indica «Remoto España» y no aparece ningún requisito excluyente, pero el anuncio no tiene descripción: no se puede comprobar el nivel de inglés que pide un puesto «internacional», ni si exige perfil técnico IT o años como PM.",
    "fingerprint": "it project manager internacional payments - remoto espana|cas training",
    "notified_at": "2026-11-19T07:29:00+00:00"
+  },
+  {
+   "id": "linkedin:4492602174",
+   "source": "linkedin",
+   "title": "Junior PMO General (H/M)- Vigo",
+   "company": "MIGSO-PCUBED",
+   "location": "Vigo y alrededores",
+   "url": "https://www.linkedin.com/jobs/view/4492602174",
+   "description": "",
+   "posted": "2026-11-23",
+   "remote_flag": false,
+   "labels": [],
+   "score": 70,
+   "modality": "galicia",
+   "workplace": "sin especificar",
+   "signals": [
+    "+Experiencia en coordinar a 7 o más partes (clientes, fábrica, proveedores, bancos), con seguimiento de plazos e incidencias",
+    "+Contexto industrial y exportador, que encaja con los clientes industriales de la zona de Vigo",
+    "+Google Project Management Certificate y vive en la provincia de Pontevedra",
+    "-No tiene experiencia formal como PMO ni como Project Manager",
+    "-Puede que MIGSO pida titulación de ingeniería para proyectos industriales o de automoción (el anuncio no lo aclara)",
+    "-El nivel de inglés exigido no consta y en consultoras internacionales podría ser superior a B2"
+   ],
+   "details": {
+    "requisitos": [],
+    "ofrecen": [],
+    "claves": {}
+   },
+   "ai_reason": "Es un puesto de «Junior PMO General» en Vigo (provincia de Pontevedra, donde vale cualquier modalidad) en MIGSO-PCUBED, consultora de gestión de proyectos. Está abierto a perfiles junior, pero no tiene descripción, así que no se pueden confirmar los requisitos técnicos ni el nivel de inglés.",
+   "fingerprint": "junior pmo general (h/m)- vigo|migso pcubed",
+   "notified_at": "2026-11-24T08:11:59+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-11-24T08:10:57+00:00",
+  "at": "2026-11-24T08:13:12+00:00",
   "stats": {
    "linkedin": {
     "fetched": 40,
-    "candidates": 2,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -72939,15 +73006,15 @@
    },
    "indeed": {
     "fetched": 37,
-    "candidates": 3,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 43,
+    "fetched": 49,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -72962,98 +73029,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 3
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4492602174",
-   "source": "linkedin",
-   "title": "Junior PMO General (H/M)- Vigo",
-   "company": "MIGSO-PCUBED",
-   "location": "Vigo y alrededores",
-   "url": "https://www.linkedin.com/jobs/view/4492602174",
-   "description": "",
-   "posted": "2026-11-23",
-   "remote_flag": false,
-   "labels": [],
-   "score": 58,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "+Junior / sin experiencia previa",
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-23T18:57:33+00:00"
-  },
-  {
-   "id": "linkedin:4493642219",
-   "source": "linkedin",
-   "title": "IT Project Manager (Lugo)",
-   "company": "Robert Walters",
-   "location": "Lugo",
-   "url": "https://www.linkedin.com/jobs/view/4493642219",
-   "description": "",
-   "posted": "2026-11-23",
-   "remote_flag": false,
-   "labels": [],
-   "score": 50,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-23T18:57:33+00:00"
-  },
-  {
-   "id": "indeed:cf6b4cc0e6932d55",
-   "source": "indeed",
-   "title": "Project Manager Técnico/a - A Coruña",
-   "company": "ITAB Group",
-   "location": "A Coruña, GA, ES",
-   "url": "https://es.indeed.com/viewjob?jk=cf6b4cc0e6932d55",
-   "description": "HMY | Gestión de proyectos · Ingeniería · Retail\n\nEn HMY somos especialistas en el diseño, la ingeniería, la fabricación y la instalación de equipamiento y espacios comerciales. Acompañamos a nuestros clientes durante todo el proceso, desde el desarrollo técnico hasta la fabricación y el montaje final.\n\nPara reforzar nuestro equipo, buscamos incorporar un/a Project Manager Técnico/a para nuestra delegación de A Coruña, que participe en la coordinación y el seguimiento integral de proyectos, asegurando su correcta ejecución en todas sus fases.\n\n¿Cuál será tu misión?\n\nCoordinar el desarrollo de los proyectos desde su preparación técnica hasta su ejecución final, actuando como nexo entre el cliente, oficina técnica, fabricación, logística y equipos de montaje, garantizando el cumplimiento de los plazos, los requisitos técnicos y las expectativas del cliente.\n\n¿Cuáles serán tus responsabilidades?\n\nGestión y coordinación de proyectos: seguimiento de todas las fases, desde la planificación inicial y el desarrollo técnico hasta la instalación final.\nRelación con el cliente: interlocución directa durante el desarrollo del proyecto, seguimiento de sus necesidades, comunicación de avances y coordinación de posibles cambios e incidencias.\nCoordinación con oficina técnica: seguimiento de la documentación técnica y revisión de que los proyectos estén preparados para su correcta ejecución.\nSeguimiento de fabricación: control del avance de la producción y coordinación con los equipos implicados para garantizar el cumplimiento de los plazos y los requisitos establecidos.\nSeguimiento de montaje y obra: supervisión del avance de los trabajos, coordinación de los distintos intervinientes y resolución de incidencias durante la instalación.\nPlanificación y control: segu imiento de hitos, plazos y necesidades del proyecto, identificando posibles desviaciones y proponiendo soluciones.\nCoordinación transversal: comunicación continua con los departamentos internos, proveedores y equipos externos involucrados en cada proyecto.\nGestión de incidencias y mejora continua: identificación de problemas técnicos u operativos y búsqueda de soluciones que aseguren la calidad y el buen desarrollo del proyecto.\n\n¿Qué perfil buscamos?\n\nFormación técnica\nExperiencia inicial en gestión de proyectos, coordinación técnica, producción, instalaciones o seguimiento de obra.\nCapacidad para interpretar documentación técnica y comprender las distintas fases de desarrollo y ejecución de un proyecto.\nBuenas habilidades de comunicación y orientación al cliente, con capacidad para gestionar expectativas y coordinar a diferentes interlocutores.\nCapacidad de planificación, organización, seguimiento y resolución de problemas.\nPerfil proactivo, resolutivo y con facilidad para trabajar en equipo.\nDisponibilidad para viajar por España y Portugal según las necesidades de los proyectos.\n\nSe valorará especialmente la experiencia en entornos industriales, fabricación de mobiliario o equipamiento comercial, construcción, instalaciones y montaje.\n\nNo es imprescindible contar con una amplia trayectoria profesional. Buscamos una persona con una buena base técnica, cierta experiencia y motivación para crecer y desarrollarse en la gestión integral de proyectos.",
-   "posted": "2026-11-23",
-   "remote_flag": false,
-   "labels": [],
-   "score": 58,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "+Stakeholders",
-    "+Encaja con perfil admin",
-    "+Gestión operativa",
-    "-Sector industrial / obra / ingeniería"
-   ],
-   "details": {
-    "requisitos": [
-     "Formación técnica",
-     "Experiencia inicial en gestión de proyectos, coordinación técnica, producción, instalaciones o seguimiento de obra.",
-     "Capacidad para interpretar documentación técnica y comprender las distintas fases de desarrollo y ejecución de un proyecto.",
-     "Buenas habilidades de comunicación y orientación al cliente, con capacidad para gestionar expectativas y coordinar a diferentes interlocutores.",
-     "Capacidad de planificación, organización, seguimiento y resolución de problemas.",
-     "Perfil proactivo, resolutivo y con facilidad para trabajar en equipo.",
-     "Disponibilidad para viajar por España y Portugal según las necesidades de los proyectos.",
-     "Se valorará especialmente la experiencia en entornos industriales, fabricación de mobiliario o equipamiento comercial, construcción, instalaciones y montaje.",
-     "No es imprescindible contar con una amplia trayectoria profesional. Buscamos una persona con una buena base técnica, cierta experiencia y motivación para crecer y desarrollarse en la gestión integral de proyectos."
-    ],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-24T08:10:54+00:00"
-  }
- ]
+ "review_queue": []
 }
