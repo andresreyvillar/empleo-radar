@@ -73639,17 +73639,17 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-25T07:55:34+00:00",
+  "at": "2026-11-25T07:57:30+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 72,
-    "candidates": 13,
+    "fetched": 20,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'gestor de proyectos' page 0"
+     "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
@@ -73662,7 +73662,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 80,
+    "fetched": 81,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
