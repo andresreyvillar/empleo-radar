@@ -69931,10 +69931,10 @@
    "reason": "location:sin especificar-outside-allowed-area"
   },
   "linkedin:4494621333": {
-   "first_seen": "2026-11-25T17:48:01+00:00",
+   "first_seen": "2026-11-26T07:27:13+00:00",
    "title": "Project Manager de Envolventes",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El puesto de 'Project Manager de Envolventes' es de construcción (fachadas y envolventes de edificios), un perfil técnico. Además está en La Coruña y no dice la modalidad, así que no se puede confi"
   },
   "linkedin:4494932141": {
    "first_seen": "2026-11-25T17:48:01+00:00",
@@ -74347,11 +74347,11 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-26T07:26:28+00:00",
+  "at": "2026-11-26T07:27:57+00:00",
   "stats": {
    "linkedin": {
     "fetched": 30,
-    "candidates": 1,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -74362,7 +74362,7 @@
    },
    "indeed": {
     "fetched": 66,
-    "candidates": 1,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -74385,34 +74385,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4494621333",
-   "source": "linkedin",
-   "title": "Project Manager de Envolventes",
-   "company": "Aluman",
-   "location": "La Coruña",
-   "url": "https://www.linkedin.com/jobs/view/4494621333",
-   "description": "",
-   "posted": "2026-11-25",
-   "remote_flag": true,
-   "labels": [],
-   "score": 50,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-25T17:48:01+00:00"
-  }
- ]
+ "review_queue": []
 }
