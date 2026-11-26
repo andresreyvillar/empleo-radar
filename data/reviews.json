@@ -1,3 +1,20 @@
 {
- "reviews": {}
+ "reviews": {
+  "linkedin:4494621333": {
+   "apta": false,
+   "encaje": 10,
+   "modalidad": "sin especificar",
+   "motivo": "El puesto de 'Project Manager de Envolventes' es de construcción (fachadas y envolventes de edificios), un perfil técnico. Además está en La Coruña y no dice la modalidad, así que no se puede confirmar que sea remoto o híbrido.",
+   "fortalezas": [
+    "Coordinación de proveedores, plazos e incidencias en pedidos complejos",
+    "Experiencia en entorno industrial y en gestión documental"
+   ],
+   "carencias": [
+    "Formación o experiencia técnica en construcción o ingeniería de fachadas",
+    "Modalidad no indicada en el anuncio (sin descripción)",
+    "Sector constructivo, fuera de su objetivo tecnológico o de consultora"
+   ],
+   "reviewed_at": "2026-11-26T08:26:52+01:00"
+  }
+ }
 }
