@@ -71207,6 +71207,66 @@
    "title": "Data Scientist",
    "accepted": false,
    "reason": "title"
+  },
+  "linkedin:4495571982": {
+   "first_seen": "2026-11-27T07:15:01+00:00",
+   "title": "Project Manager | Automotive | Remote Spain",
+   "accepted": true,
+   "reason": ""
+  },
+  "indeed:bee3b7cea7ef32f5": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Consultor/a Junior GENERIX (facturación electrónica)",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:4a25a4aa225b7785": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Técnico/a de Soporte IT – N0/N1 | Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:ee63ac0fc51b5c4b": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Structural Engineer",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:9faf32aada9af9b4": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Consultor/a Senior de Gobierno, Estrategia y Regulación de IA | Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:e710298ad37a029d": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Consultor/a Especialista en Proyectos, Contratación y Calidad de Soluciones de IA | Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:032153e284a4a8e5": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "UX DESIGNER",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:d6b4487b1eb13559": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "DESARROLLADOR/A PHP SYMPHONY",
+   "accepted": false,
+   "reason": "title"
+  },
+  "indeed:575dbd636333f68e": {
+   "first_seen": "2026-11-27T07:15:08+00:00",
+   "title": "Coordinador/a de Administración y Nóminas - Madrid",
+   "accepted": false,
+   "reason": "title"
+  },
+  "tecnoempleo:rf-0e8412f0929983bbda4b": {
+   "first_seen": "2026-11-27T07:15:12+00:00",
+   "title": "Ingeniero/a de comunicaciones y Networking",
+   "accepted": false,
+   "reason": "title"
   }
  },
  "matches": [
@@ -74935,22 +74995,22 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-26T17:31:39+00:00",
+  "at": "2026-11-27T07:15:12+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 66,
-    "candidates": 11,
+    "fetched": 20,
+    "candidates": 1,
     "accepted": 0,
     "discarded": 0,
     "queued": 1,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'gestor de proyectos' page 2"
+     "rate limited during 'project manager' page 2"
     ]
    },
    "indeed": {
-    "fetched": 70,
-    "candidates": 1,
+    "fetched": 72,
+    "candidates": 0,
     "accepted": 0,
     "discarded": 0,
     "queued": 0,
@@ -74958,7 +75018,7 @@
     "errors": []
    },
    "tecnoempleo": {
-    "fetched": 88,
+    "fetched": 81,
     "candidates": 0,
     "accepted": 0,
     "discarded": 0,
@@ -74973,7 +75033,7 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 1
+  "review_pending": 2
  },
  "pending_email": [],
  "review_queue": [
@@ -75002,6 +75062,31 @@
    },
    "ai_reason": "",
    "queued_at": "2026-11-26T17:31:23+00:00"
+  },
+  {
+   "id": "linkedin:4495571982",
+   "source": "linkedin",
+   "title": "Project Manager | Automotive | Remote Spain",
+   "company": "Luxoft",
+   "location": "España",
+   "url": "https://www.linkedin.com/jobs/view/4495571982",
+   "description": "",
+   "posted": "2026-11-27",
+   "remote_flag": true,
+   "labels": [],
+   "score": 50,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "Sin descripción disponible"
+   ],
+   "details": {
+    "requisitos": [],
+    "ofrecen": [],
+    "claves": {}
+   },
+   "ai_reason": "",
+   "queued_at": "2026-11-27T07:15:01+00:00"
   }
  ]
 }
