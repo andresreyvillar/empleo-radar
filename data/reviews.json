@@ -1,20 +1,38 @@
 {
  "reviews": {
-  "linkedin:4494621333": {
+  "linkedin:4495277780": {
    "apta": false,
-   "encaje": 10,
+   "encaje": 15,
    "modalidad": "sin especificar",
-   "motivo": "El puesto de 'Project Manager de Envolventes' es de construcción (fachadas y envolventes de edificios), un perfil técnico. Además está en La Coruña y no dice la modalidad, así que no se puede confirmar que sea remoto o híbrido.",
+   "motivo": "El título exige catalán (\"with Catalan\"), un idioma distinto del español y el gallego. Además es un puesto senior en La Coruña y el anuncio no dice si es remoto o híbrido.",
    "fortalezas": [
-    "Coordinación de proveedores, plazos e incidencias en pedidos complejos",
-    "Experiencia en entorno industrial y en gestión documental"
+    "Experiencia coordinando a muchas partes a la vez (clientes, proveedores, bancos, aseguradoras y aduanas)",
+    "Proyectos propios de mejora de procesos y sistemas (CRM, gestión documental, portales)",
+    "Google Project Management Certificate y empresa del sector tecnológico"
    ],
    "carencias": [
-    "Formación o experiencia técnica en construcción o ingeniería de fachadas",
-    "Modalidad no indicada en el anuncio (sin descripción)",
-    "Sector constructivo, fuera de su objetivo tecnológico o de consultora"
+    "Pide catalán",
+    "Puesto senior de transformación, sin experiencia previa como PM",
+    "El anuncio no tiene descripción ni dice la modalidad de trabajo"
    ],
-   "reviewed_at": "2026-11-26T08:26:52+01:00"
+   "reviewed_at": "2026-11-27T08:15:37+01:00"
+  },
+  "linkedin:4495571982": {
+   "apta": true,
+   "encaje": 45,
+   "modalidad": "remoto",
+   "motivo": "El título indica «Remote Spain», así que cumple el requisito de ubicación, y es un puesto de Project Manager en una consultora tecnológica (Luxoft). Pero el anuncio no tiene descripción y no se puede comprobar si pide perfil técnico de automoción o inglés por encima de B2. Conviene revisarlo antes de enviar la candidatura.",
+   "fortalezas": [
+    "Coordina a la vez a muchas partes: clientes, proveedores, transportistas, bancos y aduanas",
+    "Gestiona plazos, incidencias, documentación y facturación de pedidos internacionales",
+    "Google Project Management Certificate y experiencia con clientes industriales"
+   ],
+   "carencias": [
+    "No tiene experiencia previa con el cargo de Project Manager",
+    "No conoce el sector de automoción. En Luxoft estos puestos suelen ser de software, lo que podría exigir un perfil técnico",
+    "En Luxoft se suele trabajar en inglés y su nivel es B2: el anuncio no lo confirma"
+   ],
+   "reviewed_at": "2026-11-27T08:15:46+01:00"
   }
  }
 }
