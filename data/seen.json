@@ -70633,10 +70633,10 @@
    "reason": "title"
   },
   "linkedin:4495277780": {
-   "first_seen": "2026-11-26T17:31:23+00:00",
+   "first_seen": "2026-11-27T07:16:09+00:00",
    "title": "Senior Transformation Project Manager (m/f/d) with Catalan",
-   "accepted": true,
-   "reason": ""
+   "accepted": false,
+   "reason": "ai:El título exige catalán (\"with Catalan\"), un idioma distinto del español y el gallego. Además es un puesto senior en La Coruña y el anuncio no dice si es remoto o híbrido."
   },
   "linkedin:4495041038": {
    "first_seen": "2026-11-26T17:31:23+00:00",
@@ -71265,6 +71265,48 @@
   "tecnoempleo:rf-0e8412f0929983bbda4b": {
    "first_seen": "2026-11-27T07:15:12+00:00",
    "title": "Ingeniero/a de comunicaciones y Networking",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4493877109": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Coordinador/a Project Manager – Residencial",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4495520359": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Project Manager Sènior - Pla de Transformació de l'Espai Industrial",
+   "accepted": false,
+   "reason": "location:sin especificar-outside-allowed-area"
+  },
+  "linkedin:4495545356": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Event Project Manager | Inteligencia Artificial | 100% Remoto",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4493854149": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Project Manager de Instalaciones Industriales",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4495534769": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Jefe/a de Proyectos Fotovoltaicos",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4493854003": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Ingeniero/a de Instalaciones",
+   "accepted": false,
+   "reason": "title"
+  },
+  "linkedin:4495273333": {
+   "first_seen": "2026-11-27T07:17:16+00:00",
+   "title": "Encargado/a de Obra",
    "accepted": false,
    "reason": "title"
   }
@@ -74992,20 +75034,51 @@
    "ai_reason": "Es un puesto de «Junior PMO General» en Vigo (provincia de Pontevedra, donde vale cualquier modalidad) en MIGSO-PCUBED, consultora de gestión de proyectos. Está abierto a perfiles junior, pero no tiene descripción, así que no se pueden confirmar los requisitos técnicos ni el nivel de inglés.",
    "fingerprint": "junior pmo general (h/m)- vigo|migso pcubed",
    "notified_at": "2026-11-24T08:11:59+00:00"
+  },
+  {
+   "id": "linkedin:4495571982",
+   "source": "linkedin",
+   "title": "Project Manager | Automotive | Remote Spain",
+   "company": "Luxoft",
+   "location": "España",
+   "url": "https://www.linkedin.com/jobs/view/4495571982",
+   "description": "",
+   "posted": "2026-11-27",
+   "remote_flag": true,
+   "labels": [],
+   "score": 45,
+   "modality": "remoto",
+   "workplace": "remoto",
+   "signals": [
+    "+Coordina a la vez a muchas partes: clientes, proveedores, transportistas, bancos y aduanas",
+    "+Gestiona plazos, incidencias, documentación y facturación de pedidos internacionales",
+    "+Google Project Management Certificate y experiencia con clientes industriales",
+    "-No tiene experiencia previa con el cargo de Project Manager",
+    "-No conoce el sector de automoción. En Luxoft estos puestos suelen ser de software, lo que podría exigir un perfil técnico",
+    "-En Luxoft se suele trabajar en inglés y su nivel es B2: el anuncio no lo confirma"
+   ],
+   "details": {
+    "requisitos": [],
+    "ofrecen": [],
+    "claves": {}
+   },
+   "ai_reason": "El título indica «Remote Spain», así que cumple el requisito de ubicación, y es un puesto de Project Manager en una consultora tecnológica (Luxoft). Pero el anuncio no tiene descripción y no se puede comprobar si pide perfil técnico de automoción o inglés por encima de B2. Conviene revisarlo antes de enviar la candidatura.",
+   "fingerprint": "project manager | automotive | remote spain|luxoft",
+   "notified_at": "2026-11-27T07:16:09+00:00"
   }
  ],
  "last_run": {
-  "at": "2026-11-27T07:15:12+00:00",
+  "at": "2026-11-27T07:17:23+00:00",
   "stats": {
    "linkedin": {
-    "fetched": 20,
-    "candidates": 1,
+    "fetched": 38,
+    "candidates": 2,
     "accepted": 0,
     "discarded": 0,
-    "queued": 1,
+    "queued": 0,
     "ai_rejected": 0,
     "errors": [
-     "rate limited during 'project manager' page 2"
+     "rate limited during 'project manager' page 1"
     ]
    },
    "indeed": {
@@ -75033,60 +75106,8 @@
    "sent": 0,
    "pending": 0
   },
-  "review_pending": 2
+  "review_pending": 0
  },
  "pending_email": [],
- "review_queue": [
-  {
-   "id": "linkedin:4495277780",
-   "source": "linkedin",
-   "title": "Senior Transformation Project Manager (m/f/d) with Catalan",
-   "company": "Deutsche Telekom",
-   "location": "La Coruña",
-   "url": "https://www.linkedin.com/jobs/view/4495277780",
-   "description": "",
-   "posted": "2026-11-26",
-   "remote_flag": true,
-   "labels": [],
-   "score": 44,
-   "modality": "galicia",
-   "workplace": "sin especificar",
-   "signals": [
-    "-Senior",
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-26T17:31:23+00:00"
-  },
-  {
-   "id": "linkedin:4495571982",
-   "source": "linkedin",
-   "title": "Project Manager | Automotive | Remote Spain",
-   "company": "Luxoft",
-   "location": "España",
-   "url": "https://www.linkedin.com/jobs/view/4495571982",
-   "description": "",
-   "posted": "2026-11-27",
-   "remote_flag": true,
-   "labels": [],
-   "score": 50,
-   "modality": "remoto",
-   "workplace": "remoto",
-   "signals": [
-    "Sin descripción disponible"
-   ],
-   "details": {
-    "requisitos": [],
-    "ofrecen": [],
-    "claves": {}
-   },
-   "ai_reason": "",
-   "queued_at": "2026-11-27T07:15:01+00:00"
-  }
- ]
+ "review_queue": []
 }
