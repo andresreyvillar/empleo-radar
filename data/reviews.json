@@ -1,38 +1,72 @@
 {
  "reviews": {
-  "linkedin:4495277780": {
+  "linkedin:4495595721": {
+   "apta": false,
+   "encaje": 25,
+   "modalidad": "sin especificar",
+   "motivo": "La oferta está en «La Coruña», fuera de la provincia de Pontevedra, y no trae descripción: no confirma que sea remota o híbrida, y tampoco se puede saber si pide un perfil técnico ni el nivel de inglés.",
+   "fortalezas": [
+    "Experiencia coordinando a proveedores, clientes y plazos en pedidos de principio a fin",
+    "Gestión de incidencias, documentación y facturación con muchas partes a la vez",
+    "Google Project Management Certificate (2026)"
+   ],
+   "carencias": [
+    "No hay descripción para comprobar los requisitos ni las tareas del puesto",
+    "No tiene experiencia en el sector retail",
+    "No ha trabajado antes con el cargo de Project Manager"
+   ],
+   "reviewed_at": "2026-11-28T09:16:46+01:00"
+  },
+  "linkedin:4493865995": {
    "apta": false,
    "encaje": 15,
    "modalidad": "sin especificar",
-   "motivo": "El título exige catalán (\"with Catalan\"), un idioma distinto del español y el gallego. Además es un puesto senior en La Coruña y el anuncio no dice si es remoto o híbrido.",
+   "motivo": "El puesto está en «La Coruña y alrededores» y no indica modalidad, así que no confirma el remoto o híbrido que se exige fuera de Pontevedra. Además, «Especialidad industrial» apunta a un perfil de ingeniería industrial, aunque el anuncio no trae descripción para comprobarlo.",
    "fortalezas": [
-    "Experiencia coordinando a muchas partes a la vez (clientes, proveedores, bancos, aseguradoras y aduanas)",
-    "Proyectos propios de mejora de procesos y sistemas (CRM, gestión documental, portales)",
-    "Google Project Management Certificate y empresa del sector tecnológico"
+    "Experiencia en una pyme industrial coordinando fábrica, proveedores y transportistas",
+    "Gestión de plazos, incidencias y documentación en pedidos internacionales",
+    "Google Project Management Certificate"
    ],
    "carencias": [
-    "Pide catalán",
-    "Puesto senior de transformación, sin experiencia previa como PM",
-    "El anuncio no tiene descripción ni dice la modalidad de trabajo"
+    "Probable formación o experiencia de ingeniería industrial que no tiene",
+    "Modalidad no indicada en A Coruña, fuera de su provincia",
+    "No hay descripción para valorar requisitos e idiomas"
    ],
-   "reviewed_at": "2026-11-27T08:15:37+01:00"
+   "reviewed_at": "2026-11-28T09:16:52+01:00"
   },
-  "linkedin:4495571982": {
+  "indeed:7cf6e65d2dde90d1": {
    "apta": true,
-   "encaje": 45,
-   "modalidad": "remoto",
-   "motivo": "El título indica «Remote Spain», así que cumple el requisito de ubicación, y es un puesto de Project Manager en una consultora tecnológica (Luxoft). Pero el anuncio no tiene descripción y no se puede comprobar si pide perfil técnico de automoción o inglés por encima de B2. Conviene revisarlo antes de enviar la candidatura.",
+   "encaje": 50,
+   "modalidad": "hibrido",
+   "motivo": "Es un puesto de PMO en una consultora tecnológica en A Coruña con modalidad híbrida («presencial 4 días por semana en Coruña»), algo que se admite en Galicia fuera de Pontevedra. Pide inglés B2, que ella tiene. El encaje baja porque exige «al menos 4 años como Project Manager o PMO» y casi toda la semana en la oficina, lejos de donde vive.",
    "fortalezas": [
-    "Coordina a la vez a muchas partes: clientes, proveedores, transportistas, bancos y aduanas",
-    "Gestiona plazos, incidencias, documentación y facturación de pedidos internacionales",
-    "Google Project Management Certificate y experiencia con clientes industriales"
+    "Coordina a la vez a muchos interlocutores (clientes, fábrica, transportistas, bancos, aseguradoras y aduanas) y a proveedores, como pide el puesto",
+    "Experiencia en seguimiento de plazos, incidencias, documentación y reporting en ciclos de pedidos internacionales",
+    "Formación en Derecho Económico-Empresarial con certificado Google Project Management, alineada con los perfiles de gestión y negocio que valoran"
    ],
    "carencias": [
-    "No tiene experiencia previa con el cargo de Project Manager",
-    "No conoce el sector de automoción. En Luxoft estos puestos suelen ser de software, lo que podría exigir un perfil técnico",
-    "En Luxoft se suele trabajar en inglés y su nivel es B2: el anuncio no lo confirma"
+    "No tiene los 4 años de experiencia formal como Project Manager o PMO que exigen",
+    "No viene de empresas tecnológicas, consultoría ni transformación digital",
+    "Ni PMP ni Prince2; de Scrum solo tiene conocimiento teórico"
    ],
-   "reviewed_at": "2026-11-27T08:15:46+01:00"
+   "reviewed_at": "2026-11-28T09:17:00+01:00"
+  },
+  "indeed:6444794b6cff0eee": {
+   "apta": false,
+   "encaje": 25,
+   "modalidad": "sin especificar",
+   "motivo": "El puesto está en Madrid y el anuncio no confirma teletrabajo: solo menciona una \"política de teletrabajo en función del proyecto y características del puesto\". Además pide \"Dominio del inglés\", por encima de su B2.",
+   "fortalezas": [
+    "Coordina a la vez a muchas partes (clientes, fábrica, proveedores, bancos, aseguradoras, aduanas), como la gestión de partes interesadas y proveedores que pide el puesto",
+    "Experiencia real con plazos, retrasos, incidencias y seguimiento de hitos, parecida a la gestión de riesgos e incidencias que se pide",
+    "Proyectos propios de mejora de CRM, gestión documental y portales de cliente y proveedor, coordinados con IT"
+   ],
+   "carencias": [
+    "Pide amplia experiencia como PM en transformaciones complejas o basadas en tecnología; sería su primer puesto de PM",
+    "Pide dominio del inglés (su nivel es B2)",
+    "Se valora experiencia en implantación y migración de sistemas, integraciones y entornos de ingeniería o aviación"
+   ],
+   "reviewed_at": "2026-11-28T09:17:08+01:00"
   }
  }
 }
